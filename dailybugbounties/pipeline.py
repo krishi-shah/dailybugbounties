@@ -92,6 +92,8 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
     stale_after = config.STALE_DAYS_PLATFORM if platform_backed else config.STALE_DAYS
     if _days_since(b.updated_at) > stale_after:
         return "stale"
+    if _days_since(b.created_at) > config.MAX_AGE_DAYS:
+        return "too_old"
     if not platform_backed and b.full_repo.lower() in farms and (
             not authed or (b.stars or 0) < config.FARM_MIN_STARS):
         return "issue_farm"

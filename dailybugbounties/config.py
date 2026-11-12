@@ -49,6 +49,8 @@ OPIRE_URL = "https://api.opire.dev/rewards"
 # No activity for this long means abandoned. Generic labels get a shorter leash.
 STALE_DAYS = int(os.getenv("BB_STALE_DAYS", 180))
 STALE_DAYS_PLATFORM = int(os.getenv("BB_STALE_DAYS_PLATFORM", 365))
+# Bots keep old issues "active" by spamming PRs, so also cap by when the issue was opened.
+MAX_AGE_DAYS = int(os.getenv("BB_MAX_AGE_DAYS", 730))
 # Mid size payouts need a repo with some real users behind it.
 MID_AMOUNT = 500
 MIN_STARS_MID = 100

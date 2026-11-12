@@ -111,6 +111,8 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(r(B(amount_usd=10000, stars=40, sources=["algora"]), True), "big_amount_small_repo")
         self.assertEqual(r(B(updated_at="2021-01-01T00:00:00Z"), True), "stale")
         self.assertEqual(r(B(updated_at="2021-01-01T00:00:00Z", sources=["issuehunt"]), True), "stale")
+        self.assertEqual(r(B(created_at="2021-01-01T00:00:00Z", updated_at="2099-01-01T00:00:00Z",
+                             sources=["algora"]), True), "too_old")
         self.assertEqual(r(B(title="[BOUNTY: 67 RTC] integration spec"), True), "non_cash")
         self.assertEqual(r(B(title="Fix", labels=["500 points"]), True), "non_cash")
         self.assertEqual(r(B(title="🎁 [Bounty Invitation] $10 USDC Instant Reward"), True), "scam")

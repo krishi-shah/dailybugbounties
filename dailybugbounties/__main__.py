@@ -10,9 +10,9 @@ from pathlib import Path
 
 from . import enrich, pipeline, render
 from .github import GitHub
-from .sources import github_search, opire
+from .sources import github_search, opire, superteam
 
-ALL = ["algora", "issuehunt", "opire", "expensify", "labeled", "title"]
+ALL = ["algora", "issuehunt", "opire", "expensify", "labeled", "title", "superteam"]
 
 
 def main(argv=None) -> int:
@@ -34,6 +34,8 @@ def main(argv=None) -> int:
     for s in wanted:
         if s == "opire":
             groups.append(opire.fetch())
+        elif s == "superteam":
+            groups.append(superteam.fetch())
         elif s in github_search.AMOUNT_ORDER:
             groups.append(github_search.fetch(gh, s))
         else:
@@ -45,7 +47,7 @@ def main(argv=None) -> int:
     # arrive during enrichment, so those always go through.
     merged = {k: b for k, b in merged.items()
               if not pipeline.blocked(b, blocklist)
-              and ("algora" in b.sources or (b.amount_usd and b.amount_usd >= pipeline.config.MIN_AMOUNT))}
+              and (not b.is_issue or "algora" in b.sources or (b.amount_usd and b.amount_usd >= pipeline.config.MIN_AMOUNT))}
     log.info("%d unique issues worth checking", len(merged))
     enrich.enrich(gh, merged)
     items, _ = pipeline.select(merged, gh.authed, blocklist)

@@ -11,7 +11,7 @@ from .models import Bounty
 
 log = logging.getLogger(__name__)
 
-PLATFORMS = {"algora", "issuehunt", "opire", "expensify"}
+PLATFORMS = {"algora", "issuehunt", "opire", "expensify", "superteam"}
 # Single company programs that post many real bounties in one repo.
 UNCAPPED = {"expensify"}
 
@@ -82,6 +82,11 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
     if b.amount_usd > config.MAX_AMOUNT:
         return "implausible_amount"
     platform_backed = bool(PLATFORMS & set(b.sources))
+    if not b.is_issue:
+        # Board listings: no repo to judge, but a deadline that must not have passed.
+        if b.deadline and b.deadline[:19] < _now_iso():
+            return "expired"
+        return None
     min_stars = config.MIN_STARS_PLATFORM if platform_backed else config.MIN_STARS_LABELED
     if authed and min_stars and (b.stars or 0) < min_stars:
         return "low_stars"
@@ -96,6 +101,11 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
             not authed or (b.stars or 0) < config.FARM_MIN_STARS):
         return "issue_farm"
     return None
+
+
+def _now_iso():
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
 
 
 def _days_since(iso):
@@ -149,7 +159,7 @@ def select(merged: Dict[str, Bounty], authed: bool,
     for b in merged.values():
         why = reject_reason(b, authed, blocklist, farms)
         # Old issues stay in the data but are hidden by default: bots keep them "active".
-        b.older = _days_since(b.created_at) > config.MAX_AGE_DAYS
+        b.older = b.is_issue and _days_since(b.created_at) > config.MAX_AGE_DAYS
         if why:
             reasons[why] += 1
         else:

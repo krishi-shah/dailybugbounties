@@ -7,7 +7,7 @@ from pathlib import Path
 from dailybugbounties import config, enrich, pipeline, render
 from dailybugbounties.models import Bounty
 from dailybugbounties.money import parse_amount
-from dailybugbounties.sources import from_search_item, amount_from_issue, opire
+from dailybugbounties.sources import from_search_item, amount_from_issue, opire, superteam
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -45,6 +45,30 @@ class Sources(unittest.TestCase):
         self.assertEqual(b.amount_usd, 42.0)
         self.assertEqual(b.languages, ["Rust"])
         self.assertEqual(b.attempts, 1)
+
+    def test_superteam_keeps_only_paid_dev_listings(self):
+        items = superteam.parse(json.loads((FIX / "superteam.json").read_text()))
+        self.assertEqual(len(items), 1)  # video, BONK token, Pro gated and thread are dropped
+        b = items[0]
+        self.assertEqual(b.url, "https://superteam.fun/earn/listing/capital-agent/")
+        self.assertEqual(b.key, b.url)
+        self.assertEqual(b.full_repo, "Acme")
+        self.assertEqual(b.home_url, "https://superteam.fun/earn/s/acme/")
+        self.assertEqual((b.amount_usd, b.submissions, b.kind), (500.0, 12, "listing"))
+        self.assertTrue(superteam.is_dev("Build a Telegram bot for wallet alerts"))
+        self.assertFalse(superteam.is_dev("Create content about our app"))
+
+    def test_listings_pass_through_pipeline(self):
+        live = superteam.parse(json.loads((FIX / "superteam.json").read_text()))[0]
+        gone = superteam.parse(json.loads((FIX / "superteam.json").read_text()))[0]
+        gone.link, gone.deadline = "https://superteam.fun/earn/listing/old/", "2020-01-01T00:00:00Z"
+        kept, reasons = pipeline.select({live.key: live, gone.key: gone}, True)
+        self.assertEqual([b.key for b in kept], [live.key])  # no stars needed, expired dropped
+        self.assertEqual(reasons["expired"], 1)
+        self.assertFalse(live.older)
+        row = render.table([live], datetime(2026, 11, 11).date())[2]
+        self.assertIn("[Acme](https://superteam.fun/earn/s/acme/)", row)
+        self.assertIn("12 sub", row)
 
     def test_search_item_and_amount_order(self):
         item = {"html_url": "https://github.com/a/b/issues/7", "title": "Fix it ($300)",
@@ -168,7 +192,7 @@ class Pipeline(unittest.TestCase):
     def test_cli_runs_every_source(self):
         from dailybugbounties.__main__ import ALL
         from dailybugbounties.sources.github_search import AMOUNT_ORDER
-        self.assertEqual(set(ALL), set(AMOUNT_ORDER) | {"opire"})
+        self.assertEqual(set(ALL), set(AMOUNT_ORDER) | {"opire", "superteam"})
 
     def test_first_seen(self):
         a, b = B(number=1), B(number=2)

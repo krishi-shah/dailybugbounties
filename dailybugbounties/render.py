@@ -14,7 +14,7 @@ from .models import Bounty
 
 START, END = "<!-- FEED:START -->", "<!-- FEED:END -->"
 SOURCE_NAMES = {"algora": "Algora", "issuehunt": "IssueHunt", "opire": "Opire", "expensify": "Expensify",
-                "labeled": "Label", "title": "Title"}
+                "labeled": "Label", "title": "Title", "superteam": "Superteam"}
 
 
 def money(v: float) -> str:
@@ -30,6 +30,15 @@ def age_days(iso, today: date) -> str:
         return ""
     n = (today - d).days
     return f"{n}d" if n < 365 else f"{n // 365}y"
+
+
+def due_in(iso, today: date) -> str:
+    try:
+        d = datetime.fromisoformat(iso.replace("Z", "+00:00")).date()
+    except (ValueError, AttributeError):
+        return ""
+    n = (d - today).days
+    return "due today" if n <= 0 else f"due {n}d"
 
 
 def md_escape(s: str) -> str:
@@ -61,10 +70,11 @@ def table(rows: List[Bounty], today: date) -> List[str]:
         new = " 🆕" if b.first_seen == today.isoformat() else ""
         out.append(
             f"| **{money(b.amount_usd)}** | [{md_escape(b.title)}]({b.url}){new} "
-            f"| [{b.full_repo}](https://github.com/{b.full_repo}) "
+            f"| {f'[{md_escape(b.full_repo)}]({b.home_url})' if b.home_url else md_escape(b.full_repo)} "
             f"| {f'{b.stars:,}' if b.stars is not None else ''} "
             f"| {lang_of(b)} | {', '.join(SOURCE_NAMES.get(s, s) for s in b.sources)} "
-            f"| {b.attempts + b.claims} | {b.open_prs or ''} | {age_days(b.created_at, today)} |")
+            f"| {b.attempts + b.claims if b.is_issue else f'{b.submissions} sub'} | {b.open_prs or ''} "
+            f"| {due_in(b.deadline, today) if b.deadline else age_days(b.created_at, today)} |")
     return out
 
 

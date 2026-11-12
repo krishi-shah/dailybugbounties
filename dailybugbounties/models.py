@@ -18,9 +18,16 @@ def canonical_url(owner: str, repo: str, number: int) -> str:
 
 @dataclass
 class Bounty:
+    """A paid task. Most are GitHub issues; listings from boards like Superteam
+    Earn set `link` instead and use `owner` for the sponsor name."""
     owner: str
     repo: str
     number: int
+    kind: str = "issue"           # "issue" (GitHub) or "listing" (bounty board)
+    link: Optional[str] = None    # listing page, for non GitHub bounties
+    owner_url: Optional[str] = None
+    deadline: Optional[str] = None
+    submissions: int = 0
     title: str = ""
     amount_usd: Optional[float] = None
     sources: List[str] = field(default_factory=list)
@@ -41,16 +48,29 @@ class Bounty:
     first_seen: Optional[str] = None
 
     @property
+    def is_issue(self) -> bool:
+        return self.kind == "issue"
+
+    @property
     def key(self) -> str:
+        if not self.is_issue:
+            return (self.link or "").lower()
         return canonical_url(self.owner, self.repo, self.number)
 
     @property
     def url(self) -> str:
+        if not self.is_issue:
+            return self.link or ""
         return f"https://github.com/{self.owner}/{self.repo}/issues/{self.number}"
 
     @property
     def full_repo(self) -> str:
-        return f"{self.owner}/{self.repo}"
+        """owner/repo for issues; the sponsor name for listings."""
+        return f"{self.owner}/{self.repo}" if self.is_issue else self.owner
+
+    @property
+    def home_url(self) -> Optional[str]:
+        return f"https://github.com/{self.full_repo}" if self.is_issue else self.owner_url
 
     def merge(self, other: "Bounty") -> None:
         """Fold another sighting of the same issue into this one."""
@@ -69,10 +89,12 @@ class Bounty:
         self.claims = max(self.claims, other.claims)
         self.comments = max(self.comments, other.comments)
         self.open_prs = max(self.open_prs, other.open_prs)
+        self.submissions = max(self.submissions, other.submissions)
 
     def to_public(self) -> dict:
         d = asdict(self)
         d.pop("body")
         d["url"] = self.url
         d["repo_full"] = self.full_repo
+        d["home_url"] = self.home_url
         return d

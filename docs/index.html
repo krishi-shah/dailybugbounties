@@ -44,7 +44,7 @@
   .meta { color: var(--muted); font-size: 13px; margin-top: 2px; display: flex; gap: 10px; flex-wrap: wrap; }
   .meta a { color: inherit; }
   .new { color: var(--new); font-weight: 700; font-size: 12px; margin-left: 6px; }
-  .pr { color: var(--new); }
+  .pr, .due { color: var(--new); }
   .tries { font: 13px var(--mono); color: var(--muted); text-align: right; white-space: nowrap; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
   footer { margin-top: 30px; color: var(--muted); font-size: 13px; }
@@ -61,7 +61,7 @@
 <div class="wrap">
   <header>
     <h1>dailybugbounties</h1>
-    <p>Paid open source issues from Algora, IssueHunt, Opire, Expensify and GitHub. Newest first, updated daily.</p>
+    <p>Paid dev work from Algora, IssueHunt, Opire, Expensify, Superteam Earn and GitHub. Newest first, updated daily.</p>
   </header>
 
   <div class="stats">
@@ -99,7 +99,7 @@
   </footer>
 </div>
 <script>
-const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", expensify: "Expensify", labeled: "Label", title: "Title" };
+const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", expensify: "Expensify", labeled: "Label", title: "Title", superteam: "Superteam" };
 // Works on GitHub Pages and on any other host: same folder first, then the repo's raw files.
 const RAW = "https://raw.githubusercontent.com/krishi-shah/dailybugbounties/main/docs/";
 const get = (file, as) => fetch(file).then((r) => { if (!r.ok) throw 0; return r[as](); })
@@ -109,6 +109,10 @@ const state = { all: [], sources: new Set(), known: new Set(), today: "", newOnl
 
 const money = (v, whole) => "$" + Number(whole ? Math.round(v) : v).toLocaleString("en-US", { minimumFractionDigits: !whole && v % 1 ? 2 : 0, maximumFractionDigits: whole ? 0 : 2 });
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const due = (iso) => {
+  const d = Math.ceil((new Date(iso) - Date.now()) / 864e5);
+  return d <= 0 ? "due today" : d === 1 ? "due tomorrow" : `due in ${d}d`;
+};
 const lang = (b) => b.language || (b.languages && b.languages[0]) || "";
 const age = (iso) => {
   if (!iso) return "";
@@ -173,14 +177,14 @@ function render() {
       <div>
         <a class="title" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a>${b.first_seen === state.today ? '<span class="new">NEW</span>' : ""}
         <div class="meta">
-          <a href="https://github.com/${esc(b.repo_full)}" target="_blank" rel="noopener">${esc(b.repo_full)}</a>
+          ${b.home_url ? `<a href="${esc(b.home_url)}" target="_blank" rel="noopener">${esc(b.repo_full)}</a>` : `<span>${esc(b.repo_full)}</span>`}
           ${b.stars != null ? `<span>★ ${b.stars.toLocaleString()}</span>` : ""}
           ${lang(b) ? `<span>${esc(lang(b))}</span>` : ""}
           <span>${b.sources.map((s) => NAMES[s] || s).join(", ")}</span>
-          <span>${age(b.created_at)}</span>
+          ${b.deadline ? `<span class="due">${due(b.deadline)}</span>` : `<span>${age(b.created_at)}</span>`}
         </div>
       </div>
-      <div class="tries">${b.attempts + b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}${b.open_prs ? `<br><span class="pr">${b.open_prs} PR${b.open_prs > 1 ? "s" : ""} open</span>` : ""}</div>
+      <div class="tries">${b.kind === "listing" ? `${b.submissions} submitted` : `${b.attempts + b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}`}${b.open_prs ? `<br><span class="pr">${b.open_prs} PR${b.open_prs > 1 ? "s" : ""} open</span>` : ""}</div>
     </div>`).join("") : '<div class="empty">No bounties match these filters.</div>';
 }
 

@@ -83,7 +83,7 @@ def enrich(gh: GitHub, bounties: Dict[str, Bounty]) -> None:
     if not gh.authed:
         log.warning("no GITHUB_TOKEN: skipping enrichment (state, stars, Algora amounts)")
         return
-    items = list(bounties.values())
+    items = [b for b in bounties.values() if b.is_issue]  # listings live off GitHub
     with_prs = True
     for start in range(0, len(items), config.GRAPHQL_BATCH):
         batch = items[start:start + config.GRAPHQL_BATCH]

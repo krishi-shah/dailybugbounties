@@ -1,0 +1,7 @@
+[
+ {"id":"1","rewardAmount":500,"deadline":"2099-12-10T22:59:59.000Z","type":"bounty","title":"Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards","token":"USDC","slug":"capital-agent","isWinnersAnnounced":false,"compensationType":"fixed","status":"OPEN","isPro":false,"_count":{"Comments":3,"Submission":12},"sponsor":{"name":"Acme ","slug":"acme","isVerified":true}},
+ {"id":"2","rewardAmount":500,"deadline":"2099-11-14T23:59:59.000Z","type":"bounty","title":"Make a video about our x402 Feature","token":"USDC","slug":"video","isWinnersAnnounced":false,"status":"OPEN","isPro":false,"_count":{"Comments":0,"Submission":4},"sponsor":{"name":"X","slug":"x"}},
+ {"id":"3","rewardAmount":5000,"deadline":"2099-12-14T21:59:59.000Z","type":"bounty","title":"MultiHopper Build & Route Challenge | Up to $50,000","token":"BONK","slug":"bonk","isWinnersAnnounced":false,"status":"OPEN","isPro":false,"sponsor":{"name":"Y","slug":"y"}},
+ {"id":"4","rewardAmount":800,"deadline":"2099-12-01T00:00:00.000Z","type":"project","title":"Develop a Rust SDK for our protocol","token":"USDG","slug":"rust-sdk","isWinnersAnnounced":false,"status":"OPEN","isPro":true,"sponsor":{"name":"Z","slug":"z"}},
+ {"id":"5","rewardAmount":300,"deadline":"2099-12-01T00:00:00.000Z","type":"bounty","title":"Write a thread about our new API","token":"USDC","slug":"thread","isWinnersAnnounced":false,"status":"OPEN","isPro":false,"sponsor":{"name":"W","slug":"w"}}
+]

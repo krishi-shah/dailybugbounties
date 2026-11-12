@@ -1,5 +1,10 @@
 # dailybugbounties
 
+[![daily feed](https://github.com/krishi-shah/dailybugbounties/actions/workflows/daily.yml/badge.svg)](https://github.com/krishi-shah/dailybugbounties/actions/workflows/daily.yml)
+[![bounties](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.count&label=open%20bounties&color=0f7b53)](https://krishi-shah.github.io/dailybugbounties/)
+[![total](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.total_usd&label=total%20payout&prefix=%24&color=0f7b53)](https://krishi-shah.github.io/dailybugbounties/)
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 **Every paid open source issue in one list, sorted by payout. Updated daily.**
 
 dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire** and GitHub issues labeled `bounty`, checks that each issue is still open, removes spam, and ranks what's left by how much it pays.

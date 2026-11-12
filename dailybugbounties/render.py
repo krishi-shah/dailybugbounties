@@ -44,35 +44,55 @@ def build_payload(items: List[Bounty], generated_at: datetime) -> dict:
         "count": len(items),
         "total_usd": round(sum(b.amount_usd or 0 for b in items), 2),
         "by_source": dict(by_source),
+        "by_language": dict(Counter(lang_of(b) for b in items if lang_of(b)).most_common()),
         "bounties": [b.to_public() for b in items],
     }
 
 
+def lang_of(b: Bounty) -> str:
+    return b.language or (b.languages[0] if b.languages else "")
+
+
+def table(rows: List[Bounty], today: date) -> List[str]:
+    out = ["| Payout | Issue | Repo | ★ | Lang | Source | Tries | Age |",
+           "|---:|---|---|---:|---|---|---:|---:|"]
+    for b in rows:
+        new = " 🆕" if b.first_seen == today.isoformat() else ""
+        out.append(
+            f"| **{money(b.amount_usd)}** | [{md_escape(b.title)}]({b.url}){new} "
+            f"| [{b.full_repo}](https://github.com/{b.full_repo}) "
+            f"| {f'{b.stars:,}' if b.stars is not None else ''} "
+            f"| {lang_of(b)} | {', '.join(SOURCE_NAMES.get(s, s) for s in b.sources)} "
+            f"| {b.attempts + b.claims} | {age_days(b.created_at, today)} |")
+    return out
+
+
 def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
-    new_today = sum(1 for b in items if b.first_seen == today.isoformat())
-    src = " · ".join(f"{SOURCE_NAMES.get(k, k)} {v}" for k, v in sorted(payload["by_source"].items()))
+    fresh = [b for b in items if b.first_seen == today.isoformat()]
+    src = " · ".join(f"{SOURCE_NAMES.get(k, k)} {v}" for k, v in
+                     sorted(payload["by_source"].items(), key=lambda kv: -kv[1]))
+    langs = " · ".join(f"{k} {v}" for k, v in list(payload["by_language"].items())[:8])
+    untouched = sum(1 for b in items if b.attempts + b.claims == 0)
     lines = [
         START,
-        f"**{payload['count']} open bounties worth ${payload['total_usd']:,.0f}** "
-        f"· {new_today} new today · updated {payload['generated_at'][:16].replace('T', ' ')} UTC",
+        f"**{payload['count']} open bounties worth ${payload['total_usd']:,.0f}** · "
+        f"{len(fresh)} new today · {untouched} with nobody trying yet · "
+        f"updated {payload['generated_at'][:16].replace('T', ' ')} UTC",
         "",
-        f"Sources: {src}",
+        f"**Sources:** {src}  ",
+        f"**Languages:** {langs}",
         "",
-        "| Payout | Issue | Repo | ★ | Lang | Source | Tries | Age |",
-        "|---:|---|---|---:|---|---|---:|---:|",
     ]
-    for b in items[:config.README_TOP_N]:
-        new = " 🆕" if b.first_seen == today.isoformat() else ""
-        lang = b.language or (b.languages[0] if b.languages else "")
-        lines.append(
-            f"| **{money(b.amount_usd)}** | [{md_escape(b.title)}]({b.url}){new} "
-            f"| [{b.full_repo}](https://github.com/{b.full_repo}) | {b.stars if b.stars is not None else ''} "
-            f"| {lang} | {', '.join(SOURCE_NAMES.get(s, s) for s in b.sources)} "
-            f"| {b.attempts + b.claims} | {age_days(b.created_at, today)} |"
-        )
+    # On a normal day, lead with what changed. On day one everything is new, so skip it.
+    if fresh and len(fresh) < len(items):
+        lines += [f"### 🆕 New today ({len(fresh)})", ""]
+        lines += table(fresh[:config.README_NEW_N], today)
+        lines += [""]
+    lines += [f"### 💰 Top {min(config.README_TOP_N, len(items))} by payout", ""]
+    lines += table(items[:config.README_TOP_N], today)
     if len(items) > config.README_TOP_N:
-        lines += ["", f"Showing the top {config.README_TOP_N}. The full list of {len(items)} is in "
-                      "[`data/bounties.json`](data/bounties.json) and on the website."]
+        lines += ["", f"The full list of {len(items)} is in [`data/bounties.json`](data/bounties.json) "
+                      "and on the [website](https://krishi-shah.github.io/dailybugbounties/)."]
     lines.append(END)
     return "\n".join(lines)
 
@@ -121,4 +141,18 @@ def write_all(root: Path, items: List[Bounty], generated_at: datetime, site_url:
     (root / "docs" / "bounties.json").write_text(blob)
     (root / "docs" / "feed.xml").write_text(rss(items, generated_at, site_url))
     update_readme(root / "README.md", readme_block(items, payload, today))
+    append_history(root / "data" / "history.csv", items, payload, today)
     return payload
+
+
+def append_history(path: Path, items: List[Bounty], payload: dict, today: date) -> None:
+    """One row per day, so growth over time is visible (and chartable on the site)."""
+    header = "date,count,total_usd,new,untouched"
+    rows = path.read_text().strip().splitlines()[1:] if path.exists() else []
+    rows = [r for r in rows if not r.startswith(today.isoformat())]
+    new = sum(1 for b in items if b.first_seen == today.isoformat())
+    untouched = sum(1 for b in items if b.attempts + b.claims == 0)
+    rows.append(f"{today.isoformat()},{payload['count']},{payload['total_usd']:.0f},{new},{untouched}")
+    path.write_text("\n".join([header] + rows[-730:]) + "\n")
+    # The site reads it too.
+    (path.parent.parent / "docs" / "history.csv").write_text(path.read_text())

@@ -18,13 +18,14 @@ FARM_MIN_STARS = 500
 MIN_STARS_PLATFORM = int(os.getenv("BB_MIN_STARS_PLATFORM", 10))
 
 # One repo can't flood the list.
-PER_REPO_CAP = int(os.getenv("BB_PER_REPO_CAP", 10))
+PER_REPO_CAP = int(os.getenv("BB_PER_REPO_CAP", 5))
 
 # GitHub search returns at most 1000 results per query.
 SEARCH_MAX_RESULTS = int(os.getenv("BB_SEARCH_MAX_RESULTS", 1000))
 GRAPHQL_BATCH = 25
 
 README_TOP_N = 100
+README_NEW_N = 10
 RSS_TOP_N = 50
 
 GITHUB_SEARCH_QUERIES = {

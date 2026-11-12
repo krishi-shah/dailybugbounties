@@ -4,7 +4,7 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 
-from dailybugbounties import enrich, pipeline, render
+from dailybugbounties import config, enrich, pipeline, render
 from dailybugbounties.models import Bounty
 from dailybugbounties.money import parse_amount
 from dailybugbounties.sources import from_search_item, amount_from_issue, opire
@@ -116,7 +116,7 @@ class Pipeline(unittest.TestCase):
         items["x"] = B(owner="x", number=1, amount_usd=50)
         items["tie"] = B(owner="y", number=1, amount_usd=114, attempts=3)
         kept, reasons = pipeline.select(items, True)
-        self.assertEqual(reasons["repo_cap"], 5)
+        self.assertEqual(reasons["repo_cap"], 15 - config.PER_REPO_CAP)
         self.assertEqual(kept[0].amount_usd, 114)
         self.assertEqual(kept[0].owner, "o")  # fewer attempts wins the tie
         self.assertEqual(kept[-1].owner, "x")
@@ -157,6 +157,12 @@ class Render(unittest.TestCase):
             self.assertNotIn("body", data["bounties"][0])
             self.assertEqual(payload["by_source"], {"labeled": 1, "opire": 1, "algora": 1})
             self.assertIn("<rss", (root / "docs" / "feed.xml").read_text())
+            self.assertIn("### 🆕 New today (1)", readme)
+            self.assertEqual(data["by_language"], {})
+            hist = (root / "data" / "history.csv").read_text().splitlines()
+            self.assertEqual(hist, ["date,count,total_usd,new,untouched", "2026-11-11,2,1520,1,2"])
+            render.write_all(root, items, now, "https://x.test/")  # same day reruns replace the row
+            self.assertEqual(len((root / "docs" / "history.csv").read_text().splitlines()), 2)
 
 
 if __name__ == "__main__":

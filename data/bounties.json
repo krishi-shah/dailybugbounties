@@ -1,26 +1,25 @@
 {
- "generated_at": "2026-11-12T01:29:12+00:00",
- "count": 129,
- "total_usd": 30674.0,
+ "generated_at": "2026-11-12T04:43:51+00:00",
+ "count": 109,
+ "total_usd": 19936.0,
  "by_source": {
   "expensify": 15,
-  "labeled": 29,
-  "title": 9,
-  "algora": 34,
+  "labeled": 21,
+  "title": 7,
+  "algora": 23,
   "opire": 1,
-  "issuehunt": 54
+  "issuehunt": 49
  },
  "by_language": {
-  "TypeScript": 56,
-  "JavaScript": 32,
-  "Python": 9,
+  "TypeScript": 49,
+  "JavaScript": 26,
+  "Python": 5,
   "Rust": 4,
   "Shell": 3,
   "HTML": 3,
-  "Java": 3,
   "Go": 3,
   "Swift": 3,
-  "Solidity": 1,
+  "Java": 2,
   "MDX": 1,
   "C#": 1,
   "Vue": 1,
@@ -53,6 +52,7 @@
    "comments": 21,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/106234",
    "repo_full": "Expensify/App"
@@ -80,6 +80,7 @@
    "comments": 10,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/tenstorrent/tt-metal/issues/64647",
    "repo_full": "tenstorrent/tt-metal"
@@ -110,6 +111,7 @@
    "comments": 53,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/106201",
    "repo_full": "Expensify/App"
@@ -137,6 +139,7 @@
    "comments": 9,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
    "repo_full": "tenstorrent/tt-metal"
@@ -166,6 +169,7 @@
    "comments": 52,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/105796",
    "repo_full": "Expensify/App"
@@ -195,6 +199,7 @@
    "comments": 64,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/105693",
    "repo_full": "Expensify/App"
@@ -221,10 +226,11 @@
    "state": "OPEN",
    "archived": false,
    "created_at": "2026-10-28T07:32:57Z",
-   "updated_at": "2026-11-11T21:48:22Z",
-   "comments": 54,
+   "updated_at": "2026-11-12T03:09:22Z",
+   "comments": 55,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/105231",
    "repo_full": "Expensify/App"
@@ -254,6 +260,7 @@
    "comments": 106,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/105145",
    "repo_full": "Expensify/App"
@@ -274,7 +281,7 @@
    ],
    "language": "Shell",
    "languages": [],
-   "stars": 966,
+   "stars": 968,
    "state": "OPEN",
    "archived": false,
    "created_at": "2026-10-24T21:29:48Z",
@@ -282,6 +289,7 @@
    "comments": 1,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/auscaster/frantic-board/issues/558",
    "repo_full": "auscaster/frantic-board"
@@ -312,6 +320,7 @@
    "comments": 62,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/104360",
    "repo_full": "Expensify/App"
@@ -342,6 +351,7 @@
    "comments": 106,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/104060",
    "repo_full": "Expensify/App"
@@ -368,6 +378,7 @@
    "comments": 12,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/verdikta/verdikta-applications/issues/76",
    "repo_full": "verdikta/verdikta-applications"
@@ -399,6 +410,7 @@
    "comments": 98,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/103875",
    "repo_full": "Expensify/App"
@@ -428,6 +440,7 @@
    "comments": 13,
    "attempts": 5,
    "claims": 1,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sybil-solutions/local-ai-registry/issues/223",
    "repo_full": "sybil-solutions/local-ai-registry"
@@ -456,6 +469,7 @@
    "comments": 28,
    "attempts": 12,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sybil-solutions/local-ai-registry/issues/219",
    "repo_full": "sybil-solutions/local-ai-registry"
@@ -485,6 +499,7 @@
    "comments": 11,
    "attempts": 5,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sybil-solutions/local-ai-registry/issues/216",
    "repo_full": "sybil-solutions/local-ai-registry"
@@ -514,6 +529,7 @@
    "comments": 111,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/101234",
    "repo_full": "Expensify/App"
@@ -545,6 +561,7 @@
    "comments": 104,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/100882",
    "repo_full": "Expensify/App"
@@ -573,71 +590,10 @@
    "comments": 31,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/98262",
    "repo_full": "Expensify/App"
-  },
-  {
-   "owner": "microsoft",
-   "repo": "autogen",
-   "number": 8000,
-   "title": "🎁 [Bounty Invitation] $10 USDC Instant Reward & Zero-Gas M2M Payments for AutoGen (Multi-Agent Conversation Framework)",
-   "amount_usd": 10.0,
-   "sources": [
-    "title"
-   ],
-   "labels": [],
-   "language": "Python",
-   "languages": [],
-   "stars": 61786,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-07-27T03:58:09Z",
-   "updated_at": "2026-11-11T12:17:05Z",
-   "comments": 2,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/microsoft/autogen/issues/8000",
-   "repo_full": "microsoft/autogen"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 11398,
-   "title": "Automate Bug Detection and Reviews",
-   "amount_usd": 780.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$1.2k",
-    "$1k",
-    "$780",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "documentation",
-    "enhancement",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-07-25T09:51:18Z",
-   "updated_at": "2026-11-08T18:41:07Z",
-   "comments": 26,
-   "attempts": 5,
-   "claims": 5,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
-   "repo_full": "SecureBananaLabs/bug-bounty"
   },
   {
    "owner": "copperheadhq",
@@ -656,7 +612,7 @@
    ],
    "language": "TypeScript",
    "languages": [],
-   "stars": 692,
+   "stars": 693,
    "state": "OPEN",
    "archived": false,
    "created_at": "2026-07-24T08:17:43Z",
@@ -664,6 +620,7 @@
    "comments": 116,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 9,
    "first_seen": "2026-11-12",
    "url": "https://github.com/copperheadhq/copperhead/issues/66",
    "repo_full": "copperheadhq/copperhead"
@@ -686,7 +643,7 @@
    ],
    "language": "Shell",
    "languages": [],
-   "stars": 966,
+   "stars": 968,
    "state": "OPEN",
    "archived": false,
    "created_at": "2026-07-08T01:14:12Z",
@@ -694,6 +651,7 @@
    "comments": 149,
    "attempts": 2,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/auscaster/frantic-board/issues/277",
    "repo_full": "auscaster/frantic-board"
@@ -715,7 +673,7 @@
    ],
    "language": "Shell",
    "languages": [],
-   "stars": 966,
+   "stars": 968,
    "state": "OPEN",
    "archived": false,
    "created_at": "2026-06-16T10:27:50Z",
@@ -723,44 +681,10 @@
    "comments": 177,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/auscaster/frantic-board/issues/53",
    "repo_full": "auscaster/frantic-board"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 2776,
-   "title": "POST /api/reviews endpoint missing authentication middleware (reissue via #743)",
-   "amount_usd": 780.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$780",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "enhancement",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-31T09:48:14Z",
-   "updated_at": "2026-11-06T19:18:46Z",
-   "comments": 14,
-   "attempts": 5,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
-   "repo_full": "SecureBananaLabs/bug-bounty"
   },
   {
    "owner": "Expensify",
@@ -788,385 +712,10 @@
    "comments": 167,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/91935",
    "repo_full": "Expensify/App"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 743,
-   "title": "Low Handing Fruit Automation",
-   "amount_usd": 700.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$700",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "documentation",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-27T06:32:39Z",
-   "updated_at": "2026-11-09T10:18:22Z",
-   "comments": 1455,
-   "attempts": 23,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 80,
-   "title": "Pixel Art Creation with high Creative Thinking",
-   "amount_usd": 780.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$780",
-    "AI agent friendly",
-    "bounty",
-    "bug bounty",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-17T15:04:05Z",
-   "updated_at": "2026-11-03T02:13:33Z",
-   "comments": 492,
-   "attempts": 22,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 76,
-   "title": "Technical Poem Generation and Content Creation",
-   "amount_usd": 430.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$430",
-    "AI agent friendly",
-    "bounty",
-    "bug bounty",
-    "good first issue",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-17T15:01:49Z",
-   "updated_at": "2026-11-03T03:39:52Z",
-   "comments": 266,
-   "attempts": 19,
-   "claims": 3,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "ClankerNation",
-   "repo": "OpenAgents",
-   "number": 79,
-   "title": "[ Bounty $3k ] [ Solidity ] Fix MultiTokenStaking duplicate pool and reward overflow — high priority",
-   "amount_usd": 3000.0,
-   "sources": [
-    "algora",
-    "title"
-   ],
-   "labels": [
-    "$3k",
-    "Autonomus Agents Only",
-    "crypto-eligible",
-    "good first issue",
-    "help wanted",
-    "high-value",
-    "💎 Bounty"
-   ],
-   "language": "Solidity",
-   "languages": [],
-   "stars": 15,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-16T08:49:29Z",
-   "updated_at": "2026-11-11T12:17:37Z",
-   "comments": 3,
-   "attempts": 0,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/ClankerNation/OpenAgents/issues/79",
-   "repo_full": "ClankerNation/OpenAgents"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 920,
-   "title": "[ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification",
-   "amount_usd": 900.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$900",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:44:27Z",
-   "updated_at": "2026-11-04T07:12:54Z",
-   "comments": 57,
-   "attempts": 11,
-   "claims": 9,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 916,
-   "title": "[ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback",
-   "amount_usd": 800.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$800",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:43:41Z",
-   "updated_at": "2026-11-03T04:31:48Z",
-   "comments": 51,
-   "attempts": 11,
-   "claims": 7,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/916",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 912,
-   "title": "[ Crypto ] Fix tx.origin phishing vulnerability in GovernanceToken delegation",
-   "amount_usd": 700.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$700",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:42:51Z",
-   "updated_at": "2026-09-21T21:31:32Z",
-   "comments": 53,
-   "attempts": 9,
-   "claims": 13,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/912",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 802,
-   "title": "[ FastAPI ] Implement standardized pagination with offset and cursor support",
-   "amount_usd": 700.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$700",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T07:10:26Z",
-   "updated_at": "2026-10-11T00:40:54Z",
-   "comments": 24,
-   "attempts": 9,
-   "claims": 5,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/802",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 754,
-   "title": "[ Laravel ] Implement webhook system with signature verification and retry queue",
-   "amount_usd": 800.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$800",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T06:07:12Z",
-   "updated_at": "2026-07-19T20:01:41Z",
-   "comments": 17,
-   "attempts": 7,
-   "claims": 3,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/754",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "Scottcjn",
-   "repo": "rustchain-bounties",
-   "number": 2890,
-   "title": "[BOUNTY: 67 RTC] AgentFolio ↔ Beacon Integration Spec + Reference Implementation",
-   "amount_usd": 20.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty",
-    "ecosystem",
-    "help wanted",
-    "integration",
-    "major"
-   ],
-   "language": "Python",
-   "languages": [],
-   "stars": 290,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-04-09T14:57:05Z",
-   "updated_at": "2026-11-03T12:32:15Z",
-   "comments": 78,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2890",
-   "repo_full": "Scottcjn/rustchain-bounties"
-  },
-  {
-   "owner": "Scottcjn",
-   "repo": "rustchain-bounties",
-   "number": 66,
-   "title": "[BOUNTY] 🔴 Red Team: x402 Payment Protocol Exploits (100 RTC)",
-   "amount_usd": 10.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty",
-    "hardening",
-    "open",
-    "red-team"
-   ],
-   "language": "Python",
-   "languages": [],
-   "stars": 290,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-02-06T01:03:30Z",
-   "updated_at": "2026-11-01T12:34:14Z",
-   "comments": 94,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/66",
-   "repo_full": "Scottcjn/rustchain-bounties"
-  },
-  {
-   "owner": "Scottcjn",
-   "repo": "rustchain-bounties",
-   "number": 58,
-   "title": "[BOUNTY] 🔴 Red Team: Cross-Node Consensus Attacks (100 RTC)",
-   "amount_usd": 10.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty",
-    "hardening",
-    "open",
-    "red-team"
-   ],
-   "language": "Python",
-   "languages": [],
-   "stars": 290,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-02-04T00:20:49Z",
-   "updated_at": "2026-11-08T22:10:12Z",
-   "comments": 104,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/58",
-   "repo_full": "Scottcjn/rustchain-bounties"
   },
   {
    "owner": "QubesOS",
@@ -1194,6 +743,7 @@
    "comments": 19,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/QubesOS/qubes-issues/issues/10567",
    "repo_full": "QubesOS/qubes-issues"
@@ -1224,6 +774,7 @@
    "comments": 12,
    "attempts": 2,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/cxlinux-ai/cx-core/issues/425",
    "repo_full": "cxlinux-ai/cx-core"
@@ -1253,6 +804,7 @@
    "comments": 175,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/75905",
    "repo_full": "Expensify/App"
@@ -1281,10 +833,11 @@
    "state": "OPEN",
    "archived": false,
    "created_at": "2025-09-08T11:26:53Z",
-   "updated_at": "2026-11-11T21:52:20Z",
-   "comments": 238,
+   "updated_at": "2026-11-12T03:04:46Z",
+   "comments": 240,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Expensify/App/issues/70080",
    "repo_full": "Expensify/App"
@@ -1312,6 +865,7 @@
    "comments": 57,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 6,
    "first_seen": "2026-11-12",
    "url": "https://github.com/microg/GmsCore/issues/2851",
    "repo_full": "microg/GmsCore"
@@ -1340,6 +894,7 @@
    "comments": 196,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 10,
    "first_seen": "2026-11-12",
    "url": "https://github.com/microg/GmsCore/issues/2843",
    "repo_full": "microg/GmsCore"
@@ -1368,6 +923,7 @@
    "comments": 28,
    "attempts": 17,
    "claims": 3,
+   "open_prs": 15,
    "first_seen": "2026-11-12",
    "url": "https://github.com/TheSolaAI/sola-application/issues/157",
    "repo_full": "TheSolaAI/sola-application"
@@ -1396,6 +952,7 @@
    "comments": 113,
    "attempts": 20,
    "claims": 0,
+   "open_prs": 19,
    "first_seen": "2026-11-12",
    "url": "https://github.com/outerbase/starbasedb/issues/71",
    "repo_full": "outerbase/starbasedb"
@@ -1416,14 +973,15 @@
    ],
    "language": "Python",
    "languages": [],
-   "stars": 33344,
+   "stars": 33347,
    "state": "OPEN",
    "archived": false,
    "created_at": "2024-08-30T23:46:34Z",
-   "updated_at": "2026-11-11T21:03:07Z",
-   "comments": 190,
+   "updated_at": "2026-11-12T03:11:40Z",
+   "comments": 191,
    "attempts": 9,
    "claims": 1,
+   "open_prs": 51,
    "first_seen": "2026-11-12",
    "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
    "repo_full": "onyx-dot-app/onyx"
@@ -1450,6 +1008,7 @@
    "comments": 9,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/trypear/pearai-app/issues/44",
    "repo_full": "trypear/pearai-app"
@@ -1477,6 +1036,7 @@
    "comments": 12,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/scratchdata/scratchdata/issues/170",
    "repo_full": "scratchdata/scratchdata"
@@ -1508,6 +1068,7 @@
    "comments": 31,
    "attempts": 21,
    "claims": 1,
+   "open_prs": 17,
    "first_seen": "2026-11-12",
    "url": "https://github.com/revertinc/revert/issues/551",
    "repo_full": "revertinc/revert"
@@ -1536,6 +1097,7 @@
    "comments": 93,
    "attempts": 42,
    "claims": 29,
+   "open_prs": 15,
    "first_seen": "2026-11-12",
    "url": "https://github.com/flowese/UdioWrapper/issues/7",
    "repo_full": "flowese/UdioWrapper"
@@ -1562,6 +1124,7 @@
    "comments": 33,
    "attempts": 18,
    "claims": 2,
+   "open_prs": 18,
    "first_seen": "2026-11-12",
    "url": "https://github.com/lablab-ai/community-content/issues/462",
    "repo_full": "lablab-ai/community-content"
@@ -1588,6 +1151,7 @@
    "comments": 68,
    "attempts": 10,
    "claims": 1,
+   "open_prs": 34,
    "first_seen": "2026-11-12",
    "url": "https://github.com/flydelabs/flyde/issues/112",
    "repo_full": "flydelabs/flyde"
@@ -1614,6 +1178,7 @@
    "comments": 107,
    "attempts": 9,
    "claims": 0,
+   "open_prs": 50,
    "first_seen": "2026-11-12",
    "url": "https://github.com/highlight/highlight/issues/8032",
    "repo_full": "highlight/highlight"
@@ -1641,6 +1206,7 @@
    "comments": 32,
    "attempts": 12,
    "claims": 0,
+   "open_prs": 8,
    "first_seen": "2026-11-12",
    "url": "https://github.com/caley-io/marketing/issues/1",
    "repo_full": "caley-io/marketing"
@@ -1671,6 +1237,7 @@
    "comments": 7,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/RE-SS3D/SS3D/issues/1373",
    "repo_full": "RE-SS3D/SS3D"
@@ -1699,6 +1266,7 @@
    "comments": 131,
    "attempts": 13,
    "claims": 0,
+   "open_prs": 73,
    "first_seen": "2026-11-12",
    "url": "https://github.com/arakoodev/EdgeChains/issues/290",
    "repo_full": "arakoodev/EdgeChains"
@@ -1726,6 +1294,7 @@
    "comments": 73,
    "attempts": 6,
    "claims": 1,
+   "open_prs": 42,
    "first_seen": "2026-11-12",
    "url": "https://github.com/arakoodev/EdgeChains/issues/279",
    "repo_full": "arakoodev/EdgeChains"
@@ -1753,6 +1322,7 @@
    "comments": 121,
    "attempts": 11,
    "claims": 1,
+   "open_prs": 85,
    "first_seen": "2026-11-12",
    "url": "https://github.com/arakoodev/EdgeChains/issues/273",
    "repo_full": "arakoodev/EdgeChains"
@@ -1785,6 +1355,7 @@
    "comments": 25,
    "attempts": 15,
    "claims": 1,
+   "open_prs": 15,
    "first_seen": "2026-11-12",
    "url": "https://github.com/revertinc/revert/issues/372",
    "repo_full": "revertinc/revert"
@@ -1813,6 +1384,7 @@
    "comments": 52,
    "attempts": 9,
    "claims": 0,
+   "open_prs": 29,
    "first_seen": "2026-11-12",
    "url": "https://github.com/tryabby/abby/issues/68",
    "repo_full": "tryabby/abby"
@@ -1840,6 +1412,7 @@
    "comments": 59,
    "attempts": 8,
    "claims": 3,
+   "open_prs": 17,
    "first_seen": "2026-11-12",
    "url": "https://github.com/getdozer/dozer/issues/1690",
    "repo_full": "getdozer/dozer"
@@ -1862,10 +1435,11 @@
    "state": "OPEN",
    "archived": false,
    "created_at": "2023-06-20T17:18:05Z",
-   "updated_at": "2026-11-07T08:31:44Z",
-   "comments": 43,
+   "updated_at": "2026-11-12T03:14:47Z",
+   "comments": 44,
    "attempts": 17,
    "claims": 0,
+   "open_prs": 10,
    "first_seen": "2026-11-12",
    "url": "https://github.com/getdozer/dozer/issues/1659",
    "repo_full": "getdozer/dozer"
@@ -1892,6 +1466,7 @@
    "comments": 29,
    "attempts": 16,
    "claims": 0,
+   "open_prs": 8,
    "first_seen": "2026-11-12",
    "url": "https://github.com/getdozer/dozer/issues/1653",
    "repo_full": "getdozer/dozer"
@@ -1922,6 +1497,7 @@
    "comments": 36,
    "attempts": 4,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/highlight/highlight/issues/5082",
    "repo_full": "highlight/highlight"
@@ -1949,6 +1525,7 @@
    "comments": 7,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/speakers-in-tech/conference-data/issues/12",
    "repo_full": "speakers-in-tech/conference-data"
@@ -1975,6 +1552,7 @@
    "comments": 57,
    "attempts": 20,
    "claims": 0,
+   "open_prs": 20,
    "first_seen": "2026-11-12",
    "url": "https://github.com/speakers-in-tech/conference-data/issues/11",
    "repo_full": "speakers-in-tech/conference-data"
@@ -2001,6 +1579,7 @@
    "comments": 63,
    "attempts": 16,
    "claims": 1,
+   "open_prs": 22,
    "first_seen": "2026-11-12",
    "url": "https://github.com/speakers-in-tech/conference-data/issues/10",
    "repo_full": "speakers-in-tech/conference-data"
@@ -2028,6 +1607,7 @@
    "comments": 8,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/speakers-in-tech/conference-data/issues/7",
    "repo_full": "speakers-in-tech/conference-data"
@@ -2054,6 +1634,7 @@
    "comments": 51,
    "attempts": 17,
    "claims": 1,
+   "open_prs": 17,
    "first_seen": "2026-11-12",
    "url": "https://github.com/speakers-in-tech/conference-data/issues/4",
    "repo_full": "speakers-in-tech/conference-data"
@@ -2072,7 +1653,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 2581,
+   "stars": 2580,
    "state": "OPEN",
    "archived": false,
    "created_at": "2022-04-28T13:04:24Z",
@@ -2080,6 +1661,7 @@
    "comments": 9,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/1kc/razer-macos/issues/628",
    "repo_full": "1kc/razer-macos"
@@ -2098,7 +1680,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 2581,
+   "stars": 2580,
    "state": "OPEN",
    "archived": false,
    "created_at": "2022-04-15T00:27:23Z",
@@ -2106,6 +1688,7 @@
    "comments": 3,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/1kc/razer-macos/issues/619",
    "repo_full": "1kc/razer-macos"
@@ -2132,6 +1715,7 @@
    "comments": 14,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/rgommezz/react-native-offline/issues/339",
    "repo_full": "rgommezz/react-native-offline"
@@ -2150,7 +1734,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 2581,
+   "stars": 2580,
    "state": "OPEN",
    "archived": false,
    "created_at": "2021-09-13T23:58:28Z",
@@ -2158,6 +1742,7 @@
    "comments": 6,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/1kc/razer-macos/issues/452",
    "repo_full": "1kc/razer-macos"
@@ -2176,7 +1761,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 2581,
+   "stars": 2580,
    "state": "OPEN",
    "archived": false,
    "created_at": "2021-08-08T10:46:18Z",
@@ -2184,6 +1769,7 @@
    "comments": 10,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/1kc/razer-macos/issues/424",
    "repo_full": "1kc/razer-macos"
@@ -2191,27 +1777,29 @@
   {
    "owner": "1kc",
    "repo": "razer-macos",
-   "number": 409,
-   "title": "BlackWidow V3 mini hyperspeed",
-   "amount_usd": 43.0,
+   "number": 201,
+   "title": "Chroma Addressable RGB Controller",
+   "amount_usd": 10.0,
    "sources": [
     "issuehunt"
    ],
    "labels": [
-    ":dollar: Funded on Issuehunt"
+    ":dollar: Funded on Issuehunt",
+    "Device Support"
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 2581,
+   "stars": 2580,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2021-07-01T14:50:39Z",
-   "updated_at": "2022-02-05T17:59:26Z",
-   "comments": 24,
+   "created_at": "2021-01-20T22:02:11Z",
+   "updated_at": "2026-05-12T08:39:05Z",
+   "comments": 7,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/409",
+   "url": "https://github.com/1kc/razer-macos/issues/201",
    "repo_full": "1kc/razer-macos"
   },
   {
@@ -2236,6 +1824,7 @@
    "comments": 10,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Sifchain/sifnode/issues/524",
    "repo_full": "Sifchain/sifnode"
@@ -2262,6 +1851,7 @@
    "comments": 4,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/Sifchain/sifnode/issues/503",
    "repo_full": "Sifchain/sifnode"
@@ -2290,6 +1880,7 @@
    "comments": 13,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/vuejs/vetur/issues/2344",
    "repo_full": "vuejs/vetur"
@@ -2318,66 +1909,10 @@
    "comments": 4,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/132",
    "repo_full": "SelfhostedPro/selfhosted_templates"
-  },
-  {
-   "owner": "SelfhostedPro",
-   "repo": "selfhosted_templates",
-   "number": 129,
-   "title": "[APP REQUEST]: Deluge version fork of docker-transmission-openvpn",
-   "amount_usd": 25.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "App Request",
-    "hacktoberfest"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 1288,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-06-11T13:39:20Z",
-   "updated_at": "2020-10-02T17:27:34Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/129",
-   "repo_full": "SelfhostedPro/selfhosted_templates"
-  },
-  {
-   "owner": "CogTool-Modern",
-   "repo": "cogtool",
-   "number": 20,
-   "title": "File Type association, Register CogTool as a Viewer and Editor of .cgt files",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted",
-    "openhands"
-   ],
-   "language": "Java",
-   "languages": [],
-   "stars": 20,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-06-11T03:49:19Z",
-   "updated_at": "2025-06-02T06:29:28Z",
-   "comments": 7,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/CogTool-Modern/cogtool/issues/20",
-   "repo_full": "CogTool-Modern/cogtool"
   },
   {
    "owner": "dictation-toolbox",
@@ -2403,6 +1938,7 @@
    "comments": 24,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/dictation-toolbox/Caster/issues/814",
    "repo_full": "dictation-toolbox/Caster"
@@ -2432,6 +1968,7 @@
    "comments": 15,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/typesafe-actions/issues/230",
    "repo_full": "piotrwitek/typesafe-actions"
@@ -2460,6 +1997,7 @@
    "comments": 2,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/denote/issues/3",
    "repo_full": "egoist/denote"
@@ -2486,6 +2024,7 @@
    "comments": 14,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/nodegui/react-nodegui/issues/31",
    "repo_full": "nodegui/react-nodegui"
@@ -2514,6 +2053,7 @@
    "comments": 1,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/effector/effector/issues/161",
    "repo_full": "effector/effector"
@@ -2542,6 +2082,7 @@
    "comments": 6,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/effector/effector/issues/142",
    "repo_full": "effector/effector"
@@ -2569,37 +2110,10 @@
    "comments": 11,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/demoboard/issues/19",
    "repo_full": "egoist/demoboard"
-  },
-  {
-   "owner": "egoist",
-   "repo": "majo",
-   "number": 13,
-   "title": "Convert to TypeScript",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 53,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-06-10T10:17:46Z",
-   "updated_at": "2019-07-01T22:09:16Z",
-   "comments": 2,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/majo/issues/13",
-   "repo_full": "egoist/majo"
   },
   {
    "owner": "egoist",
@@ -2625,6 +2139,7 @@
    "comments": 5,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/majo/issues/12",
    "repo_full": "egoist/majo"
@@ -2655,6 +2170,7 @@
    "comments": 7,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/typesafe-actions/issues/162",
    "repo_full": "piotrwitek/typesafe-actions"
@@ -2684,6 +2200,7 @@
    "comments": 16,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/typesafe-actions/issues/156",
    "repo_full": "piotrwitek/typesafe-actions"
@@ -2711,6 +2228,7 @@
    "comments": 13,
    "attempts": 0,
    "claims": 1,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/effector/effector/issues/91",
    "repo_full": "effector/effector"
@@ -2737,6 +2255,7 @@
    "comments": 6,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/bili/issues/184",
    "repo_full": "egoist/bili"
@@ -2763,6 +2282,7 @@
    "comments": 5,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/bili/issues/183",
    "repo_full": "egoist/bili"
@@ -2790,6 +2310,7 @@
    "comments": 4,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/bili/issues/182",
    "repo_full": "egoist/bili"
@@ -2818,6 +2339,7 @@
    "comments": 8,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/macos-wallpaper/issues/25",
    "repo_full": "sindresorhus/macos-wallpaper"
@@ -2845,6 +2367,7 @@
    "comments": 13,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/Settings/issues/9",
    "repo_full": "sindresorhus/Settings"
@@ -2872,6 +2395,7 @@
    "comments": 28,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/LibVNC/x11vnc/issues/91",
    "repo_full": "LibVNC/x11vnc"
@@ -2899,6 +2423,7 @@
    "comments": 11,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/vue-content-loader/issues/18",
    "repo_full": "egoist/vue-content-loader"
@@ -2927,6 +2452,7 @@
    "comments": 4,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/wallpaper/issues/52",
    "repo_full": "sindresorhus/wallpaper"
@@ -2954,6 +2480,7 @@
    "comments": 38,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/marcosgriselli/SwipeableTabBarController/issues/52",
    "repo_full": "marcosgriselli/SwipeableTabBarController"
@@ -2982,6 +2509,7 @@
    "comments": 4,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/utility-types/issues/51",
    "repo_full": "piotrwitek/utility-types"
@@ -3010,36 +2538,10 @@
    "comments": 16,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/typesafe-actions/issues/103",
    "repo_full": "piotrwitek/typesafe-actions"
-  },
-  {
-   "owner": "devhubapp",
-   "repo": "devhub",
-   "number": 51,
-   "title": "Push notifications",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "feature request"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 10152,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-12-18T05:52:08Z",
-   "updated_at": "2021-04-14T11:19:13Z",
-   "comments": 11,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/devhubapp/devhub/issues/51",
-   "repo_full": "devhubapp/devhub"
   },
   {
    "owner": "avajs",
@@ -3057,7 +2559,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 20831,
+   "stars": 20830,
    "state": "OPEN",
    "archived": false,
    "created_at": "2018-11-21T04:02:53Z",
@@ -3065,6 +2567,7 @@
    "comments": 14,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/avajs/ava/issues/1986",
    "repo_full": "avajs/ava"
@@ -3093,6 +2596,7 @@
    "comments": 6,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/typesafe-actions/issues/88",
    "repo_full": "piotrwitek/typesafe-actions"
@@ -3120,6 +2624,7 @@
    "comments": 9,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/majo/issues/9",
    "repo_full": "egoist/majo"
@@ -3148,6 +2653,7 @@
    "comments": 34,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/piotrwitek/utility-types/issues/30",
    "repo_full": "piotrwitek/utility-types"
@@ -3175,6 +2681,7 @@
    "comments": 14,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/awesome-lint/issues/37",
    "repo_full": "sindresorhus/awesome-lint"
@@ -3201,6 +2708,7 @@
    "comments": 3,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/egoist/codepan/issues/63",
    "repo_full": "egoist/codepan"
@@ -3227,6 +2735,7 @@
    "comments": 6,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/gajus/flow-runtime/issues/207",
    "repo_full": "gajus/flow-runtime"
@@ -3254,6 +2763,7 @@
    "comments": 18,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 1,
    "first_seen": "2026-11-12",
    "url": "https://github.com/gajus/flow-runtime/issues/199",
    "repo_full": "gajus/flow-runtime"
@@ -3281,6 +2791,7 @@
    "comments": 3,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/gajus/flow-runtime/issues/180",
    "repo_full": "gajus/flow-runtime"
@@ -3308,6 +2819,7 @@
    "comments": 5,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/gajus/flow-runtime/issues/177",
    "repo_full": "gajus/flow-runtime"
@@ -3335,6 +2847,7 @@
    "comments": 6,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/gajus/flow-runtime/issues/165",
    "repo_full": "gajus/flow-runtime"
@@ -3362,6 +2875,7 @@
    "comments": 46,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/shanalikhan/code-settings-sync/issues/413",
    "repo_full": "shanalikhan/code-settings-sync"
@@ -3390,6 +2904,7 @@
    "comments": 16,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/shanalikhan/code-settings-sync/issues/396",
    "repo_full": "shanalikhan/code-settings-sync"
@@ -3418,6 +2933,7 @@
    "comments": 7,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/fkill/issues/21",
    "repo_full": "sindresorhus/fkill"
@@ -3446,6 +2962,7 @@
    "comments": 12,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 4,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/notifier-for-github/issues/132",
    "repo_full": "sindresorhus/notifier-for-github"
@@ -3473,6 +2990,7 @@
    "comments": 16,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/shanalikhan/code-settings-sync/issues/256",
    "repo_full": "shanalikhan/code-settings-sync"
@@ -3501,37 +3019,10 @@
    "comments": 8,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/ps-list/issues/7",
    "repo_full": "sindresorhus/ps-list"
-  },
-  {
-   "owner": "sindresorhus",
-   "repo": "fkill-cli",
-   "number": 21,
-   "title": "Kill all",
-   "amount_usd": 40.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 7015,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-03-09T11:47:57Z",
-   "updated_at": "2019-07-01T17:42:12Z",
-   "comments": 9,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/fkill-cli/issues/21",
-   "repo_full": "sindresorhus/fkill-cli"
   },
   {
    "owner": "shanalikhan",
@@ -3556,6 +3047,7 @@
    "comments": 57,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 5,
    "first_seen": "2026-11-12",
    "url": "https://github.com/shanalikhan/code-settings-sync/issues/143",
    "repo_full": "shanalikhan/code-settings-sync"
@@ -3577,7 +3069,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 20831,
+   "stars": 20830,
    "state": "OPEN",
    "archived": false,
    "created_at": "2016-06-19T20:05:43Z",
@@ -3585,6 +3077,7 @@
    "comments": 42,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/avajs/ava/issues/928",
    "repo_full": "avajs/ava"
@@ -3613,6 +3106,7 @@
    "comments": 24,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/caprine/issues/103",
    "repo_full": "sindresorhus/caprine"
@@ -3634,7 +3128,7 @@
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 20831,
+   "stars": 20830,
    "state": "OPEN",
    "archived": false,
    "created_at": "2016-03-03T14:40:26Z",
@@ -3642,6 +3136,7 @@
    "comments": 13,
    "attempts": 1,
    "claims": 0,
+   "open_prs": 2,
    "first_seen": "2026-11-12",
    "url": "https://github.com/avajs/ava/issues/595",
    "repo_full": "avajs/ava"
@@ -3670,6 +3165,7 @@
    "comments": 7,
    "attempts": 0,
    "claims": 0,
+   "open_prs": 3,
    "first_seen": "2026-11-12",
    "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
    "repo_full": "sindresorhus/fkill-cli"

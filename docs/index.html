@@ -44,6 +44,7 @@
   .meta { color: var(--muted); font-size: 13px; margin-top: 2px; display: flex; gap: 10px; flex-wrap: wrap; }
   .meta a { color: inherit; }
   .new { color: var(--new); font-weight: 700; font-size: 12px; margin-left: 6px; }
+  .pr { color: var(--new); }
   .tries { font: 13px var(--mono); color: var(--muted); text-align: right; white-space: nowrap; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
   footer { margin-top: 30px; color: var(--muted); font-size: 13px; }
@@ -83,7 +84,7 @@
       <option value="tries">Fewest tries</option>
     </select>
     <select id="tries" aria-label="Competition">
-      <option value="999">Any competition</option><option value="0">No one trying</option>
+      <option value="999">Any competition</option><option value="0">Nobody on it yet</option>
       <option value="2">2 or fewer tries</option><option value="5">5 or fewer tries</option>
     </select>
   </div>
@@ -153,7 +154,7 @@ function render() {
   const rows = state.all.filter((b) =>
     b.amount_usd >= min &&
     (!lg || lang(b) === lg || (b.languages || []).includes(lg)) &&
-    (b.attempts + b.claims) <= maxTries &&
+    (b.attempts + b.claims) <= maxTries && (maxTries > 0 || !b.open_prs) &&
     b.sources.some((s) => state.sources.has(s)) &&
     (!state.newOnly || b.first_seen === state.today) &&
     (!q || (b.title + " " + b.repo_full).toLowerCase().includes(q)));
@@ -176,7 +177,7 @@ function render() {
           <span>${age(b.created_at)}</span>
         </div>
       </div>
-      <div class="tries">${b.attempts + b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}</div>
+      <div class="tries">${b.attempts + b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}${b.open_prs ? `<br><span class="pr">${b.open_prs} PR${b.open_prs > 1 ? "s" : ""} open</span>` : ""}</div>
     </div>`).join("") : '<div class="empty">No bounties match these filters.</div>';
 }
 

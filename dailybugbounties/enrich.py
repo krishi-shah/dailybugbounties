@@ -14,21 +14,23 @@ log = logging.getLogger(__name__)
 
 ALGORA_BOT = re.compile(r"algora", re.I)
 
+PR_FIELD = "    closedByPullRequestsReferences(first: 10, includeClosedPrs: false) { totalCount }\n"
+
 FIELDS = """
   stargazerCount isArchived primaryLanguage { name }
   issue(number: %d) {
     state title createdAt updatedAt
     labels(first: 10) { nodes { name } }
     comments(first: 30) { totalCount nodes { author { login } body } }
-  }
+%s  }
 """
 
 
-def build_query(batch: List[Bounty]) -> str:
+def build_query(batch: List[Bounty], with_prs: bool = True) -> str:
     parts = []
     for i, b in enumerate(batch):
         parts.append("i%d: repository(owner: %s, name: %s) {%s}" % (
-            i, json.dumps(b.owner), json.dumps(b.repo), FIELDS % b.number))
+            i, json.dumps(b.owner), json.dumps(b.repo), FIELDS % (b.number, PR_FIELD if with_prs else "")))
     return "query {\n" + "\n".join(parts) + "\n}"
 
 
@@ -60,6 +62,7 @@ def apply(b: Bounty, repo: dict) -> None:
     comments = (issue.get("comments") or {})
     nodes = comments.get("nodes") or []
     b.comments = comments.get("totalCount", b.comments)
+    b.open_prs = ((issue.get("closedByPullRequestsReferences") or {}).get("totalCount")) or 0
     bodies = [(c.get("body") or "").strip().lower() for c in nodes]
     b.attempts = max(b.attempts, sum(1 for t in bodies if t.startswith("/attempt")))
     b.claims = max(b.claims, sum(1 for t in bodies if t.startswith("/claim")))
@@ -69,15 +72,27 @@ def apply(b: Bounty, repo: dict) -> None:
             b.amount_usd = max(a, b.amount_usd or 0)
 
 
+def _schema_error(resp: dict) -> bool:
+    """True when the query itself was rejected, as opposed to one repo being missing."""
+    return not resp.get("data") and any(
+        "closedByPullRequestsReferences" in (e.get("message") or "") or e.get("extensions", {}).get("code") == "undefinedField"
+        for e in resp.get("errors") or [])
+
+
 def enrich(gh: GitHub, bounties: Dict[str, Bounty]) -> None:
     if not gh.authed:
         log.warning("no GITHUB_TOKEN: skipping enrichment (state, stars, Algora amounts)")
         return
     items = list(bounties.values())
+    with_prs = True
     for start in range(0, len(items), config.GRAPHQL_BATCH):
         batch = items[start:start + config.GRAPHQL_BATCH]
         try:
-            resp = gh.graphql(build_query(batch))
+            resp = gh.graphql(build_query(batch, with_prs))
+            if with_prs and _schema_error(resp):
+                log.warning("open PR lookup not supported here; continuing without it")
+                with_prs = False
+                resp = gh.graphql(build_query(batch, with_prs))
         except Exception as e:
             log.error("graphql batch %d failed: %s", start, e)
             continue

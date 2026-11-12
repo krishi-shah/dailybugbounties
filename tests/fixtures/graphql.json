@@ -19,7 +19,8 @@
             {"author": {"login": "dev1"}, "body": "/claim #12"},
             {"author": null, "body": "ghost comment"}
           ]
-        }
+        },
+        "closedByPullRequestsReferences": {"totalCount": 1}
       }
     }
   }

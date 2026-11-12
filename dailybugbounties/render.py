@@ -55,8 +55,8 @@ def lang_of(b: Bounty) -> str:
 
 
 def table(rows: List[Bounty], today: date) -> List[str]:
-    out = ["| Payout | Issue | Repo | ★ | Lang | Source | Tries | Age |",
-           "|---:|---|---|---:|---|---|---:|---:|"]
+    out = ["| Payout | Issue | Repo | ★ | Lang | Source | Tries | PRs | Age |",
+           "|---:|---|---|---:|---|---|---:|---:|---:|"]
     for b in rows:
         new = " 🆕" if b.first_seen == today.isoformat() else ""
         out.append(
@@ -64,7 +64,7 @@ def table(rows: List[Bounty], today: date) -> List[str]:
             f"| [{b.full_repo}](https://github.com/{b.full_repo}) "
             f"| {f'{b.stars:,}' if b.stars is not None else ''} "
             f"| {lang_of(b)} | {', '.join(SOURCE_NAMES.get(s, s) for s in b.sources)} "
-            f"| {b.attempts + b.claims} | {age_days(b.created_at, today)} |")
+            f"| {b.attempts + b.claims} | {b.open_prs or ''} | {age_days(b.created_at, today)} |")
     return out
 
 
@@ -73,7 +73,7 @@ def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
     src = " · ".join(f"{SOURCE_NAMES.get(k, k)} {v}" for k, v in
                      sorted(payload["by_source"].items(), key=lambda kv: -kv[1]))
     langs = " · ".join(f"{k} {v}" for k, v in list(payload["by_language"].items())[:8])
-    untouched = sum(1 for b in items if b.attempts + b.claims == 0)
+    untouched = sum(1 for b in items if b.attempts + b.claims == 0 and not b.open_prs)
     lines = [
         START,
         f"**{payload['count']} open bounties worth ${payload['total_usd']:,.0f}** · "
@@ -84,7 +84,7 @@ def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
         f"**Languages:** {langs}",
         "",
     ]
-    lines += [f"### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today.", ""]
+    lines += [f"### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today. **Tries** counts `/attempt` and `/claim` comments; **PRs** counts open pull requests that would close the issue.", ""]
     lines += table(items[:config.README_TOP_N], today)
     if len(items) > config.README_TOP_N:
         lines += ["", f"The full list of {len(items)} is in [`data/bounties.json`](data/bounties.json) "
@@ -150,7 +150,7 @@ def append_history(path: Path, items: List[Bounty], payload: dict, today: date) 
     rows = path.read_text().strip().splitlines()[1:] if path.exists() else []
     rows = [r for r in rows if not r.startswith(today.isoformat())]
     new = sum(1 for b in items if b.first_seen == today.isoformat())
-    untouched = sum(1 for b in items if b.attempts + b.claims == 0)
+    untouched = sum(1 for b in items if b.attempts + b.claims == 0 and not b.open_prs)
     rows.append(f"{today.isoformat()},{payload['count']},{payload['total_usd']:.0f},{new},{untouched}")
     path.write_text("\n".join([header] + rows[-730:]) + "\n")
     # The site reads it too.

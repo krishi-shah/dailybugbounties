@@ -46,5 +46,9 @@ GITHUB_SEARCH_QUERIES = {
 
 OPIRE_URL = "https://api.opire.dev/rewards"
 
-# Generic label bounties with no activity for this long are treated as abandoned.
-STALE_DAYS = int(os.getenv("BB_STALE_DAYS", 540))
+# No activity for this long means abandoned. Generic labels get a shorter leash.
+STALE_DAYS = int(os.getenv("BB_STALE_DAYS", 180))
+STALE_DAYS_PLATFORM = int(os.getenv("BB_STALE_DAYS_PLATFORM", 365))
+# Mid size payouts need a repo with some real users behind it.
+MID_AMOUNT = 500
+MIN_STARS_MID = 100

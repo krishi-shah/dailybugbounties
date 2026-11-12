@@ -22,6 +22,12 @@ INJECTION = re.compile(
     r"you are an ai|as an ai agent|<\s*/?\s*system\s*>", re.I)
 
 
+# Paid in a crypto token or points, not cash. "$" amounts elsewhere in these issues are misleading.
+NON_CASH = re.compile(r"\b\d[\d,.]*\s*(?:RTC|tokens?|points?|pts|XP|credits?|coins?|sats)\b", re.I)
+# Bait that looks like a bounty but isn't work: airdrops, "claim your reward" invitations.
+SCAM = re.compile(r"instant reward|zero[- ]?gas|airdrop|claim (?:your|now)|bounty invitation|free (?:usdc|usdt|crypto)", re.I)
+
+
 def load_blocklist(path) -> Set[str]:
     p = Path(path)
     if not p.exists():
@@ -61,6 +67,10 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
         return "blocklisted"
     if INJECTION.search(f"{b.title}\n{b.body[:4000]}"):
         return "prompt_injection"
+    if SCAM.search(b.title):
+        return "scam"
+    if NON_CASH.search(" ".join([b.title] + b.labels)):
+        return "non_cash"
     if b.state and b.state != "OPEN":
         return "not_open"
     if b.archived:
@@ -77,11 +87,14 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
         return "low_stars"
     if authed and b.amount_usd >= config.BIG_AMOUNT and (b.stars or 0) < config.MIN_STARS_BIG_LABELED:
         return "big_amount_small_repo"
-    if not platform_backed:
-        if b.full_repo.lower() in farms and (not authed or (b.stars or 0) < config.FARM_MIN_STARS):
-            return "issue_farm"
-        if _days_since(b.updated_at) > config.STALE_DAYS:
-            return "stale"
+    if authed and b.amount_usd >= config.MID_AMOUNT and (b.stars or 0) < config.MIN_STARS_MID:
+        return "big_amount_small_repo"
+    stale_after = config.STALE_DAYS_PLATFORM if platform_backed else config.STALE_DAYS
+    if _days_since(b.updated_at) > stale_after:
+        return "stale"
+    if not platform_backed and b.full_repo.lower() in farms and (
+            not authed or (b.stars or 0) < config.FARM_MIN_STARS):
+        return "issue_farm"
     return None
 
 

@@ -4,3 +4,9 @@
 
 PhanKhoa95/oss-bot-trap-benchmark
 zhangjiayang6835-cyber/bounty-plaza
+# Practice or demo repos with Algora bounties for non engineering tasks (poems, pixel art) or quiz style tasks
+SecureBananaLabs/bug-bounty
+UnsafeLabs/Bounty-Hunters
+ClankerNation/OpenAgents
+# Paid in a crypto token (RTC), not cash
+Scottcjn/rustchain-bounties

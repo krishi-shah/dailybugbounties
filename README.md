@@ -162,8 +162,8 @@ The full list of 129 is in [`data/bounties.json`](data/bounties.json) and on the
 Then, once a day in GitHub Actions:
 
 1. **Merge.** If one issue shows up on two platforms, it becomes one row. We keep the higher amount and never add the two together.
-2. **Verify.** One GraphQL call for every 25 issues gets the open/closed state, repo stars, language, archive status and the `/attempt` and `/claim` comments.
-3. **Filter.** We drop closed issues, archived repos, amounts under $10 or over $50k, and prompt injection bait. We drop any repo under 10 stars and payouts of $5k or more in repos under 200 stars. For the generic `bounty` label we also drop repos under 50 stars, issue farms, issues with no activity for 18 months, and anything in [`blocklist.txt`](blocklist.txt).
+2. **Verify.** One GraphQL call for every 25 issues gets the open/closed state, repo stars, language, archive status, the `/attempt` and `/claim` comments, and any open pull requests that would close the issue.
+3. **Filter.** We drop closed issues, archived repos, amounts under $10 or over $50k, and prompt injection bait. We drop any repo under 10 stars, payouts of $500 or more in repos under 100 stars, and $5k or more under 200 stars. We also drop bounties paid in tokens or points instead of cash, airdrop style scams, issues with no activity for a year (6 months for generic labels), issue farms, and anything in [`blocklist.txt`](blocklist.txt).
 4. **Order.** Newest first: bounties found today sit at the top, then by when the issue was opened. Each repo keeps at most its 5 best paying bounties (Expensify is exempt, since it really pays for every one).
 5. **Publish.** The run writes this README, the JSON, the RSS feed and the site data, commits them if anything changed, and deploys the website.
 

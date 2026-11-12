@@ -36,6 +36,7 @@ class Bounty:
     comments: int = 0
     attempts: int = 0
     claims: int = 0
+    open_prs: int = 0
     first_seen: Optional[str] = None
 
     @property
@@ -66,6 +67,7 @@ class Bounty:
         self.attempts = max(self.attempts, other.attempts)
         self.claims = max(self.claims, other.claims)
         self.comments = max(self.comments, other.comments)
+        self.open_prs = max(self.open_prs, other.open_prs)
 
     def to_public(self) -> dict:
         d = asdict(self)

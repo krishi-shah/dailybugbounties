@@ -13,13 +13,12 @@ dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire*
 ## Today's top bounties
 
 <!-- FEED:START -->
-**126 open bounties worth $37,196** · 126 new today · updated 2026-11-12 00:55 UTC
+**120 open bounties worth $27,004** · 120 new today · updated 2026-11-12 00:58 UTC
 
-Sources: Algora 43 · IssueHunt 61 · Label 26 · Opire 1
+Sources: Algora 39 · IssueHunt 59 · Label 26 · Opire 1
 
 | Payout | Issue | Repo | ★ | Lang | Source | Tries | Age |
 |---:|---|---|---:|---|---|---:|---:|
-| **$10,000** | [\[Feature\] Implement Basic Anti-Cheat Protection](https://github.com/javelin-anticheat/py-workedtask/issues/2) 🆕 | [javelin-anticheat/py-workedtask](https://github.com/javelin-anticheat/py-workedtask) | 2 | C++ | Algora | 12 | 1y |
 | **$2,600** | [\[Contribution\] BusKill](https://github.com/QubesOS/qubes-issues/issues/10567) 🆕 | [QubesOS/qubes-issues](https://github.com/QubesOS/qubes-issues) | 624 |  | Label | 0 | 304d |
 | **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15279 | Java | Label | 0 | 1y |
 | **$1,000** | [\[sifnode\] $1000 bounty for implementing Azure AKS support for sifnode](https://github.com/Sifchain/sifnode/issues/503) 🆕 | [Sifchain/sifnode](https://github.com/Sifchain/sifnode) | 107 | Go | Label | 0 | 5y |
@@ -70,7 +69,6 @@ Sources: Algora 43 · IssueHunt 61 · Label 26 · Opire 1
 | **$100** | [Use Vue component's Props type parameter for prop type validation](https://github.com/vuejs/vetur/issues/2344) 🆕 | [vuejs/vetur](https://github.com/vuejs/vetur) | 5737 | TypeScript | IssueHunt | 1 | 6y |
 | **$100** | [App stops updating on resume after suspend mode](https://github.com/sindresorhus/caprine/issues/103) 🆕 | [sindresorhus/caprine](https://github.com/sindresorhus/caprine) | 7415 | TypeScript | IssueHunt | 1 | 10y |
 | **$100** | [\[REVER-48\] Workday Integration](https://github.com/revertinc/revert/issues/372) 🆕 | [revertinc/revert](https://github.com/revertinc/revert) | 1018 | TypeScript | Algora | 16 | 2y |
-| **$100** | [\[Feature\] Add Integrity Verification (Hash of Executable/Script)](https://github.com/javelin-anticheat/py-workedtask/issues/4) 🆕 | [javelin-anticheat/py-workedtask](https://github.com/javelin-anticheat/py-workedtask) | 2 | C++ | Algora | 20 | 1y |
 | **$100** | [\[REVER-51\] Workable Integration](https://github.com/revertinc/revert/issues/551) 🆕 | [revertinc/revert](https://github.com/revertinc/revert) | 1018 | TypeScript | Algora | 23 | 2y |
 | **$90** | [Add a web page with API documentation that will be automatically generated from …](https://github.com/piotrwitek/utility-types/issues/30) 🆕 | [piotrwitek/utility-types](https://github.com/piotrwitek/utility-types) | 5768 | TypeScript | IssueHunt | 0 | 8y |
 | **$90** | [Legacy bundles & modern bundles](https://github.com/egoist/bili/issues/182) 🆕 | [egoist/bili](https://github.com/egoist/bili) | 1030 | TypeScript | IssueHunt | 0 | 7y |
@@ -91,7 +89,6 @@ Sources: Algora 43 · IssueHunt 61 · Label 26 · Opire 1
 | **$50** | [Map class property assertion fails when using babel-plugin-transform-runtime](https://github.com/gajus/flow-runtime/issues/177) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 8y |
 | **$50** | [Make actions compatible with new Redux Toolkit guidance on TypeScript usage](https://github.com/piotrwitek/typesafe-actions/issues/230) 🆕 | [piotrwitek/typesafe-actions](https://github.com/piotrwitek/typesafe-actions) | 2408 | TypeScript | IssueHunt | 0 | 6y |
 | **$50** | [ExtendedDesktopSize support?](https://github.com/LibVNC/x11vnc/issues/91) 🆕 | [LibVNC/x11vnc](https://github.com/LibVNC/x11vnc) | 859 | C | IssueHunt | 0 | 7y |
-| **$50** | [Round overlay progress bar with time limit.](https://github.com/deliverymanager/cordova-plugin-media-capture/issues/1) 🆕 | [deliverymanager/cordova-plugin-media-capture](https://github.com/deliverymanager/cordova-plugin-media-capture) | 0 | JavaScript | IssueHunt | 0 | 7y |
 | **$50** | [Bounty: end-to-end test copperhead create (brief → clean full run) + findings re…](https://github.com/copperheadhq/copperhead/issues/66) 🆕 | [copperheadhq/copperhead](https://github.com/copperheadhq/copperhead) | 692 | TypeScript | Label | 1 | 111d |
 | **$50** | [Bounty $50: recipe for Intel Arc B580 12 GB](https://github.com/sybil-solutions/local-ai-registry/issues/216) 🆕 | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 294 | HTML | Label | 5 | 31d |
 | **$50** | [Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)](https://github.com/sybil-solutions/local-ai-registry/issues/223) 🆕 | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 294 | HTML | Label | 6 | 31d |
@@ -119,8 +116,11 @@ Sources: Algora 43 · IssueHunt 61 · Label 26 · Opire 1
 | **$30** | [BOUNTY: add support for qdrant vector database in javascript sdk](https://github.com/arakoodev/EdgeChains/issues/273) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora | 21 | 2y |
 | **$25** | [Support for multiple computer / KVM setup](https://github.com/1kc/razer-macos/issues/452) 🆕 | [1kc/razer-macos](https://github.com/1kc/razer-macos) | 2581 | JavaScript | IssueHunt | 0 | 5y |
 | **$25** | [\[APP REQUEST\]: Deluge version fork of docker-transmission-openvpn](https://github.com/SelfhostedPro/selfhosted_templates/issues/129) 🆕 | [SelfhostedPro/selfhosted_templates](https://github.com/SelfhostedPro/selfhosted_templates) | 1288 |  | IssueHunt | 0 | 6y |
+| **$25** | [BOUNTY: add support for Google Palm2 API in javascript/typescript](https://github.com/arakoodev/EdgeChains/issues/279) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora | 15 | 2y |
+| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) 🆕 | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 964 | Shell | Label | 0 | 149d |
+| **$20** | [Types not resolving to `.js.flow` files](https://github.com/gajus/flow-runtime/issues/27) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 9y |
 
-Showing the top 100. The full list of 126 is in [`data/bounties.json`](data/bounties.json) and on the website.
+Showing the top 100. The full list of 120 is in [`data/bounties.json`](data/bounties.json) and on the website.
 <!-- FEED:END -->
 
 ## How it works

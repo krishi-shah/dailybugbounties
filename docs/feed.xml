@@ -3,14 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 00:55:28 +0000</lastBuildDate>
-<item>
-<title>$10,000 · javelin-anticheat/py-workedtask · [Feature] Implement Basic Anti-Cheat Protection</title>
-<link>https://github.com/javelin-anticheat/py-workedtask/issues/2</link>
-<guid isPermaLink="true">https://github.com/javelin-anticheat/py-workedtask/issues/2</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 12 tries · C++</description>
-</item>
+<lastBuildDate>Thu, 12 Nov 2026 00:58:19 +0000</lastBuildDate>
 <item>
 <title>$2,600 · QubesOS/qubes-issues · [Contribution] BusKill</title>
 <link>https://github.com/QubesOS/qubes-issues/issues/10567</link>
@@ -353,5 +346,12 @@
 <guid isPermaLink="true">https://github.com/sindresorhus/caprine/issues/103</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 1 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · revertinc/revert · [REVER-48] Workday Integration</title>
+<link>https://github.com/revertinc/revert/issues/372</link>
+<guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 16 tries · TypeScript</description>
 </item>
 </channel></rss>

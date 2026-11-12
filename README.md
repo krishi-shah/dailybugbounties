@@ -5,7 +5,7 @@
 [![total](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.total_usd&label=total%20payout&prefix=%24&color=0f7b53)](https://krishi-shah.github.io/dailybugbounties/)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Every paid open source issue in one list. Newest first, updated daily.**
+**Every paid open source issue in one list. Newest first, updated every 12 hours.**
 
 dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire**, **Expensify**, **Ubiquity DevPool**, **TaskBounty**, **Superteam Earn** and GitHub issues that carry a bounty label or a bounty in the title. It checks that each issue is still open, removes spam, and lists what's left newest first.
 
@@ -13,7 +13,7 @@ dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire*
 📡 **RSS:** [`docs/feed.xml`](docs/feed.xml) for new bounties as they appear
 🧾 **JSON:** [`data/bounties.json`](data/bounties.json) if you want to build on it
 
-⭐ Star the repo to keep it handy. It refreshes itself every day.
+⭐ Star the repo to keep it handy. It refreshes itself every 12 hours.
 
 ## Today's top bounties
 
@@ -145,7 +145,7 @@ Plus 89 older bounties on issues opened more than two years ago: see the [websit
 | Title | GitHub search for issues with "bounty" in the title | A `$` amount in the title only |
 | Superteam Earn | Public listings API (bounties and projects) | The reward, when paid in a dollar stablecoin (USDC, USDG). Only dev work is kept: content gigs like threads and videos are filtered out by title |
 
-Then, once a day in GitHub Actions:
+Then, every 12 hours in GitHub Actions:
 
 Bounties from boards like Superteam Earn aren't GitHub issues, so they skip the GitHub checks. They link to the listing page, show the sponsor instead of a repo, and drop off once their deadline passes.
 

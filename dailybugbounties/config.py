@@ -35,9 +35,13 @@ GITHUB_SEARCH_QUERIES = {
         '"💵 Funded on Issuehunt" is:issue is:open'
     ),
     "labeled": (
-        'label:bounty,"💰 bounty","bounty 💰","cash bounty",'
-        '"💰 Bounty" is:issue is:open'
+        'label:bounty,"💰 bounty","bounty 💰","cash bounty","💸 bounty","💵 bounty",'
+        '"has bounty","bounty available","bounty-program" is:issue is:open'
     ),
+    # Expensify pays per issue (usually $250) and puts the price in the title: "[$250] ..."
+    "expensify": 'repo:Expensify/App label:"Help Wanted" is:issue is:open',
+    # Bounties announced only in the title, e.g. "[Bounty $500] Add SSO".
+    "title": 'bounty in:title is:issue is:open',
 }
 
 OPIRE_URL = "https://api.opire.dev/rewards"

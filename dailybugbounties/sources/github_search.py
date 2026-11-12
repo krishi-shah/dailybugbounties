@@ -17,6 +17,9 @@ AMOUNT_ORDER = {
     "issuehunt": ("body", "labels", "title"),
     # Generic labels: maintainers usually put "$200" in a label or the title.
     "labeled": ("labels", "title", "body"),
+    "expensify": ("title",),
+    # Title source: the amount must be in the title itself, or it's too noisy.
+    "title": ("title",),
 }
 
 

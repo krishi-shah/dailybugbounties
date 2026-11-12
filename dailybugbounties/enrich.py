@@ -18,8 +18,8 @@ FIELDS = """
   stargazerCount isArchived primaryLanguage { name }
   issue(number: %d) {
     state title createdAt updatedAt
-    labels(first: 20) { nodes { name } }
-    comments(first: 40) { totalCount nodes { author { login } body } }
+    labels(first: 10) { nodes { name } }
+    comments(first: 30) { totalCount nodes { author { login } body } }
   }
 """
 

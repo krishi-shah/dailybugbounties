@@ -11,7 +11,9 @@ from .models import Bounty
 
 log = logging.getLogger(__name__)
 
-PLATFORMS = {"algora", "issuehunt", "opire"}
+PLATFORMS = {"algora", "issuehunt", "opire", "expensify"}
+# Single company programs that post many real bounties in one repo.
+UNCAPPED = {"expensify"}
 
 # Text aimed at AI agents rather than humans. People feed this list to agents,
 # so issues that try to hijack them never make it in.
@@ -38,7 +40,7 @@ def blocked(b: Bounty, blocklist: Set[str]) -> bool:
 
 def farm_repos(merged: Dict[str, Bounty]) -> Set[str]:
     counts = Counter(b.full_repo.lower() for b in merged.values()
-                     if b.sources == ["labeled"])
+                     if not (PLATFORMS & set(b.sources)))
     return {r for r, n in counts.items() if n >= config.FARM_THRESHOLD}
 
 
@@ -99,6 +101,11 @@ def rank_key(b: Bounty):
     return (-(b.amount_usd or 0), b.attempts + b.claims, -(_ts(b.updated_at)))
 
 
+def latest_key(b: Bounty):
+    """Newest first: newly discovered bounties on top, then by when the issue was opened."""
+    return (b.first_seen or "", b.created_at or "", b.amount_usd or 0)
+
+
 def _ts(s):
     return int("".join(ch for ch in (s or "") if ch.isdigit())[:14] or 0)
 
@@ -108,6 +115,9 @@ def cap_per_repo(items: List[Bounty], cap: int) -> Tuple[List[Bounty], int]:
     kept, dropped = [], 0
     for b in items:
         r = b.full_repo.lower()
+        if UNCAPPED & set(b.sources):
+            kept.append(b)
+            continue
         if seen[r] >= cap:
             dropped += 1
             continue
@@ -130,7 +140,8 @@ def select(merged: Dict[str, Bounty], authed: bool,
         else:
             keep.append(b)
     keep.sort(key=rank_key)
-    keep, capped = cap_per_repo(keep, config.PER_REPO_CAP)
+    keep, capped = cap_per_repo(keep, config.PER_REPO_CAP)  # keeps each repo's best paying
+    keep.sort(key=latest_key, reverse=True)
     if capped:
         reasons["repo_cap"] += capped
     log.info("kept %d, rejected %s", len(keep), dict(reasons))

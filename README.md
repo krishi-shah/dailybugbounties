@@ -5,9 +5,9 @@
 [![total](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.total_usd&label=total%20payout&prefix=%24&color=0f7b53)](https://krishi-shah.github.io/dailybugbounties/)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Every paid open source issue in one list, sorted by payout. Updated daily.**
+**Every paid open source issue in one list. Newest first, updated daily.**
 
-dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire** and GitHub issues labeled `bounty`, checks that each issue is still open, removes spam, and ranks what's left by how much it pays.
+dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire**, **Expensify** and GitHub issues that carry a bounty label or a bounty in the title. It checks that each issue is still open, removes spam, and lists what's left newest first.
 
 🌐 **Website:** https://krishi-shah.github.io/dailybugbounties/ (filter by language, payout, competition)
 📡 **RSS:** [`docs/feed.xml`](docs/feed.xml) for new bounties as they appear
@@ -138,15 +138,17 @@ The full list of 109 is in [`data/bounties.json`](data/bounties.json) and on the
 | Opire | Public `api.opire.dev/rewards` endpoint | Opire's reward value |
 | Algora | GitHub search for the `💎 Bounty` label | The Algora bot comment on the issue |
 | IssueHunt | GitHub search for the "Funded on IssueHunt" labels | The funded total IssueHunt writes into the issue |
-| Labeled | GitHub search for `bounty` and similar labels | A `$` amount in a label, the title or the body |
+| Expensify | Open `Help Wanted` issues in `Expensify/App` | The price in the title, like `[$250]` |
+| Labeled | GitHub search for `bounty` and 9 similar labels | A `$` amount in a label, the title or the body |
+| Title | GitHub search for issues with "bounty" in the title | A `$` amount in the title only |
 
 Then, once a day in GitHub Actions:
 
 1. **Merge.** If one issue shows up on two platforms, it becomes one row. We keep the higher amount and never add the two together.
 2. **Verify.** One GraphQL call for every 25 issues gets the open/closed state, repo stars, language, archive status and the `/attempt` and `/claim` comments.
 3. **Filter.** We drop closed issues, archived repos, amounts under $10 or over $50k, and prompt injection bait. We drop any repo under 10 stars and payouts of $5k or more in repos under 200 stars. For the generic `bounty` label we also drop repos under 50 stars, issue farms, issues with no activity for 18 months, and anything in [`blocklist.txt`](blocklist.txt).
-4. **Rank.** Highest payout first. When two pay the same, the one with fewer people trying wins.
-5. **Publish.** The run writes this README, the JSON, the RSS feed and the site data, then commits them if anything changed.
+4. **Order.** Newest first: bounties found today sit at the top, then by when the issue was opened. Each repo keeps at most its 5 best paying bounties (Expensify is exempt, since it really pays for every one).
+5. **Publish.** The run writes this README, the JSON, the RSS feed and the site data, commits them if anything changed, and deploys the website.
 
 No paid APIs, no accounts, no dependencies. It uses Python's standard library and the built in `GITHUB_TOKEN`.
 

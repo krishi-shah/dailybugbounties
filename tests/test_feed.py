@@ -121,6 +121,26 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(kept[0].owner, "o")  # fewer attempts wins the tie
         self.assertEqual(kept[-1].owner, "x")
 
+    def test_latest_first(self):
+        old = B(number=1, created_at="2024-01-01T00:00:00Z", first_seen="2026-11-01", amount_usd=900)
+        newer_issue = B(number=2, created_at="2026-11-05T00:00:00Z", first_seen="2026-11-01")
+        found_today = B(number=3, created_at="2023-01-01T00:00:00Z", first_seen="2026-11-11")
+        got = sorted([old, newer_issue, found_today], key=pipeline.latest_key, reverse=True)
+        self.assertEqual([b.number for b in got], [3, 2, 1])
+
+    def test_new_sources_trusted_and_parsed(self):
+        from dailybugbounties.sources.github_search import AMOUNT_ORDER
+        item = {"html_url": "https://github.com/Expensify/App/issues/9", "title": "[$250] Fix crash",
+                "labels": [{"name": "Help Wanted"}], "body": "costs $5000 to us"}
+        b = from_search_item(item, "expensify")
+        self.assertEqual(amount_from_issue(b, AMOUNT_ORDER["expensify"]), 250)
+        self.assertIsNone(pipeline.reject_reason(B(sources=["expensify"], stars=4000), True))
+        many = [B(owner="Expensify", repo="App", number=i, sources=["expensify"]) for i in range(12)]
+        self.assertEqual(len(pipeline.cap_per_repo(many, 5)[0]), 12)
+        t = from_search_item({"html_url": "https://github.com/a/b/issues/1", "title": "Bounty: add SSO",
+                              "body": "$900"}, "title")
+        self.assertIsNone(amount_from_issue(t, AMOUNT_ORDER["title"]))  # body amounts don't count
+
     def test_first_seen(self):
         a, b = B(number=1), B(number=2)
         seen = {a.key: "2026-11-01", "https://github.com/gone/x/issues/1": "2026-01-01"}
@@ -157,7 +177,8 @@ class Render(unittest.TestCase):
             self.assertNotIn("body", data["bounties"][0])
             self.assertEqual(payload["by_source"], {"labeled": 1, "opire": 1, "algora": 1})
             self.assertIn("<rss", (root / "docs" / "feed.xml").read_text())
-            self.assertIn("### 🆕 New today (1)", readme)
+            self.assertIn("### 🆕 Latest bounties", readme)
+            self.assertIn("### 💰 Biggest payouts right now", readme)
             self.assertEqual(data["by_language"], {})
             hist = (root / "data" / "history.csv").read_text().splitlines()
             self.assertEqual(hist, ["date,count,total_usd,new,untouched", "2026-11-11,2,1520,1,2"])

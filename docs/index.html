@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>dailybugbounties · paid open source issues, sorted by payout</title>
-<meta name="description" content="Every open source bounty from Algora, IssueHunt, Opire and GitHub in one list, sorted by payout. Updated daily.">
+<title>dailybugbounties · the latest paid open source issues, every day</title>
+<meta name="description" content="Every open source bounty from Algora, IssueHunt, Opire, Expensify and GitHub in one list. Newest first, updated daily.">
 <link rel="alternate" type="application/rss+xml" title="dailybugbounties" href="feed.xml">
 <style>
   :root {
@@ -60,7 +60,7 @@
 <div class="wrap">
   <header>
     <h1>dailybugbounties</h1>
-    <p>Paid open source issues from Algora, IssueHunt, Opire and GitHub, sorted by payout. Updated daily.</p>
+    <p>Paid open source issues from Algora, IssueHunt, Opire, Expensify and GitHub. Newest first, updated daily.</p>
   </header>
 
   <div class="stats">
@@ -79,7 +79,7 @@
     </select>
     <select id="lang" aria-label="Language"><option value="">All languages</option></select>
     <select id="sort" aria-label="Sort">
-      <option value="pay">Highest payout</option><option value="new">Newest first</option>
+      <option value="new">Newest first</option><option value="pay">Highest payout</option>
       <option value="tries">Fewest tries</option>
     </select>
     <select id="tries" aria-label="Competition">
@@ -98,7 +98,11 @@
   </footer>
 </div>
 <script>
-const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", labeled: "Label" };
+const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", expensify: "Expensify", labeled: "Label", title: "Title" };
+// Works on GitHub Pages and on any other host: same folder first, then the repo's raw files.
+const RAW = "https://raw.githubusercontent.com/krishi-shah/dailybugbounties/main/docs/";
+const get = (file, as) => fetch(file).then((r) => { if (!r.ok) throw 0; return r[as](); })
+  .catch(() => fetch(RAW + file).then((r) => r[as]()));
 const $ = (id) => document.getElementById(id);
 const state = { all: [], sources: new Set(), known: new Set(), today: "", newOnly: false };
 
@@ -155,6 +159,7 @@ function render() {
     (!q || (b.title + " " + b.repo_full).toLowerCase().includes(q)));
   const sort = $("sort").value;
   if (sort === "new") rows.sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || (b.created_at || "").localeCompare(a.created_at || ""));
+  else if (sort === "pay") rows.sort((a, b) => b.amount_usd - a.amount_usd);
   else if (sort === "tries") rows.sort((a, b) => (a.attempts + a.claims) - (b.attempts + b.claims) || b.amount_usd - a.amount_usd);
   saveState();
   $("count").textContent = `${rows.length} shown · ${money(rows.reduce((a, b) => a + b.amount_usd, 0), true)}`;
@@ -175,7 +180,7 @@ function render() {
     </div>`).join("") : '<div class="empty">No bounties match these filters.</div>';
 }
 
-fetch("bounties.json").then((r) => r.json()).then((data) => {
+get("bounties.json", "json").then((data) => {
   state.all = data.bounties;
   state.today = data.generated_at.slice(0, 10);
   $("s-count").textContent = data.count.toLocaleString();
@@ -196,7 +201,7 @@ fetch("bounties.json").then((r) => r.json()).then((data) => {
     e.preventDefault();
     navigator.clipboard?.writeText(location.href).then(() => { $("share").textContent = "Link copied"; setTimeout(() => ($("share").textContent = "Copy link to this view"), 1500); });
   };
-  fetch("history.csv").then((r) => r.ok ? r.text() : "").then(spark).catch(() => {});
+  get("history.csv", "text").then(spark).catch(() => {});
   render();
 }).catch(() => { $("list").innerHTML = '<div class="empty">Could not load bounties.json.</div>'; });
 </script>

@@ -41,8 +41,30 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data docs/bounties.json docs/feed.xml
+          git add README.md data docs/bounties.json docs/feed.xml docs/history.csv
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           COUNT=$(python -c "import json;d=json.load(open('data/bounties.json'));print(f\"{d['count']} bounties, \${d['total_usd']:,.0f}\")")
           git commit -m "feed: $COUNT ($(date -u +%F))"
           git push
+
+  # Publishes docs/ as the website. One time setup: Settings → Pages → Source: "GitHub Actions".
+  pages:
+    needs: feed
+    runs-on: ubuntu-latest
+    continue-on-error: true   # never let a Pages hiccup fail the feed
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with: { ref: main }   # pick up the feed commit made by the previous job
+      - uses: actions/configure-pages@v5
+        with: { enablement: true }
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: docs }
+      - id: deploy
+        uses: actions/deploy-pages@v4

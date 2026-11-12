@@ -40,9 +40,15 @@ def main(argv=None) -> int:
             log.error("unknown source %s", s)
 
     merged = pipeline.merge_all(groups)
-    log.info("%d unique issues before enrichment", len(merged))
+    blocklist = pipeline.load_blocklist(root / "blocklist.txt")
+    # Only spend API calls on issues that could make the list. Algora amounts
+    # arrive during enrichment, so those always go through.
+    merged = {k: b for k, b in merged.items()
+              if not pipeline.blocked(b, blocklist)
+              and ("algora" in b.sources or (b.amount_usd and b.amount_usd >= pipeline.config.MIN_AMOUNT))}
+    log.info("%d unique issues worth checking", len(merged))
     enrich.enrich(gh, merged)
-    items, _ = pipeline.select(merged, gh.authed, pipeline.load_blocklist(root / "blocklist.txt"))
+    items, _ = pipeline.select(merged, gh.authed, blocklist)
 
     if not items:
         # Never overwrite a good feed with an empty one because of an outage.
@@ -53,6 +59,7 @@ def main(argv=None) -> int:
     seen_path = root / "data" / "seen.json"
     seen = json.loads(seen_path.read_text()) if seen_path.exists() else {}
     seen = pipeline.stamp_first_seen(items, seen, now.date().isoformat())
+    items.sort(key=pipeline.latest_key, reverse=True)  # newest first everywhere
     seen_path.parent.mkdir(exist_ok=True)
     seen_path.write_text(json.dumps(seen, indent=0, sort_keys=True))
 

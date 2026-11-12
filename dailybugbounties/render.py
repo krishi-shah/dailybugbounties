@@ -13,7 +13,8 @@ from . import config
 from .models import Bounty
 
 START, END = "<!-- FEED:START -->", "<!-- FEED:END -->"
-SOURCE_NAMES = {"algora": "Algora", "issuehunt": "IssueHunt", "opire": "Opire", "labeled": "Label"}
+SOURCE_NAMES = {"algora": "Algora", "issuehunt": "IssueHunt", "opire": "Opire", "expensify": "Expensify",
+                "labeled": "Label", "title": "Title"}
 
 
 def money(v: float) -> str:
@@ -83,16 +84,14 @@ def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
         f"**Languages:** {langs}",
         "",
     ]
-    # On a normal day, lead with what changed. On day one everything is new, so skip it.
-    if fresh and len(fresh) < len(items):
-        lines += [f"### 🆕 New today ({len(fresh)})", ""]
-        lines += table(fresh[:config.README_NEW_N], today)
-        lines += [""]
-    lines += [f"### 💰 Top {min(config.README_TOP_N, len(items))} by payout", ""]
+    lines += [f"### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today.", ""]
     lines += table(items[:config.README_TOP_N], today)
     if len(items) > config.README_TOP_N:
         lines += ["", f"The full list of {len(items)} is in [`data/bounties.json`](data/bounties.json) "
                       "and on the [website](https://krishi-shah.github.io/dailybugbounties/)."]
+    biggest = sorted(items, key=lambda b: -(b.amount_usd or 0))[:config.README_NEW_N]
+    lines += ["", f"### 💰 Biggest payouts right now", ""]
+    lines += table(biggest, today)
     lines.append(END)
     return "\n".join(lines)
 

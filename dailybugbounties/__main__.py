@@ -10,9 +10,9 @@ from pathlib import Path
 
 from . import enrich, pipeline, render
 from .github import GitHub
-from .sources import github_search, opire, superteam
+from .sources import devpool, github_search, opire, superteam, taskbounty
 
-ALL = ["algora", "issuehunt", "opire", "expensify", "labeled", "title", "superteam"]
+ALL = ["algora", "issuehunt", "opire", "expensify", "devpool", "taskbounty", "labeled", "title", "superteam"]
 
 
 def main(argv=None) -> int:
@@ -36,6 +36,10 @@ def main(argv=None) -> int:
             groups.append(opire.fetch())
         elif s == "superteam":
             groups.append(superteam.fetch())
+        elif s == "devpool":
+            groups.append(devpool.fetch(gh))
+        elif s == "taskbounty":
+            groups.append(taskbounty.fetch())
         elif s in github_search.AMOUNT_ORDER:
             groups.append(github_search.fetch(gh, s))
         else:

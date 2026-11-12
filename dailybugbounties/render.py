@@ -14,7 +14,8 @@ from .models import Bounty
 
 START, END = "<!-- FEED:START -->", "<!-- FEED:END -->"
 SOURCE_NAMES = {"algora": "Algora", "issuehunt": "IssueHunt", "opire": "Opire", "expensify": "Expensify",
-                "labeled": "Label", "title": "Title", "superteam": "Superteam"}
+                "labeled": "Label", "title": "Title", "superteam": "Superteam",
+                "devpool": "DevPool", "taskbounty": "TaskBounty"}
 
 
 def money(v: float) -> str:

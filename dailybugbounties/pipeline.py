@@ -11,7 +11,9 @@ from .models import Bounty
 
 log = logging.getLogger(__name__)
 
-PLATFORMS = {"algora", "issuehunt", "opire", "expensify", "superteam"}
+PLATFORMS = {"algora", "issuehunt", "opire", "expensify", "superteam", "devpool", "taskbounty"}
+# Programs run by the paying company itself. Their repos can be small, so star rules don't apply.
+TRUSTED = {"expensify", "devpool"}
 # Single company programs that post many real bounties in one repo.
 UNCAPPED = {"expensify"}
 
@@ -23,7 +25,7 @@ INJECTION = re.compile(
 
 
 # Paid in a crypto token or points, not cash. "$" amounts elsewhere in these issues are misleading.
-NON_CASH = re.compile(r"\b\d[\d,.]*\s*(?:RTC|tokens?|points?|pts|XP|credits?|coins?|sats)\b", re.I)
+NON_CASH = re.compile(r"\b\d[\d,.]*\s*(?:RTC|tokens?|points?|pts|XP|credits?|coins?|sats)\b|site credit", re.I)
 # Bait that looks like a bounty but isn't work: airdrops, "claim your reward" invitations.
 SCAM = re.compile(r"instant reward|zero[- ]?gas|airdrop|claim (?:your|now)|bounty invitation|free (?:usdc|usdt|crypto)", re.I)
 
@@ -87,13 +89,15 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
         if b.deadline and b.deadline[:19] < _now_iso():
             return "expired"
         return None
-    min_stars = config.MIN_STARS_PLATFORM if platform_backed else config.MIN_STARS_LABELED
+    trusted = bool(TRUSTED & set(b.sources))
+    min_stars = 0 if trusted else config.MIN_STARS_PLATFORM if platform_backed else config.MIN_STARS_LABELED
     if authed and min_stars and (b.stars or 0) < min_stars:
         return "low_stars"
-    if authed and b.amount_usd >= config.BIG_AMOUNT and (b.stars or 0) < config.MIN_STARS_BIG_LABELED:
-        return "big_amount_small_repo"
-    if authed and b.amount_usd >= config.MID_AMOUNT and (b.stars or 0) < config.MIN_STARS_MID:
-        return "big_amount_small_repo"
+    if authed and not trusted:
+        big = b.amount_usd >= config.BIG_AMOUNT and (b.stars or 0) < config.MIN_STARS_BIG_LABELED
+        mid = b.amount_usd >= config.MID_AMOUNT and (b.stars or 0) < config.MIN_STARS_MID
+        if big or mid:
+            return "big_amount_small_repo"
     stale_after = config.STALE_DAYS_PLATFORM if platform_backed else config.STALE_DAYS
     if _days_since(b.updated_at) > stale_after:
         return "stale"

@@ -7,7 +7,7 @@ from pathlib import Path
 from dailybugbounties import config, enrich, pipeline, render
 from dailybugbounties.models import Bounty
 from dailybugbounties.money import parse_amount
-from dailybugbounties.sources import from_search_item, amount_from_issue, opire, superteam
+from dailybugbounties.sources import from_search_item, amount_from_issue, devpool, opire, superteam, taskbounty
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -45,6 +45,29 @@ class Sources(unittest.TestCase):
         self.assertEqual(b.amount_usd, 42.0)
         self.assertEqual(b.languages, ["Rust"])
         self.assertEqual(b.attempts, 1)
+
+    def test_devpool_maps_to_original_issue(self):
+        item = {"html_url": "https://github.com/devpool-directory/devpool-directory/issues/6255",
+                "title": "Preserve 502 for exchange transport failures", "state": "open",
+                "labels": [{"name": "Priority: 2 (Medium)"}, {"name": "Price: 37.5 USD"}, {"name": "Time: <1 Hour"}],
+                "body": "https://github.com/ubiquity/ai.ubq.fi/issues/1282"}
+        b = devpool.from_item(item)
+        self.assertEqual((b.owner, b.repo, b.number, b.amount_usd), ("ubiquity", "ai.ubq.fi", 1282, 37.5))
+        self.assertEqual(b.url, "https://github.com/ubiquity/ai.ubq.fi/issues/1282")
+        self.assertIsNone(devpool.from_item({**item, "labels": [{"name": "Time: <1 Hour"}]}))
+        # Trusted program: small repos are fine
+        self.assertIsNone(pipeline.reject_reason(B(sources=["devpool"], stars=3, amount_usd=600), True))
+
+    def test_taskbounty_parse(self):
+        got = taskbounty.parse([
+            {"task_id": "t1", "title": "Fix flaky test", "bounty_cents": 5000,
+             "github_issue_url": "https://github.com/acme/api/issues/42", "language": "Go"},
+            {"task_id": "t2", "title": "No link", "bounty_cents": 9000}])
+        self.assertEqual(len(got), 1)
+        self.assertEqual((got[0].repo, got[0].number, got[0].amount_usd, got[0].languages), ("api", 42, 50.0, ["Go"]))
+
+    def test_site_credit_is_not_cash(self):
+        self.assertEqual(pipeline.reject_reason(B(title="[$20 site credit] Add a PHP example"), True), "non_cash")
 
     def test_superteam_keeps_only_paid_dev_listings(self):
         items = superteam.parse(json.loads((FIX / "superteam.json").read_text()))
@@ -192,7 +215,7 @@ class Pipeline(unittest.TestCase):
     def test_cli_runs_every_source(self):
         from dailybugbounties.__main__ import ALL
         from dailybugbounties.sources.github_search import AMOUNT_ORDER
-        self.assertEqual(set(ALL), set(AMOUNT_ORDER) | {"opire", "superteam"})
+        self.assertEqual(set(ALL), set(AMOUNT_ORDER) | {"opire", "superteam", "devpool", "taskbounty"})
 
     def test_first_seen(self):
         a, b = B(number=1), B(number=2)

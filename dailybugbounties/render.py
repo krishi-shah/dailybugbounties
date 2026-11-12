@@ -11,6 +11,7 @@ from typing import List
 
 from . import config
 from .models import Bounty
+from .payers import PAYOUT_NAMES
 
 START, END = "<!-- FEED:START -->", "<!-- FEED:END -->"
 SOURCE_NAMES = {"algora": "Algora", "issuehunt": "IssueHunt", "opire": "Opire", "expensify": "Expensify",
@@ -65,15 +66,16 @@ def lang_of(b: Bounty) -> str:
 
 
 def table(rows: List[Bounty], today: date) -> List[str]:
-    out = ["| Payout | Issue | Repo | ★ | Lang | Source | Tries | PRs | Age |",
+    out = ["| Payout | Issue | Repo | ★ | Lang | Source · pays via | Tries | PRs | Age |",
            "|---:|---|---|---:|---|---|---:|---:|---:|"]
     for b in rows:
         new = " 🆕" if b.first_seen == today.isoformat() else ""
         out.append(
             f"| **{money(b.amount_usd)}** | [{md_escape(b.title)}]({b.url}){new} "
-            f"| {f'[{md_escape(b.full_repo)}]({b.home_url})' if b.home_url else md_escape(b.full_repo)} "
+            f"| {f'[{md_escape(b.full_repo)}]({b.home_url})' if b.home_url else md_escape(b.full_repo)}"
+            f"{' ✅' if b.verified_payer else ''} "
             f"| {f'{b.stars:,}' if b.stars is not None else ''} "
-            f"| {lang_of(b)} | {', '.join(SOURCE_NAMES.get(s, s) for s in b.sources)} "
+            f"| {lang_of(b)} | {', '.join(SOURCE_NAMES.get(s, s) for s in b.sources)} · {PAYOUT_NAMES.get(b.payout, b.payout)} "
             f"| {b.attempts + b.claims if b.is_issue else f'{b.submissions} sub'} | {b.open_prs or ''} "
             f"| {due_in(b.deadline, today) if b.deadline else age_days(b.created_at, today)} |")
     return out
@@ -87,6 +89,8 @@ def readme_block(all_items: List[Bounty], payload: dict, today: date) -> str:
                      Counter(s for b in items for s in b.sources).most_common())
     langs = " · ".join(f"{k} {v}" for k, v in Counter(lang_of(b) for b in items if lang_of(b)).most_common(8))
     untouched = sum(1 for b in items if b.attempts + b.claims == 0 and not b.open_prs)
+    verified = sum(1 for b in items if b.verified_payer)
+    pays = " · ".join(f"{PAYOUT_NAMES.get(k, k)} {v}" for k, v in Counter(b.payout for b in items).most_common())
     lines = [
         START,
         f"**{len(items)} open bounties worth ${sum(b.amount_usd for b in items):,.0f}** · "
@@ -94,10 +98,12 @@ def readme_block(all_items: List[Bounty], payload: dict, today: date) -> str:
         f"updated {payload['generated_at'][:16].replace('T', ' ')} UTC",
         "",
         f"**Sources:** {src}  ",
+        f"**Pays via:** {pays} · **✅ Verified payers:** {verified}  ",
         f"**Languages:** {langs}",
         "",
     ]
-    lines += [f"### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today. **Tries** counts `/attempt` and `/claim` comments; **PRs** counts open pull requests that would close the issue.", ""]
+    lines += [f"### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that have paid bounties before. "
+              "**Tries** counts `/attempt` and `/claim` comments; **PRs** counts open pull requests that would close the issue.", ""]
     lines += table(items[:config.README_TOP_N], today)
     more = []
     if len(items) > config.README_TOP_N:

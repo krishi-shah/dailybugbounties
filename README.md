@@ -158,6 +158,20 @@ Bounties from boards like Superteam Earn aren't GitHub issues, so they skip the 
 
 No paid APIs, no accounts, no dependencies. It uses Python's standard library and the built in `GITHUB_TOKEN`.
 
+## How you get paid
+
+Every bounty shows how it pays and whether the repo has paid before.
+
+| Pays via | Sources | What you need |
+|---|---|---|
+| Stripe | Algora, Opire | A Stripe account for payouts. Claim with `/claim #<issue>` in your PR |
+| Upwork | Expensify | A verified Upwork profile linked in your GitHub bio, and an accepted proposal before you code |
+| Crypto wallet | DevPool, Superteam Earn, TaskBounty | A wallet address registered with the platform. Some Superteam listings need KYC |
+| IssueHunt | IssueHunt | An IssueHunt account |
+| Ask maintainer | Bounty labels and titles | Read the issue. The maintainer decides how and when to pay |
+
+**✅ Verified payer** means we've seen this repo pay bounties before: Algora's `💰 Rewarded` label, DevPool tasks closed as completed, or issues marked `paid` or `rewarded`. Expensify is marked verified because it pays every accepted fix through Upwork. The evidence builds up over time in [`data/payers.json`](data/payers.json).
+
 ## Run it yourself
 
 ```bash

@@ -8,7 +8,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from . import enrich, pipeline, render
+from . import enrich, payers, pipeline, render
 from .github import GitHub
 from .sources import devpool, github_search, opire, superteam, taskbounty
 
@@ -20,6 +20,8 @@ def main(argv=None) -> int:
     p.add_argument("--root", default=".", help="repo root to write data/, docs/, README.md")
     p.add_argument("--sources", default=",".join(ALL))
     p.add_argument("--site-url", default=os.getenv("BB_SITE_URL", "https://krishi-shah.github.io/dailybugbounties/"))
+    p.add_argument("--no-payers", dest="payers", action="store_false",
+                   help="skip the search for repos that have paid bounties before")
     p.add_argument("-v", "--verbose", action="store_true")
     a = p.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if a.verbose else logging.INFO,
@@ -62,6 +64,14 @@ def main(argv=None) -> int:
         return 1
 
     now = datetime.now(timezone.utc)
+    payers_path = root / "data" / "payers.json"
+    history = payers.load(payers_path)
+    if a.payers:
+        history = payers.merge_history(history, payers.collect_payers(gh), now.date().isoformat())
+        payers_path.parent.mkdir(exist_ok=True)
+        payers.save(payers_path, history)
+    payers.apply(items, history)
+    log.info("%d bounties from verified payers", sum(b.verified_payer for b in items))
     seen_path = root / "data" / "seen.json"
     seen = json.loads(seen_path.read_text()) if seen_path.exists() else {}
     seen = pipeline.stamp_first_seen(items, seen, now.date().isoformat())

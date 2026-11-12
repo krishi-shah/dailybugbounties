@@ -45,6 +45,9 @@ class Bounty:
     claims: int = 0
     open_prs: int = 0
     older: bool = False  # issue opened more than MAX_AGE_DAYS ago
+    payout: str = "maintainer"     # how it gets paid: stripe, upwork, crypto, issuehunt, maintainer
+    paid_before: int = 0           # paid bounties seen in this repo before
+    verified_payer: bool = False
     first_seen: Optional[str] = None
 
     @property

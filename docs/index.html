@@ -26,7 +26,7 @@
   .stat b { display: block; font: 700 26px/1.1 var(--mono); }
   .stat span { color: var(--muted); font-size: 13px; display: block; }
   #spark path { fill: none; stroke: var(--accent); stroke-width: 2; }
-  .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
   .filters input, .filters select { width: 100%; padding: 9px 11px; border: 1px solid var(--line);
          border-radius: 8px; background: var(--card); color: var(--fg); font: inherit; }
   .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
@@ -45,6 +45,7 @@
   .meta a { color: inherit; }
   .new { color: var(--new); font-weight: 700; font-size: 12px; margin-left: 6px; }
   .pr, .due { color: var(--new); }
+  .ok { color: var(--accent); font-weight: 600; }
   .tries { font: 13px var(--mono); color: var(--muted); text-align: right; white-space: nowrap; }
   .empty { padding: 40px; text-align: center; color: var(--muted); }
   footer { margin-top: 30px; color: var(--muted); font-size: 13px; }
@@ -83,6 +84,11 @@
       <option value="new">Newest first</option><option value="pay">Highest payout</option>
       <option value="tries">Fewest tries</option>
     </select>
+    <select id="pay" aria-label="How it pays">
+      <option value="">Any payout method</option><option value="stripe">Stripe</option>
+      <option value="upwork">Upwork</option><option value="crypto">Crypto wallet</option>
+      <option value="nocrypto">No crypto</option><option value="maintainer">Ask maintainer</option>
+    </select>
     <select id="tries" aria-label="Competition">
       <option value="999">Any competition</option><option value="0">Nobody on it yet</option>
       <option value="2">2 or fewer tries</option><option value="5">5 or fewer tries</option>
@@ -105,7 +111,8 @@ const RAW = "https://raw.githubusercontent.com/krishi-shah/dailybugbounties/main
 const get = (file, as) => fetch(file).then((r) => { if (!r.ok) throw 0; return r[as](); })
   .catch(() => fetch(RAW + file).then((r) => r[as]()));
 const $ = (id) => document.getElementById(id);
-const state = { all: [], sources: new Set(), known: new Set(), today: "", newOnly: false, older: false };
+const state = { all: [], sources: new Set(), known: new Set(), today: "", newOnly: false, older: false, verified: false };
+const PAY = { stripe: "Stripe", upwork: "Upwork", crypto: "Crypto wallet", issuehunt: "IssueHunt", maintainer: "Ask maintainer" };
 
 const money = (v, whole) => "$" + Number(whole ? Math.round(v) : v).toLocaleString("en-US", { minimumFractionDigits: !whole && v % 1 ? 2 : 0, maximumFractionDigits: whole ? 0 : 2 });
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -127,7 +134,7 @@ function chip(label, pressed, onClick) {
   return b;
 }
 
-const FIELDS = ["q", "min", "lang", "sort", "tries"];
+const FIELDS = ["q", "min", "lang", "sort", "pay", "tries"];
 function saveState() {
   const p = new URLSearchParams();
   FIELDS.forEach((id) => { const v = $(id).value; if (v && v !== $(id).options?.[0]?.value) p.set(id, v); });
@@ -135,6 +142,7 @@ function saveState() {
   if (off.length) p.set("hide", off.join(","));
   if (state.newOnly) p.set("new", "1");
   if (state.older) p.set("older", "1");
+  if (state.verified) p.set("verified", "1");
   history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
 }
 function loadState() {
@@ -143,6 +151,7 @@ function loadState() {
   (p.get("hide") || "").split(",").filter(Boolean).forEach((k) => state.sources.delete(k));
   state.newOnly = p.get("new") === "1";
   state.older = p.get("older") === "1";
+  state.verified = p.get("verified") === "1";
 }
 function spark(csv) {
   const rows = csv.trim().split("\n").slice(1).map((r) => r.split(","));
@@ -156,7 +165,7 @@ function spark(csv) {
 
 function render() {
   const q = $("q").value.trim().toLowerCase();
-  const min = +$("min").value, lg = $("lang").value, maxTries = +$("tries").value;
+  const min = +$("min").value, lg = $("lang").value, maxTries = +$("tries").value, pay = $("pay").value;
   const rows = state.all.filter((b) =>
     b.amount_usd >= min &&
     (!lg || lang(b) === lg || (b.languages || []).includes(lg)) &&
@@ -164,6 +173,8 @@ function render() {
     b.sources.some((s) => state.sources.has(s)) &&
     (!state.newOnly || b.first_seen === state.today) &&
     (state.older || !b.older) &&
+    (!state.verified || b.verified_payer) &&
+    (!pay || (pay === "nocrypto" ? b.payout !== "crypto" : b.payout === pay)) &&
     (!q || (b.title + " " + b.repo_full).toLowerCase().includes(q)));
   const sort = $("sort").value;
   if (sort === "new") rows.sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || (b.created_at || "").localeCompare(a.created_at || ""));
@@ -180,7 +191,8 @@ function render() {
           ${b.home_url ? `<a href="${esc(b.home_url)}" target="_blank" rel="noopener">${esc(b.repo_full)}</a>` : `<span>${esc(b.repo_full)}</span>`}
           ${b.stars != null ? `<span>★ ${b.stars.toLocaleString()}</span>` : ""}
           ${lang(b) ? `<span>${esc(lang(b))}</span>` : ""}
-          <span>${b.sources.map((s) => NAMES[s] || s).join(", ")}</span>
+          <span>${b.sources.map((s) => NAMES[s] || s).join(", ")} · pays via ${PAY[b.payout] || b.payout}</span>
+          ${b.verified_payer ? `<span class="ok" title="This repo has paid bounties before">✅ ${b.paid_before ? `paid ${b.paid_before} before` : "verified payer"}</span>` : ""}
           ${b.deadline ? `<span class="due">${due(b.deadline)}</span>` : `<span>${age(b.created_at)}</span>`}
         </div>
       </div>
@@ -205,6 +217,7 @@ get("bounties.json", "json").then((data) => {
       () => state.sources.has(s) ? state.sources.delete(s) : state.sources.add(s)));
   });
   $("chips").append(chip("New today only", state.newOnly, () => (state.newOnly = !state.newOnly)));
+  $("chips").append(chip("✅ Verified payers only", state.verified, () => (state.verified = !state.verified)));
   const nOld = data.bounties.filter((b) => b.older).length;
   if (nOld) $("chips").append(chip(`Include ${nOld} older`, state.older, () => (state.older = !state.older)));
   FIELDS.forEach((id) => $(id).addEventListener("input", render));

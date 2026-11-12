@@ -4,7 +4,7 @@ import unittest
 from datetime import datetime, timezone
 from pathlib import Path
 
-from dailybugbounties import config, enrich, pipeline, render
+from dailybugbounties import config, enrich, payers, pipeline, render
 from dailybugbounties.models import Bounty
 from dailybugbounties.money import parse_amount
 from dailybugbounties.sources import from_search_item, amount_from_issue, devpool, opire, superteam, taskbounty
@@ -230,6 +230,40 @@ class Pipeline(unittest.TestCase):
             p = Path(d) / "bl.txt"
             p.write_text("# comment\nFoo/Bar  # why\n\nbaz\n")
             self.assertEqual(pipeline.load_blocklist(p), {"foo/bar", "baz"})
+
+
+class Payers(unittest.TestCase):
+    def test_payout_method_by_source(self):
+        self.assertEqual(payers.payout_method(B(sources=["labeled", "algora"])), "stripe")
+        self.assertEqual(payers.payout_method(B(sources=["expensify"])), "upwork")
+        self.assertEqual(payers.payout_method(B(sources=["devpool"])), "crypto")
+        self.assertEqual(payers.payout_method(B(sources=["title"])), "maintainer")
+
+    def test_evidence_repo_mapping(self):
+        algora = {"html_url": "https://github.com/zio/zio-blocks/issues/5"}
+        devpool = {"html_url": "https://github.com/devpool-directory/devpool-directory/issues/1",
+                   "body": "https://github.com/ubiquity/pay.ubq.fi/issues/9"}
+        self.assertEqual(payers._repo_of(algora, "algora_rewarded"), "zio/zio-blocks")
+        self.assertEqual(payers._repo_of(devpool, "devpool_completed"), "ubiquity/pay.ubq.fi")
+        self.assertIsNone(payers._repo_of({"html_url": "x", "body": ""}, "devpool_completed"))
+
+    def test_history_never_shrinks(self):
+        h = payers.merge_history({}, {"a/b": {"algora_rewarded": 5}}, "2026-11-01")
+        h = payers.merge_history(h, {"a/b": {"algora_rewarded": 2, "paid_label": 1}}, "2026-11-12")
+        self.assertEqual(h["a/b"]["algora_rewarded"], 5)
+        self.assertEqual(payers.paid_count(h["a/b"]), 6)
+        self.assertEqual((h["a/b"]["first_seen"], h["a/b"]["last_seen"]), ("2026-11-01", "2026-11-12"))
+
+    def test_apply_marks_verified(self):
+        paid, unknown, program = B(owner="Zio", repo="Zio-Blocks", sources=["algora"]), B(owner="x"), \
+            B(owner="Expensify", repo="App", sources=["expensify"])
+        payers.apply([paid, unknown, program], {"zio/zio-blocks": {"algora_rewarded": 3}})
+        self.assertEqual((paid.verified_payer, paid.paid_before, paid.payout), (True, 3, "stripe"))
+        self.assertFalse(unknown.verified_payer)
+        self.assertTrue(program.verified_payer)
+        row = render.table([paid], datetime(2026, 11, 11).date())[2]
+        self.assertIn("✅", row)
+        self.assertIn("Algora · Stripe", row)
 
 
 class Render(unittest.TestCase):

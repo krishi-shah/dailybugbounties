@@ -18,7 +18,7 @@ dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire*
 ## Today's top bounties
 
 <!-- FEED:START -->
-**33 open bounties worth $16,515** · 33 new today · 19 with nobody trying yet · updated 2026-11-12 05:03 UTC
+**33 open bounties worth $16,515** · 33 new today · 19 with nobody trying yet · updated 2026-11-12 05:05 UTC
 
 **Sources:** Expensify 15 · Label 14 · Title 4 · Algora 2 · Superteam 2  
 **Languages:** TypeScript 18 · Shell 3 · HTML 3 · Python 2 · Java 2 · JavaScript 1 · Rust 1

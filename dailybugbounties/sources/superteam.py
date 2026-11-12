@@ -77,13 +77,25 @@ def _get(params: dict) -> list:
     return data if isinstance(data, list) else data.get("listings") or data.get("data") or []
 
 
-def fetch() -> List[Bounty]:
-    raw = []
+def fetch(max_pages: int = 10) -> List[Bounty]:
+    """Page through every open listing. The API returns small pages and may ignore
+    `type` and `take`, so we page with `skip` and stop when nothing new comes back."""
+    by_slug = {}
     for kind in ("bounty", "project"):
-        try:
-            raw += _get({"isWinnersAnnounced": "false", "take": 100, "type": kind})
-        except Exception as e:
-            log.error("superteam %s fetch failed: %s", kind, e)
+        skip = 0
+        for _ in range(max_pages):
+            try:
+                page = _get({"isWinnersAnnounced": "false", "take": 100, "skip": skip, "type": kind})
+            except Exception as e:
+                log.error("superteam %s fetch failed at skip=%d: %s", kind, skip, e)
+                break
+            new = [l for l in page if l.get("slug") and l["slug"] not in by_slug]
+            for l in new:
+                by_slug[l["slug"]] = l
+            if not new:
+                break
+            skip += len(page)
+    raw = list(by_slug.values())
     out = parse(raw)
     log.info("superteam: %d dev listings out of %d", len(out), len(raw))
     return out

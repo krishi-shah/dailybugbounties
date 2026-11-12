@@ -1,12 +1,27 @@
 {
- "generated_at": "2026-11-12T00:58:19+00:00",
- "count": 120,
- "total_usd": 27004.0,
+ "generated_at": "2026-11-12T01:04:02+00:00",
+ "count": 109,
+ "total_usd": 23874.0,
  "by_source": {
   "labeled": 26,
-  "algora": 39,
-  "issuehunt": 59,
+  "algora": 33,
+  "issuehunt": 54,
   "opire": 1
+ },
+ "by_language": {
+  "TypeScript": 41,
+  "JavaScript": 32,
+  "Python": 5,
+  "Rust": 4,
+  "Java": 3,
+  "Go": 3,
+  "Swift": 3,
+  "HTML": 3,
+  "Shell": 3,
+  "MDX": 1,
+  "C": 1,
+  "Vue": 1,
+  "C#": 1
  },
  "bounties": [
   {
@@ -469,37 +484,6 @@
    "repo_full": "SecureBananaLabs/bug-bounty"
   },
   {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 790,
-   "title": "[ Laravel ] Implement file upload system with checksum dedup and thumbnail generation",
-   "amount_usd": 600.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$600",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T07:08:36Z",
-   "updated_at": "2026-07-19T20:01:43Z",
-   "comments": 17,
-   "attempts": 7,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/790",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
    "owner": "getdozer",
    "repo": "dozer",
    "number": 1653,
@@ -550,130 +534,6 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/getdozer/dozer/issues/1659",
    "repo_full": "getdozer/dozer"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 918,
-   "title": "[ Crypto ] Fix first-depositor price manipulation in LiquidityPool",
-   "amount_usd": 600.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$600",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:44:03Z",
-   "updated_at": "2026-09-21T16:42:13Z",
-   "comments": 49,
-   "attempts": 17,
-   "claims": 7,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/918",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 914,
-   "title": "[ Crypto ] Fix phantom reward accrual after period expiry in YieldVault",
-   "amount_usd": 550.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$550",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:43:13Z",
-   "updated_at": "2026-07-21T09:10:13Z",
-   "comments": 41,
-   "attempts": 14,
-   "claims": 4,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/914",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 829,
-   "title": "[ T3 Code ] Implement automatic token refresh in ACP client with Effect retry",
-   "amount_usd": 500.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$500",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T07:27:41Z",
-   "updated_at": "2026-11-06T19:24:01Z",
-   "comments": 24,
-   "attempts": 14,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/829",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 793,
-   "title": "[ Laravel ] Implement user notification preferences with channel routing",
-   "amount_usd": 450.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$450",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T07:09:03Z",
-   "updated_at": "2026-10-04T15:50:49Z",
-   "comments": 25,
-   "attempts": 8,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/793",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
   },
   {
    "owner": "SecureBananaLabs",
@@ -736,38 +596,6 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/highlight/highlight/issues/5082",
    "repo_full": "highlight/highlight"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 1,
-   "title": "Implement Secure Payment Gateway and Payment Service",
-   "amount_usd": 350.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$350",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "good first issue",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-16T16:50:35Z",
-   "updated_at": "2026-10-21T17:06:59Z",
-   "comments": 132,
-   "attempts": 20,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1",
-   "repo_full": "SecureBananaLabs/bug-bounty"
   },
   {
    "owner": "trypear",
@@ -2815,88 +2643,6 @@
    "repo_full": "auscaster/frantic-board"
   },
   {
-   "owner": "gajus",
-   "repo": "flow-runtime",
-   "number": 27,
-   "title": "Types not resolving to `.js.flow` files",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 796,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-01-13T00:52:30Z",
-   "updated_at": "2026-11-10T14:50:58Z",
-   "comments": 6,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/gajus/flow-runtime/issues/27",
-   "repo_full": "gajus/flow-runtime"
-  },
-  {
-   "owner": "gajus",
-   "repo": "flow-runtime",
-   "number": 2,
-   "title": "Add assertions when implicitly returning from a function",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "low-priority"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 796,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-01-04T18:50:06Z",
-   "updated_at": "2026-11-07T05:39:44Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/gajus/flow-runtime/issues/2",
-   "repo_full": "gajus/flow-runtime"
-  },
-  {
-   "owner": "gajus",
-   "repo": "flow-runtime",
-   "number": 113,
-   "title": "Errors are sometimes thrown with \"warn\" option",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "bug"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 796,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-05-16T13:56:27Z",
-   "updated_at": "2026-11-07T05:09:41Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/gajus/flow-runtime/issues/113",
-   "repo_full": "gajus/flow-runtime"
-  },
-  {
    "owner": "nodegui",
    "repo": "react-nodegui",
    "number": 31,
@@ -3164,59 +2910,6 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/auscaster/frantic-board/issues/558",
    "repo_full": "auscaster/frantic-board"
-  },
-  {
-   "owner": "1kc",
-   "repo": "razer-macos",
-   "number": 201,
-   "title": "Chroma Addressable RGB Controller",
-   "amount_usd": 10.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "Device Support"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 2581,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-01-20T22:02:11Z",
-   "updated_at": "2026-05-12T08:39:05Z",
-   "comments": 7,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/201",
-   "repo_full": "1kc/razer-macos"
-  },
-  {
-   "owner": "1kc",
-   "repo": "razer-macos",
-   "number": 187,
-   "title": "Please Add A Fire Effect Color Like The Synapse 2 when it used to work and maybe also be able to add some macros.  ",
-   "amount_usd": 10.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 2581,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-01-10T05:34:04Z",
-   "updated_at": "2026-05-12T03:37:40Z",
-   "comments": 3,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/187",
-   "repo_full": "1kc/razer-macos"
   },
   {
    "owner": "speakers-in-tech",

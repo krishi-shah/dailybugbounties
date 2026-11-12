@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 00:58:19 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 01:04:02 +0000</lastBuildDate>
 <item>
 <title>$2,600 · QubesOS/qubes-issues · [Contribution] BusKill</title>
 <link>https://github.com/QubesOS/qubes-issues/issues/10567</link>
@@ -110,13 +110,6 @@
 <description>algora, labeled · 29 tries · JavaScript</description>
 </item>
 <item>
-<title>$600 · UnsafeLabs/Bounty-Hunters · [ Laravel ] Implement file upload system with checksum dedup and thumbnail generation</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/790</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/790</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 8 tries · TypeScript</description>
-</item>
-<item>
 <title>$600 · getdozer/dozer · WASM UDF support</title>
 <link>https://github.com/getdozer/dozer/issues/1653</link>
 <guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1653</guid>
@@ -131,34 +124,6 @@
 <description>algora · 24 tries · Rust</description>
 </item>
 <item>
-<title>$600 · UnsafeLabs/Bounty-Hunters · [ Crypto ] Fix first-depositor price manipulation in LiquidityPool</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/918</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/918</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 24 tries · TypeScript</description>
-</item>
-<item>
-<title>$550 · UnsafeLabs/Bounty-Hunters · [ Crypto ] Fix phantom reward accrual after period expiry in YieldVault</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/914</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/914</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 18 tries · TypeScript</description>
-</item>
-<item>
-<title>$500 · UnsafeLabs/Bounty-Hunters · [ T3 Code ] Implement automatic token refresh in ACP client with Effect retry</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/829</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/829</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 16 tries · TypeScript</description>
-</item>
-<item>
-<title>$450 · UnsafeLabs/Bounty-Hunters · [ Laravel ] Implement user notification preferences with channel routing</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/793</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/793</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 10 tries · TypeScript</description>
-</item>
-<item>
 <title>$430 · SecureBananaLabs/bug-bounty · Technical Poem Generation and Content Creation</title>
 <link>https://github.com/SecureBananaLabs/bug-bounty/issues/76</link>
 <guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/76</guid>
@@ -171,13 +136,6 @@
 <guid isPermaLink="true">https://github.com/highlight/highlight/issues/5082</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>algora · 6 tries · TypeScript</description>
-</item>
-<item>
-<title>$350 · SecureBananaLabs/bug-bounty · Implement Secure Payment Gateway and Payment Service</title>
-<link>https://github.com/SecureBananaLabs/bug-bounty/issues/1</link>
-<guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/1</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 22 tries · JavaScript</description>
 </item>
 <item>
 <title>$300 · trypear/pearai-app · [Hard] Package Releases Automation</title>
@@ -353,5 +311,47 @@
 <guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>algora · 16 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · revertinc/revert · [REVER-51] Workable Integration</title>
+<link>https://github.com/revertinc/revert/issues/551</link>
+<guid isPermaLink="true">https://github.com/revertinc/revert/issues/551</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 23 tries · TypeScript</description>
+</item>
+<item>
+<title>$90 · piotrwitek/utility-types · Add a web page with API documentation that will be automatically generated from the recent source code changes</title>
+<link>https://github.com/piotrwitek/utility-types/issues/30</link>
+<guid isPermaLink="true">https://github.com/piotrwitek/utility-types/issues/30</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$90 · egoist/bili · Legacy bundles &amp; modern bundles</title>
+<link>https://github.com/egoist/bili/issues/182</link>
+<guid isPermaLink="true">https://github.com/egoist/bili/issues/182</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$90 · egoist/bili · *.d.ts bundles</title>
+<link>https://github.com/egoist/bili/issues/183</link>
+<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$85 · microg/GmsCore · [BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]</title>
+<link>https://github.com/microg/GmsCore/issues/2851</link>
+<guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2851</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 1 tries · Java</description>
+</item>
+<item>
+<title>$82 · avajs/ava · Make it easier to write reliable cleanup tasks</title>
+<link>https://github.com/avajs/ava/issues/928</link>
+<guid isPermaLink="true">https://github.com/avajs/ava/issues/928</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
 </item>
 </channel></rss>

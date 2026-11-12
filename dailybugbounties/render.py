@@ -73,8 +73,8 @@ def readme_block(all_items: List[Bounty], payload: dict, today: date) -> str:
     older = len(all_items) - len(items)
     fresh = [b for b in items if b.first_seen == today.isoformat()]
     src = " · ".join(f"{SOURCE_NAMES.get(k, k)} {v}" for k, v in
-                     sorted(payload["by_source"].items(), key=lambda kv: -kv[1]))
-    langs = " · ".join(f"{k} {v}" for k, v in list(payload["by_language"].items())[:8])
+                     Counter(s for b in items for s in b.sources).most_common())
+    langs = " · ".join(f"{k} {v}" for k, v in Counter(lang_of(b) for b in items if lang_of(b)).most_common(8))
     untouched = sum(1 for b in items if b.attempts + b.claims == 0 and not b.open_prs)
     lines = [
         START,

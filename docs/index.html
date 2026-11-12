@@ -105,7 +105,7 @@ const RAW = "https://raw.githubusercontent.com/krishi-shah/dailybugbounties/main
 const get = (file, as) => fetch(file).then((r) => { if (!r.ok) throw 0; return r[as](); })
   .catch(() => fetch(RAW + file).then((r) => r[as]()));
 const $ = (id) => document.getElementById(id);
-const state = { all: [], sources: new Set(), known: new Set(), today: "", newOnly: false };
+const state = { all: [], sources: new Set(), known: new Set(), today: "", newOnly: false, older: false };
 
 const money = (v, whole) => "$" + Number(whole ? Math.round(v) : v).toLocaleString("en-US", { minimumFractionDigits: !whole && v % 1 ? 2 : 0, maximumFractionDigits: whole ? 0 : 2 });
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -130,6 +130,7 @@ function saveState() {
   const off = Object.keys(NAMES).filter((k) => state.known.has(k) && !state.sources.has(k));
   if (off.length) p.set("hide", off.join(","));
   if (state.newOnly) p.set("new", "1");
+  if (state.older) p.set("older", "1");
   history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
 }
 function loadState() {
@@ -137,6 +138,7 @@ function loadState() {
   FIELDS.forEach((id) => { if (p.has(id)) $(id).value = p.get(id); });
   (p.get("hide") || "").split(",").filter(Boolean).forEach((k) => state.sources.delete(k));
   state.newOnly = p.get("new") === "1";
+  state.older = p.get("older") === "1";
 }
 function spark(csv) {
   const rows = csv.trim().split("\n").slice(1).map((r) => r.split(","));
@@ -157,6 +159,7 @@ function render() {
     (b.attempts + b.claims) <= maxTries && (maxTries > 0 || !b.open_prs) &&
     b.sources.some((s) => state.sources.has(s)) &&
     (!state.newOnly || b.first_seen === state.today) &&
+    (state.older || !b.older) &&
     (!q || (b.title + " " + b.repo_full).toLowerCase().includes(q)));
   const sort = $("sort").value;
   if (sort === "new") rows.sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || (b.created_at || "").localeCompare(a.created_at || ""));
@@ -184,8 +187,9 @@ function render() {
 get("bounties.json", "json").then((data) => {
   state.all = data.bounties;
   state.today = data.generated_at.slice(0, 10);
-  $("s-count").textContent = data.count.toLocaleString();
-  $("s-total").textContent = money(data.total_usd, true);
+  const cur = data.bounties.filter((b) => !b.older);
+  $("s-count").textContent = cur.length.toLocaleString();
+  $("s-total").textContent = money(cur.reduce((a, b) => a + b.amount_usd, 0), true);
   $("s-new").textContent = data.bounties.filter((b) => b.first_seen === state.today).length;
   $("s-updated").textContent = data.generated_at.slice(0, 16).replace("T", " ");
   const langs = [...new Set(data.bounties.map(lang).filter(Boolean))].sort();
@@ -197,6 +201,8 @@ get("bounties.json", "json").then((data) => {
       () => state.sources.has(s) ? state.sources.delete(s) : state.sources.add(s)));
   });
   $("chips").append(chip("New today only", state.newOnly, () => (state.newOnly = !state.newOnly)));
+  const nOld = data.bounties.filter((b) => b.older).length;
+  if (nOld) $("chips").append(chip(`Include ${nOld} older`, state.older, () => (state.older = !state.older)));
   FIELDS.forEach((id) => $(id).addEventListener("input", render));
   $("share").onclick = (e) => {
     e.preventDefault();

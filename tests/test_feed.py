@@ -111,8 +111,6 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(r(B(amount_usd=10000, stars=40, sources=["algora"]), True), "big_amount_small_repo")
         self.assertEqual(r(B(updated_at="2021-01-01T00:00:00Z"), True), "stale")
         self.assertEqual(r(B(updated_at="2021-01-01T00:00:00Z", sources=["issuehunt"]), True), "stale")
-        self.assertEqual(r(B(created_at="2021-01-01T00:00:00Z", updated_at="2099-01-01T00:00:00Z",
-                             sources=["algora"]), True), "too_old")
         self.assertEqual(r(B(title="[BOUNTY: 67 RTC] integration spec"), True), "non_cash")
         self.assertEqual(r(B(title="Fix", labels=["500 points"]), True), "non_cash")
         self.assertEqual(r(B(title="🎁 [Bounty Invitation] $10 USDC Instant Reward"), True), "scam")
@@ -134,6 +132,18 @@ class Pipeline(unittest.TestCase):
         self.assertEqual(kept[0].amount_usd, 114)
         self.assertEqual(kept[0].owner, "o")  # fewer attempts wins the tie
         self.assertEqual(kept[-1].owner, "x")
+
+    def test_older_marked_not_dropped(self):
+        old = B(number=1, created_at="2021-01-01T00:00:00Z", updated_at="2099-01-01T00:00:00Z", sources=["algora"])
+        new = B(number=2, created_at="2099-01-01T00:00:00Z")
+        kept, _ = pipeline.select({"a": old, "b": new}, True)
+        self.assertEqual(len(kept), 2)
+        self.assertTrue(old.older)
+        self.assertFalse(new.older)
+        block = render.readme_block(kept, render.build_payload(kept, datetime(2026, 11, 11, tzinfo=timezone.utc)),
+                                    datetime(2026, 11, 11).date())
+        self.assertIn("**1 open bounties", block)
+        self.assertIn("1 older bounties", block)
 
     def test_latest_first(self):
         old = B(number=1, created_at="2024-01-01T00:00:00Z", first_seen="2026-11-01", amount_usd=900)

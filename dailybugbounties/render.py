@@ -68,7 +68,9 @@ def table(rows: List[Bounty], today: date) -> List[str]:
     return out
 
 
-def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
+def readme_block(all_items: List[Bounty], payload: dict, today: date) -> str:
+    items = [b for b in all_items if not b.older]
+    older = len(all_items) - len(items)
     fresh = [b for b in items if b.first_seen == today.isoformat()]
     src = " · ".join(f"{SOURCE_NAMES.get(k, k)} {v}" for k, v in
                      sorted(payload["by_source"].items(), key=lambda kv: -kv[1]))
@@ -76,7 +78,7 @@ def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
     untouched = sum(1 for b in items if b.attempts + b.claims == 0 and not b.open_prs)
     lines = [
         START,
-        f"**{payload['count']} open bounties worth ${payload['total_usd']:,.0f}** · "
+        f"**{len(items)} open bounties worth ${sum(b.amount_usd for b in items):,.0f}** · "
         f"{len(fresh)} new today · {untouched} with nobody trying yet · "
         f"updated {payload['generated_at'][:16].replace('T', ' ')} UTC",
         "",
@@ -86,9 +88,14 @@ def readme_block(items: List[Bounty], payload: dict, today: date) -> str:
     ]
     lines += [f"### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today. **Tries** counts `/attempt` and `/claim` comments; **PRs** counts open pull requests that would close the issue.", ""]
     lines += table(items[:config.README_TOP_N], today)
+    more = []
     if len(items) > config.README_TOP_N:
-        lines += ["", f"The full list of {len(items)} is in [`data/bounties.json`](data/bounties.json) "
-                      "and on the [website](https://krishi-shah.github.io/dailybugbounties/)."]
+        more.append(f"{len(items) - config.README_TOP_N} more recent ones")
+    if older:
+        more.append(f"{older} older bounties on issues opened more than two years ago")
+    if more:
+        lines += ["", f"Plus {' and '.join(more)}: see the [website](https://krishi-shah.github.io/dailybugbounties/) "
+                      "or [`data/bounties.json`](data/bounties.json)."]
     biggest = sorted(items, key=lambda b: -(b.amount_usd or 0))[:config.README_NEW_N]
     lines += ["", f"### 💰 Biggest payouts right now", ""]
     lines += table(biggest, today)

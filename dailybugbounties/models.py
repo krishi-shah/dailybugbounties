@@ -37,6 +37,7 @@ class Bounty:
     attempts: int = 0
     claims: int = 0
     open_prs: int = 0
+    older: bool = False  # issue opened more than MAX_AGE_DAYS ago
     first_seen: Optional[str] = None
 
     @property

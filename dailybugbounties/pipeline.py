@@ -73,12 +73,25 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
     min_stars = config.MIN_STARS_PLATFORM if platform_backed else config.MIN_STARS_LABELED
     if authed and min_stars and (b.stars or 0) < min_stars:
         return "low_stars"
+    if authed and b.amount_usd >= config.BIG_AMOUNT and (b.stars or 0) < config.MIN_STARS_BIG_LABELED:
+        return "big_amount_small_repo"
     if not platform_backed:
         if b.full_repo.lower() in farms and (not authed or (b.stars or 0) < config.FARM_MIN_STARS):
             return "issue_farm"
-        if authed and b.amount_usd >= config.BIG_AMOUNT and (b.stars or 0) < config.MIN_STARS_BIG_LABELED:
-            return "big_amount_small_repo"
+        if _days_since(b.updated_at) > config.STALE_DAYS:
+            return "stale"
     return None
+
+
+def _days_since(iso):
+    from datetime import datetime, timezone
+    if not iso:
+        return 0
+    try:
+        d = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    except ValueError:
+        return 0
+    return (datetime.now(timezone.utc) - d).days
 
 
 def rank_key(b: Bounty):

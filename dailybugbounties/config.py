@@ -8,14 +8,14 @@ MAX_AMOUNT = float(os.getenv("BB_MAX_AMOUNT", 50_000))
 
 # The generic `bounty` label is spammy, so its repos must clear a star bar.
 MIN_STARS_LABELED = int(os.getenv("BB_MIN_STARS_LABELED", 50))
-# Big payouts on the generic label need a repo people actually use.
+# Big payouts from any source need a repo people actually use.
 BIG_AMOUNT = 5_000
 MIN_STARS_BIG_LABELED = 200
 # A repo with this many labeled bounty issues is an issue farm unless it is popular.
 FARM_THRESHOLD = 40
 FARM_MIN_STARS = 500
 # Platform sources (Algora, IssueHunt, Opire) are vetted by the platform already.
-MIN_STARS_PLATFORM = int(os.getenv("BB_MIN_STARS_PLATFORM", 0))
+MIN_STARS_PLATFORM = int(os.getenv("BB_MIN_STARS_PLATFORM", 10))
 
 # One repo can't flood the list.
 PER_REPO_CAP = int(os.getenv("BB_PER_REPO_CAP", 10))
@@ -40,3 +40,6 @@ GITHUB_SEARCH_QUERIES = {
 }
 
 OPIRE_URL = "https://api.opire.dev/rewards"
+
+# Generic label bounties with no activity for this long are treated as abandoned.
+STALE_DAYS = int(os.getenv("BB_STALE_DAYS", 540))

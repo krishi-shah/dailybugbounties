@@ -136,7 +136,7 @@ Then, once a day in GitHub Actions:
 
 1. **Merge.** If one issue shows up on two platforms, it becomes one row. We keep the higher amount and never add the two together.
 2. **Verify.** One GraphQL call for every 25 issues gets the open/closed state, repo stars, language, archive status and the `/attempt` and `/claim` comments.
-3. **Filter.** We drop closed issues, archived repos, amounts under $10 or over $50k, and prompt injection bait. For the generic `bounty` label we also drop repos under 50 stars, payouts of $5k or more in repos under 200 stars, issue farms, and anything in [`blocklist.txt`](blocklist.txt).
+3. **Filter.** We drop closed issues, archived repos, amounts under $10 or over $50k, and prompt injection bait. We drop any repo under 10 stars and payouts of $5k or more in repos under 200 stars. For the generic `bounty` label we also drop repos under 50 stars, issue farms, issues with no activity for 18 months, and anything in [`blocklist.txt`](blocklist.txt).
 4. **Rank.** Highest payout first. When two pay the same, the one with fewer people trying wins.
 5. **Publish.** The run writes this README, the JSON, the RSS feed and the site data, then commits them if anything changed.
 

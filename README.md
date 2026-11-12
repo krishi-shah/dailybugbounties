@@ -18,9 +18,9 @@ dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire*
 ## Today's top bounties
 
 <!-- FEED:START -->
-**31 open bounties worth $11,015** · 31 new today · 17 with nobody trying yet · updated 2026-11-12 04:50 UTC
+**33 open bounties worth $16,515** · 33 new today · 19 with nobody trying yet · updated 2026-11-12 05:03 UTC
 
-**Sources:** Expensify 15 · Label 14 · Title 4 · Algora 2  
+**Sources:** Expensify 15 · Label 14 · Title 4 · Algora 2 · Superteam 2  
 **Languages:** TypeScript 18 · Shell 3 · HTML 3 · Python 2 · Java 2 · JavaScript 1 · Rust 1
 
 ### 🆕 Latest bounties
@@ -60,6 +60,8 @@ Newest first. 🆕 marks bounties that showed up today. **Tries** counts `/attem
 | **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label, Title | 0 | 10 | 1y |
 | **$70** | [Make blinks interaction Handsfree](https://github.com/TheSolaAI/sola-application/issues/157) 🆕 | [TheSolaAI/sola-application](https://github.com/TheSolaAI/sola-application) | 53 | TypeScript | Algora | 20 | 15 | 1y |
 | **$250** | [Improve test coverage with Vitest](https://github.com/outerbase/starbasedb/issues/71) 🆕 | [outerbase/starbasedb](https://github.com/outerbase/starbasedb) | 1,171 | TypeScript | Algora | 20 | 19 | 1y |
+| **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) 🆕 | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam | 73 sub |  | due 32d |
+| **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) 🆕 | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam | 1 sub |  | due 28d |
 
 Plus 78 older bounties on issues opened more than two years ago: see the [website](https://krishi-shah.github.io/dailybugbounties/) or [`data/bounties.json`](data/bounties.json).
 
@@ -67,16 +69,16 @@ Plus 78 older bounties on issues opened more than two years ago: see the [websit
 
 | Payout | Issue | Repo | ★ | Lang | Source | Tries | PRs | Age |
 |---:|---|---|---:|---|---|---:|---:|---:|
+| **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) 🆕 | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam | 73 sub |  | due 32d |
 | **$2,600** | [\[Contribution\] BusKill](https://github.com/QubesOS/qubes-issues/issues/10567) 🆕 | [QubesOS/qubes-issues](https://github.com/QubesOS/qubes-issues) | 624 |  | Label | 0 |  | 304d |
 | **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label, Title | 0 | 10 | 1y |
 | **$750** | [\[Bounty $750\] Fix remaining sharded scale_mask_softmax mask handling issues](https://github.com/tenstorrent/tt-metal/issues/64647) 🆕 | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 123 | Python | Label | 0 | 5 | 6d |
 | **$750** | [\[Bounty $750\] Fix sharded softmax on offset core grids](https://github.com/tenstorrent/tt-metal/issues/64575) 🆕 | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 123 | Python | Label | 0 | 5 | 6d |
+| **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) 🆕 | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam | 1 sub |  | due 28d |
 | **$250** | [\[$250\] \[Sentry: APP-NX5\] iOS HybridApp crashes when approving a report in Gu…](https://github.com/Expensify/App/issues/106234) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 |  | 6d |
 | **$250** | [\[$250\] Members - Display name opens not here page](https://github.com/Expensify/App/issues/106201) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 |  | 6d |
 | **$250** | [\[$250\] iOS: App stops responding to taps after dismissing AI promo or welcome …](https://github.com/Expensify/App/issues/105796) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 |  | 9d |
 | **$250** | [\[$250\] Account - System back button on 2FA success RHP navigates to Account > …](https://github.com/Expensify/App/issues/105693) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 |  | 10d |
-| **$250** | [\[$250\] Hybrid-Home- Home cards do not refresh after reopen app from other apps](https://github.com/Expensify/App/issues/105231) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 |  | 15d |
-| **$250** | [\[$250\] Android - Spend - "Apply" button is overlapped by keyboard in exposed f…](https://github.com/Expensify/App/issues/105145) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 |  | 16d |
 <!-- FEED:END -->
 
 ## How it works

@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 19:00:24 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 19:10:18 +0000</lastBuildDate>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
 <link>https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/</link>
@@ -19,11 +19,46 @@
 <description>labeled · 0 tries · </description>
 </item>
 <item>
+<title>$2,400 · ubiquity/ubiquity-dollar · Add `UUSD` and `UBQ` tokens to popular services</title>
+<link>https://github.com/ubiquity/ubiquity-dollar/issues/984</link>
+<guid isPermaLink="true">https://github.com/ubiquity/ubiquity-dollar/issues/984</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · Solidity</description>
+</item>
+<item>
 <title>$2,340 · microg/GmsCore · [BOUNTY] WearOS Support [$2340]</title>
 <link>https://github.com/microg/GmsCore/issues/2843</link>
 <guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2843</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled, title · 0 tries · Java</description>
+</item>
+<item>
+<title>$1,800 · ubiquity-os/.github · UbiquityOS Sprint Management Dashboard</title>
+<link>https://github.com/ubiquity-os/.github/issues/14</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/.github/issues/14</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 1 tries · </description>
+</item>
+<item>
+<title>$1,200 · ubiquity/ubiquity-dollar · Integrate Liquity V1 Stability Pool for LUSD Collateral Yield</title>
+<link>https://github.com/ubiquity/ubiquity-dollar/issues/997</link>
+<guid isPermaLink="true">https://github.com/ubiquity/ubiquity-dollar/issues/997</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · Solidity</description>
+</item>
+<item>
+<title>$1,200 · ubiquity-os-marketplace/text-conversation-rewards · GitHub Decoupling</title>
+<link>https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/385</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/385</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$1,200 · ubiquity-os/plugin-template · Make Knip and Jest workflows reusable</title>
+<link>https://github.com/ubiquity-os/plugin-template/issues/13</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugin-template/issues/13</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
 <title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
@@ -40,6 +75,20 @@
 <description>labeled · 0 tries · Go</description>
 </item>
 <item>
+<title>$900 · devpool-directory/devpool-directory-tasks · DevPool Directory Matchmaking UI</title>
+<link>https://github.com/devpool-directory/devpool-directory-tasks/issues/63</link>
+<guid isPermaLink="true">https://github.com/devpool-directory/devpool-directory-tasks/issues/63</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 1 tries · </description>
+</item>
+<item>
+<title>$900 · ubiquity-os-marketplace/text-vector-embeddings · Nomic Embeddings Model for +10% Accuracy</title>
+<link>https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/111</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/111</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
 <title>$750 · tenstorrent/tt-metal · [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues</title>
 <link>https://github.com/tenstorrent/tt-metal/issues/64647</link>
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64647</guid>
@@ -52,6 +101,90 @@
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64575</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · Python</description>
+</item>
+<item>
+<title>$600 · ubiquity-os/plugins-wishlist · command-plan</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/78</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/78</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
+</item>
+<item>
+<title>$600 · ubiquity-os-marketplace/text-conversation-rewards · Specialized Prompts</title>
+<link>https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/340</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/340</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/business-development · Launch campaign to target pilot partners from large open source projects</title>
+<link>https://github.com/ubiquity/business-development/issues/185</link>
+<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/185</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/business-development · Launch campaign towards L1s/L2s for managing their GitHubs</title>
+<link>https://github.com/ubiquity/business-development/issues/184</link>
+<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/184</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$600 · ubiquity-os-marketplace/text-conversation-rewards · Implement Differential Reward Distribution for Reopened Issues</title>
+<link>https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/301</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/301</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/.github · Unified Authentication</title>
+<link>https://github.com/ubiquity/.github/issues/124</link>
+<guid isPermaLink="true">https://github.com/ubiquity/.github/issues/124</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/pay.ubq.fi · Cow Swap Cash Out</title>
+<link>https://github.com/ubiquity/pay.ubq.fi/issues/386</link>
+<guid isPermaLink="true">https://github.com/ubiquity/pay.ubq.fi/issues/386</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/business-development · Recruiting: Dragonfly CTF II</title>
+<link>https://github.com/ubiquity/business-development/issues/155</link>
+<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/155</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/arbitrage-bot · Arbitrage bot</title>
+<link>https://github.com/ubiquity/arbitrage-bot/issues/3</link>
+<guid isPermaLink="true">https://github.com/ubiquity/arbitrage-bot/issues/3</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/ubiquity-dollar · Security monitoring</title>
+<link>https://github.com/ubiquity/ubiquity-dollar/issues/927</link>
+<guid isPermaLink="true">https://github.com/ubiquity/ubiquity-dollar/issues/927</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · Solidity</description>
+</item>
+<item>
+<title>$600 · ubiquity-os/permit-generation · Automatic Transfer</title>
+<link>https://github.com/ubiquity-os/permit-generation/issues/6</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/permit-generation/issues/6</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$600 · ubiquity/ubiquity-dollar · Governance Token emissions to `ubq.eth` new strategy</title>
+<link>https://github.com/ubiquity/ubiquity-dollar/issues/831</link>
+<guid isPermaLink="true">https://github.com/ubiquity/ubiquity-dollar/issues/831</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · Solidity</description>
 </item>
 <item>
 <title>$600 · getdozer/dozer · Support for `IN` clause in streaming SQL</title>
@@ -75,6 +208,55 @@
 <description>superteam · 0 tries · </description>
 </item>
 <item>
+<title>$450 · ubiquity-os/.github · Plugin health monitor</title>
+<link>https://github.com/ubiquity-os/.github/issues/12</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/.github/issues/12</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 1 tries · </description>
+</item>
+<item>
+<title>$450 · ubiquity-os/plugins-wishlist · Automatically set a `Time: ` label</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/76</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/76</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 1 tries · </description>
+</item>
+<item>
+<title>$450 · ubiquity-os-marketplace/text-conversation-rewards · Review Incentive Double Check Calculations</title>
+<link>https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/260</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/260</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$450 · ubiquity/ubiquity-dollar · Final Pre-Seed/Seed Investor Debt UBQ</title>
+<link>https://github.com/ubiquity/ubiquity-dollar/issues/937</link>
+<guid isPermaLink="true">https://github.com/ubiquity/ubiquity-dollar/issues/937</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · Solidity</description>
+</item>
+<item>
+<title>$400 · ubiquity/arbitrage-bot · Multi Chain Arbitrage</title>
+<link>https://github.com/ubiquity/arbitrage-bot/issues/7</link>
+<guid isPermaLink="true">https://github.com/ubiquity/arbitrage-bot/issues/7</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$400 · ubiquity/business-development · Automating Call To Action Delivery (Repo XP Report)</title>
+<link>https://github.com/ubiquity/business-development/issues/196</link>
+<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/196</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$400 · ubiquity/business-development · Opire</title>
+<link>https://github.com/ubiquity/business-development/issues/89</link>
+<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/89</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · JavaScript</description>
+</item>
+<item>
 <title>$400 · highlight/highlight · Support Elixir among our SDKs</title>
 <link>https://github.com/highlight/highlight/issues/5082</link>
 <guid isPermaLink="true">https://github.com/highlight/highlight/issues/5082</guid>
@@ -82,11 +264,81 @@
 <description>algora · 4 tries · TypeScript</description>
 </item>
 <item>
+<title>$300 · ubiquity/stake.ubq.fi · Error Handling &amp; Status Toasts – Handoff</title>
+<link>https://github.com/ubiquity/stake.ubq.fi/issues/8</link>
+<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/8</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity/stake.ubq.fi · E2E Smoke (Playwright) – Handoff</title>
+<link>https://github.com/ubiquity/stake.ubq.fi/issues/4</link>
+<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/4</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity/uusd.ubq.fi · Integrate Wallet Connect via Reown AppKit</title>
+<link>https://github.com/ubiquity/uusd.ubq.fi/issues/24</link>
+<guid isPermaLink="true">https://github.com/ubiquity/uusd.ubq.fi/issues/24</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os/ubiquity-os-plugin-installer · premade configs that are hands-off for partners</title>
+<link>https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os/ubiquity-os-kernel · Callbacks - event handlers and hybrid plugins</title>
+<link>https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity/.github · New Proposal Router</title>
+<link>https://github.com/ubiquity/.github/issues/123</link>
+<guid isPermaLink="true">https://github.com/ubiquity/.github/issues/123</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os-marketplace/text-vector-embeddings · Improving Recommendations</title>
+<link>https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os/plugins-wishlist · Generalized &quot;GitHub Webhook + Contributor Role -&gt; Rewards&quot; Contributor Class v2</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/48</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/48</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
+</item>
+<item>
+<title>$300 · ubiquity-os/plugins-wishlist · Generalized &quot;GitHub Webhook + Contributor Role -&gt; Rewards&quot; With Config v3</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/47</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/47</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
+</item>
+<item>
 <title>$300 · trypear/pearai-app · [Hard] Package Releases Automation</title>
 <link>https://github.com/trypear/pearai-app/issues/44</link>
 <guid isPermaLink="true">https://github.com/trypear/pearai-app/issues/44</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os/plugins-wishlist · Check dev experience on starting an issue</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/26</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/26</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
 </item>
 <item>
 <title>$250 · Expensify/App · [$250] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review</title>
@@ -101,257 +353,5 @@
 <guid isPermaLink="true">https://github.com/Expensify/App/issues/106201</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] iOS: App stops responding to taps after dismissing AI promo or welcome popup</title>
-<link>https://github.com/Expensify/App/issues/105796</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/105796</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Hybrid-Home- Home cards do not refresh after reopen app from other apps</title>
-<link>https://github.com/Expensify/App/issues/105231</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/105231</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Android - Spend - &quot;Apply&quot; button is overlapped by keyboard in exposed filter.</title>
-<link>https://github.com/Expensify/App/issues/105145</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/105145</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Web-Chat- Edit comment input is not focused</title>
-<link>https://github.com/Expensify/App/issues/104360</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/104360</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Different error appear after network reconnect</title>
-<link>https://github.com/Expensify/App/issues/104060</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/104060</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Pressing Delete while selecting text inside a composer duplicates the content instead of clearing it.</title>
-<link>https://github.com/Expensify/App/issues/103875</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/103875</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Marking a chat as unread doesn&#x27;t stick — client immediately re-reads it, and other clients never see the change</title>
-<link>https://github.com/Expensify/App/issues/101234</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/101234</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Expense - Split preview loads infinitely and opens not here page after reset app</title>
-<link>https://github.com/Expensify/App/issues/98787</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/98787</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] [Exploratory] Warning company still has Consolidated Travel Billing not shown when delete ws offline</title>
-<link>https://github.com/Expensify/App/issues/98262</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/98262</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Spend - Default sort is descending</title>
-<link>https://github.com/Expensify/App/issues/91935</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/91935</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Gesture - Safari on iPhone flickers previous screen on swipe-back gesture</title>
-<link>https://github.com/Expensify/App/issues/75905</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/75905</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Reports - Back button on report view returns to different scroll position</title>
-<link>https://github.com/Expensify/App/issues/70080</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/70080</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · outerbase/starbasedb · Improve test coverage with Vitest</title>
-<link>https://github.com/outerbase/starbasedb/issues/71</link>
-<guid isPermaLink="true">https://github.com/outerbase/starbasedb/issues/71</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 20 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · onyx-dot-app/onyx · Jira Service Management Connector</title>
-<link>https://github.com/onyx-dot-app/onyx/issues/2281</link>
-<guid isPermaLink="true">https://github.com/onyx-dot-app/onyx/issues/2281</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 10 tries · Python</description>
-</item>
-<item>
-<title>$250 · getdozer/dozer · Sample: Dozer + LLM + Vector database + Langchain sample</title>
-<link>https://github.com/getdozer/dozer/issues/1690</link>
-<guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1690</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 11 tries · Rust</description>
-</item>
-<item>
-<title>$200 · dictation-toolbox/Caster · Integration with OS accessibility APIs</title>
-<link>https://github.com/dictation-toolbox/Caster/issues/814</link>
-<guid isPermaLink="true">https://github.com/dictation-toolbox/Caster/issues/814</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · Python</description>
-</item>
-<item>
-<title>$200 · gajus/flow-runtime · webpack loader</title>
-<link>https://github.com/gajus/flow-runtime/issues/165</link>
-<guid isPermaLink="true">https://github.com/gajus/flow-runtime/issues/165</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$200 · shanalikhan/code-settings-sync · Suggestion: Allow upload to repository</title>
-<link>https://github.com/shanalikhan/code-settings-sync/issues/413</link>
-<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/413</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$150 · cxlinux-ai/cx-core · [ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration</title>
-<link>https://github.com/cxlinux-ai/cx-core/issues/425</link>
-<guid isPermaLink="true">https://github.com/cxlinux-ai/cx-core/issues/425</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 2 tries · Rust</description>
-</item>
-<item>
-<title>$150 · scratchdata/scratchdata · UI for Database Connection Add and Delete</title>
-<link>https://github.com/scratchdata/scratchdata/issues/170</link>
-<guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/170</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 1 tries · Go</description>
-</item>
-<item>
-<title>$150 · marcosgriselli/SwipeableTabBarController · Very quick swipes cause app to freeze</title>
-<link>https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</link>
-<guid isPermaLink="true">https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · Swift</description>
-</item>
-<item>
-<title>$120 · piotrwitek/typesafe-actions · Add a generic redux-observable factory automatically handling async-actions - createAsyncEpic</title>
-<link>https://github.com/piotrwitek/typesafe-actions/issues/162</link>
-<guid isPermaLink="true">https://github.com/piotrwitek/typesafe-actions/issues/162</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$120 · shanalikhan/code-settings-sync · Considering disabled extensions</title>
-<link>https://github.com/shanalikhan/code-settings-sync/issues/143</link>
-<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/143</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$115 · piotrwitek/typesafe-actions · Add a generic reducer factory automatically handling async-actions - createAsyncReducer</title>
-<link>https://github.com/piotrwitek/typesafe-actions/issues/88</link>
-<guid isPermaLink="true">https://github.com/piotrwitek/typesafe-actions/issues/88</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$110 · effector/effector · Visualization for stores, events and relationships</title>
-<link>https://github.com/effector/effector/issues/91</link>
-<guid isPermaLink="true">https://github.com/effector/effector/issues/91</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 1 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · revertinc/revert · [REVER-51] Workable Integration</title>
-<link>https://github.com/revertinc/revert/issues/551</link>
-<guid isPermaLink="true">https://github.com/revertinc/revert/issues/551</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 22 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · revertinc/revert · [REVER-48] Workday Integration</title>
-<link>https://github.com/revertinc/revert/issues/372</link>
-<guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 16 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · vuejs/vetur · Use Vue component&#x27;s Props type parameter for prop type validation</title>
-<link>https://github.com/vuejs/vetur/issues/2344</link>
-<guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 1 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · effector/effector · Perf tests on real devices</title>
-<link>https://github.com/effector/effector/issues/161</link>
-<guid isPermaLink="true">https://github.com/effector/effector/issues/161</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Separate the majo instance and middleware context</title>
-<link>https://github.com/egoist/majo/issues/12</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/vue-content-loader · Responsive</title>
-<link>https://github.com/egoist/vue-content-loader/issues/18</link>
-<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Allow to source for multiple times</title>
-<link>https://github.com/egoist/majo/issues/9</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/9</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/codepan · add query string parameters for setting panel width</title>
-<link>https://github.com/egoist/codepan/issues/63</link>
-<guid isPermaLink="true">https://github.com/egoist/codepan/issues/63</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$100 · shanalikhan/code-settings-sync · Adding Support for Import / Export Sync Settings to File System</title>
-<link>https://github.com/shanalikhan/code-settings-sync/issues/256</link>
-<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/256</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · sindresorhus/caprine · App stops updating on resume after suspend mode</title>
-<link>https://github.com/sindresorhus/caprine/issues/103</link>
-<guid isPermaLink="true">https://github.com/sindresorhus/caprine/issues/103</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 1 tries · TypeScript</description>
-</item>
-<item>
-<title>$90 · egoist/bili · *.d.ts bundles</title>
-<link>https://github.com/egoist/bili/issues/183</link>
-<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 </channel></rss>

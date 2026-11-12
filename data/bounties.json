@@ -1,337 +1,29 @@
 {
- "generated_at": "2026-11-12T01:04:02+00:00",
- "count": 109,
- "total_usd": 23874.0,
+ "generated_at": "2026-11-12T01:26:59+00:00",
+ "count": 112,
+ "total_usd": 23914.0,
  "by_source": {
-  "labeled": 26,
+  "labeled": 29,
   "algora": 33,
-  "issuehunt": 54,
-  "opire": 1
+  "opire": 1,
+  "issuehunt": 54
  },
  "by_language": {
   "TypeScript": 41,
   "JavaScript": 32,
-  "Python": 5,
+  "Python": 8,
   "Rust": 4,
+  "Shell": 3,
+  "HTML": 3,
   "Java": 3,
   "Go": 3,
   "Swift": 3,
-  "HTML": 3,
-  "Shell": 3,
   "MDX": 1,
-  "C": 1,
+  "C#": 1,
   "Vue": 1,
-  "C#": 1
+  "C": 1
  },
  "bounties": [
-  {
-   "owner": "QubesOS",
-   "repo": "qubes-issues",
-   "number": 10567,
-   "title": "[Contribution] BusKill",
-   "amount_usd": 2600.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "C: contrib package",
-    "P: major",
-    "S: needs review",
-    "bounty",
-    "community dev"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 624,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-01-12T04:43:57Z",
-   "updated_at": "2026-11-09T18:04:34Z",
-   "comments": 19,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/QubesOS/qubes-issues/issues/10567",
-   "repo_full": "QubesOS/qubes-issues"
-  },
-  {
-   "owner": "microg",
-   "repo": "GmsCore",
-   "number": 2843,
-   "title": "[BOUNTY] WearOS Support [$2340]",
-   "amount_usd": 2340.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty",
-    "enhancement"
-   ],
-   "language": "Java",
-   "languages": [],
-   "stars": 15279,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2025-03-31T02:15:48Z",
-   "updated_at": "2026-11-11T20:53:50Z",
-   "comments": 196,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/microg/GmsCore/issues/2843",
-   "repo_full": "microg/GmsCore"
-  },
-  {
-   "owner": "Sifchain",
-   "repo": "sifnode",
-   "number": 503,
-   "title": "[sifnode] $1000 bounty for implementing Azure AKS support for sifnode",
-   "amount_usd": 1000.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty"
-   ],
-   "language": "Go",
-   "languages": [],
-   "stars": 107,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-01-15T18:45:35Z",
-   "updated_at": "2026-11-01T11:59:15Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/Sifchain/sifnode/issues/503",
-   "repo_full": "Sifchain/sifnode"
-  },
-  {
-   "owner": "Sifchain",
-   "repo": "sifnode",
-   "number": 524,
-   "title": "[sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503",
-   "amount_usd": 1000.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty"
-   ],
-   "language": "Go",
-   "languages": [],
-   "stars": 107,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-01-19T02:29:31Z",
-   "updated_at": "2026-10-31T17:45:14Z",
-   "comments": 10,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/Sifchain/sifnode/issues/524",
-   "repo_full": "Sifchain/sifnode"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 920,
-   "title": "[ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification",
-   "amount_usd": 900.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$900",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:44:27Z",
-   "updated_at": "2026-11-04T07:12:54Z",
-   "comments": 57,
-   "attempts": 15,
-   "claims": 9,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 754,
-   "title": "[ Laravel ] Implement webhook system with signature verification and retry queue",
-   "amount_usd": 800.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$800",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T06:07:12Z",
-   "updated_at": "2026-07-19T20:01:41Z",
-   "comments": 17,
-   "attempts": 7,
-   "claims": 3,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/754",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 916,
-   "title": "[ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback",
-   "amount_usd": 800.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$800",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:43:41Z",
-   "updated_at": "2026-11-03T04:31:48Z",
-   "comments": 51,
-   "attempts": 16,
-   "claims": 7,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/916",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 2776,
-   "title": "POST /api/reviews endpoint missing authentication middleware (reissue via #743)",
-   "amount_usd": 780.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$780",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "enhancement",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-31T09:48:14Z",
-   "updated_at": "2026-11-06T19:18:46Z",
-   "comments": 14,
-   "attempts": 5,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 11398,
-   "title": "Automate Bug Detection and Reviews",
-   "amount_usd": 780.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$1.2k",
-    "$1k",
-    "$780",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "documentation",
-    "enhancement",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-07-25T09:51:18Z",
-   "updated_at": "2026-11-08T18:41:07Z",
-   "comments": 26,
-   "attempts": 5,
-   "claims": 5,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 80,
-   "title": "Pixel Art Creation with high Creative Thinking",
-   "amount_usd": 780.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$780",
-    "AI agent friendly",
-    "bounty",
-    "bug bounty",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-17T15:04:05Z",
-   "updated_at": "2026-11-03T02:13:33Z",
-   "comments": 492,
-   "attempts": 26,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
   {
    "owner": "tenstorrent",
    "repo": "tt-metal",
@@ -387,1520 +79,58 @@
    "repo_full": "tenstorrent/tt-metal"
   },
   {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 802,
-   "title": "[ FastAPI ] Implement standardized pagination with offset and cursor support",
-   "amount_usd": 700.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$700",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T07:10:26Z",
-   "updated_at": "2026-10-11T00:40:54Z",
-   "comments": 24,
-   "attempts": 9,
-   "claims": 5,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/802",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "UnsafeLabs",
-   "repo": "Bounty-Hunters",
-   "number": 912,
-   "title": "[ Crypto ] Fix tx.origin phishing vulnerability in GovernanceToken delegation",
-   "amount_usd": 700.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "$700",
-    "AI Agent friendly",
-    "AI only allowed - no humans",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 58,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-15T13:42:51Z",
-   "updated_at": "2026-09-21T21:31:32Z",
-   "comments": 53,
-   "attempts": 10,
-   "claims": 13,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/912",
-   "repo_full": "UnsafeLabs/Bounty-Hunters"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 743,
-   "title": "Low Handing Fruit Automation",
-   "amount_usd": 700.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$700",
-    "AI agent friendly",
-    "bounty",
-    "bug",
-    "bug bounty",
-    "documentation",
-    "good first issue",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-27T06:32:39Z",
-   "updated_at": "2026-11-09T10:18:22Z",
-   "comments": 1455,
-   "attempts": 29,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "getdozer",
-   "repo": "dozer",
-   "number": 1653,
-   "title": "WASM UDF support",
-   "amount_usd": 600.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": "Rust",
-   "languages": [],
-   "stars": 1574,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-06-19T14:34:21Z",
-   "updated_at": "2026-11-07T08:52:52Z",
-   "comments": 29,
-   "attempts": 16,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/getdozer/dozer/issues/1653",
-   "repo_full": "getdozer/dozer"
-  },
-  {
-   "owner": "getdozer",
-   "repo": "dozer",
-   "number": 1659,
-   "title": "Support for `IN` clause in streaming SQL",
-   "amount_usd": 600.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": "Rust",
-   "languages": [],
-   "stars": 1574,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-06-20T17:18:05Z",
-   "updated_at": "2026-11-07T08:31:44Z",
-   "comments": 43,
-   "attempts": 23,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/getdozer/dozer/issues/1659",
-   "repo_full": "getdozer/dozer"
-  },
-  {
-   "owner": "SecureBananaLabs",
-   "repo": "bug-bounty",
-   "number": 76,
-   "title": "Technical Poem Generation and Content Creation",
-   "amount_usd": 430.0,
-   "sources": [
-    "algora",
-    "labeled"
-   ],
-   "labels": [
-    "$430",
-    "AI agent friendly",
-    "bounty",
-    "bug bounty",
-    "good first issue",
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 345,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-05-17T15:01:49Z",
-   "updated_at": "2026-11-03T03:39:52Z",
-   "comments": 266,
-   "attempts": 24,
-   "claims": 3,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
-   "repo_full": "SecureBananaLabs/bug-bounty"
-  },
-  {
-   "owner": "highlight",
-   "repo": "highlight",
-   "number": 5082,
-   "title": "Support Elixir among our SDKs",
-   "amount_usd": 400.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "external bug / request",
-    "help wanted",
-    "sdk",
-    "💎 Bounty",
-    "💰 Rewarded"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 9390,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-04-21T22:38:27Z",
-   "updated_at": "2026-10-09T08:40:16Z",
-   "comments": 36,
-   "attempts": 5,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/highlight/highlight/issues/5082",
-   "repo_full": "highlight/highlight"
-  },
-  {
-   "owner": "trypear",
-   "repo": "pearai-app",
-   "number": 44,
-   "title": "[Hard] Package Releases Automation",
-   "amount_usd": 300.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 715,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-07-14T11:16:54Z",
-   "updated_at": "2026-10-31T11:09:17Z",
-   "comments": 9,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/trypear/pearai-app/issues/44",
-   "repo_full": "trypear/pearai-app"
-  },
-  {
-   "owner": "onyx-dot-app",
-   "repo": "onyx",
-   "number": 2281,
-   "title": "Jira Service Management Connector",
-   "amount_usd": 250.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "enhancement",
-    "maintainer approved",
-    "💎 Bounty"
-   ],
-   "language": "Python",
-   "languages": [],
-   "stars": 33344,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-08-30T23:46:34Z",
-   "updated_at": "2026-11-11T21:03:07Z",
-   "comments": 190,
-   "attempts": 13,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-   "repo_full": "onyx-dot-app/onyx"
-  },
-  {
-   "owner": "getdozer",
-   "repo": "dozer",
-   "number": 1690,
-   "title": "Sample: Dozer + LLM + Vector database + Langchain sample",
-   "amount_usd": 250.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "documentation",
-    "💎 Bounty"
-   ],
-   "language": "Rust",
-   "languages": [],
-   "stars": 1574,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-06-28T14:11:53Z",
-   "updated_at": "2026-11-07T08:58:50Z",
-   "comments": 59,
-   "attempts": 14,
-   "claims": 3,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/getdozer/dozer/issues/1690",
-   "repo_full": "getdozer/dozer"
-  },
-  {
-   "owner": "outerbase",
-   "repo": "starbasedb",
-   "number": 71,
-   "title": "Improve test coverage with Vitest",
-   "amount_usd": 250.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "enhancement",
-    "💎 Bounty",
-    "💰 Rewarded"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 1171,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2025-01-23T20:00:07Z",
-   "updated_at": "2026-11-11T20:36:01Z",
-   "comments": 113,
-   "attempts": 28,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/outerbase/starbasedb/issues/71",
-   "repo_full": "outerbase/starbasedb"
-  },
-  {
-   "owner": "shanalikhan",
-   "repo": "code-settings-sync",
-   "number": 413,
-   "title": "Suggestion: Allow upload to repository",
-   "amount_usd": 200.0,
+   "owner": "auscaster",
+   "repo": "frantic-board",
+   "number": 558,
+   "title": "Frantic bounty #138: Find a live HTTP 402 endpoint that prices in Nano (XNO)",
+   "amount_usd": 10.0,
    "sources": [
     "labeled"
    ],
    "labels": [
     "bounty",
-    "feature-request  💡"
+    "delivered",
+    "funded"
    ],
-   "language": "TypeScript",
+   "language": "Shell",
    "languages": [],
-   "stars": 4094,
+   "stars": 966,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2017-10-11T14:30:01Z",
-   "updated_at": "2026-11-05T21:31:38Z",
-   "comments": 46,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/shanalikhan/code-settings-sync/issues/413",
-   "repo_full": "shanalikhan/code-settings-sync"
-  },
-  {
-   "owner": "gajus",
-   "repo": "flow-runtime",
-   "number": 165,
-   "title": "webpack loader",
-   "amount_usd": 200.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 796,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-10-28T12:50:10Z",
-   "updated_at": "2026-11-05T11:54:08Z",
-   "comments": 6,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/gajus/flow-runtime/issues/165",
-   "repo_full": "gajus/flow-runtime"
-  },
-  {
-   "owner": "dictation-toolbox",
-   "repo": "Caster",
-   "number": 814,
-   "title": "Integration with OS accessibility APIs",
-   "amount_usd": 200.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "Accessibility",
-    "New Feature"
-   ],
-   "language": "Python",
-   "languages": [],
-   "stars": 362,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-05-14T00:09:25Z",
-   "updated_at": "2026-09-09T14:50:41Z",
-   "comments": 24,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/dictation-toolbox/Caster/issues/814",
-   "repo_full": "dictation-toolbox/Caster"
-  },
-  {
-   "owner": "marcosgriselli",
-   "repo": "SwipeableTabBarController",
-   "number": 52,
-   "title": "Very quick swipes cause app to freeze",
-   "amount_usd": 150.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "bug"
-   ],
-   "language": "Swift",
-   "languages": [],
-   "stars": 1532,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-01-18T01:25:34Z",
-   "updated_at": "2026-10-08T21:25:25Z",
-   "comments": 38,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/marcosgriselli/SwipeableTabBarController/issues/52",
-   "repo_full": "marcosgriselli/SwipeableTabBarController"
-  },
-  {
-   "owner": "scratchdata",
-   "repo": "scratchdata",
-   "number": 170,
-   "title": "UI for Database Connection Add and Delete",
-   "amount_usd": 150.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty",
-    "💰 Rewarded"
-   ],
-   "language": "Go",
-   "languages": [],
-   "stars": 1118,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-05-07T21:44:09Z",
-   "updated_at": "2026-11-07T05:47:35Z",
-   "comments": 12,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/scratchdata/scratchdata/issues/170",
-   "repo_full": "scratchdata/scratchdata"
-  },
-  {
-   "owner": "cxlinux-ai",
-   "repo": "cx-core",
-   "number": 425,
-   "title": "[ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration",
-   "amount_usd": 150.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "ai",
-    "bounty",
-    "core-team",
-    "enhancement",
-    "priority: high"
-   ],
-   "language": "Rust",
-   "languages": [],
-   "stars": 81,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-01-02T00:26:51Z",
-   "updated_at": "2026-11-02T09:33:07Z",
-   "comments": 12,
-   "attempts": 2,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/cxlinux-ai/cx-core/issues/425",
-   "repo_full": "cxlinux-ai/cx-core"
-  },
-  {
-   "owner": "piotrwitek",
-   "repo": "typesafe-actions",
-   "number": 162,
-   "title": "Add a generic redux-observable factory automatically handling async-actions - createAsyncEpic",
-   "amount_usd": 120.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "high priority",
-    "in progress",
-    "investigating",
-    "new feature"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 2408,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-05-31T09:08:27Z",
-   "updated_at": "2026-10-05T02:34:03Z",
-   "comments": 7,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/typesafe-actions/issues/162",
-   "repo_full": "piotrwitek/typesafe-actions"
-  },
-  {
-   "owner": "shanalikhan",
-   "repo": "code-settings-sync",
-   "number": 143,
-   "title": "Considering disabled extensions",
-   "amount_usd": 120.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty",
-    "feature-request  💡"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 4094,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2016-11-14T15:29:30Z",
-   "updated_at": "2026-11-05T22:21:33Z",
-   "comments": 57,
-   "attempts": 10,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/shanalikhan/code-settings-sync/issues/143",
-   "repo_full": "shanalikhan/code-settings-sync"
-  },
-  {
-   "owner": "piotrwitek",
-   "repo": "typesafe-actions",
-   "number": 88,
-   "title": "Add a generic reducer factory automatically handling async-actions - createAsyncReducer",
-   "amount_usd": 115.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "high priority",
-    "new feature"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 2408,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-10-19T14:26:44Z",
-   "updated_at": "2026-09-09T19:16:44Z",
-   "comments": 6,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/typesafe-actions/issues/88",
-   "repo_full": "piotrwitek/typesafe-actions"
-  },
-  {
-   "owner": "effector",
-   "repo": "effector",
-   "number": 91,
-   "title": "Visualization for stores, events and relationships",
-   "amount_usd": 110.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 4852,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-05-01T21:28:27Z",
-   "updated_at": "2026-10-18T09:41:41Z",
-   "comments": 13,
-   "attempts": 0,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/effector/effector/issues/91",
-   "repo_full": "effector/effector"
-  },
-  {
-   "owner": "shanalikhan",
-   "repo": "code-settings-sync",
-   "number": 256,
-   "title": "Adding Support for Import / Export Sync Settings to File System",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "feature-request  💡"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 4094,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-03-11T19:18:16Z",
-   "updated_at": "2026-11-05T09:50:16Z",
-   "comments": 16,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/shanalikhan/code-settings-sync/issues/256",
-   "repo_full": "shanalikhan/code-settings-sync"
-  },
-  {
-   "owner": "effector",
-   "repo": "effector",
-   "number": 161,
-   "title": "Perf tests on real devices",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "compatibility",
-    "enhancement"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 4852,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-07-31T05:17:15Z",
-   "updated_at": "2026-10-09T00:29:10Z",
+   "created_at": "2026-10-24T21:29:48Z",
+   "updated_at": "2026-11-04T05:56:19Z",
    "comments": 1,
    "attempts": 0,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/effector/effector/issues/161",
-   "repo_full": "effector/effector"
+   "url": "https://github.com/auscaster/frantic-board/issues/558",
+   "repo_full": "auscaster/frantic-board"
   },
   {
-   "owner": "egoist",
-   "repo": "majo",
-   "number": 12,
-   "title": "Separate the majo instance and middleware context",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 53,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-06-10T10:15:39Z",
-   "updated_at": "2026-10-08T02:59:00Z",
-   "comments": 5,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/majo/issues/12",
-   "repo_full": "egoist/majo"
-  },
-  {
-   "owner": "egoist",
-   "repo": "majo",
-   "number": 9,
-   "title": "Allow to source for multiple times",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 53,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-09-20T15:06:40Z",
-   "updated_at": "2026-10-08T02:58:38Z",
-   "comments": 9,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/majo/issues/9",
-   "repo_full": "egoist/majo"
-  },
-  {
-   "owner": "egoist",
-   "repo": "codepan",
-   "number": 63,
-   "title": "add query string parameters for setting panel width",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 1200,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-06-27T11:59:28Z",
-   "updated_at": "2026-09-28T14:54:34Z",
-   "comments": 3,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/codepan/issues/63",
-   "repo_full": "egoist/codepan"
-  },
-  {
-   "owner": "egoist",
-   "repo": "vue-content-loader",
-   "number": 18,
-   "title": "Responsive",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 3027,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-03-08T09:44:21Z",
-   "updated_at": "2026-06-17T10:44:48Z",
-   "comments": 11,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/vue-content-loader/issues/18",
-   "repo_full": "egoist/vue-content-loader"
-  },
-  {
-   "owner": "devhubapp",
-   "repo": "devhub",
-   "number": 51,
-   "title": "Push notifications",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "feature request"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 10152,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-12-18T05:52:08Z",
-   "updated_at": "2021-04-14T11:19:13Z",
-   "comments": 11,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/devhubapp/devhub/issues/51",
-   "repo_full": "devhubapp/devhub"
-  },
-  {
-   "owner": "egoist",
-   "repo": "majo",
-   "number": 13,
-   "title": "Convert to TypeScript",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 53,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-06-10T10:17:46Z",
-   "updated_at": "2019-07-01T22:09:16Z",
-   "comments": 2,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/majo/issues/13",
-   "repo_full": "egoist/majo"
-  },
-  {
-   "owner": "vuejs",
-   "repo": "vetur",
-   "number": 2344,
-   "title": "Use Vue component's Props type parameter for prop type validation",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "feature-request",
-    "template-interpolation"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 5737,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-09-28T14:59:12Z",
-   "updated_at": "2026-11-05T22:58:02Z",
-   "comments": 13,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/vuejs/vetur/issues/2344",
-   "repo_full": "vuejs/vetur"
-  },
-  {
-   "owner": "sindresorhus",
-   "repo": "caprine",
-   "number": 103,
-   "title": "App stops updating on resume after suspend mode",
-   "amount_usd": 100.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "bug",
-    "help wanted"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 7415,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2016-05-23T14:09:42Z",
-   "updated_at": "2026-07-05T02:59:13Z",
-   "comments": 24,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/caprine/issues/103",
-   "repo_full": "sindresorhus/caprine"
-  },
-  {
-   "owner": "revertinc",
-   "repo": "revert",
-   "number": 372,
-   "title": "[REVER-48] Workday Integration",
-   "amount_usd": 100.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "ATS",
-    "GitHub",
-    "Plane",
-    "feature",
-    "integration",
-    "none",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 1018,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-11-20T07:09:27Z",
-   "updated_at": "2026-11-11T20:36:11Z",
-   "comments": 25,
-   "attempts": 15,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/revertinc/revert/issues/372",
-   "repo_full": "revertinc/revert"
-  },
-  {
-   "owner": "revertinc",
-   "repo": "revert",
-   "number": 551,
-   "title": "[REVER-51] Workable Integration",
-   "amount_usd": 100.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "ATS",
-    "GitHub",
-    "Plane",
-    "feature",
-    "integration",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 1018,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-04-29T11:50:14Z",
-   "updated_at": "2026-11-11T20:36:15Z",
-   "comments": 31,
-   "attempts": 21,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/revertinc/revert/issues/551",
-   "repo_full": "revertinc/revert"
-  },
-  {
-   "owner": "piotrwitek",
-   "repo": "utility-types",
-   "number": 30,
-   "title": "Add a web page with API documentation that will be automatically generated from the recent source code changes",
-   "amount_usd": 90.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    "docs",
-    "funded on IssueHunt",
-    "needs investigation"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 5768,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-09-19T06:11:21Z",
-   "updated_at": "2026-11-03T19:35:25Z",
-   "comments": 34,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/utility-types/issues/30",
-   "repo_full": "piotrwitek/utility-types"
-  },
-  {
-   "owner": "egoist",
-   "repo": "bili",
-   "number": 182,
-   "title": "Legacy bundles & modern bundles",
-   "amount_usd": 90.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 1030,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-04-12T16:49:36Z",
-   "updated_at": "2026-10-08T03:04:29Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/bili/issues/182",
-   "repo_full": "egoist/bili"
-  },
-  {
-   "owner": "egoist",
-   "repo": "bili",
-   "number": 183,
-   "title": "*.d.ts bundles",
-   "amount_usd": 90.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 1030,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-04-12T16:50:23Z",
-   "updated_at": "2026-10-08T03:03:29Z",
-   "comments": 5,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/bili/issues/183",
-   "repo_full": "egoist/bili"
-  },
-  {
-   "owner": "microg",
-   "repo": "GmsCore",
-   "number": 2851,
-   "title": "[BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]",
-   "amount_usd": 85.0,
+   "owner": "verdikta",
+   "repo": "verdikta-applications",
+   "number": 76,
+   "title": "[BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)",
+   "amount_usd": 30.0,
    "sources": [
     "labeled"
    ],
    "labels": [
     "bounty"
    ],
-   "language": "Java",
-   "languages": [],
-   "stars": 15279,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2025-04-06T09:44:38Z",
-   "updated_at": "2026-11-11T20:30:37Z",
-   "comments": 57,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/microg/GmsCore/issues/2851",
-   "repo_full": "microg/GmsCore"
-  },
-  {
-   "owner": "avajs",
-   "repo": "ava",
-   "number": 928,
-   "title": "Make it easier to write reliable cleanup tasks",
-   "amount_usd": 82.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted",
-    "scope:test-interface"
-   ],
    "language": "JavaScript",
-   "languages": [],
-   "stars": 20831,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2016-06-19T20:05:43Z",
-   "updated_at": "2026-11-07T19:31:33Z",
-   "comments": 42,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/avajs/ava/issues/928",
-   "repo_full": "avajs/ava"
-  },
-  {
-   "owner": "avajs",
-   "repo": "ava",
-   "number": 1986,
-   "title": "Analyze source & test dependencies to figure out which tests to run (first)",
-   "amount_usd": 80.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 20831,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-11-21T04:02:53Z",
-   "updated_at": "2026-11-07T19:34:06Z",
-   "comments": 14,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/avajs/ava/issues/1986",
-   "repo_full": "avajs/ava"
-  },
-  {
-   "owner": "shanalikhan",
-   "repo": "code-settings-sync",
-   "number": 396,
-   "title": "Upload/Download Conflicts",
-   "amount_usd": 80.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "PR-Welcome  ✨",
-    "bounty",
-    "bug 🐛"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 4094,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-09-17T21:15:27Z",
-   "updated_at": "2026-11-06T10:45:05Z",
-   "comments": 16,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/shanalikhan/code-settings-sync/issues/396",
-   "repo_full": "shanalikhan/code-settings-sync"
-  },
-  {
-   "owner": "piotrwitek",
-   "repo": "typesafe-actions",
-   "number": 156,
-   "title": "Add default handler in createReducer",
-   "amount_usd": 80.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "needs API design",
-    "needs community feedback",
-    "new feature"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 2408,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-05-22T05:42:38Z",
-   "updated_at": "2026-09-09T19:40:43Z",
-   "comments": 16,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/typesafe-actions/issues/156",
-   "repo_full": "piotrwitek/typesafe-actions"
-  },
-  {
-   "owner": "avajs",
-   "repo": "ava",
-   "number": 595,
-   "title": "Randomize test runs",
-   "amount_usd": 80.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted",
-    "scope:scheduling"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 20831,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2016-03-03T14:40:26Z",
-   "updated_at": "2026-11-07T19:33:04Z",
-   "comments": 13,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/avajs/ava/issues/595",
-   "repo_full": "avajs/ava"
-  },
-  {
-   "owner": "TheSolaAI",
-   "repo": "sola-application",
-   "number": 157,
-   "title": "Make blinks interaction Handsfree",
-   "amount_usd": 70.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "feature",
-    "help wanted",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
    "languages": [],
    "stars": 53,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2025-01-27T18:53:21Z",
-   "updated_at": "2026-11-11T20:52:46Z",
-   "comments": 28,
-   "attempts": 17,
-   "claims": 3,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/TheSolaAI/sola-application/issues/157",
-   "repo_full": "TheSolaAI/sola-application"
-  },
-  {
-   "owner": "egoist",
-   "repo": "bili",
-   "number": 184,
-   "title": "bili hangs on watch mode when Rollup emits a FATAL event",
-   "amount_usd": 60.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 1030,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-04-15T14:00:03Z",
-   "updated_at": "2026-11-10T10:23:20Z",
-   "comments": 6,
-   "attempts": 0,
+   "created_at": "2026-10-15T00:58:41Z",
+   "updated_at": "2026-11-03T17:32:26Z",
+   "comments": 12,
+   "attempts": 1,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/bili/issues/184",
-   "repo_full": "egoist/bili"
-  },
-  {
-   "owner": "sindresorhus",
-   "repo": "Settings",
-   "number": 9,
-   "title": "Rapidly switching between tabs causes view size to be wrong",
-   "amount_usd": 60.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "bug"
-   ],
-   "language": "Swift",
-   "languages": [],
-   "stars": 1558,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-03-12T09:32:34Z",
-   "updated_at": "2026-10-06T02:04:03Z",
-   "comments": 13,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/Settings/issues/9",
-   "repo_full": "sindresorhus/Settings"
-  },
-  {
-   "owner": "sindresorhus",
-   "repo": "awesome-lint",
-   "number": 37,
-   "title": "Add rule for linting header image if one exists",
-   "amount_usd": 60.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "new-rule"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 871,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-08-16T00:06:00Z",
-   "updated_at": "2026-09-09T07:10:57Z",
-   "comments": 14,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/awesome-lint/issues/37",
-   "repo_full": "sindresorhus/awesome-lint"
-  },
-  {
-   "owner": "sindresorhus",
-   "repo": "macos-wallpaper",
-   "number": 25,
-   "title": "'get' command returns the same wallpaper for different screens with different wallpapers.",
-   "amount_usd": 60.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "bug",
-    "help wanted"
-   ],
-   "language": "Swift",
-   "languages": [],
-   "stars": 717,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-03-31T03:50:44Z",
-   "updated_at": "2026-07-23T19:36:11Z",
-   "comments": 8,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/macos-wallpaper/issues/25",
-   "repo_full": "sindresorhus/macos-wallpaper"
-  },
-  {
-   "owner": "sindresorhus",
-   "repo": "wallpaper",
-   "number": 52,
-   "title": "Default wallpaper is shown for ≈0.5 sec",
-   "amount_usd": 60.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 1090,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-02-23T22:23:55Z",
-   "updated_at": "2026-05-11T09:10:29Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/wallpaper/issues/52",
-   "repo_full": "sindresorhus/wallpaper"
-  },
-  {
-   "owner": "lablab-ai",
-   "repo": "community-content",
-   "number": 462,
-   "title": "Crafting a Comprehensive Tutorial for Vectara Chat",
-   "amount_usd": 60.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": "MDX",
-   "languages": [],
-   "stars": 69,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-03-26T17:23:49Z",
-   "updated_at": "2026-11-11T20:53:45Z",
-   "comments": 33,
-   "attempts": 20,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/lablab-ai/community-content/issues/462",
-   "repo_full": "lablab-ai/community-content"
-  },
-  {
-   "owner": "gajus",
-   "repo": "flow-runtime",
-   "number": 177,
-   "title": "Map class property assertion fails when using babel-plugin-transform-runtime",
-   "amount_usd": 50.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "bug"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 796,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2017-11-29T22:38:55Z",
-   "updated_at": "2026-11-06T09:44:03Z",
-   "comments": 5,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/gajus/flow-runtime/issues/177",
-   "repo_full": "gajus/flow-runtime"
-  },
-  {
-   "owner": "piotrwitek",
-   "repo": "typesafe-actions",
-   "number": 230,
-   "title": "Make actions compatible with new Redux Toolkit guidance on TypeScript usage",
-   "amount_usd": 50.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "high priority",
-    "investigating",
-    "new feature"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 2408,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-04-14T19:55:13Z",
-   "updated_at": "2026-11-03T10:50:33Z",
-   "comments": 15,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/typesafe-actions/issues/230",
-   "repo_full": "piotrwitek/typesafe-actions"
-  },
-  {
-   "owner": "LibVNC",
-   "repo": "x11vnc",
-   "number": 91,
-   "title": "ExtendedDesktopSize support?",
-   "amount_usd": 50.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "C",
-   "languages": [],
-   "stars": 859,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-03-11T21:01:43Z",
-   "updated_at": "2026-10-07T17:45:29Z",
-   "comments": 28,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/LibVNC/x11vnc/issues/91",
-   "repo_full": "LibVNC/x11vnc"
-  },
-  {
-   "owner": "copperheadhq",
-   "repo": "copperhead",
-   "number": 66,
-   "title": "Bounty: end-to-end test copperhead create (brief → clean full run) + findings report",
-   "amount_usd": 50.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "area:observability",
-    "area:pipeline",
-    "bounty",
-    "help wanted"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 692,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-07-24T08:17:43Z",
-   "updated_at": "2026-11-04T21:02:06Z",
-   "comments": 116,
-   "attempts": 0,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/copperheadhq/copperhead/issues/66",
-   "repo_full": "copperheadhq/copperhead"
-  },
-  {
-   "owner": "sybil-solutions",
-   "repo": "local-ai-registry",
-   "number": 216,
-   "title": "Bounty $50: recipe for Intel Arc B580 12 GB",
-   "amount_usd": 50.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty",
-    "bounty: $50",
-    "card support",
-    "recipe"
-   ],
-   "language": "HTML",
-   "languages": [],
-   "stars": 294,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-10-12T13:07:17Z",
-   "updated_at": "2026-11-09T03:10:51Z",
-   "comments": 11,
-   "attempts": 5,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/sybil-solutions/local-ai-registry/issues/216",
-   "repo_full": "sybil-solutions/local-ai-registry"
+   "url": "https://github.com/verdikta/verdikta-applications/issues/76",
+   "repo_full": "verdikta/verdikta-applications"
   },
   {
    "owner": "sybil-solutions",
@@ -1960,6 +190,924 @@
    "repo_full": "sybil-solutions/local-ai-registry"
   },
   {
+   "owner": "sybil-solutions",
+   "repo": "local-ai-registry",
+   "number": 216,
+   "title": "Bounty $50: recipe for Intel Arc B580 12 GB",
+   "amount_usd": 50.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "bounty: $50",
+    "card support",
+    "recipe"
+   ],
+   "language": "HTML",
+   "languages": [],
+   "stars": 294,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-10-12T13:07:17Z",
+   "updated_at": "2026-11-09T03:10:51Z",
+   "comments": 11,
+   "attempts": 5,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/sybil-solutions/local-ai-registry/issues/216",
+   "repo_full": "sybil-solutions/local-ai-registry"
+  },
+  {
+   "owner": "SecureBananaLabs",
+   "repo": "bug-bounty",
+   "number": 11398,
+   "title": "Automate Bug Detection and Reviews",
+   "amount_usd": 780.0,
+   "sources": [
+    "algora",
+    "labeled"
+   ],
+   "labels": [
+    "$1.2k",
+    "$1k",
+    "$780",
+    "AI agent friendly",
+    "bounty",
+    "bug",
+    "bug bounty",
+    "documentation",
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 345,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-07-25T09:51:18Z",
+   "updated_at": "2026-11-08T18:41:07Z",
+   "comments": 26,
+   "attempts": 5,
+   "claims": 5,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11398",
+   "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "copperheadhq",
+   "repo": "copperhead",
+   "number": 66,
+   "title": "Bounty: end-to-end test copperhead create (brief → clean full run) + findings report",
+   "amount_usd": 50.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "area:observability",
+    "area:pipeline",
+    "bounty",
+    "help wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 692,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-07-24T08:17:43Z",
+   "updated_at": "2026-11-04T21:02:06Z",
+   "comments": 116,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/copperheadhq/copperhead/issues/66",
+   "repo_full": "copperheadhq/copperhead"
+  },
+  {
+   "owner": "auscaster",
+   "repo": "frantic-board",
+   "number": 277,
+   "title": "Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, first five)",
+   "amount_usd": 10.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "available",
+    "bounty",
+    "delivered",
+    "funded"
+   ],
+   "language": "Shell",
+   "languages": [],
+   "stars": 966,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-07-08T01:14:12Z",
+   "updated_at": "2026-11-11T20:52:52Z",
+   "comments": 149,
+   "attempts": 2,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/auscaster/frantic-board/issues/277",
+   "repo_full": "auscaster/frantic-board"
+  },
+  {
+   "owner": "auscaster",
+   "repo": "frantic-board",
+   "number": 53,
+   "title": "Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
+   "amount_usd": 20.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "delivered",
+    "funded"
+   ],
+   "language": "Shell",
+   "languages": [],
+   "stars": 966,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-06-16T10:27:50Z",
+   "updated_at": "2026-11-11T20:52:50Z",
+   "comments": 177,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/auscaster/frantic-board/issues/53",
+   "repo_full": "auscaster/frantic-board"
+  },
+  {
+   "owner": "SecureBananaLabs",
+   "repo": "bug-bounty",
+   "number": 2776,
+   "title": "POST /api/reviews endpoint missing authentication middleware (reissue via #743)",
+   "amount_usd": 780.0,
+   "sources": [
+    "algora",
+    "labeled"
+   ],
+   "labels": [
+    "$780",
+    "AI agent friendly",
+    "bounty",
+    "bug",
+    "bug bounty",
+    "enhancement",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 345,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-31T09:48:14Z",
+   "updated_at": "2026-11-06T19:18:46Z",
+   "comments": 14,
+   "attempts": 5,
+   "claims": 2,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
+   "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "SecureBananaLabs",
+   "repo": "bug-bounty",
+   "number": 743,
+   "title": "Low Handing Fruit Automation",
+   "amount_usd": 700.0,
+   "sources": [
+    "algora",
+    "labeled"
+   ],
+   "labels": [
+    "$700",
+    "AI agent friendly",
+    "bounty",
+    "bug",
+    "bug bounty",
+    "documentation",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 345,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-27T06:32:39Z",
+   "updated_at": "2026-11-09T10:18:22Z",
+   "comments": 1455,
+   "attempts": 23,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+   "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "SecureBananaLabs",
+   "repo": "bug-bounty",
+   "number": 80,
+   "title": "Pixel Art Creation with high Creative Thinking",
+   "amount_usd": 780.0,
+   "sources": [
+    "algora",
+    "labeled"
+   ],
+   "labels": [
+    "$780",
+    "AI agent friendly",
+    "bounty",
+    "bug bounty",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 345,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-17T15:04:05Z",
+   "updated_at": "2026-11-03T02:13:33Z",
+   "comments": 492,
+   "attempts": 22,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
+   "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "SecureBananaLabs",
+   "repo": "bug-bounty",
+   "number": 76,
+   "title": "Technical Poem Generation and Content Creation",
+   "amount_usd": 430.0,
+   "sources": [
+    "algora",
+    "labeled"
+   ],
+   "labels": [
+    "$430",
+    "AI agent friendly",
+    "bounty",
+    "bug bounty",
+    "good first issue",
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 345,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-17T15:01:49Z",
+   "updated_at": "2026-11-03T03:39:52Z",
+   "comments": 266,
+   "attempts": 19,
+   "claims": 3,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
+   "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "UnsafeLabs",
+   "repo": "Bounty-Hunters",
+   "number": 920,
+   "title": "[ Crypto ] Fix cross-chain replay attack in CrossChainBridge signature verification",
+   "amount_usd": 900.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "$900",
+    "AI Agent friendly",
+    "AI only allowed - no humans",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 58,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-15T13:44:27Z",
+   "updated_at": "2026-11-04T07:12:54Z",
+   "comments": 57,
+   "attempts": 11,
+   "claims": 9,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
+   "repo_full": "UnsafeLabs/Bounty-Hunters"
+  },
+  {
+   "owner": "UnsafeLabs",
+   "repo": "Bounty-Hunters",
+   "number": 916,
+   "title": "[ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback",
+   "amount_usd": 800.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "$800",
+    "AI Agent friendly",
+    "AI only allowed - no humans",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 58,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-15T13:43:41Z",
+   "updated_at": "2026-11-03T04:31:48Z",
+   "comments": 51,
+   "attempts": 11,
+   "claims": 7,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/916",
+   "repo_full": "UnsafeLabs/Bounty-Hunters"
+  },
+  {
+   "owner": "UnsafeLabs",
+   "repo": "Bounty-Hunters",
+   "number": 912,
+   "title": "[ Crypto ] Fix tx.origin phishing vulnerability in GovernanceToken delegation",
+   "amount_usd": 700.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "$700",
+    "AI Agent friendly",
+    "AI only allowed - no humans",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 58,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-15T13:42:51Z",
+   "updated_at": "2026-09-21T21:31:32Z",
+   "comments": 53,
+   "attempts": 9,
+   "claims": 13,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/912",
+   "repo_full": "UnsafeLabs/Bounty-Hunters"
+  },
+  {
+   "owner": "UnsafeLabs",
+   "repo": "Bounty-Hunters",
+   "number": 802,
+   "title": "[ FastAPI ] Implement standardized pagination with offset and cursor support",
+   "amount_usd": 700.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "$700",
+    "AI Agent friendly",
+    "AI only allowed - no humans",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 58,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-15T07:10:26Z",
+   "updated_at": "2026-10-11T00:40:54Z",
+   "comments": 24,
+   "attempts": 9,
+   "claims": 5,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/802",
+   "repo_full": "UnsafeLabs/Bounty-Hunters"
+  },
+  {
+   "owner": "UnsafeLabs",
+   "repo": "Bounty-Hunters",
+   "number": 754,
+   "title": "[ Laravel ] Implement webhook system with signature verification and retry queue",
+   "amount_usd": 800.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "$800",
+    "AI Agent friendly",
+    "AI only allowed - no humans",
+    "good first issue",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 58,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-15T06:07:12Z",
+   "updated_at": "2026-07-19T20:01:41Z",
+   "comments": 17,
+   "attempts": 7,
+   "claims": 3,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/754",
+   "repo_full": "UnsafeLabs/Bounty-Hunters"
+  },
+  {
+   "owner": "Scottcjn",
+   "repo": "rustchain-bounties",
+   "number": 2890,
+   "title": "[BOUNTY: 67 RTC] AgentFolio ↔ Beacon Integration Spec + Reference Implementation",
+   "amount_usd": 20.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "ecosystem",
+    "help wanted",
+    "integration",
+    "major"
+   ],
+   "language": "Python",
+   "languages": [],
+   "stars": 290,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-04-09T14:57:05Z",
+   "updated_at": "2026-11-03T12:32:15Z",
+   "comments": 78,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2890",
+   "repo_full": "Scottcjn/rustchain-bounties"
+  },
+  {
+   "owner": "Scottcjn",
+   "repo": "rustchain-bounties",
+   "number": 66,
+   "title": "[BOUNTY] 🔴 Red Team: x402 Payment Protocol Exploits (100 RTC)",
+   "amount_usd": 10.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "hardening",
+    "open",
+    "red-team"
+   ],
+   "language": "Python",
+   "languages": [],
+   "stars": 290,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-02-06T01:03:30Z",
+   "updated_at": "2026-11-01T12:34:14Z",
+   "comments": 94,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/66",
+   "repo_full": "Scottcjn/rustchain-bounties"
+  },
+  {
+   "owner": "Scottcjn",
+   "repo": "rustchain-bounties",
+   "number": 58,
+   "title": "[BOUNTY] 🔴 Red Team: Cross-Node Consensus Attacks (100 RTC)",
+   "amount_usd": 10.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "hardening",
+    "open",
+    "red-team"
+   ],
+   "language": "Python",
+   "languages": [],
+   "stars": 290,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-02-04T00:20:49Z",
+   "updated_at": "2026-11-08T22:10:12Z",
+   "comments": 104,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Scottcjn/rustchain-bounties/issues/58",
+   "repo_full": "Scottcjn/rustchain-bounties"
+  },
+  {
+   "owner": "QubesOS",
+   "repo": "qubes-issues",
+   "number": 10567,
+   "title": "[Contribution] BusKill",
+   "amount_usd": 2600.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "C: contrib package",
+    "P: major",
+    "S: needs review",
+    "bounty",
+    "community dev"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 624,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-01-12T04:43:57Z",
+   "updated_at": "2026-11-09T18:04:34Z",
+   "comments": 19,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/QubesOS/qubes-issues/issues/10567",
+   "repo_full": "QubesOS/qubes-issues"
+  },
+  {
+   "owner": "cxlinux-ai",
+   "repo": "cx-core",
+   "number": 425,
+   "title": "[ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration",
+   "amount_usd": 150.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "ai",
+    "bounty",
+    "core-team",
+    "enhancement",
+    "priority: high"
+   ],
+   "language": "Rust",
+   "languages": [],
+   "stars": 81,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-01-02T00:26:51Z",
+   "updated_at": "2026-11-02T09:33:07Z",
+   "comments": 12,
+   "attempts": 2,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/cxlinux-ai/cx-core/issues/425",
+   "repo_full": "cxlinux-ai/cx-core"
+  },
+  {
+   "owner": "microg",
+   "repo": "GmsCore",
+   "number": 2851,
+   "title": "[BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]",
+   "amount_usd": 85.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty"
+   ],
+   "language": "Java",
+   "languages": [],
+   "stars": 15279,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2025-04-06T09:44:38Z",
+   "updated_at": "2026-11-11T20:30:37Z",
+   "comments": 57,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/microg/GmsCore/issues/2851",
+   "repo_full": "microg/GmsCore"
+  },
+  {
+   "owner": "microg",
+   "repo": "GmsCore",
+   "number": 2843,
+   "title": "[BOUNTY] WearOS Support [$2340]",
+   "amount_usd": 2340.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "enhancement"
+   ],
+   "language": "Java",
+   "languages": [],
+   "stars": 15279,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2025-03-31T02:15:48Z",
+   "updated_at": "2026-11-11T20:53:50Z",
+   "comments": 196,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/microg/GmsCore/issues/2843",
+   "repo_full": "microg/GmsCore"
+  },
+  {
+   "owner": "TheSolaAI",
+   "repo": "sola-application",
+   "number": 157,
+   "title": "Make blinks interaction Handsfree",
+   "amount_usd": 70.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "feature",
+    "help wanted",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 53,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2025-01-27T18:53:21Z",
+   "updated_at": "2026-11-11T20:52:46Z",
+   "comments": 28,
+   "attempts": 17,
+   "claims": 3,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/TheSolaAI/sola-application/issues/157",
+   "repo_full": "TheSolaAI/sola-application"
+  },
+  {
+   "owner": "outerbase",
+   "repo": "starbasedb",
+   "number": 71,
+   "title": "Improve test coverage with Vitest",
+   "amount_usd": 250.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "enhancement",
+    "💎 Bounty",
+    "💰 Rewarded"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 1171,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2025-01-23T20:00:07Z",
+   "updated_at": "2026-11-11T20:36:01Z",
+   "comments": 113,
+   "attempts": 20,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/outerbase/starbasedb/issues/71",
+   "repo_full": "outerbase/starbasedb"
+  },
+  {
+   "owner": "onyx-dot-app",
+   "repo": "onyx",
+   "number": 2281,
+   "title": "Jira Service Management Connector",
+   "amount_usd": 250.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "enhancement",
+    "maintainer approved",
+    "💎 Bounty"
+   ],
+   "language": "Python",
+   "languages": [],
+   "stars": 33344,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-08-30T23:46:34Z",
+   "updated_at": "2026-11-11T21:03:07Z",
+   "comments": 190,
+   "attempts": 9,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+   "repo_full": "onyx-dot-app/onyx"
+  },
+  {
+   "owner": "trypear",
+   "repo": "pearai-app",
+   "number": 44,
+   "title": "[Hard] Package Releases Automation",
+   "amount_usd": 300.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 715,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-07-14T11:16:54Z",
+   "updated_at": "2026-10-31T11:09:17Z",
+   "comments": 9,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/trypear/pearai-app/issues/44",
+   "repo_full": "trypear/pearai-app"
+  },
+  {
+   "owner": "scratchdata",
+   "repo": "scratchdata",
+   "number": 170,
+   "title": "UI for Database Connection Add and Delete",
+   "amount_usd": 150.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty",
+    "💰 Rewarded"
+   ],
+   "language": "Go",
+   "languages": [],
+   "stars": 1118,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-05-07T21:44:09Z",
+   "updated_at": "2026-11-07T05:47:35Z",
+   "comments": 12,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/scratchdata/scratchdata/issues/170",
+   "repo_full": "scratchdata/scratchdata"
+  },
+  {
+   "owner": "revertinc",
+   "repo": "revert",
+   "number": 551,
+   "title": "[REVER-51] Workable Integration",
+   "amount_usd": 100.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "ATS",
+    "GitHub",
+    "Plane",
+    "feature",
+    "integration",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 1018,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-04-29T11:50:14Z",
+   "updated_at": "2026-11-11T20:36:15Z",
+   "comments": 31,
+   "attempts": 21,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/revertinc/revert/issues/551",
+   "repo_full": "revertinc/revert"
+  },
+  {
+   "owner": "flowese",
+   "repo": "UdioWrapper",
+   "number": 7,
+   "title": "500 Server Error - Auto Solve hcapcha",
+   "amount_usd": 20.0,
+   "sources": [
+    "opire"
+   ],
+   "labels": [
+    "💰 Reward"
+   ],
+   "language": "Python",
+   "languages": [
+    "Python"
+   ],
+   "stars": 183,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-04-18T12:59:43Z",
+   "updated_at": "2026-11-08T16:42:59Z",
+   "comments": 93,
+   "attempts": 42,
+   "claims": 29,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/flowese/UdioWrapper/issues/7",
+   "repo_full": "flowese/UdioWrapper"
+  },
+  {
+   "owner": "lablab-ai",
+   "repo": "community-content",
+   "number": 462,
+   "title": "Crafting a Comprehensive Tutorial for Vectara Chat",
+   "amount_usd": 60.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "MDX",
+   "languages": [],
+   "stars": 69,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-03-26T17:23:49Z",
+   "updated_at": "2026-11-11T20:53:45Z",
+   "comments": 33,
+   "attempts": 18,
+   "claims": 2,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/lablab-ai/community-content/issues/462",
+   "repo_full": "lablab-ai/community-content"
+  },
+  {
+   "owner": "flydelabs",
+   "repo": "flyde",
+   "number": 112,
+   "title": "Broken imports after moving files",
+   "amount_usd": 15.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 3503,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-03-22T07:07:05Z",
+   "updated_at": "2026-11-11T20:31:06Z",
+   "comments": 68,
+   "attempts": 10,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/flydelabs/flyde/issues/112",
+   "repo_full": "flydelabs/flyde"
+  },
+  {
+   "owner": "highlight",
+   "repo": "highlight",
+   "number": 8032,
+   "title": "document sveltekit backend instrumentation",
+   "amount_usd": 20.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 9390,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2024-03-15T13:30:13Z",
+   "updated_at": "2026-11-11T20:53:25Z",
+   "comments": 107,
+   "attempts": 9,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/highlight/highlight/issues/8032",
+   "repo_full": "highlight/highlight"
+  },
+  {
    "owner": "caley-io",
    "repo": "marketing",
    "number": 1,
@@ -1980,11 +1128,41 @@
    "created_at": "2024-01-05T08:48:26Z",
    "updated_at": "2026-11-11T20:52:55Z",
    "comments": 32,
-   "attempts": 13,
+   "attempts": 12,
    "claims": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/caley-io/marketing/issues/1",
    "repo_full": "caley-io/marketing"
+  },
+  {
+   "owner": "RE-SS3D",
+   "repo": "SS3D",
+   "number": 1373,
+   "title": "Disable rendering of unseen tilemap layers",
+   "amount_usd": 30.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "Bounty",
+    "Bounty: 30 dollars :moneybag:",
+    "Difficulty: hard :cactus:",
+    "Feature",
+    "Tilemaps"
+   ],
+   "language": "C#",
+   "languages": [],
+   "stars": 292,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-12-03T20:28:27Z",
+   "updated_at": "2026-11-04T03:56:19Z",
+   "comments": 7,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/RE-SS3D/SS3D/issues/1373",
+   "repo_full": "RE-SS3D/SS3D"
   },
   {
    "owner": "arakoodev",
@@ -2007,11 +1185,494 @@
    "created_at": "2023-12-03T09:33:28Z",
    "updated_at": "2026-11-11T20:36:20Z",
    "comments": 131,
-   "attempts": 17,
+   "attempts": 13,
    "claims": 0,
    "first_seen": "2026-11-12",
    "url": "https://github.com/arakoodev/EdgeChains/issues/290",
    "repo_full": "arakoodev/EdgeChains"
+  },
+  {
+   "owner": "arakoodev",
+   "repo": "EdgeChains",
+   "number": 279,
+   "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
+   "amount_usd": 25.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 433,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-11-30T10:03:48Z",
+   "updated_at": "2026-11-11T20:36:37Z",
+   "comments": 73,
+   "attempts": 6,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/arakoodev/EdgeChains/issues/279",
+   "repo_full": "arakoodev/EdgeChains"
+  },
+  {
+   "owner": "arakoodev",
+   "repo": "EdgeChains",
+   "number": 273,
+   "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+   "amount_usd": 30.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 433,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-11-26T19:15:36Z",
+   "updated_at": "2026-11-11T20:36:53Z",
+   "comments": 121,
+   "attempts": 11,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+   "repo_full": "arakoodev/EdgeChains"
+  },
+  {
+   "owner": "revertinc",
+   "repo": "revert",
+   "number": 372,
+   "title": "[REVER-48] Workday Integration",
+   "amount_usd": 100.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "ATS",
+    "GitHub",
+    "Plane",
+    "feature",
+    "integration",
+    "none",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 1018,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-11-20T07:09:27Z",
+   "updated_at": "2026-11-11T20:36:11Z",
+   "comments": 25,
+   "attempts": 15,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/revertinc/revert/issues/372",
+   "repo_full": "revertinc/revert"
+  },
+  {
+   "owner": "tryabby",
+   "repo": "abby",
+   "number": 68,
+   "title": "Vue Integration",
+   "amount_usd": 40.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "enhancement",
+    "hacktoberfest",
+    "💎 Bounty"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 167,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-10-02T13:16:21Z",
+   "updated_at": "2026-11-11T20:36:08Z",
+   "comments": 52,
+   "attempts": 9,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/tryabby/abby/issues/68",
+   "repo_full": "tryabby/abby"
+  },
+  {
+   "owner": "getdozer",
+   "repo": "dozer",
+   "number": 1690,
+   "title": "Sample: Dozer + LLM + Vector database + Langchain sample",
+   "amount_usd": 250.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "documentation",
+    "💎 Bounty"
+   ],
+   "language": "Rust",
+   "languages": [],
+   "stars": 1574,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-06-28T14:11:53Z",
+   "updated_at": "2026-11-07T08:58:50Z",
+   "comments": 59,
+   "attempts": 8,
+   "claims": 3,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/getdozer/dozer/issues/1690",
+   "repo_full": "getdozer/dozer"
+  },
+  {
+   "owner": "getdozer",
+   "repo": "dozer",
+   "number": 1659,
+   "title": "Support for `IN` clause in streaming SQL",
+   "amount_usd": 600.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "Rust",
+   "languages": [],
+   "stars": 1574,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-06-20T17:18:05Z",
+   "updated_at": "2026-11-07T08:31:44Z",
+   "comments": 43,
+   "attempts": 17,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/getdozer/dozer/issues/1659",
+   "repo_full": "getdozer/dozer"
+  },
+  {
+   "owner": "getdozer",
+   "repo": "dozer",
+   "number": 1653,
+   "title": "WASM UDF support",
+   "amount_usd": 600.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": "Rust",
+   "languages": [],
+   "stars": 1574,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-06-19T14:34:21Z",
+   "updated_at": "2026-11-07T08:52:52Z",
+   "comments": 29,
+   "attempts": 16,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/getdozer/dozer/issues/1653",
+   "repo_full": "getdozer/dozer"
+  },
+  {
+   "owner": "highlight",
+   "repo": "highlight",
+   "number": 5082,
+   "title": "Support Elixir among our SDKs",
+   "amount_usd": 400.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "external bug / request",
+    "help wanted",
+    "sdk",
+    "💎 Bounty",
+    "💰 Rewarded"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 9390,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-04-21T22:38:27Z",
+   "updated_at": "2026-10-09T08:40:16Z",
+   "comments": 36,
+   "attempts": 4,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/highlight/highlight/issues/5082",
+   "repo_full": "highlight/highlight"
+  },
+  {
+   "owner": "speakers-in-tech",
+   "repo": "conference-data",
+   "number": 12,
+   "title": "Add GOTO to the conference data tracker",
+   "amount_usd": 10.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty",
+    "💰 Rewarded"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 19,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-03-27T15:03:08Z",
+   "updated_at": "2026-10-16T13:51:14Z",
+   "comments": 7,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/speakers-in-tech/conference-data/issues/12",
+   "repo_full": "speakers-in-tech/conference-data"
+  },
+  {
+   "owner": "speakers-in-tech",
+   "repo": "conference-data",
+   "number": 11,
+   "title": "Add QCon to the conference data tracker",
+   "amount_usd": 10.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 19,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-03-27T15:02:45Z",
+   "updated_at": "2026-11-11T20:54:00Z",
+   "comments": 57,
+   "attempts": 20,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/speakers-in-tech/conference-data/issues/11",
+   "repo_full": "speakers-in-tech/conference-data"
+  },
+  {
+   "owner": "speakers-in-tech",
+   "repo": "conference-data",
+   "number": 10,
+   "title": "Add CodeMash to the conference data tracker",
+   "amount_usd": 10.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 19,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-03-27T15:02:27Z",
+   "updated_at": "2026-11-11T20:54:02Z",
+   "comments": 63,
+   "attempts": 16,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/speakers-in-tech/conference-data/issues/10",
+   "repo_full": "speakers-in-tech/conference-data"
+  },
+  {
+   "owner": "speakers-in-tech",
+   "repo": "conference-data",
+   "number": 7,
+   "title": "Add Lambda World to conference data tracker",
+   "amount_usd": 10.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty",
+    "💰 Rewarded"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 19,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-03-27T14:59:35Z",
+   "updated_at": "2026-11-07T01:53:45Z",
+   "comments": 8,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/speakers-in-tech/conference-data/issues/7",
+   "repo_full": "speakers-in-tech/conference-data"
+  },
+  {
+   "owner": "speakers-in-tech",
+   "repo": "conference-data",
+   "number": 4,
+   "title": "Add ScalaDays to conference data tracker",
+   "amount_usd": 10.0,
+   "sources": [
+    "algora"
+   ],
+   "labels": [
+    "💎 Bounty"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 19,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2023-03-27T14:55:54Z",
+   "updated_at": "2026-11-11T20:53:59Z",
+   "comments": 51,
+   "attempts": 17,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/speakers-in-tech/conference-data/issues/4",
+   "repo_full": "speakers-in-tech/conference-data"
+  },
+  {
+   "owner": "1kc",
+   "repo": "razer-macos",
+   "number": 628,
+   "title": "RAZER Basilisk X Hyperspeed ",
+   "amount_usd": 39.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 2581,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2022-04-28T13:04:24Z",
+   "updated_at": "2026-05-11T04:00:21Z",
+   "comments": 9,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/1kc/razer-macos/issues/628",
+   "repo_full": "1kc/razer-macos"
+  },
+  {
+   "owner": "1kc",
+   "repo": "razer-macos",
+   "number": 619,
+   "title": "BlackWidow Chroma Tournament Edition doesn't fade when changing states",
+   "amount_usd": 20.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 2581,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2022-04-15T00:27:23Z",
+   "updated_at": "2026-05-18T15:26:08Z",
+   "comments": 3,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/1kc/razer-macos/issues/619",
+   "repo_full": "1kc/razer-macos"
+  },
+  {
+   "owner": "rgommezz",
+   "repo": "react-native-offline",
+   "number": 339,
+   "title": "Upgrade Example App for current Expo Go version",
+   "amount_usd": 20.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 2358,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2021-10-01T17:43:17Z",
+   "updated_at": "2026-11-05T20:08:15Z",
+   "comments": 14,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/rgommezz/react-native-offline/issues/339",
+   "repo_full": "rgommezz/react-native-offline"
+  },
+  {
+   "owner": "1kc",
+   "repo": "razer-macos",
+   "number": 452,
+   "title": "Support for multiple computer / KVM setup",
+   "amount_usd": 25.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 2581,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2021-09-13T23:58:28Z",
+   "updated_at": "2026-10-06T02:03:12Z",
+   "comments": 6,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/1kc/razer-macos/issues/452",
+   "repo_full": "1kc/razer-macos"
+  },
+  {
+   "owner": "1kc",
+   "repo": "razer-macos",
+   "number": 424,
+   "title": "Razer Mamba Tournament Edition",
+   "amount_usd": 20.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 2581,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2021-08-08T10:46:18Z",
+   "updated_at": "2026-05-24T08:54:45Z",
+   "comments": 10,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/1kc/razer-macos/issues/424",
+   "repo_full": "1kc/razer-macos"
   },
   {
    "owner": "1kc",
@@ -2038,6 +1699,997 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/1kc/razer-macos/issues/409",
    "repo_full": "1kc/razer-macos"
+  },
+  {
+   "owner": "Sifchain",
+   "repo": "sifnode",
+   "number": 524,
+   "title": "[sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503",
+   "amount_usd": 1000.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty"
+   ],
+   "language": "Go",
+   "languages": [],
+   "stars": 107,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2021-01-19T02:29:31Z",
+   "updated_at": "2026-10-31T17:45:14Z",
+   "comments": 10,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Sifchain/sifnode/issues/524",
+   "repo_full": "Sifchain/sifnode"
+  },
+  {
+   "owner": "Sifchain",
+   "repo": "sifnode",
+   "number": 503,
+   "title": "[sifnode] $1000 bounty for implementing Azure AKS support for sifnode",
+   "amount_usd": 1000.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty"
+   ],
+   "language": "Go",
+   "languages": [],
+   "stars": 107,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2021-01-15T18:45:35Z",
+   "updated_at": "2026-11-01T11:59:15Z",
+   "comments": 4,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Sifchain/sifnode/issues/503",
+   "repo_full": "Sifchain/sifnode"
+  },
+  {
+   "owner": "vuejs",
+   "repo": "vetur",
+   "number": 2344,
+   "title": "Use Vue component's Props type parameter for prop type validation",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "feature-request",
+    "template-interpolation"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5737,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2020-09-28T14:59:12Z",
+   "updated_at": "2026-11-05T22:58:02Z",
+   "comments": 13,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/vuejs/vetur/issues/2344",
+   "repo_full": "vuejs/vetur"
+  },
+  {
+   "owner": "SelfhostedPro",
+   "repo": "selfhosted_templates",
+   "number": 132,
+   "title": "[APP REQUEST]: CloudFlare DDNS",
+   "amount_usd": 15.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "App Request",
+    "hacktoberfest"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 1288,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2020-06-11T22:16:04Z",
+   "updated_at": "2026-10-09T02:35:49Z",
+   "comments": 4,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/132",
+   "repo_full": "SelfhostedPro/selfhosted_templates"
+  },
+  {
+   "owner": "SelfhostedPro",
+   "repo": "selfhosted_templates",
+   "number": 129,
+   "title": "[APP REQUEST]: Deluge version fork of docker-transmission-openvpn",
+   "amount_usd": 25.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "App Request",
+    "hacktoberfest"
+   ],
+   "language": null,
+   "languages": [],
+   "stars": 1288,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2020-06-11T13:39:20Z",
+   "updated_at": "2020-10-02T17:27:34Z",
+   "comments": 4,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/129",
+   "repo_full": "SelfhostedPro/selfhosted_templates"
+  },
+  {
+   "owner": "CogTool-Modern",
+   "repo": "cogtool",
+   "number": 20,
+   "title": "File Type association, Register CogTool as a Viewer and Editor of .cgt files",
+   "amount_usd": 20.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted",
+    "openhands"
+   ],
+   "language": "Java",
+   "languages": [],
+   "stars": 20,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2020-06-11T03:49:19Z",
+   "updated_at": "2025-06-02T06:29:28Z",
+   "comments": 7,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/CogTool-Modern/cogtool/issues/20",
+   "repo_full": "CogTool-Modern/cogtool"
+  },
+  {
+   "owner": "dictation-toolbox",
+   "repo": "Caster",
+   "number": 814,
+   "title": "Integration with OS accessibility APIs",
+   "amount_usd": 200.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "Accessibility",
+    "New Feature"
+   ],
+   "language": "Python",
+   "languages": [],
+   "stars": 362,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2020-05-14T00:09:25Z",
+   "updated_at": "2026-09-09T14:50:41Z",
+   "comments": 24,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/dictation-toolbox/Caster/issues/814",
+   "repo_full": "dictation-toolbox/Caster"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "typesafe-actions",
+   "number": 230,
+   "title": "Make actions compatible with new Redux Toolkit guidance on TypeScript usage",
+   "amount_usd": 50.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "high priority",
+    "investigating",
+    "new feature"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 2408,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2020-04-14T19:55:13Z",
+   "updated_at": "2026-11-03T10:50:33Z",
+   "comments": 15,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/typesafe-actions/issues/230",
+   "repo_full": "piotrwitek/typesafe-actions"
+  },
+  {
+   "owner": "egoist",
+   "repo": "denote",
+   "number": 3,
+   "title": "Export notes",
+   "amount_usd": 40.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "contribution welcome",
+    "enhancement"
+   ],
+   "language": "Vue",
+   "languages": [],
+   "stars": 50,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-09-15T14:32:58Z",
+   "updated_at": "2026-06-09T08:21:15Z",
+   "comments": 2,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/denote/issues/3",
+   "repo_full": "egoist/denote"
+  },
+  {
+   "owner": "nodegui",
+   "repo": "react-nodegui",
+   "number": 31,
+   "title": "Support for svg in React code.",
+   "amount_usd": 20.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 6178,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-09-07T22:16:22Z",
+   "updated_at": "2026-10-08T21:27:41Z",
+   "comments": 14,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/nodegui/react-nodegui/issues/31",
+   "repo_full": "nodegui/react-nodegui"
+  },
+  {
+   "owner": "effector",
+   "repo": "effector",
+   "number": 161,
+   "title": "Perf tests on real devices",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "compatibility",
+    "enhancement"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 4852,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-07-31T05:17:15Z",
+   "updated_at": "2026-10-09T00:29:10Z",
+   "comments": 1,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/effector/effector/issues/161",
+   "repo_full": "effector/effector"
+  },
+  {
+   "owner": "effector",
+   "repo": "effector",
+   "number": 142,
+   "title": "Better Try Effector experience on mobile devices",
+   "amount_usd": 40.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "playgroung"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 4852,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-07-14T23:11:42Z",
+   "updated_at": "2026-11-06T03:00:52Z",
+   "comments": 6,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/effector/effector/issues/142",
+   "repo_full": "effector/effector"
+  },
+  {
+   "owner": "egoist",
+   "repo": "demoboard",
+   "number": 19,
+   "title": "Allow to configure social links",
+   "amount_usd": 40.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "contribution welcome"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 82,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-07-11T11:34:47Z",
+   "updated_at": "2026-05-09T15:16:59Z",
+   "comments": 11,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/demoboard/issues/19",
+   "repo_full": "egoist/demoboard"
+  },
+  {
+   "owner": "egoist",
+   "repo": "majo",
+   "number": 13,
+   "title": "Convert to TypeScript",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 53,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-06-10T10:17:46Z",
+   "updated_at": "2019-07-01T22:09:16Z",
+   "comments": 2,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/majo/issues/13",
+   "repo_full": "egoist/majo"
+  },
+  {
+   "owner": "egoist",
+   "repo": "majo",
+   "number": 12,
+   "title": "Separate the majo instance and middleware context",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 53,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-06-10T10:15:39Z",
+   "updated_at": "2026-10-08T02:59:00Z",
+   "comments": 5,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/majo/issues/12",
+   "repo_full": "egoist/majo"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "typesafe-actions",
+   "number": 162,
+   "title": "Add a generic redux-observable factory automatically handling async-actions - createAsyncEpic",
+   "amount_usd": 120.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "high priority",
+    "in progress",
+    "investigating",
+    "new feature"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 2408,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-05-31T09:08:27Z",
+   "updated_at": "2026-10-05T02:34:03Z",
+   "comments": 7,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/typesafe-actions/issues/162",
+   "repo_full": "piotrwitek/typesafe-actions"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "typesafe-actions",
+   "number": 156,
+   "title": "Add default handler in createReducer",
+   "amount_usd": 80.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "needs API design",
+    "needs community feedback",
+    "new feature"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 2408,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-05-22T05:42:38Z",
+   "updated_at": "2026-09-09T19:40:43Z",
+   "comments": 16,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/typesafe-actions/issues/156",
+   "repo_full": "piotrwitek/typesafe-actions"
+  },
+  {
+   "owner": "effector",
+   "repo": "effector",
+   "number": 91,
+   "title": "Visualization for stores, events and relationships",
+   "amount_usd": 110.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 4852,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-05-01T21:28:27Z",
+   "updated_at": "2026-10-18T09:41:41Z",
+   "comments": 13,
+   "attempts": 0,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/effector/effector/issues/91",
+   "repo_full": "effector/effector"
+  },
+  {
+   "owner": "egoist",
+   "repo": "bili",
+   "number": 184,
+   "title": "bili hangs on watch mode when Rollup emits a FATAL event",
+   "amount_usd": 60.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 1030,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-04-15T14:00:03Z",
+   "updated_at": "2026-11-10T10:23:20Z",
+   "comments": 6,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/bili/issues/184",
+   "repo_full": "egoist/bili"
+  },
+  {
+   "owner": "egoist",
+   "repo": "bili",
+   "number": 183,
+   "title": "*.d.ts bundles",
+   "amount_usd": 90.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 1030,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-04-12T16:50:23Z",
+   "updated_at": "2026-10-08T03:03:29Z",
+   "comments": 5,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/bili/issues/183",
+   "repo_full": "egoist/bili"
+  },
+  {
+   "owner": "egoist",
+   "repo": "bili",
+   "number": 182,
+   "title": "Legacy bundles & modern bundles",
+   "amount_usd": 90.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 1030,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-04-12T16:49:36Z",
+   "updated_at": "2026-10-08T03:04:29Z",
+   "comments": 4,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/bili/issues/182",
+   "repo_full": "egoist/bili"
+  },
+  {
+   "owner": "sindresorhus",
+   "repo": "macos-wallpaper",
+   "number": 25,
+   "title": "'get' command returns the same wallpaper for different screens with different wallpapers.",
+   "amount_usd": 60.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "bug",
+    "help wanted"
+   ],
+   "language": "Swift",
+   "languages": [],
+   "stars": 717,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-03-31T03:50:44Z",
+   "updated_at": "2026-07-23T19:36:11Z",
+   "comments": 8,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/sindresorhus/macos-wallpaper/issues/25",
+   "repo_full": "sindresorhus/macos-wallpaper"
+  },
+  {
+   "owner": "sindresorhus",
+   "repo": "Settings",
+   "number": 9,
+   "title": "Rapidly switching between tabs causes view size to be wrong",
+   "amount_usd": 60.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "bug"
+   ],
+   "language": "Swift",
+   "languages": [],
+   "stars": 1558,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-03-12T09:32:34Z",
+   "updated_at": "2026-10-06T02:04:03Z",
+   "comments": 13,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/sindresorhus/Settings/issues/9",
+   "repo_full": "sindresorhus/Settings"
+  },
+  {
+   "owner": "LibVNC",
+   "repo": "x11vnc",
+   "number": 91,
+   "title": "ExtendedDesktopSize support?",
+   "amount_usd": 50.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "C",
+   "languages": [],
+   "stars": 859,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-03-11T21:01:43Z",
+   "updated_at": "2026-10-07T17:45:29Z",
+   "comments": 28,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/LibVNC/x11vnc/issues/91",
+   "repo_full": "LibVNC/x11vnc"
+  },
+  {
+   "owner": "egoist",
+   "repo": "vue-content-loader",
+   "number": 18,
+   "title": "Responsive",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 3027,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-03-08T09:44:21Z",
+   "updated_at": "2026-06-17T10:44:48Z",
+   "comments": 11,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/vue-content-loader/issues/18",
+   "repo_full": "egoist/vue-content-loader"
+  },
+  {
+   "owner": "sindresorhus",
+   "repo": "wallpaper",
+   "number": 52,
+   "title": "Default wallpaper is shown for ≈0.5 sec",
+   "amount_usd": 60.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 1090,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-02-23T22:23:55Z",
+   "updated_at": "2026-05-11T09:10:29Z",
+   "comments": 4,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/sindresorhus/wallpaper/issues/52",
+   "repo_full": "sindresorhus/wallpaper"
+  },
+  {
+   "owner": "marcosgriselli",
+   "repo": "SwipeableTabBarController",
+   "number": 52,
+   "title": "Very quick swipes cause app to freeze",
+   "amount_usd": 150.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "bug"
+   ],
+   "language": "Swift",
+   "languages": [],
+   "stars": 1532,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-01-18T01:25:34Z",
+   "updated_at": "2026-10-08T21:25:25Z",
+   "comments": 38,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/marcosgriselli/SwipeableTabBarController/issues/52",
+   "repo_full": "marcosgriselli/SwipeableTabBarController"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "utility-types",
+   "number": 51,
+   "title": "Improve organization and add missing examples in API documentation",
+   "amount_usd": 35.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    "docs",
+    "funded on IssueHunt",
+    "in progress"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5768,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-01-09T15:37:40Z",
+   "updated_at": "2026-11-03T16:21:29Z",
+   "comments": 4,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/utility-types/issues/51",
+   "repo_full": "piotrwitek/utility-types"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "typesafe-actions",
+   "number": 103,
+   "title": "I would like an explanation of the Service type in epics.",
+   "amount_usd": 40.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "docs",
+    "needs funding"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 2408,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2019-01-09T14:28:07Z",
+   "updated_at": "2026-05-20T00:00:43Z",
+   "comments": 16,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/typesafe-actions/issues/103",
+   "repo_full": "piotrwitek/typesafe-actions"
+  },
+  {
+   "owner": "devhubapp",
+   "repo": "devhub",
+   "number": 51,
+   "title": "Push notifications",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "feature request"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 10152,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-12-18T05:52:08Z",
+   "updated_at": "2021-04-14T11:19:13Z",
+   "comments": 11,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/devhubapp/devhub/issues/51",
+   "repo_full": "devhubapp/devhub"
+  },
+  {
+   "owner": "avajs",
+   "repo": "ava",
+   "number": 1986,
+   "title": "Analyze source & test dependencies to figure out which tests to run (first)",
+   "amount_usd": 80.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 20831,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-11-21T04:02:53Z",
+   "updated_at": "2026-11-07T19:34:06Z",
+   "comments": 14,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/avajs/ava/issues/1986",
+   "repo_full": "avajs/ava"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "typesafe-actions",
+   "number": 88,
+   "title": "Add a generic reducer factory automatically handling async-actions - createAsyncReducer",
+   "amount_usd": 115.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "high priority",
+    "new feature"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 2408,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-10-19T14:26:44Z",
+   "updated_at": "2026-09-09T19:16:44Z",
+   "comments": 6,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/typesafe-actions/issues/88",
+   "repo_full": "piotrwitek/typesafe-actions"
+  },
+  {
+   "owner": "egoist",
+   "repo": "majo",
+   "number": 9,
+   "title": "Allow to source for multiple times",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 53,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-09-20T15:06:40Z",
+   "updated_at": "2026-10-08T02:58:38Z",
+   "comments": 9,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/majo/issues/9",
+   "repo_full": "egoist/majo"
+  },
+  {
+   "owner": "piotrwitek",
+   "repo": "utility-types",
+   "number": 30,
+   "title": "Add a web page with API documentation that will be automatically generated from the recent source code changes",
+   "amount_usd": 90.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    "docs",
+    "funded on IssueHunt",
+    "needs investigation"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5768,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-09-19T06:11:21Z",
+   "updated_at": "2026-11-03T19:35:25Z",
+   "comments": 34,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/piotrwitek/utility-types/issues/30",
+   "repo_full": "piotrwitek/utility-types"
+  },
+  {
+   "owner": "sindresorhus",
+   "repo": "awesome-lint",
+   "number": 37,
+   "title": "Add rule for linting header image if one exists",
+   "amount_usd": 60.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "new-rule"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 871,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-08-16T00:06:00Z",
+   "updated_at": "2026-09-09T07:10:57Z",
+   "comments": 14,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/sindresorhus/awesome-lint/issues/37",
+   "repo_full": "sindresorhus/awesome-lint"
+  },
+  {
+   "owner": "egoist",
+   "repo": "codepan",
+   "number": 63,
+   "title": "add query string parameters for setting panel width",
+   "amount_usd": 100.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 1200,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-06-27T11:59:28Z",
+   "updated_at": "2026-09-28T14:54:34Z",
+   "comments": 3,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/egoist/codepan/issues/63",
+   "repo_full": "egoist/codepan"
   },
   {
    "owner": "gajus",
@@ -2068,6 +2720,33 @@
   {
    "owner": "gajus",
    "repo": "flow-runtime",
+   "number": 199,
+   "title": "Support $ReadOnlyArray",
+   "amount_usd": 40.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 796,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2018-03-07T10:57:43Z",
+   "updated_at": "2026-05-18T15:25:46Z",
+   "comments": 18,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/gajus/flow-runtime/issues/199",
+   "repo_full": "gajus/flow-runtime"
+  },
+  {
+   "owner": "gajus",
+   "repo": "flow-runtime",
    "number": 180,
    "title": "babel-plugin-flow-runtime references undefined type parameter names with assertions disabled",
    "amount_usd": 40.0,
@@ -2093,32 +2772,113 @@
    "repo_full": "gajus/flow-runtime"
   },
   {
-   "owner": "sindresorhus",
-   "repo": "fkill-cli",
-   "number": 6,
-   "title": "Smart mode",
-   "amount_usd": 40.0,
+   "owner": "gajus",
+   "repo": "flow-runtime",
+   "number": 177,
+   "title": "Map class property assertion fails when using babel-plugin-transform-runtime",
+   "amount_usd": 50.0,
    "sources": [
     "issuehunt"
    ],
    "labels": [
     ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "help wanted"
+    "bug"
    ],
    "language": "JavaScript",
    "languages": [],
-   "stars": 7015,
+   "stars": 796,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2015-09-29T06:57:55Z",
-   "updated_at": "2026-08-30T12:21:41Z",
-   "comments": 7,
+   "created_at": "2017-11-29T22:38:55Z",
+   "updated_at": "2026-11-06T09:44:03Z",
+   "comments": 5,
    "attempts": 0,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
-   "repo_full": "sindresorhus/fkill-cli"
+   "url": "https://github.com/gajus/flow-runtime/issues/177",
+   "repo_full": "gajus/flow-runtime"
+  },
+  {
+   "owner": "gajus",
+   "repo": "flow-runtime",
+   "number": 165,
+   "title": "webpack loader",
+   "amount_usd": 200.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 796,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2017-10-28T12:50:10Z",
+   "updated_at": "2026-11-05T11:54:08Z",
+   "comments": 6,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/gajus/flow-runtime/issues/165",
+   "repo_full": "gajus/flow-runtime"
+  },
+  {
+   "owner": "shanalikhan",
+   "repo": "code-settings-sync",
+   "number": 413,
+   "title": "Suggestion: Allow upload to repository",
+   "amount_usd": 200.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "bounty",
+    "feature-request  💡"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 4094,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2017-10-11T14:30:01Z",
+   "updated_at": "2026-11-05T21:31:38Z",
+   "comments": 46,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/shanalikhan/code-settings-sync/issues/413",
+   "repo_full": "shanalikhan/code-settings-sync"
+  },
+  {
+   "owner": "shanalikhan",
+   "repo": "code-settings-sync",
+   "number": 396,
+   "title": "Upload/Download Conflicts",
+   "amount_usd": 80.0,
+   "sources": [
+    "labeled"
+   ],
+   "labels": [
+    "PR-Welcome  ✨",
+    "bounty",
+    "bug 🐛"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 4094,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2017-09-17T21:15:27Z",
+   "updated_at": "2026-11-06T10:45:05Z",
+   "comments": 16,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/shanalikhan/code-settings-sync/issues/396",
+   "repo_full": "shanalikhan/code-settings-sync"
   },
   {
    "owner": "sindresorhus",
@@ -2177,32 +2937,31 @@
    "repo_full": "sindresorhus/notifier-for-github"
   },
   {
-   "owner": "egoist",
-   "repo": "denote",
-   "number": 3,
-   "title": "Export notes",
-   "amount_usd": 40.0,
+   "owner": "shanalikhan",
+   "repo": "code-settings-sync",
+   "number": 256,
+   "title": "Adding Support for Import / Export Sync Settings to File System",
+   "amount_usd": 100.0,
    "sources": [
     "issuehunt"
    ],
    "labels": [
     ":dollar: Funded on Issuehunt",
-    "contribution welcome",
-    "enhancement"
+    "feature-request  💡"
    ],
-   "language": "Vue",
+   "language": "TypeScript",
    "languages": [],
-   "stars": 50,
+   "stars": 4094,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2019-09-15T14:32:58Z",
-   "updated_at": "2026-06-09T08:21:15Z",
-   "comments": 2,
+   "created_at": "2017-03-11T19:18:16Z",
+   "updated_at": "2026-11-05T09:50:16Z",
+   "comments": 16,
    "attempts": 0,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/denote/issues/3",
-   "repo_full": "egoist/denote"
+   "url": "https://github.com/shanalikhan/code-settings-sync/issues/256",
+   "repo_full": "shanalikhan/code-settings-sync"
   },
   {
    "owner": "sindresorhus",
@@ -2233,88 +2992,6 @@
    "repo_full": "sindresorhus/ps-list"
   },
   {
-   "owner": "piotrwitek",
-   "repo": "typesafe-actions",
-   "number": 103,
-   "title": "I would like an explanation of the Service type in epics.",
-   "amount_usd": 40.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "docs",
-    "needs funding"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 2408,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-01-09T14:28:07Z",
-   "updated_at": "2026-05-20T00:00:43Z",
-   "comments": 16,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/typesafe-actions/issues/103",
-   "repo_full": "piotrwitek/typesafe-actions"
-  },
-  {
-   "owner": "gajus",
-   "repo": "flow-runtime",
-   "number": 199,
-   "title": "Support $ReadOnlyArray",
-   "amount_usd": 40.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 796,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2018-03-07T10:57:43Z",
-   "updated_at": "2026-05-18T15:25:46Z",
-   "comments": 18,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/gajus/flow-runtime/issues/199",
-   "repo_full": "gajus/flow-runtime"
-  },
-  {
-   "owner": "egoist",
-   "repo": "demoboard",
-   "number": 19,
-   "title": "Allow to configure social links",
-   "amount_usd": 40.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "contribution welcome"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 82,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-07-11T11:34:47Z",
-   "updated_at": "2026-05-09T15:16:59Z",
-   "comments": 11,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/egoist/demoboard/issues/19",
-   "repo_full": "egoist/demoboard"
-  },
-  {
    "owner": "sindresorhus",
    "repo": "fkill-cli",
    "number": 21,
@@ -2343,389 +3020,38 @@
    "repo_full": "sindresorhus/fkill-cli"
   },
   {
-   "owner": "effector",
-   "repo": "effector",
-   "number": 142,
-   "title": "Better Try Effector experience on mobile devices",
-   "amount_usd": 40.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "enhancement",
-    "playgroung"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 4852,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-07-14T23:11:42Z",
-   "updated_at": "2026-11-06T03:00:52Z",
-   "comments": 6,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/effector/effector/issues/142",
-   "repo_full": "effector/effector"
-  },
-  {
-   "owner": "tryabby",
-   "repo": "abby",
-   "number": 68,
-   "title": "Vue Integration",
-   "amount_usd": 40.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "enhancement",
-    "hacktoberfest",
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 167,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-10-02T13:16:21Z",
-   "updated_at": "2026-11-11T20:36:08Z",
-   "comments": 52,
-   "attempts": 16,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/tryabby/abby/issues/68",
-   "repo_full": "tryabby/abby"
-  },
-  {
-   "owner": "1kc",
-   "repo": "razer-macos",
-   "number": 628,
-   "title": "RAZER Basilisk X Hyperspeed ",
-   "amount_usd": 39.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 2581,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2022-04-28T13:04:24Z",
-   "updated_at": "2026-05-11T04:00:21Z",
-   "comments": 9,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/628",
-   "repo_full": "1kc/razer-macos"
-  },
-  {
-   "owner": "piotrwitek",
-   "repo": "utility-types",
-   "number": 51,
-   "title": "Improve organization and add missing examples in API documentation",
-   "amount_usd": 35.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    "docs",
-    "funded on IssueHunt",
-    "in progress"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 5768,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2019-01-09T15:37:40Z",
-   "updated_at": "2026-11-03T16:21:29Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/piotrwitek/utility-types/issues/51",
-   "repo_full": "piotrwitek/utility-types"
-  },
-  {
-   "owner": "RE-SS3D",
-   "repo": "SS3D",
-   "number": 1373,
-   "title": "Disable rendering of unseen tilemap layers",
-   "amount_usd": 30.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "Bounty",
-    "Bounty: 30 dollars :moneybag:",
-    "Difficulty: hard :cactus:",
-    "Feature",
-    "Tilemaps"
-   ],
-   "language": "C#",
-   "languages": [],
-   "stars": 292,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-12-03T20:28:27Z",
-   "updated_at": "2026-11-04T03:56:19Z",
-   "comments": 7,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/RE-SS3D/SS3D/issues/1373",
-   "repo_full": "RE-SS3D/SS3D"
-  },
-  {
-   "owner": "verdikta",
-   "repo": "verdikta-applications",
-   "number": 76,
-   "title": "[BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)",
-   "amount_usd": 30.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 53,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-10-15T00:58:41Z",
-   "updated_at": "2026-11-03T17:32:26Z",
-   "comments": 12,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/verdikta/verdikta-applications/issues/76",
-   "repo_full": "verdikta/verdikta-applications"
-  },
-  {
-   "owner": "arakoodev",
-   "repo": "EdgeChains",
-   "number": 273,
-   "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
-   "amount_usd": 30.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 433,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-11-26T19:15:36Z",
-   "updated_at": "2026-11-11T20:36:53Z",
-   "comments": 121,
-   "attempts": 20,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/arakoodev/EdgeChains/issues/273",
-   "repo_full": "arakoodev/EdgeChains"
-  },
-  {
-   "owner": "1kc",
-   "repo": "razer-macos",
-   "number": 452,
-   "title": "Support for multiple computer / KVM setup",
-   "amount_usd": 25.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 2581,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-09-13T23:58:28Z",
-   "updated_at": "2026-10-06T02:03:12Z",
-   "comments": 6,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/452",
-   "repo_full": "1kc/razer-macos"
-  },
-  {
-   "owner": "SelfhostedPro",
-   "repo": "selfhosted_templates",
-   "number": 129,
-   "title": "[APP REQUEST]: Deluge version fork of docker-transmission-openvpn",
-   "amount_usd": 25.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt",
-    "App Request",
-    "hacktoberfest"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 1288,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-06-11T13:39:20Z",
-   "updated_at": "2020-10-02T17:27:34Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/129",
-   "repo_full": "SelfhostedPro/selfhosted_templates"
-  },
-  {
-   "owner": "arakoodev",
-   "repo": "EdgeChains",
-   "number": 279,
-   "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
-   "amount_usd": 25.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 433,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-11-30T10:03:48Z",
-   "updated_at": "2026-11-11T20:36:37Z",
-   "comments": 73,
-   "attempts": 13,
-   "claims": 2,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/arakoodev/EdgeChains/issues/279",
-   "repo_full": "arakoodev/EdgeChains"
-  },
-  {
-   "owner": "auscaster",
-   "repo": "frantic-board",
-   "number": 53,
-   "title": "Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
-   "amount_usd": 20.0,
+   "owner": "shanalikhan",
+   "repo": "code-settings-sync",
+   "number": 143,
+   "title": "Considering disabled extensions",
+   "amount_usd": 120.0,
    "sources": [
     "labeled"
    ],
    "labels": [
     "bounty",
-    "delivered",
-    "funded"
-   ],
-   "language": "Shell",
-   "languages": [],
-   "stars": 964,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-06-16T10:27:50Z",
-   "updated_at": "2026-11-11T20:52:50Z",
-   "comments": 177,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/auscaster/frantic-board/issues/53",
-   "repo_full": "auscaster/frantic-board"
-  },
-  {
-   "owner": "nodegui",
-   "repo": "react-nodegui",
-   "number": 31,
-   "title": "Support for svg in React code.",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
+    "feature-request  💡"
    ],
    "language": "TypeScript",
    "languages": [],
-   "stars": 6178,
+   "stars": 4094,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2019-09-07T22:16:22Z",
-   "updated_at": "2026-10-08T21:27:41Z",
-   "comments": 14,
+   "created_at": "2016-11-14T15:29:30Z",
+   "updated_at": "2026-11-05T22:21:33Z",
+   "comments": 57,
    "attempts": 0,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/nodegui/react-nodegui/issues/31",
-   "repo_full": "nodegui/react-nodegui"
+   "url": "https://github.com/shanalikhan/code-settings-sync/issues/143",
+   "repo_full": "shanalikhan/code-settings-sync"
   },
   {
-   "owner": "1kc",
-   "repo": "razer-macos",
-   "number": 424,
-   "title": "Razer Mamba Tournament Edition",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 2581,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-08-08T10:46:18Z",
-   "updated_at": "2026-05-24T08:54:45Z",
-   "comments": 10,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/424",
-   "repo_full": "1kc/razer-macos"
-  },
-  {
-   "owner": "1kc",
-   "repo": "razer-macos",
-   "number": 619,
-   "title": "BlackWidow Chroma Tournament Edition doesn't fade when changing states",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "JavaScript",
-   "languages": [],
-   "stars": 2581,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2022-04-15T00:27:23Z",
-   "updated_at": "2026-05-18T15:26:08Z",
-   "comments": 3,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/1kc/razer-macos/issues/619",
-   "repo_full": "1kc/razer-macos"
-  },
-  {
-   "owner": "CogTool-Modern",
-   "repo": "cogtool",
-   "number": 20,
-   "title": "File Type association, Register CogTool as a Viewer and Editor of .cgt files",
-   "amount_usd": 20.0,
+   "owner": "avajs",
+   "repo": "ava",
+   "number": 928,
+   "title": "Make it easier to write reliable cleanup tasks",
+   "amount_usd": 82.0,
    "sources": [
     "issuehunt"
    ],
@@ -2733,344 +3059,106 @@
     ":dollar: Funded on Issuehunt",
     "enhancement",
     "help wanted",
-    "openhands"
+    "scope:test-interface"
    ],
-   "language": "Java",
+   "language": "JavaScript",
    "languages": [],
-   "stars": 20,
+   "stars": 20831,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2020-06-11T03:49:19Z",
-   "updated_at": "2025-06-02T06:29:28Z",
-   "comments": 7,
+   "created_at": "2016-06-19T20:05:43Z",
+   "updated_at": "2026-11-07T19:31:33Z",
+   "comments": 42,
    "attempts": 0,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/CogTool-Modern/cogtool/issues/20",
-   "repo_full": "CogTool-Modern/cogtool"
+   "url": "https://github.com/avajs/ava/issues/928",
+   "repo_full": "avajs/ava"
   },
   {
-   "owner": "rgommezz",
-   "repo": "react-native-offline",
-   "number": 339,
-   "title": "Upgrade Example App for current Expo Go version",
-   "amount_usd": 20.0,
-   "sources": [
-    "issuehunt"
-   ],
-   "labels": [
-    ":dollar: Funded on Issuehunt"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 2358,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2021-10-01T17:43:17Z",
-   "updated_at": "2026-11-05T20:08:15Z",
-   "comments": 14,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/rgommezz/react-native-offline/issues/339",
-   "repo_full": "rgommezz/react-native-offline"
-  },
-  {
-   "owner": "highlight",
-   "repo": "highlight",
-   "number": 8032,
-   "title": "document sveltekit backend instrumentation",
-   "amount_usd": 20.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": "TypeScript",
-   "languages": [],
-   "stars": 9390,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-03-15T13:30:13Z",
-   "updated_at": "2026-11-11T20:53:25Z",
-   "comments": 107,
-   "attempts": 16,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/highlight/highlight/issues/8032",
-   "repo_full": "highlight/highlight"
-  },
-  {
-   "owner": "flowese",
-   "repo": "UdioWrapper",
-   "number": 7,
-   "title": "500 Server Error - Auto Solve hcapcha",
-   "amount_usd": 20.0,
-   "sources": [
-    "opire"
-   ],
-   "labels": [
-    "💰 Reward"
-   ],
-   "language": "Python",
-   "languages": [
-    "Python"
-   ],
-   "stars": 183,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2024-04-18T12:59:43Z",
-   "updated_at": "2026-11-08T16:42:59Z",
-   "comments": 93,
-   "attempts": 42,
-   "claims": 29,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/flowese/UdioWrapper/issues/7",
-   "repo_full": "flowese/UdioWrapper"
-  },
-  {
-   "owner": "SelfhostedPro",
-   "repo": "selfhosted_templates",
-   "number": 132,
-   "title": "[APP REQUEST]: CloudFlare DDNS",
-   "amount_usd": 15.0,
+   "owner": "sindresorhus",
+   "repo": "caprine",
+   "number": 103,
+   "title": "App stops updating on resume after suspend mode",
+   "amount_usd": 100.0,
    "sources": [
     "issuehunt"
    ],
    "labels": [
     ":dollar: Funded on Issuehunt",
-    "App Request",
-    "hacktoberfest"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 1288,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2020-06-11T22:16:04Z",
-   "updated_at": "2026-10-09T02:35:49Z",
-   "comments": 4,
-   "attempts": 0,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/SelfhostedPro/selfhosted_templates/issues/132",
-   "repo_full": "SelfhostedPro/selfhosted_templates"
-  },
-  {
-   "owner": "flydelabs",
-   "repo": "flyde",
-   "number": 112,
-   "title": "Broken imports after moving files",
-   "amount_usd": 15.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
+    "bug",
+    "help wanted"
    ],
    "language": "TypeScript",
    "languages": [],
-   "stars": 3503,
+   "stars": 7415,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2024-03-22T07:07:05Z",
-   "updated_at": "2026-11-11T20:31:06Z",
-   "comments": 68,
-   "attempts": 17,
-   "claims": 1,
+   "created_at": "2016-05-23T14:09:42Z",
+   "updated_at": "2026-07-05T02:59:13Z",
+   "comments": 24,
+   "attempts": 1,
+   "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/flydelabs/flyde/issues/112",
-   "repo_full": "flydelabs/flyde"
+   "url": "https://github.com/sindresorhus/caprine/issues/103",
+   "repo_full": "sindresorhus/caprine"
   },
   {
-   "owner": "auscaster",
-   "repo": "frantic-board",
-   "number": 558,
-   "title": "Frantic bounty #138: Find a live HTTP 402 endpoint that prices in Nano (XNO)",
-   "amount_usd": 10.0,
+   "owner": "avajs",
+   "repo": "ava",
+   "number": 595,
+   "title": "Randomize test runs",
+   "amount_usd": 80.0,
    "sources": [
-    "labeled"
+    "issuehunt"
    ],
    "labels": [
-    "bounty",
-    "delivered",
-    "funded"
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted",
+    "scope:scheduling"
    ],
-   "language": "Shell",
+   "language": "JavaScript",
    "languages": [],
-   "stars": 964,
+   "stars": 20831,
    "state": "OPEN",
    "archived": false,
-   "created_at": "2026-10-24T21:29:48Z",
-   "updated_at": "2026-11-04T05:56:19Z",
-   "comments": 1,
+   "created_at": "2016-03-03T14:40:26Z",
+   "updated_at": "2026-11-07T19:33:04Z",
+   "comments": 13,
+   "attempts": 1,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/avajs/ava/issues/595",
+   "repo_full": "avajs/ava"
+  },
+  {
+   "owner": "sindresorhus",
+   "repo": "fkill-cli",
+   "number": 6,
+   "title": "Smart mode",
+   "amount_usd": 40.0,
+   "sources": [
+    "issuehunt"
+   ],
+   "labels": [
+    ":dollar: Funded on Issuehunt",
+    "enhancement",
+    "help wanted"
+   ],
+   "language": "JavaScript",
+   "languages": [],
+   "stars": 7015,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2015-09-29T06:57:55Z",
+   "updated_at": "2026-08-30T12:21:41Z",
+   "comments": 7,
    "attempts": 0,
    "claims": 0,
    "first_seen": "2026-11-12",
-   "url": "https://github.com/auscaster/frantic-board/issues/558",
-   "repo_full": "auscaster/frantic-board"
-  },
-  {
-   "owner": "speakers-in-tech",
-   "repo": "conference-data",
-   "number": 7,
-   "title": "Add Lambda World to conference data tracker",
-   "amount_usd": 10.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty",
-    "💰 Rewarded"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 19,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-03-27T14:59:35Z",
-   "updated_at": "2026-11-07T01:53:45Z",
-   "comments": 8,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/speakers-in-tech/conference-data/issues/7",
-   "repo_full": "speakers-in-tech/conference-data"
-  },
-  {
-   "owner": "speakers-in-tech",
-   "repo": "conference-data",
-   "number": 12,
-   "title": "Add GOTO to the conference data tracker",
-   "amount_usd": 10.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty",
-    "💰 Rewarded"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 19,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-03-27T15:03:08Z",
-   "updated_at": "2026-10-16T13:51:14Z",
-   "comments": 7,
-   "attempts": 1,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/speakers-in-tech/conference-data/issues/12",
-   "repo_full": "speakers-in-tech/conference-data"
-  },
-  {
-   "owner": "auscaster",
-   "repo": "frantic-board",
-   "number": 277,
-   "title": "Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, first five)",
-   "amount_usd": 10.0,
-   "sources": [
-    "labeled"
-   ],
-   "labels": [
-    "available",
-    "bounty",
-    "delivered",
-    "funded"
-   ],
-   "language": "Shell",
-   "languages": [],
-   "stars": 964,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2026-07-08T01:14:12Z",
-   "updated_at": "2026-11-11T20:52:52Z",
-   "comments": 149,
-   "attempts": 2,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/auscaster/frantic-board/issues/277",
-   "repo_full": "auscaster/frantic-board"
-  },
-  {
-   "owner": "speakers-in-tech",
-   "repo": "conference-data",
-   "number": 10,
-   "title": "Add CodeMash to the conference data tracker",
-   "amount_usd": 10.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 19,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-03-27T15:02:27Z",
-   "updated_at": "2026-11-11T20:54:02Z",
-   "comments": 63,
-   "attempts": 24,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/speakers-in-tech/conference-data/issues/10",
-   "repo_full": "speakers-in-tech/conference-data"
-  },
-  {
-   "owner": "speakers-in-tech",
-   "repo": "conference-data",
-   "number": 11,
-   "title": "Add QCon to the conference data tracker",
-   "amount_usd": 10.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 19,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-03-27T15:02:45Z",
-   "updated_at": "2026-11-11T20:54:00Z",
-   "comments": 57,
-   "attempts": 28,
-   "claims": 0,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/speakers-in-tech/conference-data/issues/11",
-   "repo_full": "speakers-in-tech/conference-data"
-  },
-  {
-   "owner": "speakers-in-tech",
-   "repo": "conference-data",
-   "number": 4,
-   "title": "Add ScalaDays to conference data tracker",
-   "amount_usd": 10.0,
-   "sources": [
-    "algora"
-   ],
-   "labels": [
-    "💎 Bounty"
-   ],
-   "language": null,
-   "languages": [],
-   "stars": 19,
-   "state": "OPEN",
-   "archived": false,
-   "created_at": "2023-03-27T14:55:54Z",
-   "updated_at": "2026-11-11T20:53:59Z",
-   "comments": 51,
-   "attempts": 27,
-   "claims": 1,
-   "first_seen": "2026-11-12",
-   "url": "https://github.com/speakers-in-tech/conference-data/issues/4",
-   "repo_full": "speakers-in-tech/conference-data"
+   "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
+   "repo_full": "sindresorhus/fkill-cli"
   }
  ]
 }

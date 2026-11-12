@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 01:04:02 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 01:26:59 +0000</lastBuildDate>
 <item>
 <title>$2,600 · QubesOS/qubes-issues · [Contribution] BusKill</title>
 <link>https://github.com/QubesOS/qubes-issues/issues/10567</link>
@@ -19,16 +19,16 @@
 <description>labeled · 0 tries · Java</description>
 </item>
 <item>
-<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Azure AKS support for sifnode</title>
-<link>https://github.com/Sifchain/sifnode/issues/503</link>
-<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/503</guid>
+<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
+<link>https://github.com/Sifchain/sifnode/issues/524</link>
+<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/524</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · Go</description>
 </item>
 <item>
-<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
-<link>https://github.com/Sifchain/sifnode/issues/524</link>
-<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/524</guid>
+<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Azure AKS support for sifnode</title>
+<link>https://github.com/Sifchain/sifnode/issues/503</link>
+<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/503</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · Go</description>
 </item>
@@ -37,7 +37,14 @@
 <link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/920</link>
 <guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/920</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 24 tries · TypeScript</description>
+<description>algora · 20 tries · TypeScript</description>
+</item>
+<item>
+<title>$800 · UnsafeLabs/Bounty-Hunters · [ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback</title>
+<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/916</link>
+<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/916</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 18 tries · TypeScript</description>
 </item>
 <item>
 <title>$800 · UnsafeLabs/Bounty-Hunters · [ Laravel ] Implement webhook system with signature verification and retry queue</title>
@@ -47,11 +54,11 @@
 <description>algora · 10 tries · TypeScript</description>
 </item>
 <item>
-<title>$800 · UnsafeLabs/Bounty-Hunters · [ Crypto ] Fix MultiSigWallet confirmation race condition during execution callback</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/916</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/916</guid>
+<title>$780 · SecureBananaLabs/bug-bounty · Automate Bug Detection and Reviews</title>
+<link>https://github.com/SecureBananaLabs/bug-bounty/issues/11398</link>
+<guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/11398</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 23 tries · TypeScript</description>
+<description>algora, labeled · 10 tries · JavaScript</description>
 </item>
 <item>
 <title>$780 · SecureBananaLabs/bug-bounty · POST /api/reviews endpoint missing authentication middleware (reissue via #743)</title>
@@ -61,18 +68,11 @@
 <description>algora, labeled · 7 tries · JavaScript</description>
 </item>
 <item>
-<title>$780 · SecureBananaLabs/bug-bounty · Automate Bug Detection and Reviews</title>
-<link>https://github.com/SecureBananaLabs/bug-bounty/issues/11398</link>
-<guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/11398</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora, labeled · 10 tries · JavaScript</description>
-</item>
-<item>
 <title>$780 · SecureBananaLabs/bug-bounty · Pixel Art Creation with high Creative Thinking</title>
 <link>https://github.com/SecureBananaLabs/bug-bounty/issues/80</link>
 <guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/80</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora, labeled · 26 tries · JavaScript</description>
+<description>algora, labeled · 22 tries · JavaScript</description>
 </item>
 <item>
 <title>$750 · tenstorrent/tt-metal · [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues</title>
@@ -89,6 +89,20 @@
 <description>labeled · 0 tries · Python</description>
 </item>
 <item>
+<title>$700 · SecureBananaLabs/bug-bounty · Low Handing Fruit Automation</title>
+<link>https://github.com/SecureBananaLabs/bug-bounty/issues/743</link>
+<guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/743</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora, labeled · 23 tries · JavaScript</description>
+</item>
+<item>
+<title>$700 · UnsafeLabs/Bounty-Hunters · [ Crypto ] Fix tx.origin phishing vulnerability in GovernanceToken delegation</title>
+<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/912</link>
+<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/912</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 22 tries · TypeScript</description>
+</item>
+<item>
 <title>$700 · UnsafeLabs/Bounty-Hunters · [ FastAPI ] Implement standardized pagination with offset and cursor support</title>
 <link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/802</link>
 <guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/802</guid>
@@ -96,18 +110,11 @@
 <description>algora · 14 tries · TypeScript</description>
 </item>
 <item>
-<title>$700 · UnsafeLabs/Bounty-Hunters · [ Crypto ] Fix tx.origin phishing vulnerability in GovernanceToken delegation</title>
-<link>https://github.com/UnsafeLabs/Bounty-Hunters/issues/912</link>
-<guid isPermaLink="true">https://github.com/UnsafeLabs/Bounty-Hunters/issues/912</guid>
+<title>$600 · getdozer/dozer · Support for `IN` clause in streaming SQL</title>
+<link>https://github.com/getdozer/dozer/issues/1659</link>
+<guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1659</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 23 tries · TypeScript</description>
-</item>
-<item>
-<title>$700 · SecureBananaLabs/bug-bounty · Low Handing Fruit Automation</title>
-<link>https://github.com/SecureBananaLabs/bug-bounty/issues/743</link>
-<guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/743</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora, labeled · 29 tries · JavaScript</description>
+<description>algora · 17 tries · Rust</description>
 </item>
 <item>
 <title>$600 · getdozer/dozer · WASM UDF support</title>
@@ -117,25 +124,18 @@
 <description>algora · 16 tries · Rust</description>
 </item>
 <item>
-<title>$600 · getdozer/dozer · Support for `IN` clause in streaming SQL</title>
-<link>https://github.com/getdozer/dozer/issues/1659</link>
-<guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1659</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 24 tries · Rust</description>
-</item>
-<item>
 <title>$430 · SecureBananaLabs/bug-bounty · Technical Poem Generation and Content Creation</title>
 <link>https://github.com/SecureBananaLabs/bug-bounty/issues/76</link>
 <guid isPermaLink="true">https://github.com/SecureBananaLabs/bug-bounty/issues/76</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora, labeled · 27 tries · JavaScript</description>
+<description>algora, labeled · 22 tries · JavaScript</description>
 </item>
 <item>
 <title>$400 · highlight/highlight · Support Elixir among our SDKs</title>
 <link>https://github.com/highlight/highlight/issues/5082</link>
 <guid isPermaLink="true">https://github.com/highlight/highlight/issues/5082</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 6 tries · TypeScript</description>
+<description>algora · 4 tries · TypeScript</description>
 </item>
 <item>
 <title>$300 · trypear/pearai-app · [Hard] Package Releases Automation</title>
@@ -145,39 +145,25 @@
 <description>labeled · 0 tries · TypeScript</description>
 </item>
 <item>
+<title>$250 · outerbase/starbasedb · Improve test coverage with Vitest</title>
+<link>https://github.com/outerbase/starbasedb/issues/71</link>
+<guid isPermaLink="true">https://github.com/outerbase/starbasedb/issues/71</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 20 tries · TypeScript</description>
+</item>
+<item>
 <title>$250 · onyx-dot-app/onyx · Jira Service Management Connector</title>
 <link>https://github.com/onyx-dot-app/onyx/issues/2281</link>
 <guid isPermaLink="true">https://github.com/onyx-dot-app/onyx/issues/2281</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 14 tries · Python</description>
+<description>algora · 10 tries · Python</description>
 </item>
 <item>
 <title>$250 · getdozer/dozer · Sample: Dozer + LLM + Vector database + Langchain sample</title>
 <link>https://github.com/getdozer/dozer/issues/1690</link>
 <guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1690</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 17 tries · Rust</description>
-</item>
-<item>
-<title>$250 · outerbase/starbasedb · Improve test coverage with Vitest</title>
-<link>https://github.com/outerbase/starbasedb/issues/71</link>
-<guid isPermaLink="true">https://github.com/outerbase/starbasedb/issues/71</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 28 tries · TypeScript</description>
-</item>
-<item>
-<title>$200 · shanalikhan/code-settings-sync · Suggestion: Allow upload to repository</title>
-<link>https://github.com/shanalikhan/code-settings-sync/issues/413</link>
-<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/413</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$200 · gajus/flow-runtime · webpack loader</title>
-<link>https://github.com/gajus/flow-runtime/issues/165</link>
-<guid isPermaLink="true">https://github.com/gajus/flow-runtime/issues/165</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
+<description>algora · 11 tries · Rust</description>
 </item>
 <item>
 <title>$200 · dictation-toolbox/Caster · Integration with OS accessibility APIs</title>
@@ -187,11 +173,25 @@
 <description>issuehunt · 0 tries · Python</description>
 </item>
 <item>
-<title>$150 · marcosgriselli/SwipeableTabBarController · Very quick swipes cause app to freeze</title>
-<link>https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</link>
-<guid isPermaLink="true">https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</guid>
+<title>$200 · gajus/flow-runtime · webpack loader</title>
+<link>https://github.com/gajus/flow-runtime/issues/165</link>
+<guid isPermaLink="true">https://github.com/gajus/flow-runtime/issues/165</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · Swift</description>
+<description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$200 · shanalikhan/code-settings-sync · Suggestion: Allow upload to repository</title>
+<link>https://github.com/shanalikhan/code-settings-sync/issues/413</link>
+<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/413</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$150 · cxlinux-ai/cx-core · [ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration</title>
+<link>https://github.com/cxlinux-ai/cx-core/issues/425</link>
+<guid isPermaLink="true">https://github.com/cxlinux-ai/cx-core/issues/425</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 2 tries · Rust</description>
 </item>
 <item>
 <title>$150 · scratchdata/scratchdata · UI for Database Connection Add and Delete</title>
@@ -201,11 +201,11 @@
 <description>algora · 1 tries · Go</description>
 </item>
 <item>
-<title>$150 · cxlinux-ai/cx-core · [ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration</title>
-<link>https://github.com/cxlinux-ai/cx-core/issues/425</link>
-<guid isPermaLink="true">https://github.com/cxlinux-ai/cx-core/issues/425</guid>
+<title>$150 · marcosgriselli/SwipeableTabBarController · Very quick swipes cause app to freeze</title>
+<link>https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</link>
+<guid isPermaLink="true">https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 2 tries · Rust</description>
+<description>issuehunt · 0 tries · Swift</description>
 </item>
 <item>
 <title>$120 · piotrwitek/typesafe-actions · Add a generic redux-observable factory automatically handling async-actions - createAsyncEpic</title>
@@ -219,7 +219,7 @@
 <link>https://github.com/shanalikhan/code-settings-sync/issues/143</link>
 <guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/143</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 10 tries · TypeScript</description>
+<description>labeled · 0 tries · TypeScript</description>
 </item>
 <item>
 <title>$115 · piotrwitek/typesafe-actions · Add a generic reducer factory automatically handling async-actions - createAsyncReducer</title>
@@ -236,11 +236,25 @@
 <description>issuehunt · 1 tries · TypeScript</description>
 </item>
 <item>
-<title>$100 · shanalikhan/code-settings-sync · Adding Support for Import / Export Sync Settings to File System</title>
-<link>https://github.com/shanalikhan/code-settings-sync/issues/256</link>
-<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/256</guid>
+<title>$100 · revertinc/revert · [REVER-51] Workable Integration</title>
+<link>https://github.com/revertinc/revert/issues/551</link>
+<guid isPermaLink="true">https://github.com/revertinc/revert/issues/551</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
+<description>algora · 22 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · revertinc/revert · [REVER-48] Workday Integration</title>
+<link>https://github.com/revertinc/revert/issues/372</link>
+<guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 16 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · vuejs/vetur · Use Vue component&#x27;s Props type parameter for prop type validation</title>
+<link>https://github.com/vuejs/vetur/issues/2344</link>
+<guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 1 tries · TypeScript</description>
 </item>
 <item>
 <title>$100 · effector/effector · Perf tests on real devices</title>
@@ -250,9 +264,30 @@
 <description>issuehunt · 0 tries · TypeScript</description>
 </item>
 <item>
+<title>$100 · egoist/majo · Convert to TypeScript</title>
+<link>https://github.com/egoist/majo/issues/13</link>
+<guid isPermaLink="true">https://github.com/egoist/majo/issues/13</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
 <title>$100 · egoist/majo · Separate the majo instance and middleware context</title>
 <link>https://github.com/egoist/majo/issues/12</link>
 <guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · egoist/vue-content-loader · Responsive</title>
+<link>https://github.com/egoist/vue-content-loader/issues/18</link>
+<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$100 · devhubapp/devhub · Push notifications</title>
+<link>https://github.com/devhubapp/devhub/issues/51</link>
+<guid isPermaLink="true">https://github.com/devhubapp/devhub/issues/51</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 0 tries · TypeScript</description>
 </item>
@@ -271,32 +306,11 @@
 <description>issuehunt · 0 tries · JavaScript</description>
 </item>
 <item>
-<title>$100 · egoist/vue-content-loader · Responsive</title>
-<link>https://github.com/egoist/vue-content-loader/issues/18</link>
-<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$100 · devhubapp/devhub · Push notifications</title>
-<link>https://github.com/devhubapp/devhub/issues/51</link>
-<guid isPermaLink="true">https://github.com/devhubapp/devhub/issues/51</guid>
+<title>$100 · shanalikhan/code-settings-sync · Adding Support for Import / Export Sync Settings to File System</title>
+<link>https://github.com/shanalikhan/code-settings-sync/issues/256</link>
+<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/256</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Convert to TypeScript</title>
-<link>https://github.com/egoist/majo/issues/13</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/13</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · vuejs/vetur · Use Vue component&#x27;s Props type parameter for prop type validation</title>
-<link>https://github.com/vuejs/vetur/issues/2344</link>
-<guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 1 tries · TypeScript</description>
 </item>
 <item>
 <title>$100 · sindresorhus/caprine · App stops updating on resume after suspend mode</title>
@@ -306,23 +320,9 @@
 <description>issuehunt · 1 tries · TypeScript</description>
 </item>
 <item>
-<title>$100 · revertinc/revert · [REVER-48] Workday Integration</title>
-<link>https://github.com/revertinc/revert/issues/372</link>
-<guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 16 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · revertinc/revert · [REVER-51] Workable Integration</title>
-<link>https://github.com/revertinc/revert/issues/551</link>
-<guid isPermaLink="true">https://github.com/revertinc/revert/issues/551</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 23 tries · TypeScript</description>
-</item>
-<item>
-<title>$90 · piotrwitek/utility-types · Add a web page with API documentation that will be automatically generated from the recent source code changes</title>
-<link>https://github.com/piotrwitek/utility-types/issues/30</link>
-<guid isPermaLink="true">https://github.com/piotrwitek/utility-types/issues/30</guid>
+<title>$90 · egoist/bili · *.d.ts bundles</title>
+<link>https://github.com/egoist/bili/issues/183</link>
+<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 0 tries · TypeScript</description>
 </item>
@@ -334,9 +334,9 @@
 <description>issuehunt · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$90 · egoist/bili · *.d.ts bundles</title>
-<link>https://github.com/egoist/bili/issues/183</link>
-<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
+<title>$90 · piotrwitek/utility-types · Add a web page with API documentation that will be automatically generated from the recent source code changes</title>
+<link>https://github.com/piotrwitek/utility-types/issues/30</link>
+<guid isPermaLink="true">https://github.com/piotrwitek/utility-types/issues/30</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 0 tries · TypeScript</description>
 </item>
@@ -345,7 +345,7 @@
 <link>https://github.com/microg/GmsCore/issues/2851</link>
 <guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2851</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 1 tries · Java</description>
+<description>labeled · 0 tries · Java</description>
 </item>
 <item>
 <title>$82 · avajs/ava · Make it easier to write reliable cleanup tasks</title>

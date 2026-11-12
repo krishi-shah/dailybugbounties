@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dailybugbounties · paid open source issues, sorted by payout</title>
+<meta name="description" content="Every open source bounty from Algora, IssueHunt, Opire and GitHub in one list, sorted by payout. Updated daily.">
+<link rel="alternate" type="application/rss+xml" title="dailybugbounties" href="feed.xml">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1d1c1a; --muted: #6b675f; --line: #e6e2d9; --card: #fff;
+    --accent: #0f7b53; --accent-bg: #e3f3ec; --new: #b4530a;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121211; --fg: #ecebe7; --muted: #9a968d; --line: #2a2926; --card: #1a1a18;
+            --accent: #4cc596; --accent-bg: #173328; --new: #f0a35e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 18px 60px; }
+  header h1 { font: 700 28px/1.1 var(--mono); margin: 0 0 6px; letter-spacing: -0.5px; }
+  header p { margin: 0; color: var(--muted); }
+  .stats { display: flex; gap: 28px; flex-wrap: wrap; margin: 22px 0; }
+  .stat b { display: block; font: 700 26px/1.1 var(--mono); }
+  .stat span { color: var(--muted); font-size: 13px; }
+  .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .filters input, .filters select { width: 100%; padding: 9px 11px; border: 1px solid var(--line);
+         border-radius: 8px; background: var(--card); color: var(--fg); font: inherit; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .chip { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 999px;
+          padding: 5px 12px; cursor: pointer; font: 13px/1.4 inherit; }
+  .chip[aria-pressed="true"] { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
+  .count { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+  .row { display: grid; grid-template-columns: 96px 1fr auto; gap: 14px; align-items: center;
+         padding: 12px 14px; border: 1px solid var(--line); background: var(--card);
+         border-radius: 10px; margin-bottom: 8px; }
+  .amt { font: 700 18px/1 var(--mono); color: var(--accent); }
+  .title { color: var(--fg); text-decoration: none; font-weight: 600; }
+  .title:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 2px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .meta a { color: inherit; }
+  .new { color: var(--new); font-weight: 700; font-size: 12px; margin-left: 6px; }
+  .tries { font: 13px var(--mono); color: var(--muted); text-align: right; white-space: nowrap; }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  footer { margin-top: 30px; color: var(--muted); font-size: 13px; }
+  footer a { color: inherit; }
+  @media (max-width: 700px) {
+    .filters { grid-template-columns: 1fr 1fr; }
+    .filters .q { grid-column: 1 / -1; }
+    .row { grid-template-columns: 1fr; gap: 4px; }
+    .tries { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>dailybugbounties</h1>
+    <p>Paid open source issues from Algora, IssueHunt, Opire and GitHub, sorted by payout. Updated daily.</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><b id="s-count">…</b><span>open bounties</span></div>
+    <div class="stat"><b id="s-total">…</b><span>total payout</span></div>
+    <div class="stat"><b id="s-new">…</b><span>new today</span></div>
+    <div class="stat"><b id="s-updated">…</b><span>last update (UTC)</span></div>
+  </div>
+
+  <div class="filters">
+    <input class="q" id="q" type="search" placeholder="Search title or repo" aria-label="Search">
+    <select id="min" aria-label="Minimum payout">
+      <option value="0">Any payout</option><option value="50">$50+</option><option value="100">$100+</option>
+      <option value="250">$250+</option><option value="500">$500+</option><option value="1000">$1,000+</option>
+    </select>
+    <select id="lang" aria-label="Language"><option value="">All languages</option></select>
+    <select id="tries" aria-label="Competition">
+      <option value="999">Any competition</option><option value="0">No one trying</option>
+      <option value="2">2 or fewer tries</option><option value="5">5 or fewer tries</option>
+    </select>
+  </div>
+  <div class="chips" id="chips"></div>
+  <p class="count" id="count"></p>
+  <div id="list"></div>
+
+  <footer>
+    Data: <a href="bounties.json">bounties.json</a> · <a href="feed.xml">RSS</a> ·
+    <a href="https://github.com/krishi-shah/dailybugbounties">GitHub</a>.
+    Amounts come from each platform or the issue text. Always confirm the bounty on the issue before you start work.
+  </footer>
+</div>
+<script>
+const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", labeled: "Label" };
+const $ = (id) => document.getElementById(id);
+const state = { all: [], sources: new Set(), today: "", newOnly: false };
+
+const money = (v, whole) => "$" + Number(whole ? Math.round(v) : v).toLocaleString("en-US", { minimumFractionDigits: !whole && v % 1 ? 2 : 0, maximumFractionDigits: whole ? 0 : 2 });
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const lang = (b) => b.language || (b.languages && b.languages[0]) || "";
+const age = (iso) => {
+  if (!iso) return "";
+  const d = Math.floor((Date.now() - new Date(iso)) / 864e5);
+  return d < 1 ? "today" : d < 365 ? d + "d old" : Math.floor(d / 365) + "y old";
+};
+
+function chip(label, pressed, onClick) {
+  const b = document.createElement("button");
+  b.className = "chip"; b.textContent = label; b.setAttribute("aria-pressed", pressed);
+  b.onclick = () => { onClick(); b.setAttribute("aria-pressed", b.getAttribute("aria-pressed") !== "true"); render(); };
+  return b;
+}
+
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  const min = +$("min").value, lg = $("lang").value, maxTries = +$("tries").value;
+  const rows = state.all.filter((b) =>
+    b.amount_usd >= min &&
+    (!lg || lang(b) === lg || (b.languages || []).includes(lg)) &&
+    (b.attempts + b.claims) <= maxTries &&
+    b.sources.some((s) => state.sources.has(s)) &&
+    (!state.newOnly || b.first_seen === state.today) &&
+    (!q || (b.title + " " + b.repo_full).toLowerCase().includes(q)));
+  $("count").textContent = `${rows.length} shown · ${money(rows.reduce((a, b) => a + b.amount_usd, 0), true)}`;
+  $("list").innerHTML = rows.length ? rows.slice(0, 500).map((b) => `
+    <div class="row">
+      <div class="amt">${money(b.amount_usd)}</div>
+      <div>
+        <a class="title" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a>${b.first_seen === state.today ? '<span class="new">NEW</span>' : ""}
+        <div class="meta">
+          <a href="https://github.com/${esc(b.repo_full)}" target="_blank" rel="noopener">${esc(b.repo_full)}</a>
+          ${b.stars != null ? `<span>★ ${b.stars.toLocaleString()}</span>` : ""}
+          ${lang(b) ? `<span>${esc(lang(b))}</span>` : ""}
+          <span>${b.sources.map((s) => NAMES[s] || s).join(", ")}</span>
+          <span>${age(b.created_at)}</span>
+        </div>
+      </div>
+      <div class="tries">${b.attempts + b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}</div>
+    </div>`).join("") : '<div class="empty">No bounties match these filters.</div>';
+}
+
+fetch("bounties.json").then((r) => r.json()).then((data) => {
+  state.all = data.bounties;
+  state.today = data.generated_at.slice(0, 10);
+  $("s-count").textContent = data.count.toLocaleString();
+  $("s-total").textContent = money(data.total_usd, true);
+  $("s-new").textContent = data.bounties.filter((b) => b.first_seen === state.today).length;
+  $("s-updated").textContent = data.generated_at.slice(0, 16).replace("T", " ");
+  const langs = [...new Set(data.bounties.map(lang).filter(Boolean))].sort();
+  $("lang").insertAdjacentHTML("beforeend", langs.map((l) => `<option>${esc(l)}</option>`).join(""));
+  Object.keys(data.by_source).forEach((s) => {
+    state.sources.add(s);
+    $("chips").append(chip(`${NAMES[s] || s} · ${data.by_source[s]}`, true,
+      () => state.sources.has(s) ? state.sources.delete(s) : state.sources.add(s)));
+  });
+  $("chips").append(chip("New today only", false, () => (state.newOnly = !state.newOnly)));
+  ["q", "min", "lang", "tries"].forEach((id) => $(id).addEventListener("input", render));
+  render();
+}).catch(() => { $("list").innerHTML = '<div class="empty">Could not load bounties.json.</div>'; });
+</script>
+</body>
+</html>

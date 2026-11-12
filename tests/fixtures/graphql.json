@@ -1,0 +1,26 @@
+{
+  "data": {
+    "i0": {
+      "stargazerCount": 4200,
+      "isArchived": false,
+      "primaryLanguage": {"name": "TypeScript"},
+      "issue": {
+        "state": "OPEN",
+        "title": "Support SSO login",
+        "createdAt": "2026-09-01T10:00:00Z",
+        "updatedAt": "2026-11-10T10:00:00Z",
+        "labels": {"nodes": [{"name": "💎 Bounty"}]},
+        "comments": {
+          "totalCount": 5,
+          "nodes": [
+            {"author": {"login": "algora-pbc"}, "body": "## 💎 $750 bounty • acme\n### Steps to solve:\n1. Start working: comment /attempt #12"},
+            {"author": {"login": "dev1"}, "body": "/attempt #12"},
+            {"author": {"login": "dev2"}, "body": "/attempt #12 working on it"},
+            {"author": {"login": "dev1"}, "body": "/claim #12"},
+            {"author": null, "body": "ghost comment"}
+          ]
+        }
+      }
+    }
+  }
+}

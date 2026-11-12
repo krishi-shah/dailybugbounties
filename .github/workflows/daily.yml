@@ -1,0 +1,48 @@
+name: daily feed
+
+on:
+  schedule:
+    - cron: "17 11 * * *"   # once a day, 11:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["dailybugbounties/**", "blocklist.txt", ".github/workflows/daily.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python -m unittest discover -s tests -v
+
+  feed:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Build feed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BB_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m dailybugbounties --root .
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data docs/bounties.json docs/feed.xml
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          COUNT=$(python -c "import json;d=json.load(open('data/bounties.json'));print(f\"{d['count']} bounties, \${d['total_usd']:,.0f}\")")
+          git commit -m "feed: $COUNT ($(date -u +%F))"
+          git push

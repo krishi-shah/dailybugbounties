@@ -1,0 +1,35 @@
+[
+  {
+    "id": "01J42C08V4J78ZAWH8JH2RQS8G",
+    "title": "research implementation for Windows",
+    "url": "https://github.com/radumarias/rencfs/issues/3",
+    "platform": "GitHub",
+    "featuredBy": null,
+    "claimerUsers": [],
+    "tryingUsers": [{"id": "u1"}],
+    "programmingLanguages": ["Rust"],
+    "createdAt": 1722361586532,
+    "pendingPrice": {"value": 4200, "unit": "USD_CENT"},
+    "organization": {"name": "radumarias", "url": "https://github.com/radumarias"},
+    "project": {"name": "rencfs", "url": "https://github.com/radumarias/rencfs", "isPublic": true}
+  },
+  {
+    "id": "x2",
+    "title": "Add dark mode",
+    "url": "https://github.com/acme/web/issues/88",
+    "platform": "GitHub",
+    "claimerUsers": [{"id": "c"}],
+    "tryingUsers": [],
+    "programmingLanguages": [],
+    "pendingPrice": {"value": 25000, "unit": "USD_CENT"},
+    "project": {"isPublic": true}
+  },
+  {
+    "id": "x3",
+    "title": "Secret",
+    "url": "https://github.com/hidden/repo/issues/1",
+    "platform": "GitHub",
+    "pendingPrice": {"value": 9900, "unit": "USD_CENT"},
+    "project": {"isPublic": false}
+  }
+]

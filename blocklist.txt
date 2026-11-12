@@ -1,0 +1,6 @@
+# Repos or owners that never show up in the feed.
+# One per line: "owner/repo" blocks a repo, "owner" blocks every repo of that owner.
+# Open a PR to add one. Include a link that shows why (fake payouts, issue farm, bot trap).
+
+PhanKhoa95/oss-bot-trap-benchmark
+zhangjiayang6835-cyber/bounty-plaza

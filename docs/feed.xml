@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 04:46:03 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 04:48:25 +0000</lastBuildDate>
 <item>
 <title>$2,600 · QubesOS/qubes-issues · [Contribution] BusKill</title>
 <link>https://github.com/QubesOS/qubes-issues/issues/10567</link>
@@ -19,6 +19,20 @@
 <description>labeled, title · 0 tries · Java</description>
 </item>
 <item>
+<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
+<link>https://github.com/Sifchain/sifnode/issues/524</link>
+<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/524</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · Go</description>
+</item>
+<item>
+<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Azure AKS support for sifnode</title>
+<link>https://github.com/Sifchain/sifnode/issues/503</link>
+<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/503</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · Go</description>
+</item>
+<item>
 <title>$750 · tenstorrent/tt-metal · [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues</title>
 <link>https://github.com/tenstorrent/tt-metal/issues/64647</link>
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64647</guid>
@@ -31,6 +45,34 @@
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64575</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · Python</description>
+</item>
+<item>
+<title>$600 · getdozer/dozer · Support for `IN` clause in streaming SQL</title>
+<link>https://github.com/getdozer/dozer/issues/1659</link>
+<guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1659</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 17 tries · Rust</description>
+</item>
+<item>
+<title>$600 · getdozer/dozer · WASM UDF support</title>
+<link>https://github.com/getdozer/dozer/issues/1653</link>
+<guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1653</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 16 tries · Rust</description>
+</item>
+<item>
+<title>$400 · highlight/highlight · Support Elixir among our SDKs</title>
+<link>https://github.com/highlight/highlight/issues/5082</link>
+<guid isPermaLink="true">https://github.com/highlight/highlight/issues/5082</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 4 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · trypear/pearai-app · [Hard] Package Releases Automation</title>
+<link>https://github.com/trypear/pearai-app/issues/44</link>
+<guid isPermaLink="true">https://github.com/trypear/pearai-app/issues/44</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · TypeScript</description>
 </item>
 <item>
 <title>$250 · Expensify/App · [$250] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review</title>
@@ -145,6 +187,41 @@
 <description>algora · 20 tries · TypeScript</description>
 </item>
 <item>
+<title>$250 · onyx-dot-app/onyx · Jira Service Management Connector</title>
+<link>https://github.com/onyx-dot-app/onyx/issues/2281</link>
+<guid isPermaLink="true">https://github.com/onyx-dot-app/onyx/issues/2281</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 10 tries · Python</description>
+</item>
+<item>
+<title>$250 · getdozer/dozer · Sample: Dozer + LLM + Vector database + Langchain sample</title>
+<link>https://github.com/getdozer/dozer/issues/1690</link>
+<guid isPermaLink="true">https://github.com/getdozer/dozer/issues/1690</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 11 tries · Rust</description>
+</item>
+<item>
+<title>$200 · dictation-toolbox/Caster · Integration with OS accessibility APIs</title>
+<link>https://github.com/dictation-toolbox/Caster/issues/814</link>
+<guid isPermaLink="true">https://github.com/dictation-toolbox/Caster/issues/814</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · Python</description>
+</item>
+<item>
+<title>$200 · gajus/flow-runtime · webpack loader</title>
+<link>https://github.com/gajus/flow-runtime/issues/165</link>
+<guid isPermaLink="true">https://github.com/gajus/flow-runtime/issues/165</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$200 · shanalikhan/code-settings-sync · Suggestion: Allow upload to repository</title>
+<link>https://github.com/shanalikhan/code-settings-sync/issues/413</link>
+<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/413</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · TypeScript</description>
+</item>
+<item>
 <title>$150 · cxlinux-ai/cx-core · [ARCHITECTURE] Replace Ollama with llama.cpp native C++ integration</title>
 <link>https://github.com/cxlinux-ai/cx-core/issues/425</link>
 <guid isPermaLink="true">https://github.com/cxlinux-ai/cx-core/issues/425</guid>
@@ -152,73 +229,129 @@
 <description>labeled · 2 tries · Rust</description>
 </item>
 <item>
-<title>$85 · microg/GmsCore · [BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]</title>
-<link>https://github.com/microg/GmsCore/issues/2851</link>
-<guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2851</guid>
+<title>$150 · scratchdata/scratchdata · UI for Database Connection Add and Delete</title>
+<link>https://github.com/scratchdata/scratchdata/issues/170</link>
+<guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/170</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 0 tries · Java</description>
+<description>algora · 1 tries · Go</description>
 </item>
 <item>
-<title>$70 · TheSolaAI/sola-application · Make blinks interaction Handsfree</title>
-<link>https://github.com/TheSolaAI/sola-application/issues/157</link>
-<guid isPermaLink="true">https://github.com/TheSolaAI/sola-application/issues/157</guid>
+<title>$150 · marcosgriselli/SwipeableTabBarController · Very quick swipes cause app to freeze</title>
+<link>https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</link>
+<guid isPermaLink="true">https://github.com/marcosgriselli/SwipeableTabBarController/issues/52</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 20 tries · TypeScript</description>
+<description>issuehunt · 0 tries · Swift</description>
 </item>
 <item>
-<title>$50 · sybil-solutions/local-ai-registry · Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)</title>
-<link>https://github.com/sybil-solutions/local-ai-registry/issues/223</link>
-<guid isPermaLink="true">https://github.com/sybil-solutions/local-ai-registry/issues/223</guid>
+<title>$120 · piotrwitek/typesafe-actions · Add a generic redux-observable factory automatically handling async-actions - createAsyncEpic</title>
+<link>https://github.com/piotrwitek/typesafe-actions/issues/162</link>
+<guid isPermaLink="true">https://github.com/piotrwitek/typesafe-actions/issues/162</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 6 tries · HTML</description>
+<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$50 · sybil-solutions/local-ai-registry · Bounty $50: recipe for RX 7900 XTX 24 GB</title>
-<link>https://github.com/sybil-solutions/local-ai-registry/issues/219</link>
-<guid isPermaLink="true">https://github.com/sybil-solutions/local-ai-registry/issues/219</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 12 tries · HTML</description>
-</item>
-<item>
-<title>$50 · sybil-solutions/local-ai-registry · Bounty $50: recipe for Intel Arc B580 12 GB</title>
-<link>https://github.com/sybil-solutions/local-ai-registry/issues/216</link>
-<guid isPermaLink="true">https://github.com/sybil-solutions/local-ai-registry/issues/216</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 5 tries · HTML</description>
-</item>
-<item>
-<title>$50 · copperheadhq/copperhead · Bounty: end-to-end test copperhead create (brief → clean full run) + findings report</title>
-<link>https://github.com/copperheadhq/copperhead/issues/66</link>
-<guid isPermaLink="true">https://github.com/copperheadhq/copperhead/issues/66</guid>
+<title>$120 · shanalikhan/code-settings-sync · Considering disabled extensions</title>
+<link>https://github.com/shanalikhan/code-settings-sync/issues/143</link>
+<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/143</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$30 · verdikta/verdikta-applications · [BOUNTY ~$30 x4] Post and fund a real task on Verdikta, publish a write-up (paid on Poidh, Base)</title>
-<link>https://github.com/verdikta/verdikta-applications/issues/76</link>
-<guid isPermaLink="true">https://github.com/verdikta/verdikta-applications/issues/76</guid>
+<title>$115 · piotrwitek/typesafe-actions · Add a generic reducer factory automatically handling async-actions - createAsyncReducer</title>
+<link>https://github.com/piotrwitek/typesafe-actions/issues/88</link>
+<guid isPermaLink="true">https://github.com/piotrwitek/typesafe-actions/issues/88</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 1 tries · JavaScript</description>
+<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$20 · auscaster/frantic-board · Frantic bounty #33: Publish Sourcey docs for a maintained OSS library</title>
-<link>https://github.com/auscaster/frantic-board/issues/53</link>
-<guid isPermaLink="true">https://github.com/auscaster/frantic-board/issues/53</guid>
+<title>$110 · effector/effector · Visualization for stores, events and relationships</title>
+<link>https://github.com/effector/effector/issues/91</link>
+<guid isPermaLink="true">https://github.com/effector/effector/issues/91</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 0 tries · Shell</description>
+<description>issuehunt · 1 tries · TypeScript</description>
 </item>
 <item>
-<title>$10 · auscaster/frantic-board · Frantic bounty #138: Find a live HTTP 402 endpoint that prices in Nano (XNO)</title>
-<link>https://github.com/auscaster/frantic-board/issues/558</link>
-<guid isPermaLink="true">https://github.com/auscaster/frantic-board/issues/558</guid>
+<title>$100 · revertinc/revert · [REVER-51] Workable Integration</title>
+<link>https://github.com/revertinc/revert/issues/551</link>
+<guid isPermaLink="true">https://github.com/revertinc/revert/issues/551</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Shell</description>
+<description>algora · 22 tries · TypeScript</description>
 </item>
 <item>
-<title>$10 · auscaster/frantic-board · Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, first five)</title>
-<link>https://github.com/auscaster/frantic-board/issues/277</link>
-<guid isPermaLink="true">https://github.com/auscaster/frantic-board/issues/277</guid>
+<title>$100 · revertinc/revert · [REVER-48] Workday Integration</title>
+<link>https://github.com/revertinc/revert/issues/372</link>
+<guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 2 tries · Shell</description>
+<description>algora · 16 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · vuejs/vetur · Use Vue component&#x27;s Props type parameter for prop type validation</title>
+<link>https://github.com/vuejs/vetur/issues/2344</link>
+<guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 1 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · effector/effector · Perf tests on real devices</title>
+<link>https://github.com/effector/effector/issues/161</link>
+<guid isPermaLink="true">https://github.com/effector/effector/issues/161</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · egoist/majo · Separate the majo instance and middleware context</title>
+<link>https://github.com/egoist/majo/issues/12</link>
+<guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · egoist/vue-content-loader · Responsive</title>
+<link>https://github.com/egoist/vue-content-loader/issues/18</link>
+<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$100 · egoist/majo · Allow to source for multiple times</title>
+<link>https://github.com/egoist/majo/issues/9</link>
+<guid isPermaLink="true">https://github.com/egoist/majo/issues/9</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · egoist/codepan · add query string parameters for setting panel width</title>
+<link>https://github.com/egoist/codepan/issues/63</link>
+<guid isPermaLink="true">https://github.com/egoist/codepan/issues/63</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$100 · shanalikhan/code-settings-sync · Adding Support for Import / Export Sync Settings to File System</title>
+<link>https://github.com/shanalikhan/code-settings-sync/issues/256</link>
+<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/256</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · sindresorhus/caprine · App stops updating on resume after suspend mode</title>
+<link>https://github.com/sindresorhus/caprine/issues/103</link>
+<guid isPermaLink="true">https://github.com/sindresorhus/caprine/issues/103</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 1 tries · TypeScript</description>
+</item>
+<item>
+<title>$90 · egoist/bili · *.d.ts bundles</title>
+<link>https://github.com/egoist/bili/issues/183</link>
+<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$90 · egoist/bili · Legacy bundles &amp; modern bundles</title>
+<link>https://github.com/egoist/bili/issues/182</link>
+<guid isPermaLink="true">https://github.com/egoist/bili/issues/182</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 </channel></rss>

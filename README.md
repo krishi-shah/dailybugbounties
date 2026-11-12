@@ -18,10 +18,10 @@ dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire*
 ## Today's top bounties
 
 <!-- FEED:START -->
-**31 open bounties worth $11,015** · 31 new today · 17 with nobody trying yet · updated 2026-11-12 04:46 UTC
+**31 open bounties worth $11,015** · 31 new today · 17 with nobody trying yet · updated 2026-11-12 04:48 UTC
 
-**Sources:** Expensify 15 · Label 14 · Title 4 · Algora 2  
-**Languages:** TypeScript 18 · Shell 3 · HTML 3 · Python 2 · Java 2 · JavaScript 1 · Rust 1
+**Sources:** IssueHunt 49 · Algora 23 · Label 21 · Expensify 15 · Title 7 · Opire 1  
+**Languages:** TypeScript 49 · JavaScript 26 · Python 5 · Rust 4 · Shell 3 · HTML 3 · Go 3 · Swift 3
 
 ### 🆕 Latest bounties
 
@@ -60,6 +60,8 @@ Newest first. 🆕 marks bounties that showed up today. **Tries** counts `/attem
 | **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label, Title | 0 | 10 | 1y |
 | **$70** | [Make blinks interaction Handsfree](https://github.com/TheSolaAI/sola-application/issues/157) 🆕 | [TheSolaAI/sola-application](https://github.com/TheSolaAI/sola-application) | 53 | TypeScript | Algora | 20 | 15 | 1y |
 | **$250** | [Improve test coverage with Vitest](https://github.com/outerbase/starbasedb/issues/71) 🆕 | [outerbase/starbasedb](https://github.com/outerbase/starbasedb) | 1,171 | TypeScript | Algora | 20 | 19 | 1y |
+
+Plus 78 older bounties on issues opened more than two years ago: see the [website](https://krishi-shah.github.io/dailybugbounties/) or [`data/bounties.json`](data/bounties.json).
 
 ### 💰 Biggest payouts right now
 

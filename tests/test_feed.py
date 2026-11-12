@@ -141,6 +141,11 @@ class Pipeline(unittest.TestCase):
                               "body": "$900"}, "title")
         self.assertIsNone(amount_from_issue(t, AMOUNT_ORDER["title"]))  # body amounts don't count
 
+    def test_cli_runs_every_source(self):
+        from dailybugbounties.__main__ import ALL
+        from dailybugbounties.sources.github_search import AMOUNT_ORDER
+        self.assertEqual(set(ALL), set(AMOUNT_ORDER) | {"opire"})
+
     def test_first_seen(self):
         a, b = B(number=1), B(number=2)
         seen = {a.key: "2026-11-01", "https://github.com/gone/x/issues/1": "2026-01-01"}

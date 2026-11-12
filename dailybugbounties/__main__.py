@@ -12,7 +12,7 @@ from . import enrich, pipeline, render
 from .github import GitHub
 from .sources import github_search, opire
 
-ALL = ["algora", "issuehunt", "opire", "labeled"]
+ALL = ["algora", "issuehunt", "opire", "expensify", "labeled", "title"]
 
 
 def main(argv=None) -> int:

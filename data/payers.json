@@ -1,0 +1,797 @@
+{
+"0x4007/uad.ubq.fi": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"activepieces/activepieces": {
+"algora_rewarded": 135,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"algora-io/tv": {
+"algora_rewarded": 13,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"aqualinkorg/aqualink-app": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"archestra-ai/archestra": {
+"algora_rewarded": 44,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"askmiguel/vajra": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"autobase-tech/autobase": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"browser-use/browser-use": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"calcom/cal.diy": {
+"algora_rewarded": 8,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"cap-go/capgo.app": {
+"algora_rewarded": 9,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"cap-go/website": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"capsoftware/cap": {
+"algora_rewarded": 6,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"chuckhend/pg_vectorize": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"coder/registry": {
+"algora_rewarded": 14,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"comet-ml/opik": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"coollabsio/coolify": {
+"algora_rewarded": 6,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"cryptocracy/dapparatus": {
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12",
+"paid_label": 1
+},
+"daytona/content": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"daytonaio/daytona": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"devpool-directory/devpool-directory-tasks": {
+"devpool_completed": 35,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"documenso/documenso": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"elliottneilclark/rs-poker": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"firecrawl/firecrawl": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"fluvio-community/fluvio": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"geo-web-project/cadastre": {
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12",
+"paid_label": 2
+},
+"getkyo/kyo": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"go-gitea/gitea": {
+"algora_rewarded": 4,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"golemcloud/golem": {
+"algora_rewarded": 5,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"golemcloud/golem-ai": {
+"algora_rewarded": 4,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"highlight/highlight": {
+"algora_rewarded": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"juliaearth/geoio.jl": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"keephq/keep": {
+"algora_rewarded": 4,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"leapdao/plasma-burner-wallet": {
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12",
+"paid_label": 14
+},
+"mangdangroboticsclub/apps-md-robots": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"mediar-ai/terminator": {
+"algora_rewarded": 5,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"meteor/meteor": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"mudlet/mudlet": {
+"algora_rewarded": 6,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"omnigres/omnigres": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ondecentral/lucia-browser-sdk": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"onyx-dot-app/onyx": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"outerbase/starbasedb": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"permify/permify": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"permitio/permit-cli": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"pg-agi/toingg-jarvis": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"pilab-indonesia/rpi-monitoring": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"polarsource/examples": {
+"algora_rewarded": 5,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"polarsource/polar": {
+"algora_rewarded": 10,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"prequel-dev/cre": {
+"algora_rewarded": 8,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/dnsx": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/httpx": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/katana": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/nuclei": {
+"algora_rewarded": 6,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/nuclei-templates": {
+"algora_rewarded": 37,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/subfinder": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"projectdiscovery/tlsx": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"qdrant/qdrant": {
+"algora_rewarded": 9,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"remotion-dev/remotion": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"reorproject/reor": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"scratchdata/scratchdata": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"screenpipe/screenpipe": {
+"algora_rewarded": 18,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"smallcloudai/refact": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"social-dist0rtion-protocol/planet-a": {
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12",
+"paid_label": 6
+},
+"softwaremill/tapir": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"speakers-in-tech/conference-data": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"supadata-ai/mcp": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"supadata-ai/py": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tailcallhq/tailcallhq.github.io": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"triggerdotdev/trigger.dev": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/3d-viewer": {
+"algora_rewarded": 12,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/checks": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/circuit-json-to-gltf": {
+"algora_rewarded": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/circuit-json-to-step": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/circuit-to-svg": {
+"algora_rewarded": 5,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/circuitjson.com": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/cli": {
+"algora_rewarded": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/common": {
+"algora_rewarded": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/contribution-tracker": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/core": {
+"algora_rewarded": 18,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/docs": {
+"algora_rewarded": 10,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/eval": {
+"algora_rewarded": 4,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/file-server": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/footprinter": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/graphics-debug": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/jscad-electronics": {
+"algora_rewarded": 12,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/jscad-to-gltf": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/kicad-component-converter": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/pcb-viewer": {
+"algora_rewarded": 6,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/poppygl": {
+"algora_rewarded": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/runframe": {
+"algora_rewarded": 8,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/schematic-trace-solver": {
+"algora_rewarded": 5,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/schematic-viewer": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/solver-utils": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/status": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/stepts": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/svg.tscircuit.com": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/template-api-fake": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/tscircuit": {
+"algora_rewarded": 20,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/tscircuit.com": {
+"algora_rewarded": 8,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tscircuit/winterspec": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"tursodatabase/turso": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"twentyhq/twenty": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/.github": {
+"devpool_completed": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/.ubiquity-os": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/command-ask": {
+"devpool_completed": 20,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/command-config": {
+"devpool_completed": 9,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/command-query": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/command-start-stop": {
+"devpool_completed": 8,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/command-wallet": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/daemon-disqualifier": {
+"devpool_completed": 26,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/daemon-merging": {
+"devpool_completed": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/daemon-pricing": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/daemon-xp": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/text-conversation-rewards": {
+"devpool_completed": 70,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os-marketplace/text-vector-embeddings": {
+"devpool_completed": 30,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/.github": {
+"devpool_completed": 4,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/action-deploy-plugin": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/command-demo": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/deno-deploy": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/permit-generation": {
+"devpool_completed": 12,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/plugin-sdk": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/plugin-template": {
+"devpool_completed": 13,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/plugins-wishlist": {
+"devpool_completed": 27,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/ubiquity-os-kernel": {
+"devpool_completed": 9,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/ubiquity-os-logger": {
+"devpool_completed": 5,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity-os/ubiquity-os-plugin-installer": {
+"devpool_completed": 10,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/.github": {
+"devpool_completed": 27,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/ai.ubq.fi": {
+"devpool_completed": 211,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/cloudflare-deploy-action": {
+"devpool_completed": 9,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/demo.ubq.fi": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/deno-deploy-workflow": {
+"devpool_completed": 4,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/notifications.ubq.fi": {
+"devpool_completed": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/pay.ubq.fi": {
+"devpool_completed": 56,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/permit2-rpc-manager": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/permit3": {
+"devpool_completed": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/scraper-kernel": {
+"devpool_completed": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/sponsorships": {
+"devpool_completed": 6,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/stake.ubq.fi": {
+"devpool_completed": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/ts-template": {
+"devpool_completed": 25,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/ubiquibot-logging": {
+"devpool_completed": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/ubiquity-dollar": {
+"devpool_completed": 41,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/ubq.fi": {
+"devpool_completed": 12,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/ubq.fi-router": {
+"devpool_completed": 3,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/uusd.ubq.fi": {
+"devpool_completed": 10,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"ubiquity/work.ubq.fi": {
+"devpool_completed": 66,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"udecode/plate": {
+"algora_rewarded": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"uraniumcorporation/maiar-ai": {
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12",
+"paid_label": 7
+},
+"vandivier/ladderly-3": {
+"algora_rewarded": 1,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"wattcoin-org/wattcoin": {
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12",
+"paid_label": 3
+},
+"willsmithte/qdrant-qdrant": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/interop-cats": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/izumi-reflect": {
+"algora_rewarded": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio": {
+"algora_rewarded": 90,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-blocks": {
+"algora_rewarded": 18,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-cli": {
+"algora_rewarded": 12,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-http": {
+"algora_rewarded": 247,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-json": {
+"algora_rewarded": 7,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-nats": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-process": {
+"algora_rewarded": 2,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+},
+"zio/zio-schema": {
+"algora_rewarded": 43,
+"first_seen": "2026-11-12",
+"last_seen": "2026-11-12"
+}
+}

@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 05:05:29 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 19:00:24 +0000</lastBuildDate>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
 <link>https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/</link>
@@ -110,13 +110,6 @@
 <description>expensify · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$250 · Expensify/App · [$250] Account - System back button on 2FA success RHP navigates to Account &gt; Security</title>
-<link>https://github.com/Expensify/App/issues/105693</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/105693</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
 <title>$250 · Expensify/App · [$250] Hybrid-Home- Home cards do not refresh after reopen app from other apps</title>
 <link>https://github.com/Expensify/App/issues/105231</link>
 <guid isPermaLink="true">https://github.com/Expensify/App/issues/105231</guid>
@@ -159,9 +152,9 @@
 <description>expensify · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$250 · Expensify/App · [$250] Web- Wallet - The popup moves is not repositioned properly after the window is resized</title>
-<link>https://github.com/Expensify/App/issues/100882</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/100882</guid>
+<title>$250 · Expensify/App · [$250] Expense - Split preview loads infinitely and opens not here page after reset app</title>
+<link>https://github.com/Expensify/App/issues/98787</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/98787</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>expensify · 0 tries · TypeScript</description>
 </item>
@@ -353,5 +346,12 @@
 <guid isPermaLink="true">https://github.com/sindresorhus/caprine/issues/103</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 1 tries · TypeScript</description>
+</item>
+<item>
+<title>$90 · egoist/bili · *.d.ts bundles</title>
+<link>https://github.com/egoist/bili/issues/183</link>
+<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 </channel></rss>

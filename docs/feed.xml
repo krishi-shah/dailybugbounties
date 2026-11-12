@@ -3,7 +3,14 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 01:26:59 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 01:29:12 +0000</lastBuildDate>
+<item>
+<title>$3,000 · ClankerNation/OpenAgents · [ Bounty $3k ] [ Solidity ] Fix MultiTokenStaking duplicate pool and reward overflow — high priority</title>
+<link>https://github.com/ClankerNation/OpenAgents/issues/79</link>
+<guid isPermaLink="true">https://github.com/ClankerNation/OpenAgents/issues/79</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora, title · 1 tries · Solidity</description>
+</item>
 <item>
 <title>$2,600 · QubesOS/qubes-issues · [Contribution] BusKill</title>
 <link>https://github.com/QubesOS/qubes-issues/issues/10567</link>
@@ -16,7 +23,7 @@
 <link>https://github.com/microg/GmsCore/issues/2843</link>
 <guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2843</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Java</description>
+<description>labeled, title · 0 tries · Java</description>
 </item>
 <item>
 <title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
@@ -145,6 +152,111 @@
 <description>labeled · 0 tries · TypeScript</description>
 </item>
 <item>
+<title>$250 · Expensify/App · [$250] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review</title>
+<link>https://github.com/Expensify/App/issues/106234</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/106234</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Members - Display name opens not here page</title>
+<link>https://github.com/Expensify/App/issues/106201</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/106201</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] iOS: App stops responding to taps after dismissing AI promo or welcome popup</title>
+<link>https://github.com/Expensify/App/issues/105796</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/105796</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Account - System back button on 2FA success RHP navigates to Account &gt; Security</title>
+<link>https://github.com/Expensify/App/issues/105693</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/105693</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Hybrid-Home- Home cards do not refresh after reopen app from other apps</title>
+<link>https://github.com/Expensify/App/issues/105231</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/105231</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Android - Spend - &quot;Apply&quot; button is overlapped by keyboard in exposed filter.</title>
+<link>https://github.com/Expensify/App/issues/105145</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/105145</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Web-Chat- Edit comment input is not focused</title>
+<link>https://github.com/Expensify/App/issues/104360</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/104360</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Different error appear after network reconnect</title>
+<link>https://github.com/Expensify/App/issues/104060</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/104060</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Pressing Delete while selecting text inside a composer duplicates the content instead of clearing it.</title>
+<link>https://github.com/Expensify/App/issues/103875</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/103875</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Marking a chat as unread doesn&#x27;t stick — client immediately re-reads it, and other clients never see the change</title>
+<link>https://github.com/Expensify/App/issues/101234</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/101234</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Web- Wallet - The popup moves is not repositioned properly after the window is resized</title>
+<link>https://github.com/Expensify/App/issues/100882</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/100882</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] [Exploratory] Warning company still has Consolidated Travel Billing not shown when delete ws offline</title>
+<link>https://github.com/Expensify/App/issues/98262</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/98262</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Spend - Default sort is descending</title>
+<link>https://github.com/Expensify/App/issues/91935</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/91935</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Gesture - Safari on iPhone flickers previous screen on swipe-back gesture</title>
+<link>https://github.com/Expensify/App/issues/75905</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/75905</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Reports - Back button on report view returns to different scroll position</title>
+<link>https://github.com/Expensify/App/issues/70080</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/70080</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
 <title>$250 · outerbase/starbasedb · Improve test coverage with Vitest</title>
 <link>https://github.com/outerbase/starbasedb/issues/71</link>
 <guid isPermaLink="true">https://github.com/outerbase/starbasedb/issues/71</guid>
@@ -241,117 +353,5 @@
 <guid isPermaLink="true">https://github.com/revertinc/revert/issues/551</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>algora · 22 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · revertinc/revert · [REVER-48] Workday Integration</title>
-<link>https://github.com/revertinc/revert/issues/372</link>
-<guid isPermaLink="true">https://github.com/revertinc/revert/issues/372</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 16 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · vuejs/vetur · Use Vue component&#x27;s Props type parameter for prop type validation</title>
-<link>https://github.com/vuejs/vetur/issues/2344</link>
-<guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 1 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · effector/effector · Perf tests on real devices</title>
-<link>https://github.com/effector/effector/issues/161</link>
-<guid isPermaLink="true">https://github.com/effector/effector/issues/161</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Convert to TypeScript</title>
-<link>https://github.com/egoist/majo/issues/13</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/13</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Separate the majo instance and middleware context</title>
-<link>https://github.com/egoist/majo/issues/12</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/vue-content-loader · Responsive</title>
-<link>https://github.com/egoist/vue-content-loader/issues/18</link>
-<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$100 · devhubapp/devhub · Push notifications</title>
-<link>https://github.com/devhubapp/devhub/issues/51</link>
-<guid isPermaLink="true">https://github.com/devhubapp/devhub/issues/51</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Allow to source for multiple times</title>
-<link>https://github.com/egoist/majo/issues/9</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/9</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/codepan · add query string parameters for setting panel width</title>
-<link>https://github.com/egoist/codepan/issues/63</link>
-<guid isPermaLink="true">https://github.com/egoist/codepan/issues/63</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$100 · shanalikhan/code-settings-sync · Adding Support for Import / Export Sync Settings to File System</title>
-<link>https://github.com/shanalikhan/code-settings-sync/issues/256</link>
-<guid isPermaLink="true">https://github.com/shanalikhan/code-settings-sync/issues/256</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · sindresorhus/caprine · App stops updating on resume after suspend mode</title>
-<link>https://github.com/sindresorhus/caprine/issues/103</link>
-<guid isPermaLink="true">https://github.com/sindresorhus/caprine/issues/103</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 1 tries · TypeScript</description>
-</item>
-<item>
-<title>$90 · egoist/bili · *.d.ts bundles</title>
-<link>https://github.com/egoist/bili/issues/183</link>
-<guid isPermaLink="true">https://github.com/egoist/bili/issues/183</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$90 · egoist/bili · Legacy bundles &amp; modern bundles</title>
-<link>https://github.com/egoist/bili/issues/182</link>
-<guid isPermaLink="true">https://github.com/egoist/bili/issues/182</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$90 · piotrwitek/utility-types · Add a web page with API documentation that will be automatically generated from the recent source code changes</title>
-<link>https://github.com/piotrwitek/utility-types/issues/30</link>
-<guid isPermaLink="true">https://github.com/piotrwitek/utility-types/issues/30</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$85 · microg/GmsCore · [BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]</title>
-<link>https://github.com/microg/GmsCore/issues/2851</link>
-<guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2851</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Java</description>
-</item>
-<item>
-<title>$82 · avajs/ava · Make it easier to write reliable cleanup tasks</title>
-<link>https://github.com/avajs/ava/issues/928</link>
-<guid isPermaLink="true">https://github.com/avajs/ava/issues/928</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
 </item>
 </channel></rss>

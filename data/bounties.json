@@ -1,29 +1,62 @@
 {
- "generated_at": "2026-11-12T01:26:59+00:00",
- "count": 112,
- "total_usd": 23914.0,
+ "generated_at": "2026-11-12T01:29:12+00:00",
+ "count": 129,
+ "total_usd": 30674.0,
  "by_source": {
+  "expensify": 15,
   "labeled": 29,
-  "algora": 33,
+  "title": 9,
+  "algora": 34,
   "opire": 1,
   "issuehunt": 54
  },
  "by_language": {
-  "TypeScript": 41,
+  "TypeScript": 56,
   "JavaScript": 32,
-  "Python": 8,
+  "Python": 9,
   "Rust": 4,
   "Shell": 3,
   "HTML": 3,
   "Java": 3,
   "Go": 3,
   "Swift": 3,
+  "Solidity": 1,
   "MDX": 1,
   "C#": 1,
   "Vue": 1,
   "C": 1
  },
  "bounties": [
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 106234,
+   "title": "[$250] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Reviewing",
+    "Task"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-11-06T17:47:09Z",
+   "updated_at": "2026-11-11T19:20:32Z",
+   "comments": 21,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/106234",
+   "repo_full": "Expensify/App"
+  },
   {
    "owner": "tenstorrent",
    "repo": "tt-metal",
@@ -52,6 +85,36 @@
    "repo_full": "tenstorrent/tt-metal"
   },
   {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 106201,
+   "title": "[$250] Members - Display name opens not here page",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "Engineering",
+    "Help Wanted",
+    "Overdue"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-11-06T09:22:57Z",
+   "updated_at": "2026-11-11T20:41:42Z",
+   "comments": 53,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/106201",
+   "repo_full": "Expensify/App"
+  },
+  {
    "owner": "tenstorrent",
    "repo": "tt-metal",
    "number": 64575,
@@ -77,6 +140,123 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
    "repo_full": "tenstorrent/tt-metal"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 105796,
+   "title": "[$250] iOS: App stops responding to taps after dismissing AI promo or welcome popup",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-11-03T18:31:17Z",
+   "updated_at": "2026-11-11T19:19:30Z",
+   "comments": 52,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/105796",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 105693,
+   "title": "[$250] Account - System back button on 2FA success RHP navigates to Account > Security",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-11-02T22:31:59Z",
+   "updated_at": "2026-11-11T19:19:47Z",
+   "comments": 64,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/105693",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 105231,
+   "title": "[$250] Hybrid-Home- Home cards do not refresh after reopen app from other apps",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Overdue"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-10-28T07:32:57Z",
+   "updated_at": "2026-11-11T21:48:22Z",
+   "comments": 54,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/105231",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 105145,
+   "title": "[$250] Android - Spend - \"Apply\" button is overlapped by keyboard in exposed filter.",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-10-27T15:17:57Z",
+   "updated_at": "2026-11-11T23:49:55Z",
+   "comments": 106,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/105145",
+   "repo_full": "Expensify/App"
   },
   {
    "owner": "auscaster",
@@ -107,6 +287,66 @@
    "repo_full": "auscaster/frantic-board"
   },
   {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 104360,
+   "title": "[$250] Web-Chat- Edit comment input is not focused",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Overdue"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-10-19T14:20:58Z",
+   "updated_at": "2026-11-11T21:57:59Z",
+   "comments": 62,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/104360",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 104060,
+   "title": "[$250] Different error appear after network reconnect",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Overdue"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-10-15T06:06:00Z",
+   "updated_at": "2026-11-11T21:52:17Z",
+   "comments": 106,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/104060",
+   "repo_full": "Expensify/App"
+  },
+  {
    "owner": "verdikta",
    "repo": "verdikta-applications",
    "number": 76,
@@ -131,6 +371,37 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/verdikta/verdikta-applications/issues/76",
    "repo_full": "verdikta/verdikta-applications"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 103875,
+   "title": "[$250] Pressing Delete while selecting text inside a composer duplicates the content instead of clearing it.",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Needs Reproduction",
+    "Overdue"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-10-13T13:02:56Z",
+   "updated_at": "2026-11-11T19:19:17Z",
+   "comments": 98,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/103875",
+   "repo_full": "Expensify/App"
   },
   {
    "owner": "sybil-solutions",
@@ -219,6 +490,118 @@
    "repo_full": "sybil-solutions/local-ai-registry"
   },
   {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 101234,
+   "title": "[$250] Marking a chat as unread doesn't stick — client immediately re-reads it, and other clients never see the change",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-09-15T16:44:01Z",
+   "updated_at": "2026-11-11T19:20:35Z",
+   "comments": 111,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/101234",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 100882,
+   "title": "[$250] Web- Wallet - The popup moves is not repositioned properly after the window is resized",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Overdue",
+    "retest-weekly"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-09-10T20:03:38Z",
+   "updated_at": "2026-11-11T22:17:06Z",
+   "comments": 104,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/100882",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 98262,
+   "title": "[$250] [Exploratory] Warning company still has Consolidated Travel Billing not shown when delete ws offline",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Daily",
+    "External",
+    "Help Wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-08-11T08:12:25Z",
+   "updated_at": "2026-11-11T18:22:06Z",
+   "comments": 31,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/98262",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "microsoft",
+   "repo": "autogen",
+   "number": 8000,
+   "title": "🎁 [Bounty Invitation] $10 USDC Instant Reward & Zero-Gas M2M Payments for AutoGen (Multi-Agent Conversation Framework)",
+   "amount_usd": 10.0,
+   "sources": [
+    "title"
+   ],
+   "labels": [],
+   "language": "Python",
+   "languages": [],
+   "stars": 61786,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-07-27T03:58:09Z",
+   "updated_at": "2026-11-11T12:17:05Z",
+   "comments": 2,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/microsoft/autogen/issues/8000",
+   "repo_full": "microsoft/autogen"
+  },
+  {
    "owner": "SecureBananaLabs",
    "repo": "bug-bounty",
    "number": 11398,
@@ -292,7 +675,8 @@
    "title": "Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, first five)",
    "amount_usd": 10.0,
    "sources": [
-    "labeled"
+    "labeled",
+    "title"
    ],
    "labels": [
     "available",
@@ -321,7 +705,8 @@
    "title": "Frantic bounty #33: Publish Sourcey docs for a maintained OSS library",
    "amount_usd": 20.0,
    "sources": [
-    "labeled"
+    "labeled",
+    "title"
    ],
    "labels": [
     "bounty",
@@ -376,6 +761,36 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
    "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 91935,
+   "title": "[$250] Spend - Default sort is descending",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted",
+    "Overdue"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-28T08:44:25Z",
+   "updated_at": "2026-11-11T19:20:36Z",
+   "comments": 167,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/91935",
+   "repo_full": "Expensify/App"
   },
   {
    "owner": "SecureBananaLabs",
@@ -476,6 +891,39 @@
    "first_seen": "2026-11-12",
    "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
    "repo_full": "SecureBananaLabs/bug-bounty"
+  },
+  {
+   "owner": "ClankerNation",
+   "repo": "OpenAgents",
+   "number": 79,
+   "title": "[ Bounty $3k ] [ Solidity ] Fix MultiTokenStaking duplicate pool and reward overflow — high priority",
+   "amount_usd": 3000.0,
+   "sources": [
+    "algora",
+    "title"
+   ],
+   "labels": [
+    "$3k",
+    "Autonomus Agents Only",
+    "crypto-eligible",
+    "good first issue",
+    "help wanted",
+    "high-value",
+    "💎 Bounty"
+   ],
+   "language": "Solidity",
+   "languages": [],
+   "stars": 15,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2026-05-16T08:49:29Z",
+   "updated_at": "2026-11-11T12:17:37Z",
+   "comments": 3,
+   "attempts": 0,
+   "claims": 1,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/ClankerNation/OpenAgents/issues/79",
+   "repo_full": "ClankerNation/OpenAgents"
   },
   {
    "owner": "UnsafeLabs",
@@ -781,13 +1229,75 @@
    "repo_full": "cxlinux-ai/cx-core"
   },
   {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 75905,
+   "title": "[$250] Gesture - Safari on iPhone flickers previous screen on swipe-back gesture",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "External",
+    "Help Wanted"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2025-11-24T17:08:49Z",
+   "updated_at": "2026-11-11T19:19:15Z",
+   "comments": 175,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/75905",
+   "repo_full": "Expensify/App"
+  },
+  {
+   "owner": "Expensify",
+   "repo": "App",
+   "number": 70080,
+   "title": "[$250] Reports - Back button on report view returns to different scroll position",
+   "amount_usd": 250.0,
+   "sources": [
+    "expensify"
+   ],
+   "labels": [
+    "Bug",
+    "Daily",
+    "Engineering",
+    "External",
+    "Help Wanted",
+    "Overdue",
+    "retest-weekly"
+   ],
+   "language": "TypeScript",
+   "languages": [],
+   "stars": 5093,
+   "state": "OPEN",
+   "archived": false,
+   "created_at": "2025-09-08T11:26:53Z",
+   "updated_at": "2026-11-11T21:52:20Z",
+   "comments": 238,
+   "attempts": 0,
+   "claims": 0,
+   "first_seen": "2026-11-12",
+   "url": "https://github.com/Expensify/App/issues/70080",
+   "repo_full": "Expensify/App"
+  },
+  {
    "owner": "microg",
    "repo": "GmsCore",
    "number": 2851,
    "title": "[BOUNTY] Support Play Integrity over remote DroidGuard + Server/Guide [$85]",
    "amount_usd": 85.0,
    "sources": [
-    "labeled"
+    "labeled",
+    "title"
    ],
    "labels": [
     "bounty"
@@ -813,7 +1323,8 @@
    "title": "[BOUNTY] WearOS Support [$2340]",
    "amount_usd": 2340.0,
    "sources": [
-    "labeled"
+    "labeled",
+    "title"
    ],
    "labels": [
     "bounty",
@@ -1171,7 +1682,8 @@
    "title": "BOUNTY: integrate AWS Comprehend as a utility to redact data",
    "amount_usd": 50.0,
    "sources": [
-    "algora"
+    "algora",
+    "title"
    ],
    "labels": [
     "$50",
@@ -1198,7 +1710,8 @@
    "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
    "amount_usd": 25.0,
    "sources": [
-    "algora"
+    "algora",
+    "title"
    ],
    "labels": [
     "💎 Bounty"
@@ -1224,7 +1737,8 @@
    "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
    "amount_usd": 30.0,
    "sources": [
-    "algora"
+    "algora",
+    "title"
    ],
    "labels": [
     "💎 Bounty"

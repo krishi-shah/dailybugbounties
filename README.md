@@ -18,10 +18,10 @@ dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire*
 ## Today's top bounties
 
 <!-- FEED:START -->
-**112 open bounties worth $23,914** · 112 new today · 64 with nobody trying yet · updated 2026-11-12 01:26 UTC
+**129 open bounties worth $30,674** · 129 new today · 80 with nobody trying yet · updated 2026-11-12 01:29 UTC
 
-**Sources:** IssueHunt 54 · Algora 33 · Label 29 · Opire 1  
-**Languages:** TypeScript 41 · JavaScript 32 · Python 8 · Rust 4 · Shell 3 · HTML 3 · Java 3 · Go 3
+**Sources:** IssueHunt 54 · Algora 34 · Label 29 · Expensify 15 · Title 9 · Opire 1  
+**Languages:** TypeScript 56 · JavaScript 32 · Python 9 · Rust 4 · Shell 3 · HTML 3 · Java 3 · Go 3
 
 ### 🆕 Latest bounties
 
@@ -29,21 +29,36 @@ Newest first. 🆕 marks bounties that showed up today.
 
 | Payout | Issue | Repo | ★ | Lang | Source | Tries | Age |
 |---:|---|---|---:|---|---|---:|---:|
+| **$250** | [\[$250\] \[Sentry: APP-NX5\] iOS HybridApp crashes when approving a report in Gu…](https://github.com/Expensify/App/issues/106234) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 6d |
 | **$750** | [\[Bounty $750\] Fix remaining sharded scale_mask_softmax mask handling issues](https://github.com/tenstorrent/tt-metal/issues/64647) 🆕 | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 123 | Python | Label | 0 | 6d |
+| **$250** | [\[$250\] Members - Display name opens not here page](https://github.com/Expensify/App/issues/106201) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 6d |
 | **$750** | [\[Bounty $750\] Fix sharded softmax on offset core grids](https://github.com/tenstorrent/tt-metal/issues/64575) 🆕 | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 123 | Python | Label | 0 | 6d |
+| **$250** | [\[$250\] iOS: App stops responding to taps after dismissing AI promo or welcome …](https://github.com/Expensify/App/issues/105796) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 9d |
+| **$250** | [\[$250\] Account - System back button on 2FA success RHP navigates to Account > …](https://github.com/Expensify/App/issues/105693) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 10d |
+| **$250** | [\[$250\] Hybrid-Home- Home cards do not refresh after reopen app from other apps](https://github.com/Expensify/App/issues/105231) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 15d |
+| **$250** | [\[$250\] Android - Spend - "Apply" button is overlapped by keyboard in exposed f…](https://github.com/Expensify/App/issues/105145) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 16d |
 | **$10** | [Frantic bounty #138: Find a live HTTP 402 endpoint that prices in Nano (XNO)](https://github.com/auscaster/frantic-board/issues/558) 🆕 | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 966 | Shell | Label | 0 | 19d |
+| **$250** | [\[$250\] Web-Chat- Edit comment input is not focused](https://github.com/Expensify/App/issues/104360) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 24d |
+| **$250** | [\[$250\] Different error appear after network reconnect](https://github.com/Expensify/App/issues/104060) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 28d |
 | **$30** | [\[BOUNTY ~$30 x4\] Post and fund a real task on Verdikta, publish a write-up (pa…](https://github.com/verdikta/verdikta-applications/issues/76) 🆕 | [verdikta/verdikta-applications](https://github.com/verdikta/verdikta-applications) | 53 | JavaScript | Label | 1 | 28d |
+| **$250** | [\[$250\] Pressing Delete while selecting text inside a composer duplicates the c…](https://github.com/Expensify/App/issues/103875) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 30d |
 | **$50** | [Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)](https://github.com/sybil-solutions/local-ai-registry/issues/223) 🆕 | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 294 | HTML | Label | 6 | 31d |
 | **$50** | [Bounty $50: recipe for RX 7900 XTX 24 GB](https://github.com/sybil-solutions/local-ai-registry/issues/219) 🆕 | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 294 | HTML | Label | 12 | 31d |
 | **$50** | [Bounty $50: recipe for Intel Arc B580 12 GB](https://github.com/sybil-solutions/local-ai-registry/issues/216) 🆕 | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 294 | HTML | Label | 5 | 31d |
+| **$250** | [\[$250\] Marking a chat as unread doesn't stick — client immediately re-reads it…](https://github.com/Expensify/App/issues/101234) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 58d |
+| **$250** | [\[$250\] Web- Wallet - The popup moves is not repositioned properly after the wi…](https://github.com/Expensify/App/issues/100882) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 63d |
+| **$250** | [\[$250\] \[Exploratory\] Warning company still has Consolidated Travel Billing n…](https://github.com/Expensify/App/issues/98262) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 93d |
+| **$10** | [🎁 \[Bounty Invitation\] $10 USDC Instant Reward & Zero-Gas M2M Payments for Auto…](https://github.com/microsoft/autogen/issues/8000) 🆕 | [microsoft/autogen](https://github.com/microsoft/autogen) | 61,786 | Python | Title | 0 | 108d |
 | **$780** | [Automate Bug Detection and Reviews](https://github.com/SecureBananaLabs/bug-bounty/issues/11398) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 10 | 110d |
 | **$50** | [Bounty: end-to-end test copperhead create (brief → clean full run) + findings re…](https://github.com/copperheadhq/copperhead/issues/66) 🆕 | [copperheadhq/copperhead](https://github.com/copperheadhq/copperhead) | 692 | TypeScript | Label | 0 | 111d |
-| **$10** | [Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, …](https://github.com/auscaster/frantic-board/issues/277) 🆕 | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 966 | Shell | Label | 2 | 127d |
-| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) 🆕 | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 966 | Shell | Label | 0 | 149d |
+| **$10** | [Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, …](https://github.com/auscaster/frantic-board/issues/277) 🆕 | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 966 | Shell | Label, Title | 2 | 127d |
+| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) 🆕 | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 966 | Shell | Label, Title | 0 | 149d |
 | **$780** | [POST /api/reviews endpoint missing authentication middleware (reissue via #743)](https://github.com/SecureBananaLabs/bug-bounty/issues/2776) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 7 | 165d |
+| **$250** | [\[$250\] Spend - Default sort is descending](https://github.com/Expensify/App/issues/91935) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 168d |
 | **$700** | [Low Handing Fruit Automation](https://github.com/SecureBananaLabs/bug-bounty/issues/743) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 23 | 169d |
 | **$780** | [Pixel Art Creation with high Creative Thinking](https://github.com/SecureBananaLabs/bug-bounty/issues/80) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 22 | 179d |
 | **$430** | [Technical Poem Generation and Content Creation](https://github.com/SecureBananaLabs/bug-bounty/issues/76) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 22 | 179d |
+| **$3,000** | [\[ Bounty $3k \] \[ Solidity \] Fix MultiTokenStaking duplicate pool and reward …](https://github.com/ClankerNation/OpenAgents/issues/79) 🆕 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents) | 15 | Solidity | Algora, Title | 1 | 180d |
 | **$900** | [\[ Crypto \] Fix cross-chain replay attack in CrossChainBridge signature verific…](https://github.com/UnsafeLabs/Bounty-Hunters/issues/920) 🆕 | [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters) | 58 | TypeScript | Algora | 20 | 181d |
 | **$800** | [\[ Crypto \] Fix MultiSigWallet confirmation race condition during execution cal…](https://github.com/UnsafeLabs/Bounty-Hunters/issues/916) 🆕 | [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters) | 58 | TypeScript | Algora | 18 | 181d |
 | **$700** | [\[ Crypto \] Fix tx.origin phishing vulnerability in GovernanceToken delegation](https://github.com/UnsafeLabs/Bounty-Hunters/issues/912) 🆕 | [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters) | 58 | TypeScript | Algora | 22 | 181d |
@@ -54,8 +69,10 @@ Newest first. 🆕 marks bounties that showed up today.
 | **$10** | [\[BOUNTY\] 🔴 Red Team: Cross-Node Consensus Attacks (100 RTC)](https://github.com/Scottcjn/rustchain-bounties/issues/58) 🆕 | [Scottcjn/rustchain-bounties](https://github.com/Scottcjn/rustchain-bounties) | 290 | Python | Label | 1 | 281d |
 | **$2,600** | [\[Contribution\] BusKill](https://github.com/QubesOS/qubes-issues/issues/10567) 🆕 | [QubesOS/qubes-issues](https://github.com/QubesOS/qubes-issues) | 624 |  | Label | 0 | 304d |
 | **$150** | [\[ARCHITECTURE\] Replace Ollama with llama.cpp native C++ integration](https://github.com/cxlinux-ai/cx-core/issues/425) 🆕 | [cxlinux-ai/cx-core](https://github.com/cxlinux-ai/cx-core) | 81 | Rust | Label | 2 | 314d |
-| **$85** | [\[BOUNTY\] Support Play Integrity over remote DroidGuard + Server/Guide \[$85\]](https://github.com/microg/GmsCore/issues/2851) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label | 0 | 1y |
-| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label | 0 | 1y |
+| **$250** | [\[$250\] Gesture - Safari on iPhone flickers previous screen on swipe-back gestu…](https://github.com/Expensify/App/issues/75905) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 353d |
+| **$250** | [\[$250\] Reports - Back button on report view returns to different scroll positi…](https://github.com/Expensify/App/issues/70080) 🆕 | [Expensify/App](https://github.com/Expensify/App) | 5,093 | TypeScript | Expensify | 0 | 1y |
+| **$85** | [\[BOUNTY\] Support Play Integrity over remote DroidGuard + Server/Guide \[$85\]](https://github.com/microg/GmsCore/issues/2851) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label, Title | 0 | 1y |
+| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label, Title | 0 | 1y |
 | **$70** | [Make blinks interaction Handsfree](https://github.com/TheSolaAI/sola-application/issues/157) 🆕 | [TheSolaAI/sola-application](https://github.com/TheSolaAI/sola-application) | 53 | TypeScript | Algora | 20 | 1y |
 | **$250** | [Improve test coverage with Vitest](https://github.com/outerbase/starbasedb/issues/71) 🆕 | [outerbase/starbasedb](https://github.com/outerbase/starbasedb) | 1,171 | TypeScript | Algora | 20 | 1y |
 | **$250** | [Jira Service Management Connector](https://github.com/onyx-dot-app/onyx/issues/2281) 🆕 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | 33,344 | Python | Algora | 10 | 2y |
@@ -68,9 +85,9 @@ Newest first. 🆕 marks bounties that showed up today.
 | **$20** | [document sveltekit backend instrumentation](https://github.com/highlight/highlight/issues/8032) 🆕 | [highlight/highlight](https://github.com/highlight/highlight) | 9,390 | TypeScript | Algora | 9 | 2y |
 | **$50** | [Multitenancy and Teams/Workspaces support](https://github.com/caley-io/marketing/issues/1) 🆕 | [caley-io/marketing](https://github.com/caley-io/marketing) | 71 | TypeScript | Algora | 12 | 2y |
 | **$30** | [Disable rendering of unseen tilemap layers](https://github.com/RE-SS3D/SS3D/issues/1373) 🆕 | [RE-SS3D/SS3D](https://github.com/RE-SS3D/SS3D) | 292 | C# | Label | 0 | 2y |
-| **$50** | [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora | 13 | 2y |
-| **$25** | [BOUNTY: add support for Google Palm2 API in javascript/typescript](https://github.com/arakoodev/EdgeChains/issues/279) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora | 7 | 2y |
-| **$30** | [BOUNTY: add support for qdrant vector database in javascript sdk](https://github.com/arakoodev/EdgeChains/issues/273) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora | 12 | 2y |
+| **$50** | [BOUNTY: integrate AWS Comprehend as a utility to redact data](https://github.com/arakoodev/EdgeChains/issues/290) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora, Title | 13 | 2y |
+| **$25** | [BOUNTY: add support for Google Palm2 API in javascript/typescript](https://github.com/arakoodev/EdgeChains/issues/279) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora, Title | 7 | 2y |
+| **$30** | [BOUNTY: add support for qdrant vector database in javascript sdk](https://github.com/arakoodev/EdgeChains/issues/273) 🆕 | [arakoodev/EdgeChains](https://github.com/arakoodev/EdgeChains) | 433 | JavaScript | Algora, Title | 12 | 2y |
 | **$100** | [\[REVER-48\] Workday Integration](https://github.com/revertinc/revert/issues/372) 🆕 | [revertinc/revert](https://github.com/revertinc/revert) | 1,018 | TypeScript | Algora | 16 | 2y |
 | **$40** | [Vue Integration](https://github.com/tryabby/abby/issues/68) 🆕 | [tryabby/abby](https://github.com/tryabby/abby) | 167 | TypeScript | Algora | 9 | 3y |
 | **$250** | [Sample: Dozer + LLM + Vector database + Langchain sample](https://github.com/getdozer/dozer/issues/1690) 🆕 | [getdozer/dozer](https://github.com/getdozer/dozer) | 1,574 | Rust | Algora | 11 | 3y |
@@ -112,32 +129,16 @@ Newest first. 🆕 marks bounties that showed up today.
 | **$60** | ['get' command returns the same wallpaper for different screens with different wa…](https://github.com/sindresorhus/macos-wallpaper/issues/25) 🆕 | [sindresorhus/macos-wallpaper](https://github.com/sindresorhus/macos-wallpaper) | 717 | Swift | IssueHunt | 0 | 7y |
 | **$60** | [Rapidly switching between tabs causes view size to be wrong](https://github.com/sindresorhus/Settings/issues/9) 🆕 | [sindresorhus/Settings](https://github.com/sindresorhus/Settings) | 1,558 | Swift | IssueHunt | 0 | 7y |
 | **$50** | [ExtendedDesktopSize support?](https://github.com/LibVNC/x11vnc/issues/91) 🆕 | [LibVNC/x11vnc](https://github.com/LibVNC/x11vnc) | 859 | C | IssueHunt | 0 | 7y |
-| **$100** | [Responsive](https://github.com/egoist/vue-content-loader/issues/18) 🆕 | [egoist/vue-content-loader](https://github.com/egoist/vue-content-loader) | 3,027 | JavaScript | IssueHunt | 0 | 7y |
-| **$60** | [Default wallpaper is shown for ≈0.5 sec](https://github.com/sindresorhus/wallpaper/issues/52) 🆕 | [sindresorhus/wallpaper](https://github.com/sindresorhus/wallpaper) | 1,090 | JavaScript | IssueHunt | 0 | 7y |
-| **$150** | [Very quick swipes cause app to freeze](https://github.com/marcosgriselli/SwipeableTabBarController/issues/52) 🆕 | [marcosgriselli/SwipeableTabBarController](https://github.com/marcosgriselli/SwipeableTabBarController) | 1,532 | Swift | IssueHunt | 0 | 7y |
-| **$35** | [Improve organization and add missing examples in API documentation](https://github.com/piotrwitek/utility-types/issues/51) 🆕 | [piotrwitek/utility-types](https://github.com/piotrwitek/utility-types) | 5,768 | TypeScript | IssueHunt | 0 | 7y |
-| **$40** | [I would like an explanation of the Service type in epics.](https://github.com/piotrwitek/typesafe-actions/issues/103) 🆕 | [piotrwitek/typesafe-actions](https://github.com/piotrwitek/typesafe-actions) | 2,408 | TypeScript | IssueHunt | 0 | 7y |
-| **$100** | [Push notifications](https://github.com/devhubapp/devhub/issues/51) 🆕 | [devhubapp/devhub](https://github.com/devhubapp/devhub) | 10,152 | TypeScript | IssueHunt | 0 | 7y |
-| **$80** | [Analyze source & test dependencies to figure out which tests to run (first)](https://github.com/avajs/ava/issues/1986) 🆕 | [avajs/ava](https://github.com/avajs/ava) | 20,831 | JavaScript | IssueHunt | 0 | 7y |
-| **$115** | [Add a generic reducer factory automatically handling async-actions - createAsync…](https://github.com/piotrwitek/typesafe-actions/issues/88) 🆕 | [piotrwitek/typesafe-actions](https://github.com/piotrwitek/typesafe-actions) | 2,408 | TypeScript | IssueHunt | 0 | 8y |
-| **$100** | [Allow to source for multiple times](https://github.com/egoist/majo/issues/9) 🆕 | [egoist/majo](https://github.com/egoist/majo) | 53 | TypeScript | IssueHunt | 0 | 8y |
-| **$90** | [Add a web page with API documentation that will be automatically generated from …](https://github.com/piotrwitek/utility-types/issues/30) 🆕 | [piotrwitek/utility-types](https://github.com/piotrwitek/utility-types) | 5,768 | TypeScript | IssueHunt | 0 | 8y |
-| **$60** | [Add rule for linting header image if one exists](https://github.com/sindresorhus/awesome-lint/issues/37) 🆕 | [sindresorhus/awesome-lint](https://github.com/sindresorhus/awesome-lint) | 871 | JavaScript | IssueHunt | 0 | 8y |
-| **$100** | [add query string parameters for setting panel width](https://github.com/egoist/codepan/issues/63) 🆕 | [egoist/codepan](https://github.com/egoist/codepan) | 1,200 | JavaScript | IssueHunt | 0 | 8y |
-| **$40** | [Use `require` instead of `import`](https://github.com/gajus/flow-runtime/issues/207) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 8y |
-| **$40** | [Support $ReadOnlyArray](https://github.com/gajus/flow-runtime/issues/199) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 8y |
-| **$40** | [babel-plugin-flow-runtime references undefined type parameter names with asserti…](https://github.com/gajus/flow-runtime/issues/180) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 8y |
-| **$50** | [Map class property assertion fails when using babel-plugin-transform-runtime](https://github.com/gajus/flow-runtime/issues/177) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 8y |
-| **$200** | [webpack loader](https://github.com/gajus/flow-runtime/issues/165) 🆕 | [gajus/flow-runtime](https://github.com/gajus/flow-runtime) | 796 | JavaScript | IssueHunt | 0 | 9y |
 
-The full list of 112 is in [`data/bounties.json`](data/bounties.json) and on the [website](https://krishi-shah.github.io/dailybugbounties/).
+The full list of 129 is in [`data/bounties.json`](data/bounties.json) and on the [website](https://krishi-shah.github.io/dailybugbounties/).
 
 ### 💰 Biggest payouts right now
 
 | Payout | Issue | Repo | ★ | Lang | Source | Tries | Age |
 |---:|---|---|---:|---|---|---:|---:|
+| **$3,000** | [\[ Bounty $3k \] \[ Solidity \] Fix MultiTokenStaking duplicate pool and reward …](https://github.com/ClankerNation/OpenAgents/issues/79) 🆕 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents) | 15 | Solidity | Algora, Title | 1 | 180d |
 | **$2,600** | [\[Contribution\] BusKill](https://github.com/QubesOS/qubes-issues/issues/10567) 🆕 | [QubesOS/qubes-issues](https://github.com/QubesOS/qubes-issues) | 624 |  | Label | 0 | 304d |
-| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label | 0 | 1y |
+| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) 🆕 | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,279 | Java | Label, Title | 0 | 1y |
 | **$1,000** | [\[sifnode\] $1000 bounty for implementing Google Cloud support for sifnode #503](https://github.com/Sifchain/sifnode/issues/524) 🆕 | [Sifchain/sifnode](https://github.com/Sifchain/sifnode) | 107 | Go | Label | 0 | 5y |
 | **$1,000** | [\[sifnode\] $1000 bounty for implementing Azure AKS support for sifnode](https://github.com/Sifchain/sifnode/issues/503) 🆕 | [Sifchain/sifnode](https://github.com/Sifchain/sifnode) | 107 | Go | Label | 0 | 5y |
 | **$900** | [\[ Crypto \] Fix cross-chain replay attack in CrossChainBridge signature verific…](https://github.com/UnsafeLabs/Bounty-Hunters/issues/920) 🆕 | [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters) | 58 | TypeScript | Algora | 20 | 181d |
@@ -145,7 +146,6 @@ The full list of 112 is in [`data/bounties.json`](data/bounties.json) and on the
 | **$800** | [\[ Laravel \] Implement webhook system with signature verification and retry que…](https://github.com/UnsafeLabs/Bounty-Hunters/issues/754) 🆕 | [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters) | 58 | TypeScript | Algora | 10 | 181d |
 | **$780** | [Automate Bug Detection and Reviews](https://github.com/SecureBananaLabs/bug-bounty/issues/11398) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 10 | 110d |
 | **$780** | [POST /api/reviews endpoint missing authentication middleware (reissue via #743)](https://github.com/SecureBananaLabs/bug-bounty/issues/2776) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 7 | 165d |
-| **$780** | [Pixel Art Creation with high Creative Thinking](https://github.com/SecureBananaLabs/bug-bounty/issues/80) 🆕 | [SecureBananaLabs/bug-bounty](https://github.com/SecureBananaLabs/bug-bounty) | 345 | JavaScript | Algora, Label | 22 | 179d |
 <!-- FEED:END -->
 
 ## How it works

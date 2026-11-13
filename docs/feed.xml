@@ -3,7 +3,21 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Thu, 12 Nov 2026 19:31:16 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 13:13:01 +0000</lastBuildDate>
+<item>
+<title>$3,000 · tenstorrent/tt-metal · [Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)</title>
+<link>https://github.com/tenstorrent/tt-metal/issues/62681</link>
+<guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/62681</guid>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+<description>title · 0 tries · Python</description>
+</item>
+<item>
+<title>$2,000 · tenstorrent/tt-metal · [Bounty $2,000] Restore OpenVLA execution and action correctness</title>
+<link>https://github.com/tenstorrent/tt-metal/issues/65437</link>
+<guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/65437</guid>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled, title · 0 tries · Python</description>
+</item>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
 <link>https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/</link>
@@ -339,19 +353,5 @@
 <guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/26</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · </description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review</title>
-<link>https://github.com/Expensify/App/issues/106234</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/106234</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Members - Display name opens not here page</title>
-<link>https://github.com/Expensify/App/issues/106201</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/106201</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
 </item>
 </channel></rss>

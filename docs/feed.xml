@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Fri, 13 Nov 2026 13:13:01 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 22:43:38 +0000</lastBuildDate>
 <item>
 <title>$3,000 · tenstorrent/tt-metal · [Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)</title>
 <link>https://github.com/tenstorrent/tt-metal/issues/62681</link>
@@ -17,6 +17,13 @@
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/65437</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled, title · 0 tries · Python</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] Deeplink - Valid payment receipt deeplink does not display the receipt</title>
+<link>https://github.com/Expensify/App/issues/106449</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/106449</guid>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
 </item>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
@@ -346,12 +353,5 @@
 <guid isPermaLink="true">https://github.com/trypear/pearai-app/issues/44</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$300 · ubiquity-os/plugins-wishlist · Check dev experience on starting an issue</title>
-<link>https://github.com/ubiquity-os/plugins-wishlist/issues/26</link>
-<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/26</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · </description>
 </item>
 </channel></rss>

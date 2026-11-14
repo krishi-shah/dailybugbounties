@@ -3,7 +3,21 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Fri, 13 Nov 2026 22:43:38 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 12:17:49 +0000</lastBuildDate>
+<item>
+<title>$250 · Expensify/App · [$250] Web - Profile - State URL parameter does not override the existing State value</title>
+<link>https://github.com/Expensify/App/issues/102630</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/102630</guid>
+<pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$150 · scratchdata/scratchdata · Use a AWS Secret Manager for DB credentials</title>
+<link>https://github.com/scratchdata/scratchdata/issues/126</link>
+<guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/126</guid>
+<pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 3 tries · Go</description>
+</item>
 <item>
 <title>$3,000 · tenstorrent/tt-metal · [Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)</title>
 <link>https://github.com/tenstorrent/tt-metal/issues/62681</link>
@@ -339,19 +353,5 @@
 <guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/48</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · </description>
-</item>
-<item>
-<title>$300 · ubiquity-os/plugins-wishlist · Generalized &quot;GitHub Webhook + Contributor Role -&gt; Rewards&quot; With Config v3</title>
-<link>https://github.com/ubiquity-os/plugins-wishlist/issues/47</link>
-<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/47</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · </description>
-</item>
-<item>
-<title>$300 · trypear/pearai-app · [Hard] Package Releases Automation</title>
-<link>https://github.com/trypear/pearai-app/issues/44</link>
-<guid isPermaLink="true">https://github.com/trypear/pearai-app/issues/44</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · TypeScript</description>
 </item>
 </channel></rss>

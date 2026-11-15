@@ -3,7 +3,14 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://krishi-shah.github.io/dailybugbounties/</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Sat, 14 Nov 2026 21:34:29 +0000</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 12:49:35 +0000</lastBuildDate>
+<item>
+<title>$10,000 · commaai/opendbc · [$10k bounty] Ford F-150 2026 (TRON) support</title>
+<link>https://github.com/commaai/opendbc/issues/3426</link>
+<guid isPermaLink="true">https://github.com/commaai/opendbc/issues/3426</guid>
+<pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled, title · 1 tries · Python</description>
+</item>
 <item>
 <title>$250 · Expensify/App · [$250] Web - Profile - State URL parameter does not override the existing State value</title>
 <link>https://github.com/Expensify/App/issues/102630</link>
@@ -16,7 +23,7 @@
 <link>https://github.com/scratchdata/scratchdata/issues/126</link>
 <guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/126</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 3 tries · Go</description>
+<description>algora · 4 tries · Go</description>
 </item>
 <item>
 <title>$3,000 · tenstorrent/tt-metal · [Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)</title>
@@ -94,13 +101,6 @@
 <guid isPermaLink="true">https://github.com/ubiquity-os/plugin-template/issues/13</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
-<link>https://github.com/Sifchain/sifnode/issues/524</link>
-<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/524</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Go</description>
 </item>
 <item>
 <title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Azure AKS support for sifnode</title>

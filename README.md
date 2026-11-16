@@ -19,7 +19,7 @@ Daily Bug Bounties collects open bounties from **Algora**, **IssueHunt**, **Opir
 ## Today's top bounties
 
 <!-- FEED:START -->
-**82 open bounties worth $50,438** · 0 new today · 48 with nobody trying yet · updated 2026-11-16 05:10 UTC
+**82 open bounties worth $50,438** · 1 new today · 48 with nobody trying yet · updated 2026-11-16 13:46 UTC
 
 **Sources:** DevPool 50 · Label 15 · Expensify 12 · Title 9 · Algora 2 · Superteam 2  
 **Pays via:** Crypto wallet 52 · Ask maintainer 16 · Upwork 12 · Stripe 2 · **✅ Verified payers:** 57  
@@ -31,11 +31,11 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 
 | Payout | Issue | Repo | ★ | Lang | Source · pays via | Tries | PRs | Age |
 |---:|---|---|---:|---|---|---:|---:|---:|
-| **$10,000** | [\[$10k bounty\] Ford F-150 2026 (TRON) support](https://github.com/commaai/opendbc/issues/3426) | [commaai/opendbc](https://github.com/commaai/opendbc) | 3,563 | Python | Label, Title · Ask maintainer | 1 |  | 169d |
+| **$250** | [\[$250\] Onboarding-Onboarding is displayed for invited to the workspace account](https://github.com/Expensify/App/issues/106926) 🆕 | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 2d |
+| **$10,000** | [\[$10k bounty\] Ford F-150 2026 (TRON) support](https://github.com/commaai/opendbc/issues/3426) | [commaai/opendbc](https://github.com/commaai/opendbc) | 3,565 | Python | Label, Title · Ask maintainer | 1 |  | 169d |
 | **$250** | [\[$250\] Web - Profile - State URL parameter does not override the existing Stat…](https://github.com/Expensify/App/issues/102630) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 47d |
 | **$2,000** | [\[Bounty $2,000\] Restore OpenVLA execution and action correctness](https://github.com/tenstorrent/tt-metal/issues/65437) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Label, Title · Ask maintainer | 0 | 4 | 4d |
-| **$250** | [\[$250\] Deeplink - Valid payment receipt deeplink does not display the receipt](https://github.com/Expensify/App/issues/106449) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 6d |
-| **$3,000** | [\[Bounty $3000\] Static checker for compute-kernel API ordering rules (init / un…](https://github.com/tenstorrent/tt-metal/issues/62681) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Title · Ask maintainer | 0 | 3 | 20d |
+| **$3,000** | [\[Bounty $3000\] Static checker for compute-kernel API ordering rules (init / un…](https://github.com/tenstorrent/tt-metal/issues/62681) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Title · Ask maintainer | 0 | 4 | 20d |
 | **$750** | [\[Bounty $750\] Fix remaining sharded scale_mask_softmax mask handling issues](https://github.com/tenstorrent/tt-metal/issues/64647) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Label · Ask maintainer | 0 | 6 | 10d |
 | **$250** | [\[$250\] Members - Display name opens not here page](https://github.com/Expensify/App/issues/106201) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 10d |
 | **$750** | [\[Bounty $750\] Fix sharded softmax on offset core grids](https://github.com/tenstorrent/tt-metal/issues/64575) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Label · Ask maintainer | 0 | 5 | 10d |
@@ -48,9 +48,9 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 | **$250** | [\[$250\] Different error appear after network reconnect](https://github.com/Expensify/App/issues/104060) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 32d |
 | **$30** | [\[BOUNTY ~$30 x4\] Post and fund a real task on Verdikta, publish a write-up (pa…](https://github.com/verdikta/verdikta-applications/issues/76) | [verdikta/verdikta-applications](https://github.com/verdikta/verdikta-applications) | 56 | JavaScript | Label · Ask maintainer | 1 | 1 | 32d |
 | **$250** | [\[$250\] Pressing Delete while selecting text inside a composer duplicates the c…](https://github.com/Expensify/App/issues/103875) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 34d |
-| **$50** | [Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)](https://github.com/sybil-solutions/local-ai-registry/issues/223) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 302 | HTML | Label, Title · Ask maintainer | 8 | 3 | 35d |
-| **$50** | [Bounty $50: recipe for RX 7900 XTX 24 GB](https://github.com/sybil-solutions/local-ai-registry/issues/219) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 302 | HTML | Label, Title · Ask maintainer | 12 | 3 | 35d |
-| **$50** | [Bounty $50: recipe for Intel Arc B580 12 GB](https://github.com/sybil-solutions/local-ai-registry/issues/216) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 302 | HTML | Label · Ask maintainer | 5 | 1 | 35d |
+| **$50** | [Bounty $50: recipe for Ryzen AI 890M (Radeon 890M iGPU)](https://github.com/sybil-solutions/local-ai-registry/issues/223) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 304 | HTML | Label, Title · Ask maintainer | 8 | 3 | 35d |
+| **$50** | [Bounty $50: recipe for RX 7900 XTX 24 GB](https://github.com/sybil-solutions/local-ai-registry/issues/219) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 304 | HTML | Label, Title · Ask maintainer | 12 | 3 | 35d |
+| **$50** | [Bounty $50: recipe for Intel Arc B580 12 GB](https://github.com/sybil-solutions/local-ai-registry/issues/216) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 304 | HTML | Label · Ask maintainer | 5 | 1 | 35d |
 | **$18** | [Enable JavaScript inputs in the JSX lint recipe](https://github.com/ubiquity/ts-template/issues/106) | [ubiquity/ts-template](https://github.com/ubiquity/ts-template) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 45d |
 | **$27** | [Bulk permit deletion copy claims bogus-only scope while the action invalidates e…](https://github.com/ubiquity/pay.ubq.fi/issues/500) | [ubiquity/pay.ubq.fi](https://github.com/ubiquity/pay.ubq.fi) ✅ | 10 | TypeScript | DevPool · Crypto wallet | 0 |  | 45d |
 | **$150** | [Preserve token selector holdings and amount labels across inventory refreshes](https://github.com/ubiquity/uusd.ubq.fi/issues/92) | [ubiquity/uusd.ubq.fi](https://github.com/ubiquity/uusd.ubq.fi) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 55d |
@@ -59,8 +59,8 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 | **$250** | [\[$250\] Marking a chat as unread doesn't stick — client immediately re-reads it…](https://github.com/Expensify/App/issues/101234) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 62d |
 | **$250** | [\[$250\] Expense - Split preview loads infinitely and opens not here page after …](https://github.com/Expensify/App/issues/98787) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 91d |
 | **$50** | [Bounty: end-to-end test copperhead create (brief → clean full run) + findings re…](https://github.com/copperheadhq/copperhead/issues/66) | [copperheadhq/copperhead](https://github.com/copperheadhq/copperhead) | 699 | TypeScript | Label · Ask maintainer | 0 | 9 | 115d |
-| **$10** | [Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, …](https://github.com/auscaster/frantic-board/issues/277) | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 1,022 | Shell | Label, Title · Ask maintainer | 2 | 4 | 131d |
-| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 1,022 | Shell | Label, Title · Ask maintainer | 0 | 4 | 153d |
+| **$10** | [Frantic bounty #97: Your first bounty is on the house ($10 back when it clears, …](https://github.com/auscaster/frantic-board/issues/277) | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 1,028 | Shell | Label, Title · Ask maintainer | 2 | 4 | 131d |
+| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 1,028 | Shell | Label, Title · Ask maintainer | 0 | 4 | 153d |
 | **$250** | [\[$250\] Spend - Default sort is descending](https://github.com/Expensify/App/issues/91935) | [Expensify/App](https://github.com/Expensify/App) ✅ | 5,097 | TypeScript | Expensify · Upwork | 0 |  | 172d |
 | **$75** | [Reminder is sent on PR reopening even with no assignee](https://github.com/ubiquity-os-marketplace/daemon-disqualifier/issues/135) | [ubiquity-os-marketplace/daemon-disqualifier](https://github.com/ubiquity-os-marketplace/daemon-disqualifier) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 215d |
 | **$75** | [CoWSwap Integration Improvements](https://github.com/ubiquity/uusd.ubq.fi/issues/47) | [ubiquity/uusd.ubq.fi](https://github.com/ubiquity/uusd.ubq.fi) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 223d |
@@ -89,8 +89,8 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 | **$1,200** | [GitHub Decoupling](https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/385) | [ubiquity-os-marketplace/text-conversation-rewards](https://github.com/ubiquity-os-marketplace/text-conversation-rewards) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$600** | [Specialized Prompts](https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/340) | [ubiquity-os-marketplace/text-conversation-rewards](https://github.com/ubiquity-os-marketplace/text-conversation-rewards) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$400** | [Automating Call To Action Delivery (Repo XP Report)](https://github.com/ubiquity/business-development/issues/196) | [ubiquity/business-development](https://github.com/ubiquity/business-development) | 2 | JavaScript | DevPool · Crypto wallet | 0 |  | 1y |
-| **$85** | [\[BOUNTY\] Support Play Integrity over remote DroidGuard + Server/Guide \[$85\]](https://github.com/microg/GmsCore/issues/2851) | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,331 | Java | Label, Title · Ask maintainer | 0 | 6 | 1y |
-| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,331 | Java | Label, Title · Ask maintainer | 0 | 10 | 1y |
+| **$85** | [\[BOUNTY\] Support Play Integrity over remote DroidGuard + Server/Guide \[$85\]](https://github.com/microg/GmsCore/issues/2851) | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,337 | Java | Label, Title · Ask maintainer | 0 | 6 | 1y |
+| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,337 | Java | Label, Title · Ask maintainer | 0 | 10 | 1y |
 | **$225** | [Retry and token limits](https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/330) | [ubiquity-os-marketplace/text-conversation-rewards](https://github.com/ubiquity-os-marketplace/text-conversation-rewards) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$75** | [Multiple Matchmaking Comments](https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/94) | [ubiquity-os-marketplace/text-vector-embeddings](https://github.com/ubiquity-os-marketplace/text-vector-embeddings) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$600** | [Launch campaign to target pilot partners from large open source projects](https://github.com/ubiquity/business-development/issues/185) | [ubiquity/business-development](https://github.com/ubiquity/business-development) | 2 | JavaScript | DevPool · Crypto wallet | 0 |  | 1y |
@@ -112,7 +112,7 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 | **$75** | [Improve Task Assignment Limit Handling](https://github.com/ubiquity-os-marketplace/command-start-stop/issues/106) | [ubiquity-os-marketplace/command-start-stop](https://github.com/ubiquity-os-marketplace/command-start-stop) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$300** | [Improving Recommendations](https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55) | [ubiquity-os-marketplace/text-vector-embeddings](https://github.com/ubiquity-os-marketplace/text-vector-embeddings) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 78 sub |  | due 28d |
-| **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam · Crypto wallet | 7 sub |  | due 24d |
+| **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam · Crypto wallet | 8 sub |  | due 24d |
 
 Plus 91 older bounties on issues opened more than two years ago: see [`data/bounties.json`](data/bounties.json).
 
@@ -120,12 +120,12 @@ Plus 91 older bounties on issues opened more than two years ago: see [`data/boun
 
 | Payout | Issue | Repo | ★ | Lang | Source · pays via | Tries | PRs | Age |
 |---:|---|---|---:|---|---|---:|---:|---:|
-| **$10,000** | [\[$10k bounty\] Ford F-150 2026 (TRON) support](https://github.com/commaai/opendbc/issues/3426) | [commaai/opendbc](https://github.com/commaai/opendbc) | 3,563 | Python | Label, Title · Ask maintainer | 1 |  | 169d |
+| **$10,000** | [\[$10k bounty\] Ford F-150 2026 (TRON) support](https://github.com/commaai/opendbc/issues/3426) | [commaai/opendbc](https://github.com/commaai/opendbc) | 3,565 | Python | Label, Title · Ask maintainer | 1 |  | 169d |
 | **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 78 sub |  | due 28d |
-| **$3,000** | [\[Bounty $3000\] Static checker for compute-kernel API ordering rules (init / un…](https://github.com/tenstorrent/tt-metal/issues/62681) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Title · Ask maintainer | 0 | 3 | 20d |
+| **$3,000** | [\[Bounty $3000\] Static checker for compute-kernel API ordering rules (init / un…](https://github.com/tenstorrent/tt-metal/issues/62681) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Title · Ask maintainer | 0 | 4 | 20d |
 | **$2,600** | [\[Contribution\] BusKill](https://github.com/QubesOS/qubes-issues/issues/10567) | [QubesOS/qubes-issues](https://github.com/QubesOS/qubes-issues) | 624 |  | Label · Ask maintainer | 0 |  | 308d |
 | **$2,400** | [Add `UUSD` and `UBQ` tokens to popular services](https://github.com/ubiquity/ubiquity-dollar/issues/984) | [ubiquity/ubiquity-dollar](https://github.com/ubiquity/ubiquity-dollar) ✅ | 40 | Solidity | DevPool · Crypto wallet | 0 | 1 | 1y |
-| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,331 | Java | Label, Title · Ask maintainer | 0 | 10 | 1y |
+| **$2,340** | [\[BOUNTY\] WearOS Support \[$2340\]](https://github.com/microg/GmsCore/issues/2843) | [microg/GmsCore](https://github.com/microg/GmsCore) | 15,337 | Java | Label, Title · Ask maintainer | 0 | 10 | 1y |
 | **$2,000** | [\[Bounty $2,000\] Restore OpenVLA execution and action correctness](https://github.com/tenstorrent/tt-metal/issues/65437) | [tenstorrent/tt-metal](https://github.com/tenstorrent/tt-metal) | 127 | Python | Label, Title · Ask maintainer | 0 | 4 | 4d |
 | **$1,800** | [UbiquityOS Sprint Management Dashboard](https://github.com/ubiquity-os/.github/issues/14) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 334d |
 | **$1,200** | [Integrate Liquity V1 Stability Pool for LUSD Collateral Yield](https://github.com/ubiquity/ubiquity-dollar/issues/997) | [ubiquity/ubiquity-dollar](https://github.com/ubiquity/ubiquity-dollar) ✅ | 40 | Solidity | DevPool · Crypto wallet | 0 |  | 1y |
@@ -134,12 +134,6 @@ Plus 91 older bounties on issues opened more than two years ago: see [`data/boun
 ### 🛡️ Security bug bounties
 
 Find a real vulnerability, get paid. These aren't fixed price tasks: programs pay **up to** their max for a valid report, and audit contests split a prize pool between researchers. Most pay in USDC and many need KYC.
-
-**Audit contests running now**
-
-| Prize pool | Contest | Platform | Ends |
-|---:|---|---|---:|
-| **$80,000** | [Plether](https://immunefi.com/audit-competition/plether/) | Immunefi | due today |
 
 **Top bug bounty programs** (144 live on Immunefi, biggest first)
 

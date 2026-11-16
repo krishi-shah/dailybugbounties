@@ -298,3 +298,91 @@ class Render(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SecuritySources(unittest.TestCase):
+    def test_immunefi_programs_and_contests(self):
+        from dailybugbounties.sources import security
+        got = security.parse_immunefi([
+            {"project": "Ondo Finance", "slug": "ondofinance", "maxBounty": 1000000, "kyc": True,
+             "language": ["Solidity"], "websiteUrl": "https://ondo.finance", "launchDate": "2024-01-01T00:00:00Z"},
+            {"project": "Audit Competition | Plether", "slug": "plether", "maxBounty": 80000,
+             "endDate": "2099-11-16T08:30:00.000Z", "kyc": False},
+            {"project": "Paused", "slug": "p", "maxBounty": 5, "isPaused": True},
+            {"project": "Invite", "slug": "i", "maxBounty": 5, "inviteOnly": True},
+            {"project": "Evil", "slug": "e", "maxBounty": 9, "websiteUrl": "javascript:alert(1)"},
+        ])
+        self.assertEqual([b.owner for b in got], ["Ondo Finance", "Plether", "Evil"])
+        ondo, plether, evil = got
+        self.assertEqual((ondo.url, ondo.labels, ondo.kyc), ("https://immunefi.com/bug-bounty/ondofinance/", ["Bug bounty program"], True))
+        self.assertEqual((plether.url, plether.labels), ("https://immunefi.com/audit-competition/plether/", ["Audit contest"]))
+        self.assertIsNone(evil.to_public()["owner_url"])  # javascript: link never published
+
+    def test_sherlock_live_only(self):
+        from dailybugbounties.sources import security
+        got = security.parse_sherlock([
+            {"id": 1, "title": "Live", "status": "RUNNING", "rewards": 100000, "token": "USDC", "ends_at": 4102444800, "starts_at": 1},
+            {"id": 2, "title": "Done", "status": "FINISHED", "rewards": 9, "token": "USDC", "ends_at": 4102444800},
+            {"id": 3, "title": "Past", "status": "RUNNING", "rewards": 9, "token": "USDC", "ends_at": 1},
+            {"id": 4, "title": "Private", "status": "RUNNING", "rewards": 9, "private": True, "ends_at": 4102444800},
+            {"id": 5, "title": "Token", "status": "RUNNING", "rewards": 9, "token": "FOO", "ends_at": 4102444800},
+        ], now=1_700_000_000)
+        self.assertEqual([(b.owner, b.url, b.amount_usd) for b in got],
+                         [("Live", "https://audits.sherlock.xyz/contests/1", 100000.0)])
+
+    def test_select_orders_and_drops_expired(self):
+        from dailybugbounties.sources import security
+        mk = lambda n, amt, label, dl=None: Bounty(owner=n, repo="", number=0, kind="security", link=f"https://x/{n}",
+                                                    amount_usd=amt, labels=[label], deadline=dl)
+        got = security.select([mk("p1", 10, "Bug bounty program"), mk("p2", 99, "Bug bounty program"),
+                               mk("c_late", 5, "Audit contest", "2099-12-01T00:00:00Z"),
+                               mk("c_soon", 5, "Audit contest", "2099-01-01T00:00:00Z"),
+                               mk("c_gone", 5, "Audit contest", "2000-01-01T00:00:00Z")])
+        self.assertEqual([b.owner for b in got], ["c_soon", "c_late", "p2", "p1"])
+
+
+class Hardening(unittest.TestCase):
+    def test_safe_url(self):
+        from dailybugbounties.models import safe_url
+        self.assertEqual(safe_url("https://github.com/a/b"), "https://github.com/a/b")
+        for bad in ["javascript:alert(1)", "data:text/html,x", "//evil.com", "https://x.com/\"onmouseover=1", "", None, 5]:
+            self.assertIsNone(safe_url(bad), bad)
+
+    def test_markdown_and_rss_escape_hostile_text(self):
+        evil = B(title='<img src=x onerror=alert(1)> | [click](javascript:x)', amount_usd=50)
+        row = render.table([evil], datetime(2026, 11, 11).date())[2]
+        self.assertNotIn("<img", row)
+        self.assertNotIn("[click](", row)  # brackets are escaped, so it stays plain text
+        feed = render.rss([evil], datetime(2026, 11, 11, tzinfo=timezone.utc), "https://x.test/")
+        self.assertNotIn("<img", feed)
+
+    def test_size_cap(self):
+        import io
+        from dailybugbounties.github import read_capped, get_json
+        self.assertEqual(read_capped(io.BytesIO(b"abc"), 3), b"abc")
+        with self.assertRaises(ValueError):
+            read_capped(io.BytesIO(b"abcd"), 3)
+        with self.assertRaises(ValueError):
+            get_json("http://insecure.example/x.json")
+
+    def test_banner_is_valid_svg_without_scripts(self):
+        import xml.etree.ElementTree as ET
+        from dailybugbounties import banner
+        sec = [Bounty(owner="<x>", repo="", number=0, kind="security", amount_usd=1e7, link="https://a")]
+        svg = banner.render([B(amount_usd=1234)], sec, "Nov 16, 05:10")
+        ET.fromstring(svg)  # well formed
+        self.assertNotIn("<script", svg)
+        self.assertIn("up to $10M", svg)
+        self.assertIn("$1.2k", svg)
+
+    def test_readme_security_section(self):
+        sec = [Bounty(owner="Plether", repo="", number=0, kind="security", amount_usd=80000,
+                      link="https://immunefi.com/audit-competition/plether/", labels=["Audit contest"],
+                      deadline="2099-01-01T00:00:00Z", sources=["immunefi"]),
+               Bounty(owner="Ondo", repo="", number=0, kind="security", amount_usd=1e6, kyc=True,
+                      link="https://immunefi.com/bug-bounty/ondo/", labels=["Bug bounty program"],
+                      languages=["Solidity"], sources=["immunefi"])]
+        block = "\n".join(render.security_block(sec, datetime(2026, 11, 16).date()))
+        self.assertIn("**Audit contests running now**", block)
+        self.assertIn("| **$80,000** | [Plether](https://immunefi.com/audit-competition/plether/) | Immunefi |", block)
+        self.assertIn("| **$1,000,000** | [Ondo](https://immunefi.com/bug-bounty/ondo/) | Solidity | yes |", block)

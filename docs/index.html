@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>dailybugbounties · the latest paid open source issues, every day</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Daily Bug Bounties · the latest paid open source issues, every day</title>
 <meta name="description" content="Every open source bounty from Algora, IssueHunt, Opire, Expensify and GitHub in one list. Newest first, updated every 12 hours.">
 <link rel="alternate" type="application/rss+xml" title="dailybugbounties" href="feed.xml">
 <style>
@@ -61,8 +63,8 @@
 <body>
 <div class="wrap">
   <header>
-    <h1>dailybugbounties</h1>
-    <p>Paid dev work from Algora, IssueHunt, Opire, Expensify, DevPool, Superteam Earn and GitHub. Newest first, updated every 12 hours.</p>
+    <h1>Daily Bug Bounties</h1>
+    <p>Paid dev work from Algora, IssueHunt, Opire, Expensify, DevPool, Superteam Earn and GitHub, plus security bounties from Immunefi and Sherlock. Newest first, updated every 12 hours.</p>
   </header>
 
   <div class="stats">
@@ -85,7 +87,7 @@
       <option value="tries">Fewest tries</option>
     </select>
     <select id="pay" aria-label="How it pays">
-      <option value="">Any payout method</option><option value="stripe">Stripe</option>
+      <option value="">Any method</option><option value="stripe">Stripe</option>
       <option value="upwork">Upwork</option><option value="crypto">Crypto wallet</option>
       <option value="nocrypto">No crypto</option><option value="maintainer">Ask maintainer</option>
     </select>
@@ -98,6 +100,12 @@
   <p class="count"><span id="count"></span> · <a href="#" id="share">Copy link to this view</a></p>
   <div id="list"></div>
 
+  <section id="sec" hidden>
+    <h2 style="font:700 20px/1.2 var(--mono);margin:34px 0 6px">🛡️ Security bug bounties</h2>
+    <p class="count" style="margin-bottom:12px">Not fixed price tasks: programs pay up to their max for a valid vulnerability, and contests split a prize pool. Most pay in USDC and many need KYC.</p>
+    <div id="seclist"></div>
+  </section>
+
   <footer>
     Data: <a href="bounties.json">bounties.json</a> · <a href="feed.xml">RSS</a> ·
     <a href="https://github.com/krishi-shah/dailybugbounties">GitHub</a>.
@@ -105,7 +113,9 @@
   </footer>
 </div>
 <script>
-const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", expensify: "Expensify", labeled: "Label", title: "Title", superteam: "Superteam", devpool: "DevPool", taskbounty: "TaskBounty" };
+// Only http(s) links are ever rendered; data comes from third party sources.
+const safe = (u) => (typeof u === "string" && /^https?:\/\/[^\s<>"'`]+$/i.test(u)) ? u : null;
+const NAMES = { algora: "Algora", issuehunt: "IssueHunt", opire: "Opire", expensify: "Expensify", labeled: "Label", title: "Title", superteam: "Superteam", devpool: "DevPool", taskbounty: "TaskBounty", immunefi: "Immunefi", sherlock: "Sherlock" };
 // Works on GitHub Pages and on any other host: same folder first, then the repo's raw files.
 const RAW = "https://raw.githubusercontent.com/krishi-shah/dailybugbounties/main/docs/";
 const get = (file, as) => fetch(file).then((r) => { if (!r.ok) throw 0; return r[as](); })
@@ -116,6 +126,7 @@ const PAY = { stripe: "Stripe", upwork: "Upwork", crypto: "Crypto wallet", issue
 
 const money = (v, whole) => "$" + Number(whole ? Math.round(v) : v).toLocaleString("en-US", { minimumFractionDigits: !whole && v % 1 ? 2 : 0, maximumFractionDigits: whole ? 0 : 2 });
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const short = (v) => v >= 1e6 ? "$" + (+(v / 1e6).toFixed(1)) + "M" : v >= 1e4 ? "$" + Math.round(v / 1e3) + "k" : money(v, true);
 const due = (iso) => {
   const d = Math.ceil((new Date(iso) - Date.now()) / 864e5);
   return d <= 0 ? "due today" : d === 1 ? "due tomorrow" : `due in ${d}d`;
@@ -186,17 +197,17 @@ function render() {
     <div class="row">
       <div class="amt">${money(b.amount_usd)}</div>
       <div>
-        <a class="title" href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a>${b.first_seen === state.today ? '<span class="new">NEW</span>' : ""}
+        ${safe(b.url) ? `<a class="title" href="${esc(safe(b.url))}" target="_blank" rel="noopener noreferrer">${esc(b.title)}</a>` : `<span class="title">${esc(b.title)}</span>`}${b.first_seen === state.today ? '<span class="new">NEW</span>' : ""}
         <div class="meta">
-          ${b.home_url ? `<a href="${esc(b.home_url)}" target="_blank" rel="noopener">${esc(b.repo_full)}</a>` : `<span>${esc(b.repo_full)}</span>`}
+          ${safe(b.home_url) ? `<a href="${esc(safe(b.home_url))}" target="_blank" rel="noopener noreferrer">${esc(b.repo_full)}</a>` : `<span>${esc(b.repo_full)}</span>`}
           ${b.stars != null ? `<span>★ ${b.stars.toLocaleString()}</span>` : ""}
           ${lang(b) ? `<span>${esc(lang(b))}</span>` : ""}
-          <span>${b.sources.map((s) => NAMES[s] || s).join(", ")} · pays via ${PAY[b.payout] || b.payout}</span>
-          ${b.verified_payer ? `<span class="ok" title="This repo has paid bounties before">✅ ${b.paid_before ? `paid ${b.paid_before} before` : "verified payer"}</span>` : ""}
+          <span>${esc(b.sources.map((s) => NAMES[s] || s).join(", "))} · pays via ${esc(PAY[b.payout] || b.payout)}</span>
+          ${b.verified_payer ? `<span class="ok" title="This repo has paid bounties before">✅ ${b.paid_before ? `paid ${+b.paid_before} before` : "verified payer"}</span>` : ""}
           ${b.deadline ? `<span class="due">${due(b.deadline)}</span>` : `<span>${age(b.created_at)}</span>`}
         </div>
       </div>
-      <div class="tries">${b.kind === "listing" ? `${b.submissions} submitted` : `${b.attempts + b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}`}${b.open_prs ? `<br><span class="pr">${b.open_prs} PR${b.open_prs > 1 ? "s" : ""} open</span>` : ""}</div>
+      <div class="tries">${b.kind === "listing" ? `${+b.submissions} submitted` : `${+b.attempts + +b.claims} ${b.attempts + b.claims === 1 ? "try" : "tries"}`}${b.open_prs ? `<br><span class="pr">${+b.open_prs} PR${b.open_prs > 1 ? "s" : ""} open</span>` : ""}</div>
     </div>`).join("") : '<div class="empty">No bounties match these filters.</div>';
 }
 
@@ -226,6 +237,20 @@ get("bounties.json", "json").then((data) => {
     navigator.clipboard?.writeText(location.href).then(() => { $("share").textContent = "Link copied"; setTimeout(() => ($("share").textContent = "Copy link to this view"), 1500); });
   };
   get("history.csv", "text").then(spark).catch(() => {});
+  const sec = data.security || [];
+  if (sec.length) {
+    $("sec").hidden = false;
+    $("seclist").innerHTML = sec.slice(0, 60).map((b) => `
+      <div class="row">
+        <div class="amt">${b.labels.includes("Audit contest") ? "" : '<small style="font-size:11px;display:block;opacity:.7">up to</small>'}${short(b.amount_usd)}</div>
+        <div>
+          ${safe(b.url) ? `<a class="title" href="${esc(safe(b.url))}" target="_blank" rel="noopener noreferrer">${esc(b.title)}</a>` : esc(b.title)}
+          <div class="meta"><span>${esc(b.labels[0] || "")}</span><span>${esc(b.sources.map((s) => NAMES[s] || s).join(", "))}</span>
+          ${(b.languages || []).length ? `<span>${esc(b.languages.slice(0, 3).join(", "))}</span>` : ""}
+          ${b.kyc ? "<span>KYC</span>" : ""}${b.deadline ? `<span class="due">${due(b.deadline)}</span>` : ""}</div>
+        </div><div class="tries"></div>
+      </div>`).join("");
+  }
   render();
 }).catch(() => { $("list").innerHTML = '<div class="empty">Could not load bounties.json.</div>'; });
 </script>

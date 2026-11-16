@@ -11,7 +11,7 @@ Evidence accumulates in data/payers.json, so the record keeps growing past GitHu
 
 import json
 import logging
-from datetime import date
+
 from pathlib import Path
 from typing import Dict, Iterable
 

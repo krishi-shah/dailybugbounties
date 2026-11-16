@@ -14,6 +14,26 @@ API = "https://api.github.com"
 UA = "dailybugbounties (+https://github.com/krishi-shah/dailybugbounties)"
 
 
+MAX_BYTES = 32 * 1024 * 1024  # no single response may be bigger than this
+
+
+def read_capped(resp, limit: int = MAX_BYTES) -> bytes:
+    """Read a response, refusing anything larger than limit."""
+    data = resp.read(limit + 1)
+    if len(data) > limit:
+        raise ValueError(f"response larger than {limit} bytes")
+    return data
+
+
+def get_json(url: str, timeout: int = 30, limit: int = MAX_BYTES):
+    """GET a JSON document from a public endpoint, with a timeout and a size cap."""
+    if not url.lower().startswith("https://"):
+        raise ValueError("only https URLs are fetched")
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(read_capped(r, limit).decode())
+
+
 class GitHub:
     def __init__(self, token=None, sleep=time.sleep):
         self.token = token if token is not None else os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
@@ -36,7 +56,7 @@ class GitHub:
             req = urllib.request.Request(url, data=body, headers=headers)
             try:
                 with urllib.request.urlopen(req, timeout=30) as r:
-                    return json.loads(r.read().decode())
+                    return json.loads(read_capped(r).decode())
             except urllib.error.HTTPError as e:
                 if e.code in (403, 429) and attempt < tries - 1:
                     reset = e.headers.get("x-ratelimit-reset")

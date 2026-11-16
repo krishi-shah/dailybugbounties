@@ -12,6 +12,17 @@ def parse_issue_url(url: str):
     return m.group(1), m.group(2), int(m.group(3))
 
 
+def safe_url(url):
+    """Only plain http(s) links ever reach the README, RSS or site. Anything else
+    (javascript:, data:, protocol relative) from a third party source is dropped."""
+    if not url or not isinstance(url, str):
+        return None
+    u = url.strip()
+    if not re.match(r"^https?://[^\s<>\"'`]+$", u, re.I):
+        return None
+    return u
+
+
 def canonical_url(owner: str, repo: str, number: int) -> str:
     return f"https://github.com/{owner}/{repo}/issues/{number}".lower()
 
@@ -23,7 +34,7 @@ class Bounty:
     owner: str
     repo: str
     number: int
-    kind: str = "issue"           # "issue" (GitHub) or "listing" (bounty board)
+    kind: str = "issue"           # "issue" (GitHub), "listing" (bounty board) or "security"
     link: Optional[str] = None    # listing page, for non GitHub bounties
     owner_url: Optional[str] = None
     deadline: Optional[str] = None
@@ -48,6 +59,7 @@ class Bounty:
     payout: str = "maintainer"     # how it gets paid: stripe, upwork, crypto, issuehunt, maintainer
     paid_before: int = 0           # paid bounties seen in this repo before
     verified_payer: bool = False
+    kyc: Optional[bool] = None     # identity check needed to get paid (security programs)
     first_seen: Optional[str] = None
 
     @property
@@ -97,7 +109,9 @@ class Bounty:
     def to_public(self) -> dict:
         d = asdict(self)
         d.pop("body")
-        d["url"] = self.url
+        d["url"] = safe_url(self.url)
+        d["link"] = safe_url(self.link)
+        d["owner_url"] = safe_url(self.owner_url)
         d["repo_full"] = self.full_repo
-        d["home_url"] = self.home_url
+        d["home_url"] = safe_url(self.home_url)
         return d

@@ -1,4 +1,6 @@
-# dailybugbounties
+<p align="center">
+  <img src="assets/banner.svg" alt="Daily Bug Bounties: paid open source issues and security bounties, refreshed every 12 hours" width="100%">
+</p>
 
 [![daily feed](https://github.com/krishi-shah/dailybugbounties/actions/workflows/daily.yml/badge.svg)](https://github.com/krishi-shah/dailybugbounties/actions/workflows/daily.yml)
 [![bounties](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.count&label=open%20bounties&color=0f7b53)](data/bounties.json)
@@ -7,7 +9,7 @@
 
 **Every paid open source issue in one list. Newest first, updated every 12 hours.**
 
-dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire**, **Expensify**, **Ubiquity DevPool**, **TaskBounty**, **Superteam Earn** and GitHub issues that carry a bounty label or a bounty in the title. It checks that each issue is still open, removes spam, and lists what's left newest first.
+Daily Bug Bounties collects open bounties from **Algora**, **IssueHunt**, **Opire**, **Expensify**, **Ubiquity DevPool**, **TaskBounty**, **Superteam Earn** and GitHub issues that carry a bounty label or a bounty in the title, plus security bug bounties and audit contests from **Immunefi** and **Sherlock**. It checks that each issue is still open, removes spam, and lists what's left newest first.
 
 📡 **RSS:** [`docs/feed.xml`](docs/feed.xml) for new bounties as they appear
 🧾 **JSON:** [`data/bounties.json`](data/bounties.json) if you want to build on it
@@ -142,6 +144,8 @@ Plus 91 older bounties on issues opened more than two years ago: see [`data/boun
 | TaskBounty | Public `task-bounty.com/api/v1/tasks` endpoint | The funded amount |
 | Labeled | GitHub search for `bounty` and 9 similar labels | A `$` amount in a label, the title or the body |
 | Title | GitHub search for issues with "bounty" in the title | A `$` amount in the title only |
+| Immunefi | Public `bounties.json` catalog of bug bounty programs and audit competitions | The program's max bounty (shown separately as "up to") |
+| Sherlock | Public contests API, live contests only | The contest prize pool |
 | Superteam Earn | Public listings API (bounties and projects) | The reward, when paid in a dollar stablecoin (USDC, USDG). Only dev work is kept: content gigs like threads and videos are filtered out by title |
 
 Then, every 12 hours in GitHub Actions:
@@ -187,6 +191,7 @@ You can tune the filters with environment variables: `BB_MIN_AMOUNT`, `BB_MAX_AM
 
 * **Found spam or a fake payout?** Open a PR that adds the repo or owner to [`blocklist.txt`](blocklist.txt), with a link that shows why.
 * **Know another bounty platform?** Add a module under `dailybugbounties/sources/` that returns `Bounty` objects, then add a test.
+* **Found a security issue in this repo?** See [SECURITY.md](SECURITY.md).
 * **Amount parsed wrong?** Add the text to `tests/test_feed.py` and fix `dailybugbounties/money.py`.
 
 ## Before you start work on a bounty

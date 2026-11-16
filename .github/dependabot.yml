@@ -1,0 +1,7 @@
+# Keeps the GitHub Actions this repo uses up to date with security fixes.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

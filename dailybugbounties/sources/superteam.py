@@ -5,14 +5,13 @@ working category filter, so we keep a listing only when its title reads like bui
 software. Rewards in USDC/USDG count as dollars; other tokens are skipped.
 """
 
-import json
 import logging
 import re
 import urllib.parse
 import urllib.request
 from typing import List
 
-from ..github import UA
+from ..github import get_json
 from ..models import Bounty
 
 log = logging.getLogger(__name__)
@@ -70,10 +69,7 @@ def parse(listings: list) -> List[Bounty]:
 
 
 def _get(params: dict) -> list:
-    url = f"{API}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.loads(r.read().decode())
+    data = get_json(f"{API}?{urllib.parse.urlencode(params)}")
     return data if isinstance(data, list) else data.get("listings") or data.get("data") or []
 
 

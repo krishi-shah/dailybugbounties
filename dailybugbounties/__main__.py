@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import enrich, payers, pipeline, render
 from .github import GitHub
-from .sources import devpool, github_search, opire, superteam, taskbounty
+from .sources import devpool, github_search, opire, security, superteam, taskbounty
 
 ALL = ["algora", "issuehunt", "opire", "expensify", "devpool", "taskbounty", "labeled", "title", "superteam"]
 
@@ -20,6 +20,8 @@ def main(argv=None) -> int:
     p.add_argument("--root", default=".", help="repo root to write data/, docs/, README.md")
     p.add_argument("--sources", default=",".join(ALL))
     p.add_argument("--site-url", default=os.getenv("BB_SITE_URL", "https://github.com/krishi-shah/dailybugbounties"))
+    p.add_argument("--no-security", dest="security", action="store_false",
+                   help="skip security bug bounty programs and audit contests")
     p.add_argument("--no-payers", dest="payers", action="store_false",
                    help="skip the search for repos that have paid bounties before")
     p.add_argument("-v", "--verbose", action="store_true")
@@ -79,7 +81,9 @@ def main(argv=None) -> int:
     seen_path.parent.mkdir(exist_ok=True)
     seen_path.write_text(json.dumps(seen, indent=0, sort_keys=True))
 
-    payload = render.write_all(root, items, now, a.site_url)
+    sec = security.select(security.fetch()) if a.security else []
+    log.info("%d live security bounties", len(sec))
+    payload = render.write_all(root, items, now, a.site_url, sec)
     log.info("wrote %d bounties worth $%s", payload["count"], f"{payload['total_usd']:,.0f}")
     return 0
 

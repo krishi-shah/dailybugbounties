@@ -1,0 +1,110 @@
+"""The README banner: an SVG with live numbers, rewritten on every run.
+
+Plain SVG only (no scripts, no external fonts or images) so GitHub renders it as is.
+"""
+
+from html import escape
+from typing import List
+
+from .models import Bounty
+
+SOURCES = "Algora · IssueHunt · Opire · Expensify · DevPool · Superteam · Immunefi · Sherlock"
+
+
+def short_money(v: float) -> str:
+    if v >= 1_000_000:
+        return f"${v / 1_000_000:.1f}M".replace(".0M", "M")
+    if v >= 10_000:
+        return f"${v / 1000:.0f}k"
+    if v >= 1000:
+        return f"${v / 1000:.1f}k".replace(".0k", "k")
+    return f"${v:,.0f}"
+
+
+def _stat(x: int, value: str, label: str) -> str:
+    return f'''
+  <g transform="translate({x},214)">
+    <rect width="220" height="76" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#3ddc97" stroke-opacity="0.35"/>
+    <text x="20" y="38" class="num">{escape(value)}</text>
+    <text x="20" y="60" class="lbl">{escape(label)}</text>
+  </g>'''
+
+
+def render(items: List[Bounty], security: List[Bounty], updated: str) -> str:
+    current = [b for b in items if not b.older]
+    total = sum(b.amount_usd or 0 for b in current)
+    nobody = sum(1 for b in current if not (b.attempts + b.claims) and not b.open_prs)
+    sec_max = max((b.amount_usd or 0 for b in security), default=0)
+    stats = (
+        _stat(64, f"{len(current)}", "open paid issues")
+        + _stat(300, short_money(total), "up for grabs")
+        + _stat(536, f"{nobody}", "nobody on yet")
+        + (_stat(772, f"up to {short_money(sec_max)}", f"{len(security)} security bounties") if security
+           else _stat(772, "0", "security bounties"))
+    )
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="Daily Bug Bounties: {len(current)} open paid issues worth {short_money(total)}">
+  <title>Daily Bug Bounties</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1c"/><stop offset="0.55" stop-color="#0c1a1f"/><stop offset="1" stop-color="#0d2a20"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#3ddc97" stop-opacity="0.35"/><stop offset="1" stop-color="#3ddc97" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ddc97"/><stop offset="1" stop-color="#b6f36b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <style>
+      text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }}
+      .title {{ font-size: 64px; font-weight: 800; fill: #f4f7f5; letter-spacing: -1.5px; }}
+      .tag {{ font-size: 22px; fill: #a9b8b1; }}
+      .num {{ font-size: 28px; font-weight: 800; fill: #f4f7f5; }}
+      .lbl {{ font-size: 14px; fill: #8fa39a; }}
+      .pill {{ font-size: 14px; font-weight: 700; fill: #3ddc97; letter-spacing: 1.5px; }}
+      .src {{ font-size: 13px; fill: #6f8279; letter-spacing: 0.5px; }}
+      .dot {{ animation: pulse 2s ease-in-out infinite; }}
+      .float {{ animation: bob 4s ease-in-out infinite; }}
+      @keyframes pulse {{ 0%, 100% {{ opacity: 1 }} 50% {{ opacity: 0.25 }} }}
+      @keyframes bob {{ 0%, 100% {{ transform: translateY(0) }} 50% {{ transform: translateY(-8px) }} }}
+    </style>
+  </defs>
+  <rect width="1280" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="24" fill="url(#glow)"/>
+
+  <g transform="translate(64,52)">
+    <rect width="268" height="30" rx="15" fill="#3ddc97" fill-opacity="0.12" stroke="#3ddc97" stroke-opacity="0.5"/>
+    <circle class="dot" cx="18" cy="15" r="5" fill="#3ddc97"/>
+    <text x="32" y="20" class="pill">LIVE · EVERY 12 HOURS</text>
+  </g>
+  <text x="64" y="148" class="title">Daily <tspan fill="url(#accent)">Bug</tspan> Bounties</text>
+  <text x="66" y="186" class="tag">Paid open source work and security bounties, checked and newest first.</text>
+  {stats}
+  <text x="64" y="320" class="src">{escape(SOURCES)} · updated {escape(updated)} UTC</text>
+
+  <g transform="translate(1065,40)"><g class="float">
+    <g>
+      <circle cx="80" cy="96" r="70" fill="#3ddc97" fill-opacity="0.08" stroke="#3ddc97" stroke-opacity="0.4" stroke-dasharray="6 8"/>
+      <!-- bug -->
+      <ellipse cx="80" cy="104" rx="30" ry="38" fill="#12261f" stroke="#3ddc97" stroke-width="3"/>
+      <circle cx="80" cy="60" r="16" fill="#12261f" stroke="#3ddc97" stroke-width="3"/>
+      <line x1="80" y1="70" x2="80" y2="140" stroke="#3ddc97" stroke-width="2" stroke-opacity="0.6"/>
+      <path d="M70 46 L58 30 M90 46 L102 30" stroke="#3ddc97" stroke-width="3" stroke-linecap="round"/>
+      <path d="M50 86 H30 M50 106 H26 M52 126 L34 140 M110 86 H130 M110 106 H134 M108 126 L126 140" stroke="#3ddc97" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="73" cy="58" r="3" fill="#b6f36b"/><circle cx="87" cy="58" r="3" fill="#b6f36b"/>
+    </g>
+    <!-- coins -->
+    <g transform="translate(118,150)">
+      <circle r="22" fill="#e9c46a" stroke="#f7e1a1" stroke-width="3"/>
+      <text x="0" y="8" text-anchor="middle" style="font-size:24px;font-weight:800;fill:#7a5a12">$</text>
+    </g>
+    <g transform="translate(150,124)">
+      <circle r="15" fill="#e9c46a" stroke="#f7e1a1" stroke-width="2.5"/>
+      <text x="0" y="6" text-anchor="middle" style="font-size:17px;font-weight:800;fill:#7a5a12">$</text>
+    </g>
+  </g></g>
+</svg>
+'''

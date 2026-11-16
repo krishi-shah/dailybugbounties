@@ -1,11 +1,9 @@
 """TaskBounty: funded GitHub issues ($10 to $100) listed at a public, unauthenticated endpoint."""
 
-import json
 import logging
-import urllib.request
 from typing import List
 
-from ..github import UA
+from ..github import get_json
 from ..models import Bounty, parse_issue_url
 
 log = logging.getLogger(__name__)
@@ -42,9 +40,7 @@ def parse(tasks: list) -> List[Bounty]:
 
 def fetch() -> List[Bounty]:
     try:
-        req = urllib.request.Request(URL, headers={"User-Agent": UA, "Accept": "application/json"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = json.loads(r.read().decode())
+        data = get_json(URL)
     except Exception as e:
         log.error("taskbounty fetch failed: %s", e)
         return []

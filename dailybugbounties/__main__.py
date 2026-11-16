@@ -19,7 +19,7 @@ def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="dailybugbounties")
     p.add_argument("--root", default=".", help="repo root to write data/, docs/, README.md")
     p.add_argument("--sources", default=",".join(ALL))
-    p.add_argument("--site-url", default=os.getenv("BB_SITE_URL", "https://krishi-shah.github.io/dailybugbounties/"))
+    p.add_argument("--site-url", default=os.getenv("BB_SITE_URL", "https://github.com/krishi-shah/dailybugbounties"))
     p.add_argument("--no-payers", dest="payers", action="store_false",
                    help="skip the search for repos that have paid bounties before")
     p.add_argument("-v", "--verbose", action="store_true")

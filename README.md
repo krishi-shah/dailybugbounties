@@ -1,15 +1,14 @@
 # dailybugbounties
 
 [![daily feed](https://github.com/krishi-shah/dailybugbounties/actions/workflows/daily.yml/badge.svg)](https://github.com/krishi-shah/dailybugbounties/actions/workflows/daily.yml)
-[![bounties](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.count&label=open%20bounties&color=0f7b53)](https://krishi-shah.github.io/dailybugbounties/)
-[![total](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.total_usd&label=total%20payout&prefix=%24&color=0f7b53)](https://krishi-shah.github.io/dailybugbounties/)
+[![bounties](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.count&label=open%20bounties&color=0f7b53)](data/bounties.json)
+[![total](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkrishi-shah%2Fdailybugbounties%2Fmain%2Fdata%2Fbounties.json&query=%24.total_usd&label=total%20payout&prefix=%24&color=0f7b53)](data/bounties.json)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **Every paid open source issue in one list. Newest first, updated every 12 hours.**
 
 dailybugbounties collects open bounties from **Algora**, **IssueHunt**, **Opire**, **Expensify**, **Ubiquity DevPool**, **TaskBounty**, **Superteam Earn** and GitHub issues that carry a bounty label or a bounty in the title. It checks that each issue is still open, removes spam, and lists what's left newest first.
 
-🌐 **Website:** https://krishi-shah.github.io/dailybugbounties/ (filter by language, payout, competition)
 📡 **RSS:** [`docs/feed.xml`](docs/feed.xml) for new bounties as they appear
 🧾 **JSON:** [`data/bounties.json`](data/bounties.json) if you want to build on it
 
@@ -114,7 +113,7 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 | **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 78 sub |  | due 29d |
 | **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam · Crypto wallet | 7 sub |  | due 25d |
 
-Plus 90 older bounties on issues opened more than two years ago: see the [website](https://krishi-shah.github.io/dailybugbounties/) or [`data/bounties.json`](data/bounties.json).
+Plus 90 older bounties on issues opened more than two years ago: see [`data/bounties.json`](data/bounties.json).
 
 ### 💰 Biggest payouts right now
 
@@ -155,7 +154,7 @@ Bounties from boards like Superteam Earn aren't GitHub issues, so they skip the 
 2. **Verify.** For GitHub issues, one GraphQL call for every 25 issues gets the open/closed state, repo stars, language, archive status, the `/attempt` and `/claim` comments, and any open pull requests that would close the issue.
 3. **Filter.** We drop closed issues, archived repos, amounts under $10 or over $50k, and prompt injection bait. We drop any repo under 10 stars (company run programs like Expensify and DevPool are exempt), payouts of $500 or more in repos under 100 stars, and $5k or more under 200 stars. We also drop bounties paid in tokens or points instead of cash, airdrop style scams, issues with no activity for a year (6 months for generic labels), issue farms, and anything in [`blocklist.txt`](blocklist.txt).
 4. **Order.** Bounties on issues opened more than two years ago are marked older and hidden by default, because bots keep them looking active. Everything else is newest first: bounties found today sit at the top, then by when the issue was opened. Each repo keeps at most its 5 best paying bounties (Expensify is exempt, since it really pays for every one).
-5. **Publish.** The run writes this README, the JSON, the RSS feed and the site data, commits them if anything changed, and deploys the website.
+5. **Publish.** The run writes this README, the JSON, the RSS feed and the site data, and commits them if anything changed.
 
 No paid APIs, no accounts, no dependencies. It uses Python's standard library and the built in `GITHUB_TOKEN`.
 

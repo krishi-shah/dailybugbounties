@@ -111,8 +111,7 @@ def readme_block(all_items: List[Bounty], payload: dict, today: date) -> str:
     if older:
         more.append(f"{older} older bounties on issues opened more than two years ago")
     if more:
-        lines += ["", f"Plus {' and '.join(more)}: see the [website](https://krishi-shah.github.io/dailybugbounties/) "
-                      "or [`data/bounties.json`](data/bounties.json)."]
+        lines += ["", f"Plus {' and '.join(more)}: see [`data/bounties.json`](data/bounties.json)."]
     biggest = sorted(items, key=lambda b: -(b.amount_usd or 0))[:config.README_NEW_N]
     lines += ["", f"### 💰 Biggest payouts right now", ""]
     lines += table(biggest, today)

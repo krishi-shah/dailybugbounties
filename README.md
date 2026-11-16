@@ -19,7 +19,7 @@ Daily Bug Bounties collects open bounties from **Algora**, **IssueHunt**, **Opir
 ## Today's top bounties
 
 <!-- FEED:START -->
-**82 open bounties worth $50,438** · 0 new today · 48 with nobody trying yet · updated 2026-11-16 05:00 UTC
+**82 open bounties worth $50,438** · 0 new today · 48 with nobody trying yet · updated 2026-11-16 05:10 UTC
 
 **Sources:** DevPool 50 · Label 15 · Expensify 12 · Title 9 · Algora 2 · Superteam 2  
 **Pays via:** Crypto wallet 52 · Ask maintainer 16 · Upwork 12 · Stripe 2 · **✅ Verified payers:** 57  
@@ -130,6 +130,36 @@ Plus 91 older bounties on issues opened more than two years ago: see [`data/boun
 | **$1,800** | [UbiquityOS Sprint Management Dashboard](https://github.com/ubiquity-os/.github/issues/14) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 334d |
 | **$1,200** | [Integrate Liquity V1 Stability Pool for LUSD Collateral Yield](https://github.com/ubiquity/ubiquity-dollar/issues/997) | [ubiquity/ubiquity-dollar](https://github.com/ubiquity/ubiquity-dollar) ✅ | 40 | Solidity | DevPool · Crypto wallet | 0 |  | 1y |
 | **$1,200** | [GitHub Decoupling](https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/385) | [ubiquity-os-marketplace/text-conversation-rewards](https://github.com/ubiquity-os-marketplace/text-conversation-rewards) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
+
+### 🛡️ Security bug bounties
+
+Find a real vulnerability, get paid. These aren't fixed price tasks: programs pay **up to** their max for a valid report, and audit contests split a prize pool between researchers. Most pay in USDC and many need KYC.
+
+**Audit contests running now**
+
+| Prize pool | Contest | Platform | Ends |
+|---:|---|---|---:|
+| **$80,000** | [Plether](https://immunefi.com/audit-competition/plether/) | Immunefi | due today |
+
+**Top bug bounty programs** (144 live on Immunefi, biggest first)
+
+| Up to | Program | Stack | KYC |
+|---:|---|---|:---:|
+| **$10,000,000** | [Sky](https://immunefi.com/bug-bounty/sky/) | Solidity | no |
+| **$6,000,000** | [USDT0](https://immunefi.com/bug-bounty/usdt0/) | Typescript, Solidity | yes |
+| **$5,000,000** | [Spark](https://immunefi.com/bug-bounty/sparklend/) |  | no |
+| **$5,000,000** | [GMX](https://immunefi.com/bug-bounty/gmx/) | JavaScript, Solidity, Typescript | no |
+| **$3,500,000** | [Stargate](https://immunefi.com/bug-bounty/stargate/) | Solidity | yes |
+| **$3,500,000** | [LayerZero](https://immunefi.com/bug-bounty/layerzero/) | Solidity, Rust, Move | yes |
+| **$3,333,333** | [Olympus](https://immunefi.com/bug-bounty/olympus/) | Solidity | no |
+| **$3,000,000** | [Chainlink](https://immunefi.com/bug-bounty/chainlink/) | Go, Rust, Solidity | yes |
+| **$3,000,000** | [Ethena](https://immunefi.com/bug-bounty/ethena/) |  | yes |
+| **$2,500,000** | [Hyperlane](https://immunefi.com/bug-bounty/hyperlane/) | NextJS, Solidity | yes |
+| **$2,000,042** | [Optimism](https://immunefi.com/bug-bounty/optimism/) | C/C++, Go, Solidity | yes |
+| **$2,000,000** | [Arbitrum](https://immunefi.com/bug-bounty/arbitrum/) | Solidity | yes |
+| **$2,000,000** | [Gnosis Chain](https://immunefi.com/bug-bounty/gnosischain/) | Solidity | no |
+| **$2,000,000** | [Rhino.fi](https://immunefi.com/bug-bounty/rhinofi/) | Solidity | no |
+| **$2,000,000** | [Lido](https://immunefi.com/bug-bounty/lido/) | Solidity, Vyper | no |
 <!-- FEED:END -->
 
 ## How it works

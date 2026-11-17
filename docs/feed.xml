@@ -3,14 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Tue, 17 Nov 2026 14:34:39 +0000</lastBuildDate>
-<item>
-<title>$2,000 · Spectral-Finance/lux · Telegram Message Processing ($2,000)</title>
-<link>https://github.com/Spectral-Finance/lux/issues/63</link>
-<guid isPermaLink="true">https://github.com/Spectral-Finance/lux/issues/63</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 3 tries · Elixir</description>
-</item>
+<lastBuildDate>Tue, 17 Nov 2026 23:19:31 +0000</lastBuildDate>
 <item>
 <title>$2,000 · Spectral-Finance/lux · Discord Core Prisms, Lenses and Beams Implementation ($2000)</title>
 <link>https://github.com/Spectral-Finance/lux/issues/57</link>
@@ -19,18 +12,32 @@
 <description>labeled · 3 tries · Elixir</description>
 </item>
 <item>
-<title>$250 · Expensify/App · [$250] [Sentry: APP-NTH] iOS sound playback throws &quot;Session activation failed&quot; in playSound</title>
-<link>https://github.com/Expensify/App/issues/106955</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/106955</guid>
+<title>$75 · ubiquity/stake.ubq.fi · Apply the health-check deadline to response decoding</title>
+<link>https://github.com/ubiquity/stake.ubq.fi/issues/45</link>
+<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/45</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
+<description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$90 · RE-SS3D/SS3D · Multiple tilemaps per world</title>
-<link>https://github.com/RE-SS3D/SS3D/issues/1341</link>
-<guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1341</guid>
+<title>$75 · ubiquity/stake.ubq.fi · Dismiss reverted-receipt toasts when the status clears</title>
+<link>https://github.com/ubiquity/stake.ubq.fi/issues/44</link>
+<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/44</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · C#</description>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$75 · ubiquity/stake.ubq.fi · Resolve the selected RPC when each request is made</title>
+<link>https://github.com/ubiquity/stake.ubq.fi/issues/43</link>
+<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/43</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$75 · ubiquity/stake.ubq.fi · Pass transport factories to viem&#x27;s fallback</title>
+<link>https://github.com/ubiquity/stake.ubq.fi/issues/42</link>
+<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/42</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
 <title>$60 · lablab-ai/community-content · Creating comprehensive tutorial for Agile Loop </title>
@@ -54,25 +61,11 @@
 <description>algora · 3 tries · MDX</description>
 </item>
 <item>
-<title>$15 · RE-SS3D/SS3D · Airlock Floortiles</title>
-<link>https://github.com/RE-SS3D/SS3D/issues/1299</link>
-<guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1299</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · C#</description>
-</item>
-<item>
-<title>$250 · Expensify/App · [$250] Onboarding-Onboarding is displayed for invited to the workspace account</title>
-<link>https://github.com/Expensify/App/issues/106926</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/106926</guid>
-<pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
 <title>$10,000 · commaai/opendbc · [$10k bounty] Ford F-150 2026 (TRON) support</title>
 <link>https://github.com/commaai/opendbc/issues/3426</link>
 <guid isPermaLink="true">https://github.com/commaai/opendbc/issues/3426</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 1 tries · Python</description>
+<description>title · 1 tries · Python</description>
 </item>
 <item>
 <title>$350 · Norbyte/bg3se · [Feature Bounty - $350] MacOS Supported Version of BG3 SE</title>
@@ -82,32 +75,11 @@
 <description>title · 0 tries · C++</description>
 </item>
 <item>
-<title>$250 · Expensify/App · [$250] Web - Profile - State URL parameter does not override the existing State value</title>
-<link>https://github.com/Expensify/App/issues/102630</link>
-<guid isPermaLink="true">https://github.com/Expensify/App/issues/102630</guid>
-<pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-<description>expensify · 0 tries · TypeScript</description>
-</item>
-<item>
 <title>$150 · scratchdata/scratchdata · Use a AWS Secret Manager for DB credentials</title>
 <link>https://github.com/scratchdata/scratchdata/issues/126</link>
 <guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/126</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
 <description>algora · 3 tries · Go</description>
-</item>
-<item>
-<title>$3,000 · tenstorrent/tt-metal · [Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)</title>
-<link>https://github.com/tenstorrent/tt-metal/issues/62681</link>
-<guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/62681</guid>
-<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-<description>title · 0 tries · Python</description>
-</item>
-<item>
-<title>$2,000 · tenstorrent/tt-metal · [Bounty $2,000] Restore OpenVLA execution and action correctness</title>
-<link>https://github.com/tenstorrent/tt-metal/issues/65437</link>
-<guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/65437</guid>
-<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-<description>title · 0 tries · Python</description>
 </item>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
@@ -171,13 +143,6 @@
 <guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/111</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$750 · tenstorrent/tt-metal · [Bounty $750] Fix sharded softmax on offset core grids</title>
-<link>https://github.com/tenstorrent/tt-metal/issues/64575</link>
-<guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64575</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 0 tries · Python</description>
 </item>
 <item>
 <title>$600 · ubiquity-os/plugins-wishlist · command-plan</title>
@@ -341,17 +306,52 @@
 <description>algora · 4 tries · TypeScript</description>
 </item>
 <item>
-<title>$300 · ubiquity/stake.ubq.fi · Error Handling &amp; Status Toasts – Handoff</title>
-<link>https://github.com/ubiquity/stake.ubq.fi/issues/8</link>
-<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/8</guid>
+<title>$300 · ubiquity-os/ubiquity-os-plugin-installer · premade configs that are hands-off for partners</title>
+<link>https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$300 · ubiquity/stake.ubq.fi · E2E Smoke (Playwright) – Handoff</title>
-<link>https://github.com/ubiquity/stake.ubq.fi/issues/4</link>
-<guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/4</guid>
+<title>$300 · ubiquity-os/ubiquity-os-kernel · Callbacks - event handlers and hybrid plugins</title>
+<link>https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity/.github · New Proposal Router</title>
+<link>https://github.com/ubiquity/.github/issues/123</link>
+<guid isPermaLink="true">https://github.com/ubiquity/.github/issues/123</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os-marketplace/text-vector-embeddings · Improving Recommendations</title>
+<link>https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os/plugins-wishlist · Generalized &quot;GitHub Webhook + Contributor Role -&gt; Rewards&quot; Contributor Class v2</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/48</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/48</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
+</item>
+<item>
+<title>$300 · ubiquity-os/plugins-wishlist · Generalized &quot;GitHub Webhook + Contributor Role -&gt; Rewards&quot; With Config v3</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/47</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/47</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
+</item>
+<item>
+<title>$300 · ubiquity-os/plugins-wishlist · Check dev experience on starting an issue</title>
+<link>https://github.com/ubiquity-os/plugins-wishlist/issues/26</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/26</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · </description>
 </item>
 </channel></rss>

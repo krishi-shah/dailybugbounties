@@ -3,7 +3,28 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Mon, 16 Nov 2026 13:46:19 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 00:52:26 +0000</lastBuildDate>
+<item>
+<title>$2,000 · Spectral-Finance/lux · Telegram Message Processing ($2,000)</title>
+<link>https://github.com/Spectral-Finance/lux/issues/63</link>
+<guid isPermaLink="true">https://github.com/Spectral-Finance/lux/issues/63</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 3 tries · Elixir</description>
+</item>
+<item>
+<title>$90 · RE-SS3D/SS3D · Multiple tilemaps per world</title>
+<link>https://github.com/RE-SS3D/SS3D/issues/1341</link>
+<guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1341</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · C#</description>
+</item>
+<item>
+<title>$15 · RE-SS3D/SS3D · Airlock Floortiles</title>
+<link>https://github.com/RE-SS3D/SS3D/issues/1299</link>
+<guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1299</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · C#</description>
+</item>
 <item>
 <title>$250 · Expensify/App · [$250] Onboarding-Onboarding is displayed for invited to the workspace account</title>
 <link>https://github.com/Expensify/App/issues/106926</link>
@@ -16,7 +37,7 @@
 <link>https://github.com/commaai/opendbc/issues/3426</link>
 <guid isPermaLink="true">https://github.com/commaai/opendbc/issues/3426</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 1 tries · Python</description>
+<description>title · 1 tries · Python</description>
 </item>
 <item>
 <title>$350 · Norbyte/bg3se · [Feature Bounty - $350] MacOS Supported Version of BG3 SE</title>
@@ -37,7 +58,7 @@
 <link>https://github.com/scratchdata/scratchdata/issues/126</link>
 <guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/126</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 4 tries · Go</description>
+<description>algora · 3 tries · Go</description>
 </item>
 <item>
 <title>$3,000 · tenstorrent/tt-metal · [Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)</title>
@@ -51,7 +72,7 @@
 <link>https://github.com/tenstorrent/tt-metal/issues/65437</link>
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/65437</guid>
 <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 0 tries · Python</description>
+<description>title · 0 tries · Python</description>
 </item>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
@@ -59,13 +80,6 @@
 <guid isPermaLink="true">https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>superteam · 0 tries · </description>
-</item>
-<item>
-<title>$2,600 · QubesOS/qubes-issues · [Contribution] BusKill</title>
-<link>https://github.com/QubesOS/qubes-issues/issues/10567</link>
-<guid isPermaLink="true">https://github.com/QubesOS/qubes-issues/issues/10567</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · </description>
 </item>
 <item>
 <title>$2,400 · ubiquity/ubiquity-dollar · Add `UUSD` and `UBQ` tokens to popular services</title>
@@ -79,7 +93,7 @@
 <link>https://github.com/microg/GmsCore/issues/2843</link>
 <guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2843</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled, title · 0 tries · Java</description>
+<description>title · 0 tries · Java</description>
 </item>
 <item>
 <title>$1,800 · ubiquity-os/.github · UbiquityOS Sprint Management Dashboard</title>
@@ -110,20 +124,6 @@
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Google Cloud support for sifnode #503</title>
-<link>https://github.com/Sifchain/sifnode/issues/524</link>
-<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/524</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Go</description>
-</item>
-<item>
-<title>$1,000 · Sifchain/sifnode · [sifnode] $1000 bounty for implementing Azure AKS support for sifnode</title>
-<link>https://github.com/Sifchain/sifnode/issues/503</link>
-<guid isPermaLink="true">https://github.com/Sifchain/sifnode/issues/503</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Go</description>
-</item>
-<item>
 <title>$900 · devpool-directory/devpool-directory-tasks · DevPool Directory Matchmaking UI</title>
 <link>https://github.com/devpool-directory/devpool-directory-tasks/issues/63</link>
 <guid isPermaLink="true">https://github.com/devpool-directory/devpool-directory-tasks/issues/63</guid>
@@ -138,18 +138,11 @@
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$750 · tenstorrent/tt-metal · [Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues</title>
-<link>https://github.com/tenstorrent/tt-metal/issues/64647</link>
-<guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64647</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Python</description>
-</item>
-<item>
 <title>$750 · tenstorrent/tt-metal · [Bounty $750] Fix sharded softmax on offset core grids</title>
 <link>https://github.com/tenstorrent/tt-metal/issues/64575</link>
 <guid isPermaLink="true">https://github.com/tenstorrent/tt-metal/issues/64575</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · Python</description>
+<description>labeled, title · 0 tries · Python</description>
 </item>
 <item>
 <title>$600 · ubiquity-os/plugins-wishlist · command-plan</title>
@@ -351,6 +344,13 @@
 <title>$300 · ubiquity/.github · New Proposal Router</title>
 <link>https://github.com/ubiquity/.github/issues/123</link>
 <guid isPermaLink="true">https://github.com/ubiquity/.github/issues/123</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$300 · ubiquity-os-marketplace/text-vector-embeddings · Improving Recommendations</title>
+<link>https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
 </item>

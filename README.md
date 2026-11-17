@@ -19,7 +19,7 @@ Daily Bug Bounties collects open bounties from **Algora**, **IssueHunt**, **Opir
 ## Today's top bounties
 
 <!-- FEED:START -->
-**49 open bounties worth $23,890** · 4 new today · 34 with nobody trying yet · updated 2026-11-17 23:27 UTC
+**49 open bounties worth $23,890** · 4 new today · 34 with nobody trying yet · updated 2026-11-17 23:53 UTC
 
 **Sources:** DevPool 45 · Title 2 · Superteam 2 · Label 1  
 **Pays via:** Crypto wallet 47 · Ask maintainer 2 · **✅ Verified payers:** 39  

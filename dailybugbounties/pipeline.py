@@ -26,7 +26,7 @@ INJECTION = re.compile(
 
 # Labels that mean the bounty is already done, paid, taken or on ice.
 TAKEN_LABEL = re.compile(
-    r"rewarded|\bpaid\b|awaiting payment|payment pending|in progress|\bwip\b|\bassigned\b|\bclaimed\b|"
+    r"rewarded|bounty paid|awaiting payment|payment pending|in progress|\bwip\b|\bassigned\b|\bclaimed\b|"
     r"\btaken\b|\breserved\b|on hold|\bblocked\b|won'?t ?fix|\bduplicate\b|\binvalid\b|not planned", re.I)
 
 # Paid in a crypto token or points, not cash. "$" amounts elsewhere in these issues are misleading.

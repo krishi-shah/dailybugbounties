@@ -21,6 +21,7 @@ FIELDS = """
   issue(number: %d) {
     state title createdAt updatedAt
     labels(first: 10) { nodes { name } }
+    assignees(first: 5) { nodes { login } }
     comments(first: 30) { totalCount nodes { author { login } body } }
 %s  }
 """
@@ -63,6 +64,7 @@ def apply(b: Bounty, repo: dict) -> None:
     nodes = comments.get("nodes") or []
     b.comments = comments.get("totalCount", b.comments)
     b.open_prs = ((issue.get("closedByPullRequestsReferences") or {}).get("totalCount")) or 0
+    b.assignees = [n["login"] for n in (issue.get("assignees") or {}).get("nodes", []) if n and n.get("login")]
     bodies = [(c.get("body") or "").strip().lower() for c in nodes]
     b.attempts = max(b.attempts, sum(1 for t in bodies if t.startswith("/attempt")))
     b.claims = max(b.claims, sum(1 for t in bodies if t.startswith("/claim")))

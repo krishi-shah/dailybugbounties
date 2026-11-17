@@ -55,6 +55,7 @@ class Bounty:
     attempts: int = 0
     claims: int = 0
     open_prs: int = 0
+    assignees: List[str] = field(default_factory=list)  # someone already has the job
     older: bool = False  # issue opened more than MAX_AGE_DAYS ago
     payout: str = "maintainer"     # how it gets paid: stripe, upwork, crypto, issuehunt, maintainer
     paid_before: int = 0           # paid bounties seen in this repo before

@@ -75,6 +75,8 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
         return "non_cash"
     if b.state and b.state != "OPEN":
         return "not_open"
+    if b.is_issue and b.assignees:
+        return "assigned"  # someone already has it, even if the bounty label is still on
     if b.archived:
         return "archived"
     if not b.amount_usd:

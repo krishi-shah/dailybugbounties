@@ -122,6 +122,12 @@ class Enrichment(unittest.TestCase):
         self.assertEqual(b.language, "TypeScript")
         self.assertEqual(b.state, "OPEN")
         self.assertEqual(b.open_prs, 1)
+        self.assertEqual(b.assignees, [])
+        taken = json.loads((FIX / "graphql.json").read_text())["data"]["i0"]
+        taken["issue"]["assignees"] = {"nodes": [{"login": "someone"}]}
+        t = B(owner="acme", repo="app", number=12, sources=["algora"], amount_usd=None, state=None)
+        enrich.apply(t, taken)
+        self.assertEqual(t.assignees, ["someone"])
 
     def test_pr_field_fallback(self):
         bad = {"errors": [{"message": "Field 'closedByPullRequestsReferences' doesn't exist on type 'Issue'",
@@ -149,6 +155,8 @@ class Pipeline(unittest.TestCase):
     def test_rejections(self):
         r = pipeline.reject_reason
         self.assertEqual(r(B(state="CLOSED"), True), "not_open")
+        self.assertEqual(r(B(assignees=["dev1"], sources=["expensify"]), True), "assigned")
+        self.assertIsNone(r(B(assignees=[], sources=["expensify"], stars=5000), True))
         self.assertEqual(r(B(amount_usd=None), True), "no_amount")
         self.assertEqual(r(B(amount_usd=5), True), "too_small")
         self.assertEqual(r(B(amount_usd=10**6), True), "implausible_amount")
@@ -203,6 +211,8 @@ class Pipeline(unittest.TestCase):
         from dailybugbounties.sources.github_search import AMOUNT_ORDER
         item = {"html_url": "https://github.com/Expensify/App/issues/9", "title": "[$250] Fix crash",
                 "labels": [{"name": "Help Wanted"}], "body": "costs $5000 to us"}
+        b = from_search_item({**item, "assignees": [{"login": "dev1"}]}, "expensify")
+        self.assertEqual(b.assignees, ["dev1"])
         b = from_search_item(item, "expensify")
         self.assertEqual(amount_from_issue(b, AMOUNT_ORDER["expensify"]), 250)
         self.assertIsNone(pipeline.reject_reason(B(sources=["expensify"], stars=4000), True))

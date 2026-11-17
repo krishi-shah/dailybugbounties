@@ -31,6 +31,7 @@ def from_item(item: dict):
     original = parse_issue_url((b.body or "").strip().split()[0] if b.body else "")
     if original:
         b.owner, b.repo, b.number = original
+        b.assignees = []  # the directory copy is never assigned; enrichment reads the original
     b.amount_usd = max(prices)
     b.body = ""  # the body is just the link
     return b

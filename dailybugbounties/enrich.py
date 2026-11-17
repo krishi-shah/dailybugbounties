@@ -19,7 +19,7 @@ PR_FIELD = "    closedByPullRequestsReferences(first: 10, includeClosedPrs: fals
 FIELDS = """
   stargazerCount isArchived primaryLanguage { name }
   issue(number: %d) {
-    state title createdAt updatedAt
+    state title createdAt updatedAt locked
     labels(first: 10) { nodes { name } }
     assignees(first: 5) { nodes { login } }
     comments(first: 30) { totalCount nodes { author { login } body } }
@@ -56,6 +56,7 @@ def apply(b: Bounty, repo: dict) -> None:
         b.state = "MISSING"
         return
     b.state = issue.get("state")
+    b.locked = bool(issue.get("locked"))
     b.title = issue.get("title") or b.title
     b.created_at = issue.get("createdAt") or b.created_at
     b.updated_at = issue.get("updatedAt") or b.updated_at

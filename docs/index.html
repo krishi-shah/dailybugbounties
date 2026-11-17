@@ -183,7 +183,7 @@ function render() {
     (b.attempts + b.claims) <= maxTries && (maxTries > 0 || !b.open_prs) &&
     b.sources.some((s) => state.sources.has(s)) &&
     (!state.newOnly || b.first_seen === state.today) &&
-    (state.older || !b.older) &&
+    (state.older || !(b.older || b.crowded)) &&
     (!state.verified || b.verified_payer) &&
     (!pay || (pay === "nocrypto" ? b.payout !== "crypto" : b.payout === pay)) &&
     (!q || (b.title + " " + b.repo_full).toLowerCase().includes(q)));
@@ -214,7 +214,7 @@ function render() {
 get("bounties.json", "json").then((data) => {
   state.all = data.bounties;
   state.today = data.generated_at.slice(0, 10);
-  const cur = data.bounties.filter((b) => !b.older);
+  const cur = data.bounties.filter((b) => !(b.older || b.crowded));
   $("s-count").textContent = cur.length.toLocaleString();
   $("s-total").textContent = money(cur.reduce((a, b) => a + b.amount_usd, 0), true);
   $("s-new").textContent = data.bounties.filter((b) => b.first_seen === state.today).length;
@@ -229,8 +229,8 @@ get("bounties.json", "json").then((data) => {
   });
   $("chips").append(chip("New today only", state.newOnly, () => (state.newOnly = !state.newOnly)));
   $("chips").append(chip("✅ Verified payers only", state.verified, () => (state.verified = !state.verified)));
-  const nOld = data.bounties.filter((b) => b.older).length;
-  if (nOld) $("chips").append(chip(`Include ${nOld} older`, state.older, () => (state.older = !state.older)));
+  const nOld = data.bounties.filter((b) => b.older || b.crowded).length;
+  if (nOld) $("chips").append(chip(`Include ${nOld} older or crowded`, state.older, () => (state.older = !state.older)));
   FIELDS.forEach((id) => $(id).addEventListener("input", render));
   $("share").onclick = (e) => {
     e.preventDefault();

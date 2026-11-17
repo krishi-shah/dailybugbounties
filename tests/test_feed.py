@@ -156,6 +156,13 @@ class Pipeline(unittest.TestCase):
         r = pipeline.reject_reason
         self.assertEqual(r(B(state="CLOSED"), True), "not_open")
         self.assertEqual(r(B(assignees=["dev1"], sources=["expensify"]), True), "assigned")
+        self.assertEqual(r(B(claims=1, sources=["algora"]), True), "claimed")
+        self.assertEqual(r(B(locked=True), True), "locked")
+        for lab in ["💰 Rewarded", "In Progress", "on hold", "Awaiting Payment", "duplicate", "wontfix"]:
+            self.assertEqual(r(B(labels=["bounty", lab]), True), "taken_label", lab)
+        self.assertIsNone(r(B(labels=["bounty", "good first issue", "help wanted"]), True))
+        self.assertIsNone(r(B(labels=["bounty", "paid"]), True))  # "paid" can mean "this one pays"
+        self.assertEqual(r(B(labels=["bounty paid"]), True), "taken_label")
         self.assertIsNone(r(B(assignees=[], sources=["expensify"], stars=5000), True))
         self.assertEqual(r(B(amount_usd=None), True), "no_amount")
         self.assertEqual(r(B(amount_usd=5), True), "too_small")
@@ -199,6 +206,18 @@ class Pipeline(unittest.TestCase):
                                     datetime(2026, 11, 11).date())
         self.assertIn("**1 open bounties", block)
         self.assertIn("1 older bounties", block)
+
+    def test_crowded_hidden_not_dropped(self):
+        busy = B(number=1, open_prs=8, attempts=3, created_at="2099-01-01T00:00:00Z")
+        calm = B(number=2, open_prs=1, created_at="2099-01-01T00:00:00Z")
+        kept, _ = pipeline.select({"a": busy, "b": calm}, True)
+        self.assertEqual(len(kept), 2)
+        self.assertTrue(busy.crowded and busy.hidden)
+        self.assertFalse(calm.hidden)
+        block = render.readme_block(kept, render.build_payload(kept, datetime(2026, 11, 11, tzinfo=timezone.utc)),
+                                    datetime(2026, 11, 11).date())
+        self.assertIn("**1 open bounties", block)
+        self.assertIn("1 crowded ones", block)
 
     def test_latest_first(self):
         old = B(number=1, created_at="2024-01-01T00:00:00Z", first_seen="2026-11-01", amount_usd=900)

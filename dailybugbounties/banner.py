@@ -31,7 +31,7 @@ def _stat(x: int, value: str, label: str) -> str:
 
 
 def render(items: List[Bounty], security: List[Bounty], updated: str) -> str:
-    current = [b for b in items if not b.older]
+    current = [b for b in items if not b.hidden]
     total = sum(b.amount_usd or 0 for b in current)
     nobody = sum(1 for b in current if not (b.attempts + b.claims) and not b.open_prs)
     sec_max = max((b.amount_usd or 0 for b in security), default=0)

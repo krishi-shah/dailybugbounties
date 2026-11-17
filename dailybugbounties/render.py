@@ -85,8 +85,9 @@ def table(rows: List[Bounty], today: date) -> List[str]:
 
 
 def readme_block(all_items: List[Bounty], payload: dict, today: date, security: List[Bounty] = ()) -> str:
-    items = [b for b in all_items if not b.older]
-    older = len(all_items) - len(items)
+    items = [b for b in all_items if not b.hidden]
+    older = sum(1 for b in all_items if b.older)
+    crowded = sum(1 for b in all_items if b.crowded and not b.older)
     fresh = [b for b in items if b.first_seen == today.isoformat()]
     src = " · ".join(f"{SOURCE_NAMES.get(k, k)} {v}" for k, v in
                      Counter(s for b in items for s in b.sources).most_common())
@@ -113,6 +114,8 @@ def readme_block(all_items: List[Bounty], payload: dict, today: date, security: 
         more.append(f"{len(items) - config.README_TOP_N} more recent ones")
     if older:
         more.append(f"{older} older bounties on issues opened more than two years ago")
+    if crowded:
+        more.append(f"{crowded} crowded ones with 10 or more PRs and attempts already")
     if more:
         lines += ["", f"Plus {' and '.join(more)}: see [`data/bounties.json`](data/bounties.json)."]
     biggest = sorted(items, key=lambda b: -(b.amount_usd or 0))[:config.README_NEW_N]

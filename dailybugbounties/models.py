@@ -57,11 +57,18 @@ class Bounty:
     open_prs: int = 0
     assignees: List[str] = field(default_factory=list)  # someone already has the job
     older: bool = False  # issue opened more than MAX_AGE_DAYS ago
+    crowded: bool = False  # so many PRs and attempts that it's effectively taken
+    locked: bool = False
     payout: str = "maintainer"     # how it gets paid: stripe, upwork, crypto, issuehunt, maintainer
     paid_before: int = 0           # paid bounties seen in this repo before
     verified_payer: bool = False
     kyc: Optional[bool] = None     # identity check needed to get paid (security programs)
     first_seen: Optional[str] = None
+
+    @property
+    def hidden(self) -> bool:
+        """Kept in the data but not shown by default."""
+        return self.older or self.crowded
 
     @property
     def is_issue(self) -> bool:

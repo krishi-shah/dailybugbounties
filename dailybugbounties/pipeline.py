@@ -24,6 +24,11 @@ INJECTION = re.compile(
     r"you are an ai|as an ai agent|<\s*/?\s*system\s*>", re.I)
 
 
+# Labels that mean the bounty is already done, paid, taken or on ice.
+TAKEN_LABEL = re.compile(
+    r"rewarded|\bpaid\b|awaiting payment|payment pending|in progress|\bwip\b|\bassigned\b|\bclaimed\b|"
+    r"\btaken\b|\breserved\b|on hold|\bblocked\b|won'?t ?fix|\bduplicate\b|\binvalid\b|not planned", re.I)
+
 # Paid in a crypto token or points, not cash. "$" amounts elsewhere in these issues are misleading.
 NON_CASH = re.compile(r"\b\d[\d,.]*\s*(?:RTC|tokens?|points?|pts|XP|credits?|coins?|sats)\b|site credit", re.I)
 # Bait that looks like a bounty but isn't work: airdrops, "claim your reward" invitations.
@@ -77,6 +82,12 @@ def reject_reason(b: Bounty, authed: bool, blocklist: Set[str] = frozenset(),
         return "not_open"
     if b.is_issue and b.assignees:
         return "assigned"  # someone already has it, even if the bounty label is still on
+    if b.is_issue and b.locked:
+        return "locked"    # comments are closed, so nobody can claim it
+    if b.is_issue and b.claims:
+        return "claimed"   # a solution was already submitted for payout
+    if b.is_issue and any(TAKEN_LABEL.search(l) for l in b.labels):
+        return "taken_label"
     if b.archived:
         return "archived"
     if not b.amount_usd:
@@ -166,6 +177,7 @@ def select(merged: Dict[str, Bounty], authed: bool,
         why = reject_reason(b, authed, blocklist, farms)
         # Old issues stay in the data but are hidden by default: bots keep them "active".
         b.older = b.is_issue and _days_since(b.created_at) > config.MAX_AGE_DAYS
+        b.crowded = b.is_issue and (b.open_prs + b.attempts) >= config.CROWDED
         if why:
             reasons[why] += 1
         else:

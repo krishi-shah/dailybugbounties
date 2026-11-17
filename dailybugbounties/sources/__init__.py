@@ -23,6 +23,7 @@ def from_search_item(item: dict, source: str) -> Optional[Bounty]:
         created_at=item.get("created_at"),
         updated_at=item.get("updated_at"),
         comments=item.get("comments", 0),
+        locked=bool(item.get("locked")),
         assignees=[a["login"] for a in item.get("assignees") or [] if a and a.get("login")],
     )
 

@@ -55,3 +55,6 @@ MAX_AGE_DAYS = int(os.getenv("BB_MAX_AGE_DAYS", 730))
 # Mid size payouts need a repo with some real users behind it.
 MID_AMOUNT = 500
 MIN_STARS_MID = 100
+
+# A bounty with this many open PRs plus /attempt comments is effectively taken: hidden by default.
+CROWDED = int(os.getenv("BB_CROWDED", 10))

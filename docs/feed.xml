@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Tue, 17 Nov 2026 00:52:26 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 14:34:39 +0000</lastBuildDate>
 <item>
 <title>$2,000 · Spectral-Finance/lux · Telegram Message Processing ($2,000)</title>
 <link>https://github.com/Spectral-Finance/lux/issues/63</link>
@@ -12,11 +12,46 @@
 <description>labeled · 3 tries · Elixir</description>
 </item>
 <item>
+<title>$2,000 · Spectral-Finance/lux · Discord Core Prisms, Lenses and Beams Implementation ($2000)</title>
+<link>https://github.com/Spectral-Finance/lux/issues/57</link>
+<guid isPermaLink="true">https://github.com/Spectral-Finance/lux/issues/57</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 3 tries · Elixir</description>
+</item>
+<item>
+<title>$250 · Expensify/App · [$250] [Sentry: APP-NTH] iOS sound playback throws &quot;Session activation failed&quot; in playSound</title>
+<link>https://github.com/Expensify/App/issues/106955</link>
+<guid isPermaLink="true">https://github.com/Expensify/App/issues/106955</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>expensify · 0 tries · TypeScript</description>
+</item>
+<item>
 <title>$90 · RE-SS3D/SS3D · Multiple tilemaps per world</title>
 <link>https://github.com/RE-SS3D/SS3D/issues/1341</link>
 <guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1341</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
 <description>labeled · 0 tries · C#</description>
+</item>
+<item>
+<title>$60 · lablab-ai/community-content · Creating comprehensive tutorial for Agile Loop </title>
+<link>https://github.com/lablab-ai/community-content/issues/498</link>
+<guid isPermaLink="true">https://github.com/lablab-ai/community-content/issues/498</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 2 tries · MDX</description>
+</item>
+<item>
+<title>$60 · lablab-ai/community-content · Creating comprehensive tutorial for Llama-3</title>
+<link>https://github.com/lablab-ai/community-content/issues/496</link>
+<guid isPermaLink="true">https://github.com/lablab-ai/community-content/issues/496</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 2 tries · MDX</description>
+</item>
+<item>
+<title>$60 · lablab-ai/community-content · Creating condensed Tutorial for GPT-4o</title>
+<link>https://github.com/lablab-ai/community-content/issues/490</link>
+<guid isPermaLink="true">https://github.com/lablab-ai/community-content/issues/490</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+<description>algora · 3 tries · MDX</description>
 </item>
 <item>
 <title>$15 · RE-SS3D/SS3D · Airlock Floortiles</title>
@@ -37,7 +72,7 @@
 <link>https://github.com/commaai/opendbc/issues/3426</link>
 <guid isPermaLink="true">https://github.com/commaai/opendbc/issues/3426</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-<description>title · 1 tries · Python</description>
+<description>labeled, title · 1 tries · Python</description>
 </item>
 <item>
 <title>$350 · Norbyte/bg3se · [Feature Bounty - $350] MacOS Supported Version of BG3 SE</title>
@@ -316,41 +351,6 @@
 <title>$300 · ubiquity/stake.ubq.fi · E2E Smoke (Playwright) – Handoff</title>
 <link>https://github.com/ubiquity/stake.ubq.fi/issues/4</link>
 <guid isPermaLink="true">https://github.com/ubiquity/stake.ubq.fi/issues/4</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$300 · ubiquity/uusd.ubq.fi · Integrate Wallet Connect via Reown AppKit</title>
-<link>https://github.com/ubiquity/uusd.ubq.fi/issues/24</link>
-<guid isPermaLink="true">https://github.com/ubiquity/uusd.ubq.fi/issues/24</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$300 · ubiquity-os/ubiquity-os-plugin-installer · premade configs that are hands-off for partners</title>
-<link>https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</link>
-<guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$300 · ubiquity-os/ubiquity-os-kernel · Callbacks - event handlers and hybrid plugins</title>
-<link>https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261</link>
-<guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-kernel/issues/261</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$300 · ubiquity/.github · New Proposal Router</title>
-<link>https://github.com/ubiquity/.github/issues/123</link>
-<guid isPermaLink="true">https://github.com/ubiquity/.github/issues/123</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$300 · ubiquity-os-marketplace/text-vector-embeddings · Improving Recommendations</title>
-<link>https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</link>
-<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
 </item>

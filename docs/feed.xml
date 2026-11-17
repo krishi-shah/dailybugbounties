@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Tue, 17 Nov 2026 23:19:31 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 23:27:15 +0000</lastBuildDate>
 <item>
 <title>$2,000 · Spectral-Finance/lux · Discord Core Prisms, Lenses and Beams Implementation ($2000)</title>
 <link>https://github.com/Spectral-Finance/lux/issues/57</link>
@@ -40,32 +40,11 @@
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$60 · lablab-ai/community-content · Creating comprehensive tutorial for Agile Loop </title>
-<link>https://github.com/lablab-ai/community-content/issues/498</link>
-<guid isPermaLink="true">https://github.com/lablab-ai/community-content/issues/498</guid>
+<title>$15 · RE-SS3D/SS3D · Add a way to pick colors consistently</title>
+<link>https://github.com/RE-SS3D/SS3D/issues/1377</link>
+<guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1377</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 2 tries · MDX</description>
-</item>
-<item>
-<title>$60 · lablab-ai/community-content · Creating comprehensive tutorial for Llama-3</title>
-<link>https://github.com/lablab-ai/community-content/issues/496</link>
-<guid isPermaLink="true">https://github.com/lablab-ai/community-content/issues/496</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 2 tries · MDX</description>
-</item>
-<item>
-<title>$60 · lablab-ai/community-content · Creating condensed Tutorial for GPT-4o</title>
-<link>https://github.com/lablab-ai/community-content/issues/490</link>
-<guid isPermaLink="true">https://github.com/lablab-ai/community-content/issues/490</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 3 tries · MDX</description>
-</item>
-<item>
-<title>$10,000 · commaai/opendbc · [$10k bounty] Ford F-150 2026 (TRON) support</title>
-<link>https://github.com/commaai/opendbc/issues/3426</link>
-<guid isPermaLink="true">https://github.com/commaai/opendbc/issues/3426</guid>
-<pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-<description>title · 1 tries · Python</description>
+<description>labeled · 0 tries · C#</description>
 </item>
 <item>
 <title>$350 · Norbyte/bg3se · [Feature Bounty - $350] MacOS Supported Version of BG3 SE</title>
@@ -73,13 +52,6 @@
 <guid isPermaLink="true">https://github.com/Norbyte/bg3se/issues/162</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
 <description>title · 0 tries · C++</description>
-</item>
-<item>
-<title>$150 · scratchdata/scratchdata · Use a AWS Secret Manager for DB credentials</title>
-<link>https://github.com/scratchdata/scratchdata/issues/126</link>
-<guid isPermaLink="true">https://github.com/scratchdata/scratchdata/issues/126</guid>
-<pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 3 tries · Go</description>
 </item>
 <item>
 <title>$5,000 · MultiHopper · MultiHopper Build &amp; Route Challenge | Up to $50,000 + Revenue Share</title>
@@ -299,13 +271,6 @@
 <description>devpool · 0 tries · JavaScript</description>
 </item>
 <item>
-<title>$400 · highlight/highlight · Support Elixir among our SDKs</title>
-<link>https://github.com/highlight/highlight/issues/5082</link>
-<guid isPermaLink="true">https://github.com/highlight/highlight/issues/5082</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>algora · 4 tries · TypeScript</description>
-</item>
-<item>
 <title>$300 · ubiquity-os/ubiquity-os-plugin-installer · premade configs that are hands-off for partners</title>
 <link>https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</link>
 <guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</guid>
@@ -353,5 +318,40 @@
 <guid isPermaLink="true">https://github.com/ubiquity-os/plugins-wishlist/issues/26</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · </description>
+</item>
+<item>
+<title>$225 · ubiquity-os-marketplace/text-conversation-rewards · Retry and token limits</title>
+<link>https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/330</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/330</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$200 · dictation-toolbox/Caster · Integration with OS accessibility APIs</title>
+<link>https://github.com/dictation-toolbox/Caster/issues/814</link>
+<guid isPermaLink="true">https://github.com/dictation-toolbox/Caster/issues/814</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · Python</description>
+</item>
+<item>
+<title>$200 · gajus/flow-runtime · webpack loader</title>
+<link>https://github.com/gajus/flow-runtime/issues/165</link>
+<guid isPermaLink="true">https://github.com/gajus/flow-runtime/issues/165</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$150 · ubiquity/uusd.ubq.fi · Preserve token selector holdings and amount labels across inventory refreshes</title>
+<link>https://github.com/ubiquity/uusd.ubq.fi/issues/92</link>
+<guid isPermaLink="true">https://github.com/ubiquity/uusd.ubq.fi/issues/92</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$150 · ubiquity-os/command-demo · Nudge to claim DEMO currency</title>
+<link>https://github.com/ubiquity-os/command-demo/issues/15</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os/command-demo/issues/15</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 1 tries · TypeScript</description>
 </item>
 </channel></rss>

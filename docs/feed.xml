@@ -3,7 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Wed, 18 Nov 2026 14:10:34 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 23:27:14 +0000</lastBuildDate>
 <item>
 <title>$75 · ubiquity/ai.ubq.fi · Coalesce duplicate Antigravity countdown values across observations</title>
 <link>https://github.com/ubiquity/ai.ubq.fi/issues/1377</link>
@@ -131,20 +131,6 @@
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$600 · ubiquity/business-development · Launch campaign to target pilot partners from large open source projects</title>
-<link>https://github.com/ubiquity/business-development/issues/185</link>
-<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/185</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$600 · ubiquity/business-development · Launch campaign towards L1s/L2s for managing their GitHubs</title>
-<link>https://github.com/ubiquity/business-development/issues/184</link>
-<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/184</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · JavaScript</description>
-</item>
-<item>
 <title>$600 · ubiquity-os-marketplace/text-conversation-rewards · Implement Differential Reward Distribution for Reopened Issues</title>
 <link>https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/301</link>
 <guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/301</guid>
@@ -164,13 +150,6 @@
 <guid isPermaLink="true">https://github.com/ubiquity/pay.ubq.fi/issues/386</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$600 · ubiquity/business-development · Recruiting: Dragonfly CTF II</title>
-<link>https://github.com/ubiquity/business-development/issues/155</link>
-<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/155</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · JavaScript</description>
 </item>
 <item>
 <title>$600 · ubiquity/arbitrage-bot · Arbitrage bot</title>
@@ -257,20 +236,6 @@
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$400 · ubiquity/business-development · Automating Call To Action Delivery (Repo XP Report)</title>
-<link>https://github.com/ubiquity/business-development/issues/196</link>
-<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/196</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · JavaScript</description>
-</item>
-<item>
-<title>$400 · ubiquity/business-development · Opire</title>
-<link>https://github.com/ubiquity/business-development/issues/89</link>
-<guid isPermaLink="true">https://github.com/ubiquity/business-development/issues/89</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · JavaScript</description>
-</item>
-<item>
 <title>$300 · ubiquity-os/ubiquity-os-plugin-installer · premade configs that are hands-off for partners</title>
 <link>https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</link>
 <guid isPermaLink="true">https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/43</guid>
@@ -353,5 +318,40 @@
 <guid isPermaLink="true">https://github.com/ubiquity-os/command-demo/issues/15</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 1 tries · TypeScript</description>
+</item>
+<item>
+<title>$112.50 · ubiquity-os-marketplace/text-vector-embeddings · Redact switch</title>
+<link>https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/23</link>
+<guid isPermaLink="true">https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/23</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · vuejs/vetur · Use Vue component&#x27;s Props type parameter for prop type validation</title>
+<link>https://github.com/vuejs/vetur/issues/2344</link>
+<guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 1 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · effector/effector · Perf tests on real devices</title>
+<link>https://github.com/effector/effector/issues/161</link>
+<guid isPermaLink="true">https://github.com/effector/effector/issues/161</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · egoist/majo · Separate the majo instance and middleware context</title>
+<link>https://github.com/egoist/majo/issues/12</link>
+<guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
+</item>
+<item>
+<title>$100 · egoist/vue-content-loader · Responsive</title>
+<link>https://github.com/egoist/vue-content-loader/issues/18</link>
+<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · JavaScript</description>
 </item>
 </channel></rss>

@@ -3,7 +3,14 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Tue, 17 Nov 2026 23:53:38 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 14:10:34 +0000</lastBuildDate>
+<item>
+<title>$75 · ubiquity/ai.ubq.fi · Coalesce duplicate Antigravity countdown values across observations</title>
+<link>https://github.com/ubiquity/ai.ubq.fi/issues/1377</link>
+<guid isPermaLink="true">https://github.com/ubiquity/ai.ubq.fi/issues/1377</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+<description>devpool · 0 tries · TypeScript</description>
+</item>
 <item>
 <title>$2,000 · Spectral-Finance/lux · Discord Core Prisms, Lenses and Beams Implementation ($2000)</title>
 <link>https://github.com/Spectral-Finance/lux/issues/57</link>
@@ -40,13 +47,6 @@
 <description>devpool · 0 tries · TypeScript</description>
 </item>
 <item>
-<title>$15 · RE-SS3D/SS3D · Add a way to pick colors consistently</title>
-<link>https://github.com/RE-SS3D/SS3D/issues/1377</link>
-<guid isPermaLink="true">https://github.com/RE-SS3D/SS3D/issues/1377</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-<description>labeled · 0 tries · C#</description>
-</item>
-<item>
 <title>$350 · Norbyte/bg3se · [Feature Bounty - $350] MacOS Supported Version of BG3 SE</title>
 <link>https://github.com/Norbyte/bg3se/issues/162</link>
 <guid isPermaLink="true">https://github.com/Norbyte/bg3se/issues/162</guid>
@@ -72,7 +72,7 @@
 <link>https://github.com/microg/GmsCore/issues/2843</link>
 <guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2843</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>title · 0 tries · Java</description>
+<description>labeled, title · 0 tries · Java</description>
 </item>
 <item>
 <title>$1,800 · ubiquity-os/.github · UbiquityOS Sprint Management Dashboard</title>

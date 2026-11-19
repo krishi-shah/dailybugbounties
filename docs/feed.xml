@@ -3,14 +3,7 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Wed, 18 Nov 2026 23:27:14 +0000</lastBuildDate>
-<item>
-<title>$75 · ubiquity/ai.ubq.fi · Coalesce duplicate Antigravity countdown values across observations</title>
-<link>https://github.com/ubiquity/ai.ubq.fi/issues/1377</link>
-<guid isPermaLink="true">https://github.com/ubiquity/ai.ubq.fi/issues/1377</guid>
-<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-<description>devpool · 0 tries · TypeScript</description>
-</item>
+<lastBuildDate>Thu, 19 Nov 2026 14:31:09 +0000</lastBuildDate>
 <item>
 <title>$2,000 · Spectral-Finance/lux · Discord Core Prisms, Lenses and Beams Implementation ($2000)</title>
 <link>https://github.com/Spectral-Finance/lux/issues/57</link>
@@ -353,5 +346,12 @@
 <guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 0 tries · JavaScript</description>
+</item>
+<item>
+<title>$100 · egoist/majo · Allow to source for multiple times</title>
+<link>https://github.com/egoist/majo/issues/9</link>
+<guid isPermaLink="true">https://github.com/egoist/majo/issues/9</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 </channel></rss>

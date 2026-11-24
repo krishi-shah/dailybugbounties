@@ -51,7 +51,7 @@
   </g>
   <g transform="translate(536,214)">
     <rect width="220" height="76" rx="14" fill="#ffffff" fill-opacity="0.06" stroke="#3ddc97" stroke-opacity="0.35"/>
-    <text x="20" y="38" class="num">30</text>
+    <text x="20" y="38" class="num">28</text>
     <text x="20" y="60" class="lbl">nobody on yet</text>
   </g>
   <g transform="translate(772,214)">
@@ -59,7 +59,7 @@
     <text x="20" y="38" class="num">up to $10M</text>
     <text x="20" y="60" class="lbl">144 security bounties</text>
   </g>
-  <text x="64" y="320" class="src">Algora · IssueHunt · Opire · Expensify · DevPool · Superteam · Immunefi · Sherlock · updated Nov 23, 16:06 UTC</text>
+  <text x="64" y="320" class="src">Algora · IssueHunt · Opire · Expensify · DevPool · Superteam · Immunefi · Sherlock · updated Nov 24, 03:23 UTC</text>
 
   <g transform="translate(1065,40)"><g class="float">
     <g>

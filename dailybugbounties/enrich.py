@@ -13,6 +13,7 @@ from .money import parse_amount
 log = logging.getLogger(__name__)
 
 ALGORA_BOT = re.compile(r"algora", re.I)
+DEVPOOL_ROLE_WARNING = "> You must be a core team member, or an administrator to start this task"
 
 PR_FIELD = "    closedByPullRequestsReferences(first: 10, includeClosedPrs: false) { totalCount }\n"
 
@@ -22,7 +23,7 @@ FIELDS = """
     state title createdAt updatedAt locked
     labels(first: 10) { nodes { name } }
     assignees(first: 5) { nodes { login } }
-    comments(first: 30) { totalCount nodes { author { login } body } }
+    comments(first: 30) { totalCount nodes { author { login __typename } body } }
 %s  }
 """
 
@@ -67,7 +68,15 @@ def apply(b: Bounty, repo: dict) -> None:
     b.open_prs = ((issue.get("closedByPullRequestsReferences") or {}).get("totalCount")) or 0
     b.assignees = [n["login"] for n in (issue.get("assignees") or {}).get("nodes", []) if n and n.get("login")]
     bodies = [(c.get("body") or "").strip().lower() for c in nodes]
-    b.attempts = max(b.attempts, sum(1 for t in bodies if t.startswith("/attempt")))
+    attempts = sum(1 for t in bodies if t.startswith("/attempt"))
+    if "devpool" in b.sources:
+        attempts += sum(1 for t in bodies if re.match(r"^/start(?:\s|$)", t))
+        b.start_role_denied = any(
+            (c.get("author") or {}).get("login") == "ubiquity-os"
+            and c["author"].get("__typename") == "Bot"
+            and DEVPOOL_ROLE_WARNING in (c.get("body") or "").splitlines()
+            for c in nodes)
+    b.attempts = max(b.attempts, attempts)
     b.claims = max(b.claims, sum(1 for t in bodies if t.startswith("/claim")))
     if "algora" in b.sources:
         a = algora_amount(nodes)

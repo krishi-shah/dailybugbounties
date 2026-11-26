@@ -64,6 +64,7 @@ class Bounty:
     verified_payer: bool = False
     kyc: Optional[bool] = None     # identity check needed to get paid (security programs)
     first_seen: Optional[str] = None
+    start_role_denied: bool = False  # DevPool bot reported a core-team restriction on this issue
 
     @property
     def hidden(self) -> bool:

@@ -203,6 +203,7 @@ function render() {
           ${b.stars != null ? `<span>★ ${b.stars.toLocaleString()}</span>` : ""}
           ${lang(b) ? `<span>${esc(lang(b))}</span>` : ""}
           <span>${esc(b.sources.map((s) => NAMES[s] || s).join(", "))} · pays via ${esc(PAY[b.payout] || b.payout)}</span>
+          ${b.start_role_denied ? "<span>Core-team restriction reported</span>" : ""}
           ${b.verified_payer ? `<span class="ok" title="This repo has paid bounties before">✅ ${b.paid_before ? `paid ${+b.paid_before} before` : "verified payer"}</span>` : ""}
           ${b.deadline ? `<span class="due">${due(b.deadline)}</span>` : `<span>${age(b.created_at)}</span>`}
         </div>

@@ -74,7 +74,8 @@ def table(rows: List[Bounty], today: date) -> List[str]:
     for b in rows:
         new = " 🆕" if b.first_seen == today.isoformat() else ""
         out.append(
-            f"| **{money(b.amount_usd)}** | [{md_escape(b.title)}]({safe_url(b.url)}){new} "
+            f"| **{money(b.amount_usd)}** | [{md_escape(b.title)}]({safe_url(b.url)}){new}"
+            f"{' · Core-team restriction reported' if b.start_role_denied else ''} "
             f"| {f'[{md_escape(b.full_repo)}]({safe_url(b.home_url)})' if safe_url(b.home_url) else md_escape(b.full_repo)}"
             f"{' ✅' if b.verified_payer else ''} "
             f"| {f'{b.stars:,}' if b.stars is not None else ''} "
@@ -107,7 +108,7 @@ def readme_block(all_items: List[Bounty], payload: dict, today: date, security: 
         "",
     ]
     lines += ["### 🆕 Latest bounties", "", "Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that have paid bounties before. "
-              "**Tries** counts `/attempt` and `/claim` comments; **PRs** counts open pull requests that would close the issue.", ""]
+              "**Tries** includes `/attempt`, `/claim`, and DevPool `/start` comments. **PRs** counts open pull requests that would close the issue.", ""]
     lines += table(items[:config.README_TOP_N], today)
     more = []
     if len(items) > config.README_TOP_N:

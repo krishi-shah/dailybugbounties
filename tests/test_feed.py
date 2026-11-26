@@ -129,6 +129,31 @@ class Enrichment(unittest.TestCase):
         enrich.apply(t, taken)
         self.assertEqual(t.assignees, ["someone"])
 
+    def test_devpool_starts_and_role_denials(self):
+        warning = ("> [!WARNING]\n"
+                   "> You must be a core team member, or an administrator to start this task")
+        bot = {"__typename": "Bot", "login": "ubiquity-os"}
+        nodes = [{"body": body} for body in
+                 (" /start\nWorking on it", "/startled", "Try /start", "> /start", "/attempt #1")]
+        nodes.append({"author": bot, "body": warning + "\n\n<!-- command metadata -->"})
+        repo = {"issue": {"comments": {"nodes": nodes}}}
+        b = B(sources=["devpool"])
+        enrich.apply(b, repo)
+        self.assertEqual(b.attempts, 2)
+        self.assertTrue(b.to_public()["start_role_denied"])
+        self.assertIn("Core-team restriction reported", render.table([b], datetime.now().date())[2])
+
+        other = B(sources=["algora"])
+        enrich.apply(other, repo)
+        self.assertEqual(other.attempts, 1)
+        self.assertFalse(other.start_role_denied)
+
+        for author, body in (({"__typename": "User", "login": "ubiquity-os"}, warning),
+                             (bot, "> [!WARNING]\n> You are not allowed to set labels.")):
+            nodes[-1] = {"author": author, "body": body}
+            enrich.apply(b, repo)
+            self.assertFalse(b.start_role_denied)
+
     def test_pr_field_fallback(self):
         bad = {"errors": [{"message": "Field 'closedByPullRequestsReferences' doesn't exist on type 'Issue'",
                            "extensions": {"code": "undefinedField"}}]}

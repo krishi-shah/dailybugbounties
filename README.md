@@ -19,11 +19,11 @@ Daily Bug Bounties collects open bounties from **Algora**, **IssueHunt**, **Opir
 ## Today's top bounties
 
 <!-- FEED:START -->
-**45 open bounties worth $21,965** · 0 new today · 30 with nobody trying yet · updated 2026-11-27 15:13 UTC
+**46 open bounties worth $22,115** · 1 new today · 31 with nobody trying yet · updated 2026-11-28 00:35 UTC
 
-**Sources:** DevPool 39 · Title 3 · Label 2 · Superteam 2  
-**Pays via:** Crypto wallet 41 · Ask maintainer 4 · **✅ Verified payers:** 37  
-**Languages:** TypeScript 31 · Solidity 2 · Python 1 · C++ 1 · HTML 1 · Shell 1 · JavaScript 1
+**Sources:** DevPool 39 · Title 4 · Label 2 · Superteam 2  
+**Pays via:** Crypto wallet 41 · Ask maintainer 5 · **✅ Verified payers:** 37  
+**Languages:** TypeScript 31 · HTML 2 · Solidity 2 · Python 1 · C++ 1 · Shell 1 · JavaScript 1
 
 ### 🆕 Latest bounties
 
@@ -31,24 +31,25 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 
 | Payout | Issue | Repo | ★ | Lang | Source · pays via | Tries | PRs | Age |
 |---:|---|---|---:|---|---|---:|---:|---:|
+| **$150** | [Request: billboard placement list (model + world X/Y/Z), $150 bounty](https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering/issues/34) 🆕 | [Ahmet-Dedeler/awesome-gta6-reverse-engineering](https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering) | 842 | HTML | Title · Ask maintainer | 0 |  | 1d |
 | **$150** | [Add pagination to Application List view page](https://github.com/HHS/simpler-grants-gov/issues/6832) | [HHS/simpler-grants-gov](https://github.com/HHS/simpler-grants-gov) | 220 | Python | Label · Ask maintainer | 0 |  | 1y |
-| **$300** | [Global non-interference travel option \[$300 Bounty\]](https://github.com/OrcaSlicer/OrcaSlicer/issues/17866) | [OrcaSlicer/OrcaSlicer](https://github.com/OrcaSlicer/OrcaSlicer) | 16,666 | C++ | Title · Ask maintainer | 0 | 3 | 3d |
-| **$50** | [Support: NVIDIA GeForce RTX 5060 Laptop GPU 8 GB (Blackwell) + $50 bounty reques…](https://github.com/sybil-solutions/local-ai-registry/issues/370) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 504 | HTML | Title · Ask maintainer | 0 |  | 30d |
-| **$75** | [Apply the health-check deadline to response decoding](https://github.com/ubiquity/stake.ubq.fi/issues/45) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 1 |  | 56d |
-| **$75** | [Dismiss reverted-receipt toasts when the status clears](https://github.com/ubiquity/stake.ubq.fi/issues/44) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 56d |
-| **$75** | [Resolve the selected RPC when each request is made](https://github.com/ubiquity/stake.ubq.fi/issues/43) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 56d |
-| **$75** | [Pass transport factories to viem's fallback](https://github.com/ubiquity/stake.ubq.fi/issues/42) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 56d |
-| **$75** | [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/ubiquity/permit2-rpc-manager/issues/31) | [ubiquity/permit2-rpc-manager](https://github.com/ubiquity/permit2-rpc-manager) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 40d |
-| **$18** | [Enable JavaScript inputs in the JSX lint recipe](https://github.com/ubiquity/ts-template/issues/106) | [ubiquity/ts-template](https://github.com/ubiquity/ts-template) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 56d |
-| **$27** | [Bulk permit deletion copy claims bogus-only scope while the action invalidates e…](https://github.com/ubiquity/pay.ubq.fi/issues/500) | [ubiquity/pay.ubq.fi](https://github.com/ubiquity/pay.ubq.fi) ✅ | 10 | TypeScript | DevPool · Crypto wallet | 0 |  | 56d |
-| **$150** | [Preserve token selector holdings and amount labels across inventory refreshes](https://github.com/ubiquity/uusd.ubq.fi/issues/92) | [ubiquity/uusd.ubq.fi](https://github.com/ubiquity/uusd.ubq.fi) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 66d |
-| **$75** | [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/ubiquity/ubq.fi-router/issues/37) | [ubiquity/ubq.fi-router](https://github.com/ubiquity/ubq.fi-router) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 66d |
-| **$75** | [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137) | [ubiquity/.github](https://github.com/ubiquity/.github) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 66d |
-| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 1,173 | Shell | Label, Title · Ask maintainer | 0 | 4 | 164d |
-| **$75** | [Reminder is sent on PR reopening even with no assignee](https://github.com/ubiquity-os-marketplace/daemon-disqualifier/issues/135) | [ubiquity-os-marketplace/daemon-disqualifier](https://github.com/ubiquity-os-marketplace/daemon-disqualifier) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 226d |
-| **$75** | [CoWSwap Integration Improvements](https://github.com/ubiquity/uusd.ubq.fi/issues/47) | [ubiquity/uusd.ubq.fi](https://github.com/ubiquity/uusd.ubq.fi) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 234d |
-| **$1,800** | [UbiquityOS Sprint Management Dashboard](https://github.com/ubiquity-os/.github/issues/14) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 345d |
-| **$450** | [Plugin health monitor](https://github.com/ubiquity-os/.github/issues/12) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 | 2 | 362d |
+| **$300** | [Global non-interference travel option \[$300 Bounty\]](https://github.com/OrcaSlicer/OrcaSlicer/issues/17866) | [OrcaSlicer/OrcaSlicer](https://github.com/OrcaSlicer/OrcaSlicer) | 16,673 | C++ | Title · Ask maintainer | 0 | 3 | 4d |
+| **$50** | [Support: NVIDIA GeForce RTX 5060 Laptop GPU 8 GB (Blackwell) + $50 bounty reques…](https://github.com/sybil-solutions/local-ai-registry/issues/370) | [sybil-solutions/local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) | 504 | HTML | Title · Ask maintainer | 0 |  | 31d |
+| **$75** | [Apply the health-check deadline to response decoding](https://github.com/ubiquity/stake.ubq.fi/issues/45) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 1 |  | 57d |
+| **$75** | [Dismiss reverted-receipt toasts when the status clears](https://github.com/ubiquity/stake.ubq.fi/issues/44) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 57d |
+| **$75** | [Resolve the selected RPC when each request is made](https://github.com/ubiquity/stake.ubq.fi/issues/43) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 57d |
+| **$75** | [Pass transport factories to viem's fallback](https://github.com/ubiquity/stake.ubq.fi/issues/42) | [ubiquity/stake.ubq.fi](https://github.com/ubiquity/stake.ubq.fi) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 57d |
+| **$75** | [Keep HTTP diagnostic Boolean parsing consistent for n](https://github.com/ubiquity/permit2-rpc-manager/issues/31) | [ubiquity/permit2-rpc-manager](https://github.com/ubiquity/permit2-rpc-manager) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 41d |
+| **$18** | [Enable JavaScript inputs in the JSX lint recipe](https://github.com/ubiquity/ts-template/issues/106) | [ubiquity/ts-template](https://github.com/ubiquity/ts-template) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 57d |
+| **$27** | [Bulk permit deletion copy claims bogus-only scope while the action invalidates e…](https://github.com/ubiquity/pay.ubq.fi/issues/500) | [ubiquity/pay.ubq.fi](https://github.com/ubiquity/pay.ubq.fi) ✅ | 10 | TypeScript | DevPool · Crypto wallet | 0 |  | 57d |
+| **$150** | [Preserve token selector holdings and amount labels across inventory refreshes](https://github.com/ubiquity/uusd.ubq.fi/issues/92) | [ubiquity/uusd.ubq.fi](https://github.com/ubiquity/uusd.ubq.fi) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 67d |
+| **$75** | [Honor no-transform and strip modern digest headers when rewriting HTML](https://github.com/ubiquity/ubq.fi-router/issues/37) | [ubiquity/ubq.fi-router](https://github.com/ubiquity/ubq.fi-router) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 67d |
+| **$75** | [Preserve explicit repository choice and title edits in the proposal router](https://github.com/ubiquity/.github/issues/137) | [ubiquity/.github](https://github.com/ubiquity/.github) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 67d |
+| **$20** | [Frantic bounty #33: Publish Sourcey docs for a maintained OSS library](https://github.com/auscaster/frantic-board/issues/53) | [auscaster/frantic-board](https://github.com/auscaster/frantic-board) | 1,181 | Shell | Label, Title · Ask maintainer | 0 | 4 | 165d |
+| **$75** | [Reminder is sent on PR reopening even with no assignee](https://github.com/ubiquity-os-marketplace/daemon-disqualifier/issues/135) | [ubiquity-os-marketplace/daemon-disqualifier](https://github.com/ubiquity-os-marketplace/daemon-disqualifier) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 227d |
+| **$75** | [CoWSwap Integration Improvements](https://github.com/ubiquity/uusd.ubq.fi/issues/47) | [ubiquity/uusd.ubq.fi](https://github.com/ubiquity/uusd.ubq.fi) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 | 1 | 235d |
+| **$1,800** | [UbiquityOS Sprint Management Dashboard](https://github.com/ubiquity-os/.github/issues/14) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 346d |
+| **$450** | [Plugin health monitor](https://github.com/ubiquity-os/.github/issues/12) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 | 2 | 363d |
 | **$600** | [command-plan](https://github.com/ubiquity-os/plugins-wishlist/issues/78) | [ubiquity-os/plugins-wishlist](https://github.com/ubiquity-os/plugins-wishlist) ✅ | 0 |  | DevPool · Crypto wallet | 0 |  | 1y |
 | **$450** | [Automatically set a `Time: ` label](https://github.com/ubiquity-os/plugins-wishlist/issues/76) | [ubiquity-os/plugins-wishlist](https://github.com/ubiquity-os/plugins-wishlist) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 1y |
 | **$37.50** | [Phase 3: Update database types and improve type safety](https://github.com/ubiquity/pay.ubq.fi/issues/433) | [ubiquity/pay.ubq.fi](https://github.com/ubiquity/pay.ubq.fi) ✅ | 10 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
@@ -74,18 +75,18 @@ Newest first. 🆕 marks bounties that showed up today. ✅ marks repos that hav
 | **$37.50** | [Set `organization/repository` names in the plugins' configs](https://github.com/ubiquity-os/ubiquity-os-plugin-installer/issues/39) | [ubiquity-os/ubiquity-os-plugin-installer](https://github.com/ubiquity-os/ubiquity-os-plugin-installer) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$75** | [Improve Task Assignment Limit Handling](https://github.com/ubiquity-os-marketplace/command-start-stop/issues/106) | [ubiquity-os-marketplace/command-start-stop](https://github.com/ubiquity-os-marketplace/command-start-stop) ✅ | 1 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$300** | [Improving Recommendations](https://github.com/ubiquity-os-marketplace/text-vector-embeddings/issues/55) | [ubiquity-os-marketplace/text-vector-embeddings](https://github.com/ubiquity-os-marketplace/text-vector-embeddings) ✅ | 0 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
-| **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 87 sub |  | due 45d |
-| **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam · Crypto wallet | 27 sub |  | due 27d |
+| **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 87 sub |  | due 44d |
+| **$500** | [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards/) | [OOBE Protocol](https://superteam.fun/earn/s/oobeprotocol/) |  |  | Superteam · Crypto wallet | 27 sub |  | due 26d |
 
-Plus 52 older bounties on issues opened more than two years ago: see [`data/bounties.json`](data/bounties.json).
+Plus 53 older bounties on issues opened more than two years ago: see [`data/bounties.json`](data/bounties.json).
 
 ### 💰 Biggest payouts right now
 
 | Payout | Issue | Repo | ★ | Lang | Source · pays via | Tries | PRs | Age |
 |---:|---|---|---:|---|---|---:|---:|---:|
-| **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 87 sub |  | due 45d |
+| **$5,000** | [MultiHopper Build & Route Challenge \| Up to $50,000 + Revenue Share](https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1/) | [MultiHopper](https://superteam.fun/earn/s/multihopper/) |  |  | Superteam · Crypto wallet | 87 sub |  | due 44d |
 | **$2,400** | [Add `UUSD` and `UBQ` tokens to popular services](https://github.com/ubiquity/ubiquity-dollar/issues/984) | [ubiquity/ubiquity-dollar](https://github.com/ubiquity/ubiquity-dollar) ✅ | 40 | Solidity | DevPool · Crypto wallet | 0 | 1 | 1y |
-| **$1,800** | [UbiquityOS Sprint Management Dashboard](https://github.com/ubiquity-os/.github/issues/14) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 345d |
+| **$1,800** | [UbiquityOS Sprint Management Dashboard](https://github.com/ubiquity-os/.github/issues/14) | [ubiquity-os/.github](https://github.com/ubiquity-os/.github) ✅ | 0 |  | DevPool · Crypto wallet | 1 |  | 346d |
 | **$1,200** | [Integrate Liquity V1 Stability Pool for LUSD Collateral Yield](https://github.com/ubiquity/ubiquity-dollar/issues/997) | [ubiquity/ubiquity-dollar](https://github.com/ubiquity/ubiquity-dollar) ✅ | 40 | Solidity | DevPool · Crypto wallet | 0 |  | 1y |
 | **$1,200** | [GitHub Decoupling](https://github.com/ubiquity-os-marketplace/text-conversation-rewards/issues/385) | [ubiquity-os-marketplace/text-conversation-rewards](https://github.com/ubiquity-os-marketplace/text-conversation-rewards) ✅ | 3 | TypeScript | DevPool · Crypto wallet | 0 |  | 1y |
 | **$900** | [DevPool Directory Matchmaking UI](https://github.com/devpool-directory/devpool-directory-tasks/issues/63) | [devpool-directory/devpool-directory-tasks](https://github.com/devpool-directory/devpool-directory-tasks) ✅ | 1 |  | DevPool · Crypto wallet | 1 |  | 1y |
@@ -102,7 +103,7 @@ Find a real vulnerability, get paid. These aren't fixed price tasks: programs pa
 
 | Prize pool | Contest | Platform | Ends |
 |---:|---|---|---:|
-| **$250,000** | [Base Everest](https://immunefi.com/audit-competition/audit-comp-base-everest/) | Immunefi | due 4d |
+| **$250,000** | [Base Everest](https://immunefi.com/audit-competition/audit-comp-base-everest/) | Immunefi | due 3d |
 
 **Top bug bounty programs** (144 live on Immunefi, biggest first)
 
@@ -110,8 +111,8 @@ Find a real vulnerability, get paid. These aren't fixed price tasks: programs pa
 |---:|---|---|:---:|
 | **$10,000,000** | [Sky](https://immunefi.com/bug-bounty/sky/) | Solidity | no |
 | **$6,000,000** | [USDT0](https://immunefi.com/bug-bounty/usdt0/) | Typescript, Solidity | yes |
-| **$5,000,000** | [Spark](https://immunefi.com/bug-bounty/sparklend/) |  | no |
 | **$5,000,000** | [GMX](https://immunefi.com/bug-bounty/gmx/) | JavaScript, Solidity, Typescript | no |
+| **$5,000,000** | [Spark](https://immunefi.com/bug-bounty/sparklend/) |  | no |
 | **$3,500,000** | [Stargate](https://immunefi.com/bug-bounty/stargate/) | Solidity | yes |
 | **$3,500,000** | [LayerZero](https://immunefi.com/bug-bounty/layerzero/) | Solidity, Rust, Move | yes |
 | **$3,333,333** | [Olympus](https://immunefi.com/bug-bounty/olympus/) | Solidity | no |
@@ -119,9 +120,9 @@ Find a real vulnerability, get paid. These aren't fixed price tasks: programs pa
 | **$3,000,000** | [Chainlink](https://immunefi.com/bug-bounty/chainlink/) | Go, Rust, Solidity | yes |
 | **$2,500,000** | [Hyperlane](https://immunefi.com/bug-bounty/hyperlane/) | NextJS, Solidity | yes |
 | **$2,000,042** | [Optimism](https://immunefi.com/bug-bounty/optimism/) | C/C++, Go, Solidity | yes |
+| **$2,000,000** | [Arbitrum](https://immunefi.com/bug-bounty/arbitrum/) | Solidity | yes |
 | **$2,000,000** | [Lido Lend](https://immunefi.com/bug-bounty/lido-lend/) | Solidity, Typescript | no |
 | **$2,000,000** | [Lido](https://immunefi.com/bug-bounty/lido/) | Solidity, Vyper | no |
-| **$2,000,000** | [Arbitrum](https://immunefi.com/bug-bounty/arbitrum/) | Solidity | yes |
 | **$2,000,000** | [Rhino.fi](https://immunefi.com/bug-bounty/rhinofi/) | Solidity | no |
 <!-- FEED:END -->
 

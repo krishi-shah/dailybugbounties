@@ -3,7 +3,14 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Fri, 27 Nov 2026 15:13:14 +0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 00:35:58 +0000</lastBuildDate>
+<item>
+<title>$150 · Ahmet-Dedeler/awesome-gta6-reverse-engineering · Request: billboard placement list (model + world X/Y/Z), $150 bounty</title>
+<link>https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering/issues/34</link>
+<guid isPermaLink="true">https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering/issues/34</guid>
+<pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+<description>title · 0 tries · HTML</description>
+</item>
 <item>
 <title>$150 · HHS/simpler-grants-gov · Add pagination to Application List view page</title>
 <link>https://github.com/HHS/simpler-grants-gov/issues/6832</link>
@@ -346,12 +353,5 @@
 <guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/vue-content-loader · Responsive</title>
-<link>https://github.com/egoist/vue-content-loader/issues/18</link>
-<guid isPermaLink="true">https://github.com/egoist/vue-content-loader/issues/18</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · JavaScript</description>
 </item>
 </channel></rss>

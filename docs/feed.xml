@@ -3,7 +3,14 @@
 <title>dailybugbounties: paid open source issues</title>
 <link>https://github.com/krishi-shah/dailybugbounties</link>
 <description>New open source bounties from Algora, IssueHunt, Opire and GitHub, daily.</description>
-<lastBuildDate>Sat, 28 Nov 2026 00:35:58 +0000</lastBuildDate>
+<lastBuildDate>Sat, 28 Nov 2026 14:18:32 +0000</lastBuildDate>
+<item>
+<title>$1,000 · Spectral-Finance/lux · Web3 Authentication and Authorization Framework $1,000</title>
+<link>https://github.com/Spectral-Finance/lux/issues/77</link>
+<guid isPermaLink="true">https://github.com/Spectral-Finance/lux/issues/77</guid>
+<pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled · 0 tries · Elixir</description>
+</item>
 <item>
 <title>$150 · Ahmet-Dedeler/awesome-gta6-reverse-engineering · Request: billboard placement list (model + world X/Y/Z), $150 bounty</title>
 <link>https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering/issues/34</link>
@@ -80,6 +87,13 @@
 <guid isPermaLink="true">https://github.com/ubiquity/ubiquity-dollar/issues/984</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>devpool · 0 tries · Solidity</description>
+</item>
+<item>
+<title>$2,340 · microg/GmsCore · [BOUNTY] WearOS Support [$2340]</title>
+<link>https://github.com/microg/GmsCore/issues/2843</link>
+<guid isPermaLink="true">https://github.com/microg/GmsCore/issues/2843</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>labeled, title · 0 tries · Java</description>
 </item>
 <item>
 <title>$1,800 · ubiquity-os/.github · UbiquityOS Sprint Management Dashboard</title>
@@ -339,19 +353,5 @@
 <guid isPermaLink="true">https://github.com/vuejs/vetur/issues/2344</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
 <description>issuehunt · 1 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · effector/effector · Perf tests on real devices</title>
-<link>https://github.com/effector/effector/issues/161</link>
-<guid isPermaLink="true">https://github.com/effector/effector/issues/161</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
-</item>
-<item>
-<title>$100 · egoist/majo · Separate the majo instance and middleware context</title>
-<link>https://github.com/egoist/majo/issues/12</link>
-<guid isPermaLink="true">https://github.com/egoist/majo/issues/12</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>issuehunt · 0 tries · TypeScript</description>
 </item>
 </channel></rss>
